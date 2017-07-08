@@ -1,0 +1,240 @@
+.,English
+EventGraveSearch.text,Are the remains a mixture of unusually large deformed goats?\n\nTest {observation}
+EventGraveSearch.button1,Continue
+TokenGrave.text,The grave contains remains of some kind of herd animal.
+TokenGrave.button1,{action} Explore
+quest.name,Lost
+quest.description,Lost
+quest.authors,Jürgen Rudolph and Nicola Zee
+EventGraveSearchTrail2.text,The remains are still fresh and the skull is distinctly human-like.  A trail of footsteps in the fresh mud leads towards the Shack and the Porch.  Someone not far away is trying to cover up their heinous crimes and you have the {c:QItemForensicEvidence}.\n\nGain 1 Clue
+EventGraveSearchTrail2.button1,Continue
+EventGraveSearchTrail.button1,Button1
+EventGraveSearchTrail1.text,The remains were buried long ago but they are human-like and are evidence of some kind of hereditary deformity or insane medical experiments and you have the {c:QItemForensicEvidence}\n\nGain 2 Clues
+EventGraveSearchTrail1.button1,Continue
+TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
+QSTRESTRICTSIGHT, In the darkness you cannot see far.\nYou may only click Reveal if you are in the same space as this Sight Token.
+TokenShackToGraves.button1,Reveal
+EventPlaceGravesTile.text,The faint glow of a shielded lantern illuminates a freshly dug grave.\n\nPlace the {c:TileGraves} Tile
+EventPlaceGravesTile.button1,Continue
+EventPlaceTileGravesTokens.text,You see a grave.\n\nPlace 1 Search Token as indicated
+EventPlaceTileGravesTokens.button1,Continue
+TokenPorchToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenPorchToShack.button1,Reveal
+EventPlaceRitualSite.text,Place the square {c:TileRitual} Tile\n\n{qst:QSTPLACEDARKTOKEN}
+QSTPLACEDARKTOKEN, Place a Darkness token on the tile.
+EventPlaceRitualSite.button1,Continue
+EventCellarTileTokens.text,Place 1 Explore Token and\n{var:countCellarSights} Sight Token(s).
+EventCellarTileTokens.button1,Continue
+EventPlaceCellarWall1.text,Place an Indoor Wall Token as indicated
+EventPlaceCellarWall1.button1,Continue
+TokenRitualToCellar.text,{qst:QSTRESTRICTSIGHT}
+TokenRitualToCellar.button1,Reveal
+EventPlaceCellarTile.text,In the darkness you see a rotted wooden hatchway to a Root Cellar
+EventPlaceCellarTile.button1,Continue
+EventSecretHatchwayExplore.text,You pull back a wooden hatchway leading to a cellar.
+EventSecretHatchwayExplore.button1,Continue
+TokenCampToBridge.text,The light from the camp fire illuminates a covered bridge.\n\nYou may click Reveal if you are on any space on the {c:TileCamp} Tile
+TokenCampToBridge.button1,Reveal
+EventPlaceBridgeTile.text,A ramsuckle covered wooden bridge spans a river.\nThe water glistens in the feeble moonlight.\n\nPlace the large {c:TileBridge} Tile\n\n{qst:QSTPLACEDARKTOKEN}
+EventPlaceBridgeTile.button1,Continue
+EventPlaceBridgeTileTokens.text,Place {var:countBridgeSights} Sight Tokens
+EventPlaceBridgeTileTokens.button1,Continue
+TokenSecretHatchway.text,Undergrowth has been pulled over a wooden panel.
+TokenSecretHatchway.button1,{action} Explore
+EventPlaceCellarWall2.text,Place an Indoor Wall Token as indicated
+EventPlaceCellarWall2.button1,Continue
+EventPlaceObservationTile.text,Place the {c:TileObservatiob} Tile
+EventPlaceObservationTile.button1,Continue
+TokenPorchToObservation.text,The door is locked
+TokenPorchToObservation.button1,{action} Explore
+EventPlacePorchTokens.text,Place 1 Explore Token
+EventPlacePorchTokens.button1,Continue
+TokenPorchDoor.text,Porch Door.
+TokenPorchDoor.button1,{action} Explore
+TokenCheatA.text,AllyA is not {var:RoleAllyANot}\n
+TokenCheatA.button1,Continue
+TokenAllyD.text,Ally D {qst:QSTALLYDNAME}
+QSTALLYDNAME, Corrina Jones
+TokenAllyD.button1,{action} Ask about {qst:QSTALLYANAME}
+QSTALLYANAME, Zadoc Allen
+TokenAllyD.button2,{action} Ask about {qst:QSTALLYBNAME}
+QSTALLYBNAME, Victor Blake
+TokenAllyD.button3,{action} Ask about {qst:QSTALLYDNAME}
+TokenAllyD.button4,{action} Who are you?
+TokenAllyC.text,Ally C {qst:QSTALLYCNAME}
+TokenAllyC.button1,{action} Ask about {qst:QSTALLYANAME}
+TokenAllyC.button2,{action} Ask about {qst:QSTALLYBNAME}
+TokenAllyC.button3,{action} Ask about {qst:QSTALLYDNAME}
+TokenAllyC.button4,{action} Who are you?
+QSTALLYCNAME, Olivia Gilman
+EventAllyCMonologue.text,I am {qst:QSTALLYCNAME}\nOnly I can save us!
+EventAllyCMonologue.button1,Continue
+TokenAllyA.text,Ally A {qst:QSTALLYANAME}
+TokenAllyA.button1,{action} Ask about {qst:QSTALLYBNAME}
+TokenAllyA.button2,{action} Ask about {qst:QSTALLYCNAME}
+TokenAllyA.button3,{action} Ask about {qst:QSTALLYDNAME}
+TokenAllyA.button4,{action} Who are you?
+TokenAllyA.button5,{action} What happened? TO DO
+TokenAllyA.button6,{action} Attack TO DO
+TokenAllyB.text,Ally B {qst:QSTALLYBNAME}
+TokenAllyB.button1,{action} Ask about {qst:QSTALLYANAME}
+TokenAllyB.button2,{action} Ask about {qst:QSTALLYCNAME}
+TokenAllyB.button3,{action} Ask about {qst:QSTALLYDNAME}
+TokenAllyB.button4,{action} Who are you?
+EventAllyBMonologue.text,I am {qst:QSTALLYBNAME}\nI am not your enemy.\n
+EventAllyBMonologue.button1,Continue
+EventAllyAMonologue.text,I am {qst:QSTALLYANAME}\nWe can help each other.\n
+EventAllyAMonologue.button1,Continue
+EventAllyDMonologue.text,I am {qst:QSTALLYDNAME}\nI need your help!\n
+EventAllyDMonologue.button1,Continue
+EventAllyAIsFriend.text,{qst:QSTALLYAFIRSTNAME} can be trusted.
+QSTALLYAFIRSTNAME, Zadoc
+EventAllyAIsFriend.button1,Continue
+EventAboutAllyA.button1,Button1
+EventAboutAllyB.button1,Button1
+EventAllyBIsEnemy.text,{qst:QSTALLYBSURNAME} cannot be trusted.
+QSTALLYBSURNAME, Blake
+EventAllyBIsEnemy.button1,Continue
+EventAllyBIsFriend.text,{qst:QSTALLYBFIRSTNAME} can be trusted.
+QSTALLYBFIRSTNAME, Victor
+EventAllyBIsFriend.button1,Continue
+EventAboutAllyD.button1,Continue
+EventAllyDIsEnemy.text,{qst:QSTALLYDNAME} cannot be trusted.
+EventAllyDIsEnemy.button1,Continue
+EventAllyDIsFriend.text,{qst:QSTALLYDFIRSTNAME} can be trusted.
+QSTALLYDFIRSTNAME, Corrina
+EventAllyDIsFriend.button1,Continue
+EventAllyBaboutAllyARandom.button1,Continue
+EventAllyBaboutAllyA.button1,Continue
+EventAllyAaboutAllyB.button1,Button1
+EventAllyAaboutAllyBTrue.button1,Continue
+EventAllyAaboutAllyBFalse.button1,Button1
+EventAllyAIsEnemy.text,{qst:QSTALLYANAME} cannot be trusted.
+EventAllyAIsEnemy.button1,Continue
+EventAllyBaboutAllyATrue.button1,Continue
+EventAllyBaboutAllyAFalse.button1,Continue
+EventAllyBaboutAllyD.button1,Continue
+EventAllyBaboutAllyC.button1,Continue
+QSTALLYCFIRSTNAME, Olivia
+QSTALLYASURNAME, Allen
+QSTALLYCSURNAME, Gilman
+QSTALLYDSURNAME, Jones
+TokenForestToOldOak.text,In the darkness you cannot see far.\n\nYou may only click Reveal if you are in the same space as this Sight Token
+TokenForestToOldOak.button1,Reveal
+EventPlaceOldOakTile.text,A large ancient oak tree towers over you.\nPlace the {c:TileOldOak} Tile.\n\n Place a Darkness token on the tile.
+EventPlaceOldOakTile.button1,Continue
+TokenCaveEntranceToForest.text,{qst:QSTRESTRICTSIGHT}
+TokenCaveEntranceToForest.button1,Reveal
+TokenRitualToCaveEntrance.text,{qst:QSTRESTRICTSIGHT}
+TokenRitualToCaveEntrance.button1,Reveal
+EventPlacePondTile.text,The water in the dank marshy pond glistens in the pale weak moonlight.\n\nPlace the square {c:TilePond} Tile\n\n{qst:QSTPLACEDARKTOKEN}
+EventPlacePondTile.button1,Continue
+TokenBridgeToPond2.text,{qst:QSTRESTRICTSIGHT}
+TokenBridgeToPond2.button1,Reveal
+EventPlaceShackTile.text,You see in the darkness a derelict shack.\n\nPlace the square {c:TileShack} Tile\n\n{qst:QSTPLACEDARKTOKEN}
+EventPlaceShackTile.button1,Continue
+EventPlaceWellTile.text,You see a long abandoned and boarded over old well.\n\nPlace the {c:TileWell} Tile\n\n{qst:QSTPLACEDARKTOKEN}
+EventPlaceWellTile.button1,Continue
+TokenShackToWell.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToWell.button1,Reveal
+EventPlaceCampTile.text,Light from a small but intensely blazing camp fire illuminates a campsite adjacent to a fast flowing river.\n\nPlace the {c:TileCamp} and the {c:TileRapids} Tiles\n
+EventPlaceCampTile.button1,Continue
+TokenBridgeToCamp.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
+TokenBridgeToCamp.button1,Reveal
+EventPlaceForestTile.text,You see a dense forest with many ancient oak trees.\n\nPlace the large {c:TileForest} Tile\n\n{qst:QSTPLACEDARKTOKEN}
+EventPlaceForestTile.button1,Continue
+EventPlaceCaveEntrance.text,You see a dense dark overgrown forest.\nTo the North is a cave entrance.
+EventPlaceCaveEntrance.button1,Continue
+EventPlacePorchTile.text,Flickering gas light illuimates a rotted porch\nThere is someone moving inside the porch.\n\nPlace the {c:TilePorch} Tile\n
+EventPlacePorchTile.button1,Continue
+TokenRitualToPorch.text,You can see a faint glow of light in this direction.\n\nYou may click reveal if you are in a space on the {c:TileRitual} Tile
+TokenRitualToPorch.button1,Reveal
+EventSurnameAllyA.text,Allen
+EventSurnameAllyA.button1,Continue
+EventPlacePorchTileTokens.text,Place 1 Explore Token\nand {var:countPorchSights} Sight Token(s)
+EventPlacePorchTileTokens.button1,Continue
+EventPlaceShackTileTokens.text,\nPlace 1 Explore Token\nand {var:countShackSights} Sight Tokens
+EventPlaceShackTileTokens.button1,Continue
+TokenRitualToBridge.text,In the darkness you cannot see far.\n\nYou may only click Reveal if you are in the same space as this Sight Token.
+TokenRitualToBridge.button1,Reveal
+TokenCampToCaveEntrance.text,In the darkness you cannot see far.\n\nYou may only click Reveal if you are in the same space as this Sight Token
+TokenCampToCaveEntrance.button1,Reveal
+TokenCaveEntranceToCamp.text,In the darkness you see a very faint glow of light.\n{qst:QSTRESTRICTSIGHT}
+TokenCaveEntranceToCamp.button1,Reveal
+EventPlaceCampTileTokens.text,Place {var:countCampSights} Sight Token(s).
+EventPlaceCampTileTokens.button1,Continue
+EventBridgeToCamp.button1,Continue
+TokenBridgeToPond1.text,{qst:QSTRESTRICTSIGHT}
+TokenBridgeToPond1.button1,Reveal
+TokenShackToPorch.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToPorch.button1,Continue
+EventPlaceCaveEntranceTokens.text,Place 1 Explore Token and\n{var:countCaveSights} Sight Token(s).
+EventPlaceCaveEntranceTokens.button1,Continue
+TokenBridgeToRapids.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
+TokenBridgeToRapids.button1,Reveal
+TokenCellarToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenCellarToShack.button1,Reveal
+TokenShackToCellar.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToCellar.button1,Continue
+EventPorchToShack.button1,Continue
+EventPlaceCaveTile.text,Place the Cave 3 Tile
+EventPlaceCaveTile.button1,Continue
+TokenCaveDoor.text,Someone has pulled back the ivy growing over the entrance to the cave.
+TokenCaveDoor.button1,{action} Explore
+TokenCellarDoor.text,Cellar Door
+TokenCellarDoor.button1,Continue
+TokenCellarWall1.text,Cellar Door 1
+TokenCellarWall1.button1,Continue
+TokenShackDoor.text,Shack Door
+TokenShackDoor.button1,Continue
+TokenExploreCave.text,The cave extends deep underground but the air is fetid and there is danger of rockfalls.\n\nTO DO \nIf explore without light become lost in caves\n{observation} test\nPass: Find item\nFail: Become lost in caves?
+EventMoveIn.text,You may move 1 space into this space
+EventMoveIn.button1,Continue
+TokenJournal.text,You find a journal.
+TokenJournal.button1,{action} Search
+TokenCheatB.text,AllyB is not {var:RoleAllyBNot}\n
+TokenCheatB.button1,Continue
+EventShuffleRoles.button1,Button1
+TokenSolution.text,AllyA is {var:RoleAllyA}\nAllyB is {var:RoleAllyB}\nAllyC is {var:RoleAllyC}\nAllyD is {var:RoleAllyD}\nAllyA Lie is {var:RoleAllyALie}\nAllyB Lie is {var:RoleAllyBLie}\nAllyC Lie is {var:RoleAllyCLie}\nAllyD Lie is {var:RoleAllyDLie}\n
+TokenSolution.button1,Continue
+EventJournalContinued.text,"In the last page of the diary she writes,\n<i>All is lost.  I hear the call of the Black Goat.  I must join its Thousand young!  Iä! Shub-Niggurath!  Abundance to the Black Goat of the Woods!</i>\n\nA pile of ripped up clothes and a set of hoof prints in the mud leading to the nearby woods gives a clue to the fate of the young woman.\n\nTake 1 Horror and gain 2 Clues."
+EventJournalContinued.button1,Continue
+EventJournalEvent.text,"\nThe diary is written by a young woman.  She joined the druids to help protext nature but she came to realise the leaders of the order were far from perfect.  She describes one as evil and deranged, another a self serving liar, a third as a clueless fool and the last as a traitor. "
+EventJournalEvent.button1,Continue
+EventTODO1.text,"There were 5 ritual objects used in the ritual. \nThe Leader was holding ItemY.\n\nOf the other 4, each ally will reveal one they saw was NOT used.  Like the board game Clue, the ItemX will be identified by elimination.  \n\nTo win, give ItemX and ItemY to a Friendly Ally and complete something like a test or puzzle."
+EventTODO1.button1,Continue
+EventAttackTODO.text,"If the investigators choose to attack an Ally, the Ally is replaced by a Dark Druid.\nIf both friendly Allies are attacked the game is lost.  If the leader monster is killed, ItemY is dropped which is one of the two items needed to complete the ceremony.\n"
+EventAttackTODO.button1,Continue
+EventAllyAaboutAllyCRandom.button1,Button1
+EventAllyAaboutAllyC.button1,Button1
+EventAllyAaboutAllyD.button1,Button1
+EventAllyBAboutAllyCRandom.button1,Button1
+EventAllyAaboutAllyBRandom.button1,Button1
+EventAboutAllyBTrue.button1,Button1
+EventAboutAllyBFalse.button1,Button1
+TokenExploreCave.button1,Continue
+EventInitRoles.button1,Button1
+EventStart.button1,Button1
+EventAllyCIsFriend.text,{qst:QSTALLYCFIRSTNAME} can be trusted.
+EventAllyCIsFriend.button1,Continue
+EventAllyCIsEnemy.text,{qst:QSTALLYCNAME} cannot be trusted.
+EventAllyCIsEnemy.button1,Continue
+EventAllyNotRole1.text,"One of the others is a warlock who serves the ancient one.  Consumed by hatred and evil, the warlock is likely to lie.  You must find and kill the servant of the ancient one before evil is released into the world!"
+EventAllyNotRole1.button1,Continue
+EventAllyNotRole4.text,We were casting a ritual was to banish evil but someone deliberately sabotaged the ceremony.  Find the saboteur before they do even more harm and kill us all!
+EventAllyNotRole4.button1,Continue
+EventAllyNotRole3.text,I am a powerful white witch sworn to do no harm.  One of the others summoned something evil because they don't know what they're doing.  I have the knowledge to put things right before the dangerous fool dooms us all.
+EventAllyNotRole3.button1,Continue
+EventAllyNotRole2.text,Someone is spreading false evil rumors to get us to turn on each other.  The trouble maker may trip up and reveal who they are by contradicting themselves.  You can trust me because I'm reliable and I won't contradict myself.
+EventAllyNotRole2.button1,Continue
+EventAboutAllyCFalse.button1,Continue
+EventAboutAllyATrue.button1,Button1
+EventAboutAllyC.button1,Button1
+EventAllyAaboutAllyCTrue.button1,Button1
+EventAboutAllyAFalse.button1,Button1
+EventAboutAllyCTrue.button1,Button1
+EventAboutAllyDTrue.button1,Button1
+EventAboutAllyDFalse.button1,Button1
+EventAllyAaboutAllyCFalse.button1,Button1
+EventTalkAboutAllyD.button1,Continue
+EventTalkAboutAllyC.button1,Continue
