@@ -1,11 +1,37 @@
 .,English
+quest.name,Lost
+quest.description,Lost
+quest.authors,Nicola Zee and Jürgen Rudolph
+EventSmokeMonsterRetreat.text,The monster moves towards the imassable tree lines. \nThe monster moves up to two spaces to the closest edge of the game board.\nDoes it reach the edge of the board?
+EventSmokeMonsterRetreat.button1,"No, it doesn't"
+EventSmokeMonsterRetreat.button2,"Yes, it does"
+EventSmokeMonsterAttack2.text,"The creature charges forward, knocking you off the ground with a massive limb and hoisting you into the air (; 2). If you pass, you hurl yourself to the ground to escape the thrashing branch-like appendages; suffer 1 facedown Damage. If you fail, you feel the cracking of bone as the creature crushes you; suffer 4 Damage."
+EventSmokeMonsterAttack2.button1,Continue
+EventSmokeMonsterAttack1.text,"The creature twists and writhes, slamming its massive tentacles down upon you. Suffer 5 Damage (+1 negates)."
+EventSmokeMonsterAttack1.button1,Continue
+EventSmokeMonsterMove2.text,The monster moves 1 space towards the closest investigator.
+EventSmokeMonsterMove2.button1,Continue
+EventSmokeMonsterAttackSelector.button1,Button1
+EventSmokeMonsterMove1.text,"The monster moves 1 space to the investigators, in order to attack as many investigators in the same space or an adjacent space. "
+EventSmokeMonsterMove1.button1,Attack investigator
+EventSmokeMonsterMove1.button2,No investigator to attack
+EventCheckSmokeMonsterSpawn.button1,Button1
+SpawnSmokeMonsterBridge.text,Out of the impassable line of trees on the other side of the bridge withers dark smoke that seems to form a large horrible shape of many tentacles and mouths.
+SpawnSmokeMonsterBridge.button1,Continue
+SpawnSmokeMonsterCellar.text,Out of the impassable line of trees next to the cellar withers dark smoke that seems to form a large horrible shape of many tentacles and mouths.
+SpawnSmokeMonsterCellar.button1,Continue
+EventSmokeMonsterVanishes.text,When reaching the impassable tree line the monster seems to dissolve into swaths of dark smoke and vanishes into the woods.
+EventSmokeMonsterVanishes.button1,Continue
+CustomMonsterSmokeMonster.monstername,SmokeMonster
+EventSmokeMonsterEngageOrRetreat.text,"The monster seems to be searching for you.\nIs there any investigator within range (up tp 3 spaces, no doors or walls)?"
+EventSmokeMonsterEngageOrRetreat.button1,"Yes, there is"
+EventSmokeMonsterEngageOrRetreat.button2,"No, there isn't"
+EventSmokeMonsterMoveSelector.button1,Button1
+CustomMonsterSmokeMonster.info,-
 EventGraveSearch.text,Are the remains a mixture of unusually large deformed goats?\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenGrave.text,The grave contains remains of some kind of herd animal.
 TokenGrave.button1,{action} Explore
-quest.name,Lost
-quest.description,Lost
-quest.authors,Jürgen Rudolph and Nicola Zee
 EventGraveSearchTrail2.text,The remains are still fresh and the skull is distinctly human-like.  A trail of footsteps in the fresh mud leads towards the Shack and the Porch.  Someone not far away is trying to cover up their heinous crimes and you have the {c:QItemForensicEvidence}.\n\nGain 1 Clue
 EventGraveSearchTrail2.button1,Continue
 EventGraveSearchTrail.button1,Button1
