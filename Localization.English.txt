@@ -1,4 +1,4 @@
-.,English
+..,English
 TokenAllyA.text,Ammi Pierce
 TokenAllyA.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyA.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
@@ -56,7 +56,7 @@ EventOakPass1.button1,Continue
 EventOakPass2Up.button1,Continue
 EventOakPass2A.text,Inside her coat pocket, you find a handwritten note.\n<i>\nThe magick of your friend aint nothing compared to mine!\nBeware your sibling.\nBeware the Black Blood of the Goat!\nThis scroll was owned by Malachi Cooter Pierce.\nThis gift shows I am loyal!\nAmmi\n</i>
 EventOakPass2A.button1,Continue
-TokenOak.text,There is something white in the topmost branches of the giant ancient oak tree.\n\nThe woman hanging from the noose has vanished.
+TokenOak.text,The woman hanging from the noose has vanished.\n\nThere is something white in the topmost branches of the giant ancient oak tree.
 TokenOak.button1,{action} Search
 EventDrownedRescueFemale.text,As she runs off, you hear her cry out,\n<i>I hear her!  I hear the witch singing!</i>\n\nGain 1 {clue}
 EventDrownedRescueFemale.button1,Continue
@@ -197,7 +197,7 @@ EventAllyBIsEnemy.text, <i>Eric Colt is a Dark Druid!</i>\n
 EventAllyBIsEnemy.button1,Continue
 EventGoatHairResult.text,You find a tuft of long blonde hair.\n\n  Faint goat-like hoof marks lead to the East, deeper into the dense forest.\n\nAs you hold the hair, you remember a girl with long blonde hair in a floral summer dress standing on the outskirts of the stone circle.\nShe is surrounded by her friends watching the dancing.\n\nThey start to scream and tear at their faces, hair and clothes,  In a mad frenzy, they run into the forest.\nFrom within the trees, the screams become animal-like until they sound like the coarse bleating of goats.\n\nGain 2 {clue}\n\nGain {c:QItemCircumstantial} Item
 EventGoatHairResult.button1,Continue
-TokenGoatHair.text,Caught in the bushes is a large fragment of cloth.
+TokenGoatHair.text,Caught in the bushes is a large fragment of cloth.\n\nPlace a Search Token as indicated.
 TokenGoatHair.button1,{action} Search
 EventGoatHair.text,The cloth fragment is white with yellow daisies.\n\nTest {observation}\n
 EventGoatHair.button1,Continue
@@ -283,7 +283,7 @@ EventAllyBaboutAllyA.button1,Continue
 QSTALLYASURNAME,Pierce
 TokenForestToOldOak.text,To the north, a huge ancient oak tree obscures the stars.\n\nThe forest branches and undergrowth impedes you. \nYou may only click Reveal if you are in the same space as this Sight Token
 TokenForestToOldOak.button1,Reveal
-EventPlacePendant.text,A ray of pale moonlight reflects off something in a holy bush.
+EventPlacePendant.text,A ray of pale moonlight reflects off something in a holy bush.\n\nPlace a Search Token as indicated.
 EventPlacePendant.button1,Continue
 EventPlaceGoatHair.text,Caught in the bushes is a fragment of cloth.
 EventPlaceGoatHair.button1,Continue
@@ -346,7 +346,7 @@ TokenPorchToObservation.text,The door is locked with a solid high quality 3 digi
 TokenPorchToObservation.button1,{action} Pick Lock
 EventPlaceObservationTile.text,On the outside the log cabin looks rotten and derelict but\ninside it is clean and well-lit.\n\nPlace the {c:TileObservation} Tile
 EventPlaceObservationTile.button1,Continue
-EventPlaceObservationTokens.text,A door leads further into the log cabin.\n\nPlace 1 Explore Token
+EventPlaceObservationTokens.text,A door leads further into the log cabin.\n\nPlace 1 Explore Token and 1 Wall Token.
 EventPlaceObservationTokens.button1,Continue
 EventAllyAIsFriend.text,<i>But old man Pierce is not a Dark Druid!</i>
 EventAllyAIsFriend.button1,Continue
@@ -761,7 +761,7 @@ EventSpawnDeepOne2.text,Place the {c:TilePond} Tile\n\nPlace a Darkness Token on
 EventSpawnDeepOne2.button1,Continue
 CustomMonsterDarkDruid.info,-
 CustomMonsterDarkDruid.monstername,The Dark Druid
-EventSpawnGhost.text,She was once beautiful.\nNow she has the stench of death and decay.\nYou desperately try to cast a warding spell to prevent her from coming closer.\n\nSuffer 2 Horror\n{lore} Negates
+EventSpawnGhost.text,She was once beautiful.\nNow she has the stench of death and decay.\nYou desperately try to cast a warding spell to prevent her from coming closer.\n\nSuffer 2 Horror ({lore} Negates)
 EventSpawnGhost.button1,Continue
 EventSpawnGhostMore.text,In your desperation to get away you fall from the tree.\n\nSuffer 2 Damage\n{agility} Negates
 EventSpawnGhostMore.button1,Continue
