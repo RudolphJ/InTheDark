@@ -332,8 +332,10 @@ TokenPorchToShack.text,{qst:QSTRESTRICTSIGHT}
 TokenPorchToShack.button1,Reveal
 EventPlaceAllyD.text,She opens the door and lets you in.\n\nPlace the Corrina Jones Ally Token
 EventPlaceAllyD.button1,Continue
-EventShackDoorLocked2.text,<i>We have the sigil of the Druids!</i>\n\nYou may try to persuade her you can help.\n\nYou may either click the 'Continue' button\nor use an {action} to test {influence}\nFor this test you may roll 2 additional die if the {c:QItemCultSigil} has glowing red runes on it.\nYou may check this using the 'Items' button
+EventShackDoorLocked2.text,You hold up the {c:QItemCultSigil} and shout\n<i>We have the sigil of the Druids!</i>\n\nYou may try to persuade her you can help.\n\nYou may either click the 'Continue' button\nor use an {action} to test {influence}.
 EventShackDoorLocked2.button1,Continue
+EventShackDoorLocked3.text,You hold up the {c:QItemCultSigil} and see the red glowing runes on it. You shout\n<i>We have the sigil of the Druids and its runes are glowing red!</i>\n\nYou may try to persuade her you can help.\n\nYou may either click the 'Continue' button\nor use an {action} to test {influence}.
+EventShackDoorLocked3.button1,Continue
 TokenShackDoor.text,The Shack Door is shut.\n\nIf you are on the same space as this Token,\nyou may click the 'Continue' button.\n
 TokenShackDoor.button1,Continue
 EventShackDoorLocked1.text,The door is locked. \nWhen you rattle it a woman cries out,\n<i>How can you hope to resist such diabolical power?</i>
