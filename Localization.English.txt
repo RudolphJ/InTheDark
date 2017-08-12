@@ -209,7 +209,7 @@ EventSigilInspect.text,If your Investigator possesses the {c:QItemCultSigil} Ite
 EventSigilInspect.button1,Inspect Sigil
 EventSigilInspect.button2,Cancel
 EventSigilReady.button1,Continue
-EventSigilNeedMore.text, \nThere are no signs of the glowing red runes on the the {c:QItemCultSigil}.\nYou have not learnt enough to know how to use it but you do feel something of its power.\n\nYou may use an {action} to test ({lore}:2)\nIf you pass, you may discard 1 facedown Damage
+EventSigilNeedMore.text, \nThere are no signs of the glowing red runes on the {c:QItemCultSigil}.\nYou have not learnt enough to know how to use it but you do feel something of its power.\n\nYou may use an {action} to test ({lore}:2)\nIf you pass, you may discard 1 facedown Damage
 EventSigilNeedMore.button1,Continue
 EventPlaceRitualSite.text,Place the square {c:TileRitual} Tile\n
 EventPlaceRitualSite.button1,Continue
@@ -340,7 +340,7 @@ EventShackDoorLocked1.text,The door is locked. \nWhen you rattle it a woman crie
 EventShackDoorLocked1.button1,Continue
 TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToGraves.button1,Reveal
-EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille and he unbolts and opens the door.\n\nA door leads further into the log cabin.\n\nPlace 1 Explore Token
+EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille. The old man unbolts and opens the door.\n\nAnother door on the other side of the porch leads further into the log cabin.\n\nPlace 1 Explore Token
 EventPlacePorchTokens.button1,Continue
 EventPlaceLetter.text,On the table is a letter.\n\nPlace 1 Search Token
 EventPlaceLetter.button1,Continue
@@ -562,7 +562,7 @@ EventTentDismantle.text,You dismantle the tent and coil up the rope.\n\nGain the
 PuzzlePorchLock.button1,Unlock Door
 EventWhereIsDaggerNot2.text,<i>I remember seeing Martha being stabbed with the ritual dagger,\nThe murderer placed the bloody dagger on the ritual stone.\nWhen I next looked it had gone!\nMaybe Sylvia grabbed it when she picked up the sigil?\n</i>\nGain 1 {clue}
 EventOakPass2B.text,Inside her coat pocket, you find a handwritten note.\n<i>\nBeware your sibling.\nBeware the Black Blood of the Goat!\nYour friend's magick is weak.\nUs Colt family stick together and we know things.\nIf one helps we all help!\n</i>
-EventSpoilers.text,MAJOR SPOILERS\n\nThe scenario has ended.\nMajor spoilers follow.\nRead on only if you think the story does not make sense.\n\nPlease check the log to determine if the responses of each of the Allies matches their roles.\nAllyA is Role No. {var:RoleAllyA}\nAllyB is Role No. {var:RoleAllyB}\nAllyC is Role No. {var:RoleAllyC}\nAllyD is Role No. {var:RoleAllyD}\n\nNo. 1 = The Dark Druid who performed the ritual\nand is the child of Bellina Beck.\nNo. 2 = The Dark Druid's No. 2 who is a double-agent and disloyal to everybody.\nNo. 3 = The Friend of Martha and is not a Dark Druid\nNo. 4 = The White Druid\n\na) Both No. 1 and No. 2 tend to lie.\nb) No.2 may betray the Dark Druid and tell the investigators true facts about No. 1\nc) The Friend of Martha tends to be confused and is not as versed in magic as the others.\n
+EventSpoilers.text,MAJOR SPOILERS\n\nThe scenario has ended.\nMajor spoilers follow.\nRead on only if you think the story does not make sense.\n\nPlease check the log to determine if the responses of each of the Allies matches their roles.\n{qst:QSTALLYANAME} is Role No. {var:RoleAllyA}\n{qst:QSTALLYBNAME} is Role No. {var:RoleAllyB}\n{qst:QSTALLYCNAME} is Role No. {var:RoleAllyC}\n{qst:QSTALLYDNAME} is Role No. {var:RoleAllyD}\n\nNo. 1 = The Dark Druid who performed the ritual\nand is the child of Bellina Beck.\nNo. 2 = The Dark Druid's right hand, who is a double-agent and disloyal to everybody.\nNo. 3 = The Friend of Martha and not a Dark Druid\nNo. 4 = The White Druid\n\na) Both No. 1 and No. 2 tend to lie.\nb) No.2 may betray the Dark Druid and tell the investigators true facts about No. 1\nc) The Friend of Martha tends to be confused and is not as versed in magic as the others.\n
 EventSpoilers.button1,Continue
 EventAttackWhiteDruid.button2,Cheat and Reveal Roles (Spoilers)
 EventWhereIsDaggerNot3.text,<i>I remember seeing the dagger plunged into Martha's side.\nI watched poor Martha being dragged away into the forest. I did not see the dagger fall out!\nEither the murderer has it or it's somewhere in the forest. \n</i>\nGain 1 {clue}
@@ -693,7 +693,7 @@ TokenAllyB3.button1,Continue
 TokenAllyC3.text,The White Druid
 TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
-EventStone1Search.text,\nNear to the stone there are traces of a small bonfire which has burnt out.\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
+EventStone1Search.text,\nNear the stone there are traces of a small bonfire which has burnt out.\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
 EventStone1SearchDone.text,The humming sound has become fainter.
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
