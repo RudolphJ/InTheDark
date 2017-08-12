@@ -744,7 +744,7 @@ SpawnGoatSpawn2.text,Spawn a Goat Spawn Monster on the space indicated
 SpawnGoatSpawn2.button1,Continue
 TokenCellarPainting.text,On the walls of the cellar are paintings.\nThey have been damaged by the damp.
 TokenCellarPainting.button1,{action} Search
-EventCellarPaintingSearch.text,The painting is too damaged to make out any exact details.\nIt represents an operating room in the log cabin covered in blood.
+EventCellarPaintingSearch.text,The painting is too damaged to make out any exact details.\nIt represents an operating room in the log cabin covered in blood.\nGain 1 {clue}.
 EventCellarPaintingSearch.button1,Continue
 EventPlaceCellarPainting.button1,Continue
 EventPlaceCellarPainting.text,On the wall of the cellar are paintings.\nAll have been ruined by the damp except for one.\n\nPlace a Search Token on the space indicated
