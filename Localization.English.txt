@@ -100,7 +100,7 @@ EventPendantSearchResult.text,You find a small pendant.\nIts long silver chain i
 EventPendantSearchResult.button1,Continue
 EventPendantSearch.text,You search the holy bush and find a large fragment of a ripped white cloth stained with blood.\n\nTest {observation}
 EventPendantSearch.button1,Continue
-TokenPendant.text,For a brief moment moonlight reflects off something sma;; in a dense overgrown holy bush.
+TokenPendant.text,For a brief moment moonlight reflects off something small in a dense overgrown holy bush.
 TokenPendant.button1,{action} Search
 EventPainting.button1,Continue
 EventAllyCMonologue.text,<i>I am a white witch from a long line of wise women!\nI know things the others are ignorant of!</i>
@@ -127,7 +127,7 @@ EventAllyNotRole1MoreC.text,Othera Gilman is short and the height of the figure 
 EventAllyNotRole1MoreC.button1,Continue
 EventAllyNotRole1MoreB.text,You remember the figure standing away from the ritual stone was unusually tall and was holding a bottle in his right hand.\n\nThe height matches that of Eric Colt.\n\nGain 1 {clue}\n
 EventAllyNotRole1MoreB.button1,Continue
-EventAllyNotRole1MoreA.text,You remember one of the figures that was standing back was hold a walking stick in their left hand.\n\nGain 1 {clue}\n
+EventAllyNotRole1MoreA.text,You remember one of the figures that was standing back was holding a walking stick in their left hand.\n\nGain 1 {clue}\n
 EventAllyNotRole1MoreA.button1,Continue
 EventAllyNotRole3More.text,<i>The sigil used in the ceremony is key to reversing the spell!\nThis proves I know what I'm talking about!\nIf you don't give me the sigil, your fate will be sealed!</i>\n\nGain 1 {clue}
 EventAllyNotRole3More.button1,Continue
@@ -154,7 +154,7 @@ TokenAllyC2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyC2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
 TokenAllyC2.button4,{action} <i>Tell me about the Marsh family</i>
 TokenAllyC2.button5,{action} Give Dagger to Othera
-EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShee had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
+EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShe had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
 EventJournal2.button1,Continue
 EventJournal1.text,\nA journal written by Bettina Beck describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nThrough her experimentation she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a dscription of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
 EventJournal1.button1,Continue
@@ -665,7 +665,7 @@ EventPaintingB.button1,Continue
 TokenCrate.button1,Continue
 EventPlaceCrate.text,A stack of crates is up against the wall.
 EventPlaceCrate.button1,Continue
-TokenCrate.text,A crate is in the corner.
+TokenCrate.text,A crate is in the corner.\n\nPlace a Search Token as indicated.
 EventCrateSearch.text,The crates contain odds and ends stored from the log cabin and once owned by its previous owner {qst:QSTMOTHERNAME}.
 EventCrateSearch.button1,Continue
 EventCrateSearchResult.button1,Continue
@@ -691,7 +691,7 @@ TokenAllyB3.button1,Continue
 TokenAllyC3.text,The White Druid
 TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
-EventStone1Search.text,\nNear to the stones there are traces of a small bonfire which has burnt out.\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
+EventStone1Search.text,\nNear to the stone there are traces of a small bonfire which has burnt out.\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
 EventStone1SearchDone.text,The humming sound has become fainter.
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
