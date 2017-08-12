@@ -100,7 +100,7 @@ EventPendantSearchResult.text,You find a small pendant.\nIts long silver chain i
 EventPendantSearchResult.button1,Continue
 EventPendantSearch.text,You search the holy bush and find a large fragment of a ripped white cloth stained with blood.\n\nTest {observation}
 EventPendantSearch.button1,Continue
-TokenPendant.text,For a brief moment moonlight reflects off something sma;; in a dense overgrown holy bush.
+TokenPendant.text,For a brief moment moonlight reflects off something small in a dense overgrown holy bush.
 TokenPendant.button1,{action} Search
 EventPainting.button1,Continue
 EventAllyCMonologue.text,<i>I am a white witch from a long line of wise women!\nI know things the others are ignorant of!</i>
@@ -127,7 +127,7 @@ EventAllyNotRole1MoreC.text,Othera Gilman is short and the height of the figure 
 EventAllyNotRole1MoreC.button1,Continue
 EventAllyNotRole1MoreB.text,You remember the figure standing away from the ritual stone was unusually tall and was holding a bottle in his right hand.\n\nThe height matches that of Eric Colt.\n\nGain 1 {clue}\n
 EventAllyNotRole1MoreB.button1,Continue
-EventAllyNotRole1MoreA.text,You remember one of the figures that was standing back was hold a walking stick in their left hand.\n\nGain 1 {clue}\n
+EventAllyNotRole1MoreA.text,You remember one of the figures that was standing back was holding a walking stick in their left hand.\n\nGain 1 {clue}\n
 EventAllyNotRole1MoreA.button1,Continue
 EventAllyNotRole3More.text,<i>The sigil used in the ceremony is key to reversing the spell!\nThis proves I know what I'm talking about!\nIf you don't give me the sigil, your fate will be sealed!</i>\n\nGain 1 {clue}
 EventAllyNotRole3More.button1,Continue
@@ -338,7 +338,7 @@ EventShackDoorLocked1.text,The door is locked. \nWhen you rattle it a woman crie
 EventShackDoorLocked1.button1,Continue
 TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToGraves.button1,Reveal
-EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille and he unbolts and opens the door.\n\nA door leads further into the log cabin.\n\nPlace 1 Explore Token
+EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille and the old man unbolts and opens the door.\n\nA door leads further into the log cabin.\n\nPlace 1 Explore Token
 EventPlacePorchTokens.button1,Continue
 EventPlaceLetter.text,On the table is a letter.\n\nPlace 1 Search Token
 EventPlaceLetter.button1,Continue
@@ -665,7 +665,7 @@ EventPaintingB.button1,Continue
 TokenCrate.button1,Continue
 EventPlaceCrate.text,A stack of crates is up against the wall.
 EventPlaceCrate.button1,Continue
-TokenCrate.text,A crate is in the corner.
+TokenCrate.text,A crate is in the corner.\n\nPlace a Search Token as indicated. 
 EventCrateSearch.text,The crates contain odds and ends stored from the log cabin and once owned by its previous owner {qst:QSTMOTHERNAME}.
 EventCrateSearch.button1,Continue
 EventCrateSearchResult.button1,Continue
@@ -742,7 +742,7 @@ SpawnGoatSpawn2.text,Spawn a Goat Spawn Monster on the space indicated
 SpawnGoatSpawn2.button1,Continue
 TokenCellarPainting.text,On the walls of the cellar are paintings.\nThey have been damaged by the damp.
 TokenCellarPainting.button1,{action} Search
-EventCellarPaintingSearch.text,The painting is too damaged to make out any exact details.\nIt represents an operating room in the log cabin covered in blood.
+EventCellarPaintingSearch.text,The painting is too damaged to make out any exact details.\nIt represents an operating room in the log cabin covered in blood.\nGain 1 {clue}.
 EventCellarPaintingSearch.button1,Continue
 EventPlaceCellarPainting.button1,Continue
 EventPlaceCellarPainting.text,On the wall of the cellar are paintings.\nAll have been ruined by the damp except for one.\n\nPlace a Search Token on the space indicated
