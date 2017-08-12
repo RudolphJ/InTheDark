@@ -1,4 +1,6 @@
 .,English
+UIIntroText.uitext,Obscure shades in a dense dark fog, twirling around large stones, chanting. \n\nThen flashes of light, splatters of red, screams of panic.\n\nYou awake disoriented and confused: \nWas this just a unsettling and incoherenet nightmare? Or vague memories of a terrible incident?\n
+UIIntroContinue.uitext,Open your eyes
 TokenAllyA.text,Ammi Pierce
 TokenAllyA.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyA.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
@@ -768,3 +770,4 @@ EventCellarDoorLocked2.button3,Cancel
 EventShackDoorLocked2.button2,Cancel
 EventSigilActiveAllyE.text,She says,\n<i>You have done well!\nIt is now ready to be used.\nHand it to me at once!</i>\n\nYou may use an {action} to hand her the powerful {c:QItemCultSigil} Item.
 EventSigilActiveAllyE.button1,{action} Hand Over the Cult Sigil
+EventRemoveIntroUI.button1,Button1
