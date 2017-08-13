@@ -156,9 +156,9 @@ TokenAllyC2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyC2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
 TokenAllyC2.button4,{action} <i>Tell me about the Marsh family</i>
 TokenAllyC2.button5,{action} Give Dagger to Othera
-EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShee had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
+EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShe had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
 EventJournal2.button1,Continue
-EventJournal1.text,\nYou open the cabinet and find\na journal written by Bettina Beck.\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nThrough her experimentation she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a dscription of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
+EventJournal1.text,\nYou open the cabinet and find\na journal written by Bettina Beck.\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nThrough her experimentation she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a description of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
 EventJournal1.button1,Continue
 TokenJournal.text,The cupboard is full of papers written in some kind of code.
 TokenJournal.button1,{action} Search
@@ -199,7 +199,7 @@ EventAllyBIsEnemy.text, <i>Eric Colt is a Dark Druid!</i>\n
 EventAllyBIsEnemy.button1,Continue
 EventGoatHairResult.text,You find a tuft of long blonde hair.\n\n  Faint goat-like hoof marks lead to the East, deeper into the dense forest.\n\nAs you hold the hair, you remember a girl with long blonde hair in a floral summer dress standing on the outskirts of the stone circle.\nShe is surrounded by her friends watching the dancing.\n\nThey start to scream and tear at their faces, hair and clothes,  In a mad frenzy, they run into the forest.\nFrom within the trees, the screams become animal-like until they sound like the coarse bleating of goats.\n\nGain 2 {clue}\n\nGain {c:QItemCircumstantial} Item
 EventGoatHairResult.button1,Continue
-TokenGoatHair.text,Caught in the bushes is a large fragment of cloth.\n\nPlace a Search Token as indicated.
+TokenGoatHair.text,Caught in the bushes is a large fragment of cloth.
 TokenGoatHair.button1,{action} Search
 EventGoatHair.text,The cloth fragment is white with yellow daisies.\n\nTest {observation}\n
 EventGoatHair.button1,Continue
@@ -764,7 +764,7 @@ SpawnDeepOne2.button1,Continue
 EventSpawnDeepOne2.text,Place the {c:TilePond} Tile\n\nPlace a Darkness Token on this tile
 EventSpawnDeepOne2.button1,Continue
 CustomMonsterDarkDruid.info,-
-EventSpawnGhost.text,A noise makes you look down.\nBelow you is a woman suspended from a branch of the tree by a rope around her neck.\nHer neck is broken.\nHer body swings backwards and forwards.\n\nShe cries out,\n<i>O John! John!\nBring me my sigil so I my live again!\nLet us embrace once more!</i>\n\nSuddenly she is next to you.\nShe was once beautiful.\nNow she has the stench of death and decay.\n\nSuffer 2 Horror ({lore} Negates)\n
+EventSpawnGhost.text,A noise makes you look down.\nBelow you is a woman suspended from a branch of the tree by a rope around her neck.\nHer neck is broken.\nHer body swings backwards and forwards.\n\nShe cries out,\n<i>O John! John!\nBring me my sigil so I may live again!\nLet us embrace once more!</i>\n\nSuddenly she is next to you.\nShe was once beautiful.\nNow she has the stench of death and decay.\n\nSuffer 2 Horror ({lore} Negates)\n
 EventSpawnGhost.button1,Continue
 EventSpawnGhostMore.text,As you scramble along the branch to get away,\n you fall from the branch.\n\nSuffer 2 Damage ({agility} Negates)\nRoll 1 extra dice if you have the {c:QItemRope} Item\n\nPlace your Investigator figure in the space indicated
 EventSpawnGhostMore.button1,Continue
