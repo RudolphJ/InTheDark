@@ -39,7 +39,7 @@ TokenAllyD.button5,{action} Attack Corrina Jones
 TokenAllyD.button6,Show Corrina Jones the Cult Sigil
 quest.name,In the Dark
 quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest is a clearing.\nPale moonlight illuminates a stone circle.\nYou awake within the circle dazed and confused.\nAll you remember is something terrible happened here!\nYou fear whatever you witnessed was too horrific for your mind to deal with!\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nA single Darkness Token is placed on a Tile. \nAll spaces on a Tile with a Darkness Token are in Darkness.
-quest.authors,Chief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph
+quest.authors,Chief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nhttp://freemusicarchive.org/music/Damiano_Baldoni/Lost_Dinasty/Ive_not_fear
 EventGraveSearch.text,Near the grave is a plain wooden cross inscribed\n<i>{qst:QSTMOTHERNAME}</i>\nFrom the compacted soil, it seems her grave was desecrated several days ago.\nInside, the coffin has been broken open and the remains jumbled up with that of a deformed goat,\n\nTest {observation}\n
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}\n\nIf you attempt the puzzle, you gain 2 extra Puzzle Steps if you possess the {c:QItemJournal} Item\n and, in addition, 1 extra Puzzle Step if you have an Evidence Item.\n
@@ -73,7 +73,7 @@ TokenDrownedBody.button2,{action} Push the body into the current
 EventDrownedRescue.text,You pull the half-drowned woman towards you.\nShe is deranged and you try to calm her.\n\nYou may test either ({influence}:1) or ({lore}:2).\n
 EventDrownedRescue.button1,Pass
 EventDrownedRescue.button2,Fail
-EventPlacePainting.text,In the corner is a painting that Corrina is working on. 
+EventPlacePainting.text,In the corner is a painting that Corrina is working on.\n\nPlace a Search Token as indicated.
 EventPlacePainting.button1,Continue
 TokenCellarDoor.text,Through the rough planks you glimpse a damp derelict cellar and someone or something moving inside.\n\nIf you are on the same space as this token,\nyou may click the 'Continue' button.
 TokenCellarDoor.button1,Continue
@@ -225,7 +225,7 @@ EventFireInteractSpread1.text,The blazing fire gets out of hand and sets fire to
 EventFireInteractSpread1.button1,Continue
 EventPlaceDrownedBody.text,A body lies on a rock sticking out of the riverbank.
 EventPlaceDrownedBody.button1,Continue
-QSTRESTRICTSIGHT, In the darkness you cannot see far.\nYou may only click Reveal if you are in the same space as this Sight Token.
+QSTRESTRICTSIGHT,In the darkness you cannot see far.\nYou may only click Reveal if you are in the same space as this Sight Token.
 TokenDrownedBody.button3,Cancel
 EventDrownedKill.text,You push the woman into the current.\nHer struggles as she slowly drowns are pitiful and disturbing.\n\nTake 1 Horror
 EventDrownedKill.button1,Continue
@@ -287,7 +287,7 @@ TokenForestToOldOak.text,To the north, a huge ancient oak tree obscures the star
 TokenForestToOldOak.button1,Reveal
 EventPlacePendant.text,A ray of pale moonlight reflects off something in a holy bush.\n\nPlace a Search Token as indicated.
 EventPlacePendant.button1,Continue
-EventPlaceGoatHair.text,Caught in the bushes is a fragment of cloth.
+EventPlaceGoatHair.text,Caught in the bushes is a fragment of cloth.\n\nPlace a Search Token as indicated.
 EventPlaceGoatHair.button1,Continue
 TokenCaveEntranceToForest.text, In the darkness you cannot see far.\nIn this direction the pale moon is partly obscured by the branches of tall trees.\n\nYou may only click Reveal if you are in the same space as this Sight Token.
 TokenCaveEntranceToForest.button1,Reveal
@@ -344,7 +344,7 @@ TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToGraves.button1,Reveal
 EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille. The old man unbolts and opens the door.\n\nAnother door on the other side of the porch leads further into the log cabin.\n\nPlace 1 Explore Token
 EventPlacePorchTokens.button1,Continue
-EventPlaceLetter.text,On the table is a letter.\n\nPlace 1 Search Token
+EventPlaceLetter.text,On the table is a letter.\n\nPlace 1 Search Token as indicated.
 EventPlaceLetter.button1,Continue
 TokenPorchToObservation.text,The door is locked with a solid high quality 3 digit combination padlock.\nYou may be able to hear the click of the tumbers.
 TokenPorchToObservation.button1,{action} Pick Lock
@@ -585,7 +585,7 @@ TokenRobe.button1,{action} Search
 TokenRobe.text,On the ground is a torn and bloody white robe.
 EventRobeSearch.text,Beneath the white robes is a parchment scroll.\n\nGain the {c:QItemDefenceSpell} Spell
 EventRobeSearch.button1,Continue
-EventPlaceRobe.text,On the ground is a torn and bloody white robe.
+EventPlaceRobe.text,On the ground is a torn and bloody white robe.\n\nPlace a Search Token as indicated.
 TokenDeepOne.text,Strange noises indicate there is something moving beneath the bridge.
 TokenDeepOne.button1,Continue
 EventDeepOneSearch.text,You try to spot what is beneath the bridge but it is dark and overgrown.\n\nTest {observation}
@@ -641,7 +641,7 @@ SpawnGoatSpawn1.text,Spawn a Goat Spawn Monster on the space indicated
 SpawnGoatSpawn1.button1,Continue
 TokenCross.text,A metal cross lies at the bottom of the fast flowing river.\nTo reach it you will need to swim.
 TokenCross.button1,{action} Search
-EventPlaceCross.text,Moonlight glistens off something metallic in the water.
+EventPlaceCross.text,Moonlight glistens off something metallic in the water.\n\nPlace Search Token as indicated.
 EventPlaceCross.button1,Continue
 EventCrossSearch.text,In the river there is a small metal cross.\nTo reach the cross, you will need to swim and the current is strong.\nTest ({agility}:2)
 EventCrossSearch.button1,Pass
@@ -665,7 +665,7 @@ EventPaintingA.button1,Continue
 EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting is signed <i>Bettina Beck</i>!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored or copied paintings done by Bettina Beck and passed them off as her own!\n\nSince the pendant does not match the {c:QItemCultSigil}, it is clear she has made serious mistakes in her restorations and has limited knowledge of it.\n
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
-EventPlaceCrate.text,A stack of crates is up against the wall.
+EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.
 EventPlaceCrate.button1,Continue
 TokenCrate.text,A stack of crates is in the corner of the cellar.
 EventCrateSearch.text,The crates contain odds and ends stored from the log cabin and once owned by its previous owner Bettina Beck.\nThere is a collection of old books and scrolls which might be of use.\n\nEither test ({lore},1) or ({observation}:2)
@@ -701,7 +701,7 @@ EventDarkYoungMove0.button1,Yes
 EventDarkYoungMove0.button2,No
 EventDarkYoungSkip2.text,\nA huge lumbering creature is moving through the forest tearing up trees in its beserk rage.\n\nAll Investigators on an Outdoor space test ({will},2)\nIf failed, take 1 facedown Horror\n
 EventDarkYoungSkip2.button1,Continue
-EventPlaceDeepOne.text,As she runs onto the covered bridge,\nyou hear something moving beneath it.
+EventPlaceDeepOne.text,As she runs onto the covered bridge,\nyou hear something moving beneath it.\n\nPlace a Search Token as indicated.
 EventPlaceDeepOne.button1,Continue
 EventDeepOneSearchPassB.text,A goat like creature is moving beneath the bridge.\nIt is getting ready to ambush you!\nSylvia Marsh casts a banishment spell on it and\nit flees.\nYou remember she has helped protect you in the past.\n\nGain 1 {clue}
 EventDeepOneSearchPassB.button1,Continue
@@ -738,7 +738,7 @@ SpawnDarkYoung.text,Is the Dark Young Monster in range of an Investigator on an 
 SpawnDarkYoung.button2,No
 EventSpawnDarkYoung2.button1,Continue
 EventSpawnDarkYoung2.button2,No
-EventPlaceJournal.text,In the far corner is a cupboard full of papers.
+EventPlaceJournal.text,In the far corner is a cupboard full of papers.\n\nPlace a Search Token as indicated.
 EventPlaceJournal.button1,Continue
 SpawnGoatSpawn2.text,Spawn a Goat Spawn Monster on the space indicated
 SpawnGoatSpawn2.button1,Continue
