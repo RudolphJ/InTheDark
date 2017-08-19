@@ -15,6 +15,7 @@ QSTALLYCNAME,Othera Gilman
 QSTALLYBNAME,Eric Colt
 QSTALLYDNAME,Corrina Jones
 QSTPLACEDARKNESS,Place a Darkness Token on this Tile\nTreat all spaces on this Tile as if they contain a Darkness Token
+QSTSPAWNDARKYOUNG,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated.
 TokenAllyC.text,Othera Gilman
 TokenAllyC.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
 TokenAllyC.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
@@ -39,7 +40,7 @@ TokenAllyD.button5,{action} Attack Corrina Jones
 TokenAllyD.button6,Show Corrina Jones the Cult Sigil
 quest.name,In the Dark
 quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest is a clearing.\nPale moonlight illuminates a stone circle.\nYou awake within the circle dazed and confused.\nAll you remember is something terrible happened here!\nYou fear whatever you witnessed was too horrific for your mind to deal with!\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nA single Darkness Token is placed on a Tile. \nAll spaces on a Tile with a Darkness Token are in Darkness.
-quest.authors,Chief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nhttp://freemusicarchive.org/music/Damiano_Baldoni/Lost_Dinasty/Ive_not_fear
+quest.authors,Chief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)
 EventGraveSearch.text,Near the grave is a plain wooden cross inscribed\n<i>{qst:QSTMOTHERNAME}</i>\nFrom the compacted soil, it seems her grave was desecrated several days ago.\nInside, the coffin has been broken open and the remains jumbled up with that of a deformed goat,\n\nTest {observation}\n
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}\n\nIf you attempt the puzzle, you gain 2 extra Puzzle Steps if you possess the {c:QItemJournal} Item\n and, in addition, 1 extra Puzzle Step if you have an Evidence Item.\n
@@ -608,12 +609,12 @@ SpawnGhost.button1,Continue
 SpawnGhost.text,The ghostly woman cries out,\n<i>My sigil is prepared!\nI return!</i>\n\nHer ghostly form descends from the tree.\n\nSpawn a Ghost Monster in the space indicated\n
 SpawnChildOfTheGoat1.button1,Continue
 EventBeginMinor.button1,Button1
-SpawnDarkYoung2.text,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated
+SpawnDarkYoung2.text,{qst:QSTSPAWNDARKYOUNG}
 EventPlaceRitualSiteTokens.text,It is night and the moonlight is pale.\nYou cannot see far in the darkness.\n\n{qst:QSTPLACEDARKNESS}\n\nPlace 3 Sight Tokens as indicated\n
 EventPlaceStone1.text,A large rectangular stone fills the central space of the stone circle.\n\nPlace 1 Interact Token as indicated
 EventPlaceStone1.button1,Continue
 SpawnDarkYoung2.button1,Continue
-SpawnDarkYoung1.text,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated
+SpawnDarkYoung1.text,{qst:QSTSPAWNDARKYOUNG}
 EventDarkYoungMove.text,Is the Dark Young monster in range of an Investigator on an Outdoor space?
 EventDarkYoungMove.button2,No
 EventDarkYoungAttack1Fail.button1,Continue
@@ -624,9 +625,9 @@ EventDarkYoungAttack1.button2,Fail
 EventDarkYoungAttack3.text,The creature goes beserk, smashing all around with its huge tentacles.\n\nAll Investigators on its space take 3 Damage\n{agility} Negates\nAll Monsters on its space (that cannot Phase or Fly) take 3 Damage
 EventDarkYoungAttack3.button1,Continue
 EventCheckDarkYoungSkip2.text,You can hear a gaint creature crashing through the woods at an incredible speed.\nThe ground shakes and branches are ripped to pieces.\n\nAll Investigators on an Outdoor space must test ({will}:2) \n\nIf the test is failed, suffer 1 facedown Horror\n
-SpawnDarkYoung3.text,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated
+SpawnDarkYoung3.text,{qst:QSTSPAWNDARKYOUNG}
 SpawnDarkYoung3.button1,Continue
-SpawnDarkYoung4.text,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated
+SpawnDarkYoung4.text,{qst:QSTSPAWNDARKYOUNG}
 SpawnDarkYoung4.button1,Continue
 EventDarkYoungMoveToStone.text,The Dark Young Monster moves 1 space towards the central space of the Ritual Site Tile.\n\nIt may not move onto an Indoor space.\n\nAfter it moves, all Investigators  (and all Monsters that are cannot Phase or Fly) in its space take 2 Damage. {agility} Negates
 EventDarkYoungMoveToStone.button1,Continue
@@ -636,7 +637,7 @@ EventCheckDarkYoungSkip1.button1,Continue
 SpawnChildOfTheGoat1.text,A deranged screaming woman runs out of the undergrowth.\n\nSpawn a Child of the Goat on the space indicated
 SpawnChildOfTheGoat2.text,The womans snarls like a cornered animal and attacks you!\n\nSpawn a Children of the Goat Monster on the space indicated
 SpawnChildOfTheGoat2.button1,Continue
-SpawnDarkYoung.button1,Yes, an Outdoors Investigator is in range 
+SpawnDarkYoung.button1,Continue
 SpawnGoatSpawn1.text,Spawn a Goat Spawn Monster on the space indicated
 SpawnGoatSpawn1.button1,Continue
 TokenCross.text,A metal cross lies at the bottom of the fast flowing river.\nTo reach it you will need to swim.
@@ -734,8 +735,7 @@ EventDarkYoungD.button1,Continue
 EventDarkYoungSpawnMove.text,Is an Investigator in an Outdoor space in range of the Dark Young Monster?
 EventDarkYoungSpawnMove.button1,Yes
 EventDarkYoungSpawnMove.button2,No
-SpawnDarkYoung.text,Is the Dark Young Monster in range of an Investigator on an Outdoor space? 
-SpawnDarkYoung.button2,No
+SpawnDarkYoung.text,{qst:QSTSPAWNDARKYOUNG} 
 EventSpawnDarkYoung2.button1,Continue
 EventSpawnDarkYoung2.button2,No
 EventPlaceJournal.text,In the far corner is a cupboard full of papers.\n\nPlace a Search Token as indicated.
