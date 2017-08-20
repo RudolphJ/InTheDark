@@ -14,7 +14,7 @@ QSTFATHERFIRSTNAME,John
 QSTALLYCNAME,Othera Gilman
 QSTALLYBNAME,Eric Colt
 QSTALLYDNAME,Corrina Jones
-QSTPLACEDARKNESS,Place a Darkness Token on this Tile\nTreat all spaces on this Tile as if they contain a Darkness Token
+QSTPLACEDARKNESS,Place a Darkness Token on a Border as indicated.\nTreat all spaces on this Tile as if they contain a Darkness Token.
 QSTSPAWNDARKYOUNG,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated.
 TokenAllyC.text,Othera Gilman
 TokenAllyC.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
@@ -39,7 +39,7 @@ TokenAllyD.button4,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button5,{action} Attack Corrina Jones
 TokenAllyD.button6,Show Corrina Jones the Cult Sigil
 quest.name,In the Dark
-quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest is a clearing.\nPale moonlight illuminates a stone circle.\nYou awake within the circle dazed and confused.\nAll you remember is something terrible happened here!\nYou fear whatever you witnessed was too horrific for your mind to deal with!\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nA single Darkness Token is placed on a Tile. \nAll spaces on a Tile with a Darkness Token are in Darkness.
+quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest is a clearing.\nPale moonlight illuminates a stone circle.\nYou awake within the circle dazed and confused.\nAll you remember is something terrible happened here!\nYou fear whatever you witnessed was too horrific for your mind to deal with!\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
 quest.authors,Chief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)
 EventGraveSearch.text,Near the grave is a plain wooden cross inscribed\n<i>{qst:QSTMOTHERNAME}</i>\nFrom the compacted soil, it seems her grave was desecrated several days ago.\nInside, the coffin has been broken open and the remains jumbled up with that of a deformed goat,\n\nTest {observation}\n
 EventGraveSearch.button1,Continue
@@ -216,8 +216,6 @@ EventSigilNeedMore.button1,Continue
 EventPlaceRitualSite.text,Place the square {c:TileRitual} Tile\n
 EventPlaceRitualSite.button1,Continue
 EventAttackAsk.button1,Continue with your Attack
-EventFireInteractSpread2.text,The blazing fire warms you up and in the extra light you find rations left by the campers.\nSoon, you are warm and well fed.\n\nYou may discard 1 facedown Damage
-EventFireInteractSpread2.button1,Continue
 TokenCampFire.text,The camp fire is slowly burning down.\nThere is a large log next to the fire.
 TokenCampFire.button1,{action} Add the large log to the fire
 EventFireInteract.text,It takes effort to tip the large log onto the fire.\nOnce it is blazing away, you improvise a torch.\n\nGain the {c:QItemTorch} Item
@@ -412,7 +410,7 @@ EventDarkYoungVanishes.text,The monster vanishes into the woods.\n\nRemove the D
 EventDarkYoungVanishes.button1,Continue
 CustomMonsterDarkYoung.monstername,DarkYoung
 CustomMonsterDarkYoung.info,-
-EventPlaceGravesTile.text,\nPlace the {c:TileGraves} Tile\n\nThe faint light from a spent candle flickers out.\n\n Place a Darkness Token on this Tile\nTreat all spaces on this Tile as if they contain a Darkness Token\n
+EventPlaceGravesTile.text,\nPlace the {c:TileGraves} Tile\n\nThe faint light from a spent candle flickers out.\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceGravesTile.button1,Continue
 EventPlaceTileGravesTokens.text,Before you is an open grave.\n\nPlace 1 Search Token as indicated
 EventPlaceTileGravesTokens.button1,Continue
