@@ -1,4 +1,4 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Obscure shades in a dense dark fog, twirling around large stones, chanting. \n\nThen flashes of light, splatters of red, screams of panic.\n\nYou awake disoriented and confused: \nWas this just a unsettling and incoherenet nightmare? Or vague memories of a terrible incident?\n
 UIIntroContinue.uitext,Open your eyes
 TokenAllyA.text,Ammi Pierce
@@ -665,7 +665,7 @@ EventGiveDagger.button2,Cancel
 PuzzlePainting.button1,Continue
 EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant matches that of the {c:QItemCultSigil}.\n\nGain 2 {clue} 
 EventPaintingA.button1,Continue
-EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting is signed <i>Bettina Beck</i>!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored or copied paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she limited knowledge of the occult.\n
+EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting is signed <i>Bettina Beck</i>!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored or copied paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult.\n
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
 EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.
