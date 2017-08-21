@@ -90,12 +90,12 @@ TokenToOperatingRoom.text,The door leads further into the cabin.
 TokenToOperatingRoom.button1,{action} Explore
 EventLetterResultMoreC.text,<i>Dearest Martha,\n\nYou hold your relative in high regard but do you not fear they may be a Dark Druid.\nThey've been in trouble with the law since childhood. They might be plotting to take over the leadership!\n\nYour friend thinks they are an occult expert but compared to me it is like the Moon compared to the Sun.\nOnly a true wiccan of great power can be trusted with the power of the sigil!\nI am the last of the Order of the White Druids.\n I have demonstrated both my loyalty and powers!\n\nYour true friend\nOthera Gilman\n</i>\nGain 1 {clue}
 EventLetterResultMoreC.button1,Continue
-EventLetterResult.text,The letter written to Martha Beck is clearly a warning.
+EventLetterResult.text,Inside one of the drawers, you find a letter written to Martha Beck.
 EventLetterResult.button1,Continue
 EventLetterResultMoreD.text,<i>\nDear Martha,\n\nYou hold your relative in high regard but can your sibling be trusted!\nThey've been in trouble with the law since childhood.\nThey might be a Dark Druid  plotting to take over the group!\n\nAs for other Druids, do you really think any of them know more than me!\nConsider the wonders beyond imagination I have shown you!\nI am the last of the Order of the White Druids.\nOnly I can be trusted with the sigil!\n\nYour true follower\nCorrina Jones\n</i>\nGain 1 {clue}
 QSTALLYDFIRSTNAME,Corrina
 EventLetterResultMoreD.button1,Continue
-TokenLetter.text,On the table is a letter addressed to Martha Beck.
+TokenLetter.text,The cabinet contains a number of draws.
 TokenLetter.button1,{action} Search
 EventLetterResultMoreA.text,<i>Martha Beck,\nHigh Priestess of the Venerable Order of Druids\n\nBlood is thicker than water but what do you rightly know about your sibling! \nThey've been in trouble with the law since childhood.\nI heard the orphanage burning down was no accident.\n\nCompared to me the other Druids know little!\nI am the last of the Order of the White Druids.\nI have revealed to you my true powerful magick.\nGive me the Sigil and I will keep it safe.\n\nYour obedient follower\nAmmi Pierce\n</i>\nGain 1 {clue}
 EventLetterResultMoreA.button1,Continue
@@ -162,9 +162,9 @@ EventJournal2.text,\nWhen her children started to grow, they started to show the
 EventJournal2.button1,Continue
 EventJournal1.text,\nYou open the cabinet and find\na journal written by Bettina Beck.\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nThrough her experimentation she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a description of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
 EventJournal1.button1,Continue
-TokenJournal.text,The cupboard is full of papers written in some kind of code.
+TokenJournal.text,The cabinet is full of papers.
 TokenJournal.button1,{action} Search
-EventLogCabinMonologue2.text,<i>The cabin was left empty after Martha's mother {qst:QSTMOTHERNAME} hung herself from the big oak tree in the woods!\n\nAwhile ago Martha cleaned the place up.\nShe had a close relative who wanted to stay.\nHer relative had being in trouble with the law from an early age and she wanted to give them a chance of a fresh start.</i>\n\nGain 1 {clue}
+EventLogCabinMonologue2.text,<i>The cabin was left empty after Martha's mother Bettina Beck hung herself from the big oak tree in the woods!\nLocals say Bettina was a murderer but after her suicide the sheriff covered things up for the sake of her orphaned children.\n\nAwhile ago Martha cleaned the place up.\nShe had a close relative who wanted to stay.\nHer relative had being in trouble with the law from an early age and she wanted to give them a chance of a fresh start.</i>\n\nGain 1 {clue}
 EventLogCabinMonologue2.button1,Continue
 EventAllyE2AboutRitual2.text,<i>But I do remember the following chant,\n\nIa!  Ia!  Shub-Niggarath!\nThe Black Goat of a Thousand Young!\nTake the power of the Ord na Darach Gile\nand bestow your blessing on all at this sacred site.\nFor the blessed will become your children!\n</i>\nGain 1 {clue}
 EventAllyE2AboutRitual2.button1,Continue
@@ -232,7 +232,7 @@ EventCaveDoorLocked1.text,As you rattle the door, a man shouts,\n<i>You're wasti
 EventCaveDoorLocked1.button1,Continue
 EventCaveDoorLocked2.text,You shout back\n<i>Mr Colt!  Sylvia Marsh sent me!</i>\n\nYou may either click the 'Fail' button\nor use an {action} to test ({influence},1)
 EventCaveDoorLocked2.button1,Pass
-TokenPorchDoor.text,Through a small grille in the door, you see it is bolted on the inside.\nA large rocking chair is propped up against the door and an old man is sitting on a bench.\n\nIf you are on the same space as this token,\nyou may click the 'Continue' button.\n
+TokenPorchDoor.text,\nThrough a small grille in the door, you see it is bolted on the inside.\nA large rocking chair is propped up against the door and an old man is sitting on a bench.\n\nIf you are on the same space as this token,\nyou may click the 'Continue' button.\n
 TokenPorchDoor.button1,Continue
 EventPorchDoorLocked1.text,You shout through the grille,\n<i>Let me in!</i>\n\nThe old man shout back in a frail voice,\n<i>Go away! \nFolks 'round here have no reason to trust a bunch of city slickers!\nShow me proof I can trust you!</i>
 EventPorchDoorLocked1.button1,Continue
@@ -253,7 +253,7 @@ EventPlaceCampFire.text,The small camp fire is starting to burn down.\nNext to i
 EventPlaceCampFire.button1,Continue
 TokenBridgeToCamp.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
 TokenBridgeToCamp.button1,Reveal
-EventPlaceCampTile.text,Light from a small camp fire illuminates the campsite next  to a fast flowing river.\n\nPlace the {c:TileCamp} and the {c:TileRapids} Tiles\n\nPlace a Darkness Token on both of these Tiles\n
+EventPlaceCampTile.text,Light from a small camp fire illuminates a campsite.\n\nPlace the {c:TileCamp} Tile\n
 EventPlaceCampTile.button1,Continue
 EventPlaceCampTileTokens.text,Place {var:countCampSights} Sight Token(s).\n
 EventPlaceCampTileTokens.button1,Continue
@@ -265,7 +265,7 @@ EventPlaceTent.button1,Continue
 TokenCaveEntranceToCamp.text,In the darkness you see a very faint glow of light.\n You may only click Reveal if you are in the same space as this Sight Token.
 TokenCaveEntranceToCamp.button1,Reveal
 TokenSolution.text,AllyA is {var:RoleAllyA}\nAllyB is {var:RoleAllyB}\nAllyC is {var:RoleAllyC}\nAllyD is {var:RoleAllyD}\nAllyA Lie is {var:RoleAllyALie}\nAllyB Lie is {var:RoleAllyBLie}\nAllyC Lie is {var:RoleAllyCLie}\nAllyD Lie is {var:RoleAllyDLie}\ncountSigil = {var:countSigil}\nWhoHasDagger = {var:WhoHasDagger}\nHeroes = {var:#heroes}
-TokenSolution.button1,Painting Clue
+TokenSolution.button1,Test
 EventPlaceAllyBMore.text,Next to the door is a piece of wood.\n\nPlace the {c:QItem2x4} Item on the space indicated
 EventPlaceAllyBMore.button1,Continue
 EventPlaceAllyB.text,The large man is holding in his right hand a torch.\nHe appears to be slightly drunk.\nHe greets you warmly,\n<i>Any friend of Sylvia is a friend of mine!</i>\n\nPlace the Eric Colt Ally Token on the space indicated
@@ -343,7 +343,7 @@ TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToGraves.button1,Reveal
 EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille. The old man unbolts and opens the door.\n\nAnother door on the other side of the porch leads further into the log cabin.\n\nPlace 1 Explore Token
 EventPlacePorchTokens.button1,Continue
-EventPlaceLetter.text,On the table is a letter.\n\nPlace 1 Search Token as indicated.
+EventPlaceLetter.text,A large cabinet is up against the wall.\n\nPlace 1 Search Token as indicated.
 EventPlaceLetter.button1,Continue
 TokenPorchToObservation.text,The door is locked with a solid high quality 3 digit combination padlock.\nYou may be able to hear the click of the tumbers.
 TokenPorchToObservation.button1,{action} Pick Lock
@@ -428,7 +428,7 @@ TokenShackToPorch.text, In the dim light you cannot see far.\nYou may only click
 TokenShackToPorch.button1,Continue
 EventPlaceCaveEntranceTokens.text,Place 1 Explore Token and\n{var:countCaveSights} Sight Token(s).\n
 EventPlaceCaveEntranceTokens.button1,Continue
-TokenBridgeToRapids.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
+TokenBridgeToRapids.text,In the darkness you cannot see far.\nYou may only click Reveal if you are in the same space as this Sight Token.
 TokenBridgeToRapids.button1,Reveal
 TokenCellarToShack.text,{qst:QSTRESTRICTSIGHT}
 TokenCellarToShack.button1,Reveal
@@ -467,7 +467,6 @@ EventGiveSigilToFriend2D.text,Corrina Jones says,\n<i>Keep the sigil safe.\nWhen
 EventGiveSigilToFriend2B.button1,Continue
 EventGiveSigilToFriend2C.button1,Continue
 EventGiveSigilToFriend2D.button1,Continue
-EventFinale1.button1,Continue
 EventGiveSigilAsk.button1,Continue
 EventGiveSigilConfirmed.button1,Continue
 EventGiveSigilAsk.text,One of the Druids could be a powerful Dark Druid.\nAre you sure you want to continue?\n\nYou must click the 'Cancel' button\nif your Investigator does not possess the {c:QItemCultSigil} Item
@@ -480,17 +479,22 @@ EventGiveDaggerFound.text,The Druid takes the {c:QItemDagger}\nand carefully exa
 EventGiveDaggerFound.button1,Continue
 EventGiveDagger.text,You may only click the 'Continue' button\nif you have the {c:QItemDagger} Item
 EventFinale1.text,You place the sigil upon the stone.\n\nThe ancient stones start to hum with a strange unearthly energy.\n
-EventFinale2.text,The White Druid appears and cries out,\n<i>O ancient stones harken to the song\nof the last Bard of the Ord na Darach Gile!</i>\n\nAnd the Druid begins to sing...
+EventFinale1.button1,Continue
+EventFinale2.text,The White Druid appears and cries out,\n<i>O ancient stones harken to the song\nof the last Bard of the Ord na Darach Gile!</i>\n
 EventFinale2.button1,Continue
-EventFinale3.text,The song is weak.\nIt becomes discordant when - one by one - \nthe Children of the Goat and the Goat Spawn emerge from the trees and drown out the chant with harsh unpleasant grating bleating!\nThe strange deformed creatures attempt to dance.\n\nEnraged by the cacophony of noise, \na huge Dark Young Monster charges towards you..\n
+EventFinale3.text,And the Druid begins to sing...\n\nThe song becomes discordant when - one by one - \nthe Children of the Goat and the Goat Spawn emerge from the trees and join in the chant with harsh unpleasant bleating!\n
 EventFinale3.button1,Continue
-EventFinale4.text,Suddenly the Dark Young creature stands stock still.\n\nThe voices of the dancing creatures change.\nA song in a lilting dialect of Celtic begins to take shape.\nThe sound of eerie, forlorn and yet hauntingly beautiful singing seems to be coming from within the stones and trees themselves!\n\nOne by one the creatures synchronise their movements until they are dancing and twirling in perfect unison\nin a reel too complex for you to follow...\ndancing between the stones and around the frozen huge Dark Young creature.\n\n And - one by one - they vanish.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n\nThe forest is filled with peace.\n
+EventFinale4.text,The voices of the dancing creatures change.\nThe sound of eerie, forlorn and yet hauntingly beautiful singing seems to be coming from within the stones and trees themselves!
 EventFinale4.button1,Continue
+EventFinale5.text,\n\nOne by one the creatures synchronise their movements until they are dancing and twirling in perfect unison\nin a reel too complex for you to follow...\ndancing between the stones.\n\n And - one by one - they vanish.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n
+EventFinale5.button1,Continue
+EventFinale6.text,\nYou search for the dancers, the Bard, or any of the Druids.\n\nYou find no traces of them.\n\nYou set fire to the log cabin...\ndestroying the last traces of the Beck family history.\nIt seems the right thing to do.\n
+EventFinale6.button1,Continue
+EventFinale7.text,\nYou walk across the covered bridge.\nA distant sound makes you turn around.\nYou hear - coming from the direction of the ritual stone - the erie but beautiful song.\nThe last and final song of the last Bard of the Ord na Darach Gile.\n\nYou listen while watching the smoke rise above the trees.\nThen you walk away.\n\nThe End
+EventFinale7.button1,The End
+EventFinale7.button2,Check the Story (MAJOR SPOILERS)
 EventGiveDaggerNovice.text,The Druid says,\n<i>Oh now I recognise this!\nIt is the long lost language of the Ord na Darach Gile.\nThey died out long ago.\nI'm sorry!\nThere is no one alive who can read these runes!\n</i>
 EventGiveDaggerNovice.button1,Continue
-EventFinale5.text,\nYou search for the dancers, the Bard, or any of the Druids.\n\nYou find no traces of them.\n\nBefore you leave you set fire to Dark Young creature.\nYou set fire to the log cabin\nto destroy the last traces of the Beck family history.\nIt seems the right thing to do.\n\nYou walk across the covered bridge.\nA faint distant sound makes you turn around.\nYou think you hear - coming from the direction of the ritual stone - an erie but beautiful song.\n\n You listen while watching the last of the smoke rise above the trees.\n\nThen you walk away.\n\nThe End
-EventFinale5.button1,The End
-EventFinale5.button2,Check the Story (MAJOR SPOILERS)
 EventAttackAsk.text,{qst:QSTALLYENAME} has told you one of the Druids may be willing to help,\n\nAre you sure you want to continue with your attack?
 EventAttackConfirmedA.button1,Continue
 EventAttackAsk.button2,Cancel your Attack
@@ -498,14 +502,14 @@ EventAllyE2AboutCultA.text,<i>I'd keep a close eye on old man Pierce!\nFolks rou
 EventAllyE2AboutCultA.button1,Continue
 EventAllyE2AboutCultC.text,<i>I'd keep a close eye on Othera Gilman.\nLocals fear her!\nShe has a reputation as a powerful witch! \nShe even boasts about it!</i>\n\nGain 1 {clue}
 EventAllyE2AboutCultC.button1,Continue
-EventPlaceOak.text,The branches of a giant knarled old oak tree\ntowers over you. \n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror
+EventPlaceOak.text,The branches of a giant knarled old oak tree\ntowers over you. \n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave you come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror
 EventPlaceOak.button1,Continue
 EventSigilReady.text,You speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, you may discard 1 facedown Damage
 EventAllyAIsWarlock.button1,Continue
 EventAllyAIsWarlock.text,<i>The Pierce and the Beck family have always been close.\nThere's gossip about deformities caused by inter-breeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 2 {clue}
 EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 2 {clue}
 EventAllyBIsWarlock.button1,Continue
-EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with {qst:QSTMOTHERNAME}.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\{qst:QSTALLYCNAME} will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers.</i>\n\nGain 2 {clue}
+EventAllyCIsWarlock.text,\n<i>{qst:QSTFATHERFIRSTNAME} Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with {qst:QSTMOTHERNAME}.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\{qst:QSTALLYCNAME} will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers.</i>\n\nGain 2 {clue}
 EventAllyCIsWarlock.button1,Continue
 EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, the father of Mrs {qst:QSTALLYDNAME}, was the father of Martha Beck.\nCorrina and Martha were sisters but this was kept hidden because {qst:QSTALLYDFIRSTNAME} was born out of wedlock.\nThe sigil you have was owned by Martha's mother {qst:QSTMOTHERNAME} and passed onto Martha.\nShe obtained it after {qst:QSTFATHERFIRSTNAME} died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n</i>\nGain 2 {clue}
 EventAllyDIsWarlock.button1,Continue
@@ -661,7 +665,7 @@ EventGiveDagger.button2,Cancel
 PuzzlePainting.button1,Continue
 EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant matches that of the {c:QItemCultSigil}.\n\nGain 2 {clue} 
 EventPaintingA.button1,Continue
-EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting is signed <i>Bettina Beck</i>!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored or copied paintings done by Bettina Beck and passed them off as her own!\n\nSince the pendant does not match the {c:QItemCultSigil}, it is clear she has made serious mistakes in her restorations and has limited knowledge of it.\n
+EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting is signed <i>Bettina Beck</i>!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored or copied paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she limited knowledge of the occult.\n
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
 EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.
@@ -733,10 +737,9 @@ EventDarkYoungD.button1,Continue
 EventDarkYoungSpawnMove.text,Is an Investigator in an Outdoor space in range of the Dark Young Monster?
 EventDarkYoungSpawnMove.button1,Yes
 EventDarkYoungSpawnMove.button2,No
-SpawnDarkYoung.text,{qst:QSTSPAWNDARKYOUNG} 
 EventSpawnDarkYoung2.button1,Continue
 EventSpawnDarkYoung2.button2,No
-EventPlaceJournal.text,In the far corner is a cupboard full of papers.\n\nPlace a Search Token as indicated.
+EventPlaceJournal.text,In the far corner is a cabinet full of papers.\n\nPlace a Search Token as indicated.
 EventPlaceJournal.button1,Continue
 SpawnGoatSpawn2.text,Spawn a Goat Spawn Monster on the space indicated
 SpawnGoatSpawn2.button1,Continue
@@ -786,3 +789,7 @@ EventAllyCloseFriendFemale.text,<i>Her and Martha were best friends.\nTheir clos
 EventCrateSearch.button2,Fail
 EventCrateSearchFail.text,The books and scrolls have been damaged by the damp.\nYou cannot read many of the words.
 EventCrateSearchFail.button1,Continue
+TokenCampToRapids.text,The light from the camp fire illuminates a fast flowing river.\n\nYou may click Reveal if you are on any space on the {c:TileCamp} Tile
+TokenCampToRapids.button1,Continue
+EventPlaceRapidsTile.text,Place the {c:TileRapids} Tile\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceRapidsTile.button1,Continue
