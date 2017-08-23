@@ -14,7 +14,7 @@ QSTFATHERFIRSTNAME,John
 QSTALLYCNAME,Othera Gilman
 QSTALLYBNAME,Eric Colt
 QSTALLYDNAME,Corrina Jones
-QSTPLACEDARKNESS,Place a Darkness Token on a Border as indicated.\nTreat all spaces on this Tile as if they contain a Darkness Token.
+QSTPLACEDARKNESS,Place a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.
 QSTSPAWNDARKYOUNG,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated.
 TokenAllyC.text,Othera Gilman
 TokenAllyC.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
