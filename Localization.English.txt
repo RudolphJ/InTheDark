@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Obscure shades in a dense dark fog, twirling around large stones, chanting. \n\nThen flashes of light, splatters of red, screams of panic.\n\nYou awake disoriented and confused: \nWas this just a unsettling and incoherenet nightmare? Or vague memories of a terrible incident?\n
 UIIntroContinue.uitext,Open your eyes
 TokenAllyA.text,Ammi Pierce
@@ -249,7 +249,7 @@ TokenCampToBridge.text,The light from the camp fire illuminates a covered bridge
 TokenCampToBridge.button1,Reveal
 EventPlaceBridgeTile.text,A ramsuckle covered wooden bridge spans a river.\nThe water glistens in the feeble moonlight.\n\nPlace the large {c:TileBridge} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceBridgeTile.button1,Continue
-EventPlaceCampFire.text,The small camp fire is starting to burn down.\nNext to it is a small log and a large log.\nWhen you toss the small log onto it, it starts to glow again.\n\nPlace 1 Interact Token in this space\nTreat the Token as a Light Source
+EventPlaceCampFire.text,The small camp fire is starting to burn down.\nNext to it is a small log and a large log.\nWhen you toss the small log onto it, it starts to glow again.\n\nPlace 1 Interact Token on this space\nTreat the Token as a Light Source
 EventPlaceCampFire.button1,Continue
 TokenBridgeToCamp.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
 TokenBridgeToCamp.button1,Reveal
@@ -392,9 +392,9 @@ QSTALLYESURNAME,Marsh
 QSTALLYEFIRSTNAME,Sylvia
 EventMoveIn.text,You may move 1 space into this space
 EventMoveIn.button1,Continue
-EventDarkYoungRetreat.text,\nThe monster moves 1 space East.\nIf it cannot move to an adjacent space East, it will instead move to an adjacent space South.\n\nIs it on a space where there is no space East of the space it is on?\nIs it on the Eastern edge of the Game Board?\n
-EventDarkYoungRetreat.button1,Yes, the Monster has reached the edge
-EventDarkYoungRetreat.button2,No, it is not on the edge
+EventDarkYoungRetreat.text,\nThe monster moves 1 space East.\nIf it cannot move to an adjacent space East, it will instead move to an adjacent space South.\nIt cannot move across a dashed yellow line.\n\nWas the monster able to move one space?\n
+EventDarkYoungRetreat.button1,Yes, the Monster was able to move
+EventDarkYoungRetreat.button2,No, it is on the edge of the board
 EventDarkYoungAttack2.text,The creature twists and writhes, slamming its massive tentacles down upon you.\n\nSuffer {var:SufferDamage} Damage ({strength}+1 Negates).
 EventDarkYoungAttack2.button1,Continue
 EventDarkYoungAttack1.text,The creature tries to grab you with its massive tenracles.\n\n Test ({agility}; 1)
@@ -457,7 +457,7 @@ EventGiveSigilToFriend1.button1,Continue
 EventGiveSigilToFriend2A.text,Ammi Pierce stands up and says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me !</i> \n
 EventGiveSigilToRole1.text,The Druid's stare is mesmerising and the Druid cries out,\n<i>Hand me the sigil!\nI command it!</i>\nYou have an overpowering compulsion to hand it over\n\nHolding up the sigil, the Druid says,<i>\nI am the child of the High Priestess of the Dark Druids - Bettina Beck!\nNow, at last, I can fulfil her legacy and complete the blessing of the blood of the Black Goat</i>!\n
 EventGiveSigilToRole1.button1,Continue
-EventGiveSigilToRole2.text,The Druid says,<i>\nYou were wise not to give this to\n the unworthy fool who failed to complete the ritual!\n Now I shall use it to gain high standing with the Marsh family!</i>\n\nThe Priest makes a complex hand movement.\nThe runes on the sigil glow more brightly.\nA poisonous mist fills this room.\n\nAll investigators in the room suffer {var:SufferDamage} Damage ({strength} Negates)
+EventGiveSigilToRole2.text,The Druid says,<i>\nYou were wise not to give this to\n the unworthy fool who failed to complete the ritual!\n\nThe Druid makes a complex hand movement.\nThe runes on the sigil glow more brightly.\nA poisonous mist fills this room.\n\nAll investigators in the room suffer {var:SufferDamage} Damage ({strength} Negates)
 EventGiveSigilToRole2.button1,Continue
 EventGiveSigilInactive.text,The Druid looks at the {c:QItemCultSigil} and says,\n<i>This is key to undoing what has been done.</i>\n\nThe Druid makes a complex hand movement over it.\nAfter a few moments, the Druid says,\n <i>I'm sorry!\nUntil we learn more, the counter spell cannot be cast! </i>\n
 EventGiveSigilInactive.button1,Continue
@@ -511,7 +511,7 @@ EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, da
 EventAllyBIsWarlock.button1,Continue
 EventAllyCIsWarlock.text,\n<i>{qst:QSTFATHERFIRSTNAME} Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with {qst:QSTMOTHERNAME}.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\{qst:QSTALLYCNAME} will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers.</i>\n\nGain 2 {clue}
 EventAllyCIsWarlock.button1,Continue
-EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, the father of Mrs {qst:QSTALLYDNAME}, was the father of Martha Beck.\nCorrina and Martha were sisters but this was kept hidden because {qst:QSTALLYDFIRSTNAME} was born out of wedlock.\nThe sigil you have was owned by Martha's mother {qst:QSTMOTHERNAME} and passed onto Martha.\nShe obtained it after {qst:QSTFATHERFIRSTNAME} died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n</i>\nGain 2 {clue}
+EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, the father of Mrs {qst:QSTALLYDNAME}, was the father of Martha Beck.\nCorrina and Martha were sisters but this was kept hidden because {qst:QSTALLYDFIRSTNAME} was born out of wedlock.  The sigil you have was owned by Martha's mother {qst:QSTMOTHERNAME} and passed onto Martha.\nShe obtained it after {qst:QSTFATHERFIRSTNAME} died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n</i>\nGain 2 {clue}\n
 EventAllyDIsWarlock.button1,Continue
 EventAlreadyTold.text,<i>I've already told you all I know!</i>
 EventAlreadyTold.button1,Continue
@@ -554,7 +554,7 @@ EventAllyCIsEnemyMore.button1,Continue
 EventAllyCIsEnemyMore.text,<i>{qst:QSTALLYDNAME} and Martha did not get on with each other.</i>
 EventAllyDIsEnemyMore.text,<i>{qst:QSTALLYCNAME} believed Martha shut her out.</i>
 EventAllyDIsEnemyMore.button1,Continue
-EventGiveSigilToRole2More.text,Suddenly, the Druid cries out in pain.\nThe sigil glows red hot and you drop it.\n\nPlace the {c:QItemCultSigil} Item on your space
+EventGiveSigilToRole2More.text,The Druid grabs the sigil but it glows red hot and the Druid drops it.\n\nPlace the {c:QItemCultSigil} Item on your space\n
 EventGiveSigilToRole2More.button1,Continue
 EventWizardDefeated.text,The Dark Druid falls to the ground.\n\nOn the body you find a {c:QItemDagger}.\n\nPlace the {c:QItemDagger} Item\non the last space The Dark Druid Monster was on \n\nTreat the {c:QItemDagger} as a Key Item
 EventWizardDefeated.button1,Continue
@@ -721,7 +721,7 @@ EventCellarTestFailed.text,The woman shouts,\n<i>You are no friends of the Druid
 EventCellarTestFailed.button1,Continue
 EventDarkYoungGrab.text,The creature tries to grab you with its tentacles and drag you into the forest.\nTest ({agility}:1)\n\nIf you fail, suffer 1 Damage and move the Dark Young Monster and your figures up to 2 spaces East.
 EventDarkYoungGrab.button1,Continue
-EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA loud humming sound eminates from the stone and the stone becomes warm to the touch.\n\nThere is something needed before the ritual can begin.\n
+EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA loud humming sound eminates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltaine ritual can begin.\n
 EventFinaleNoFire.button1,Continue
 EventCaveDoorLocked2.button2,Fail
 EventCaveDoorLockedFail.text,The man shouts back,\n<i>I ain't convinced you can be trusted!</i>
@@ -793,3 +793,5 @@ TokenCampToRapids.text,The light from the camp fire illuminates a fast flowing r
 TokenCampToRapids.button1,Continue
 EventPlaceRapidsTile.text,Place the {c:TileRapids} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceRapidsTile.button1,Continue
+EventCampFireGoesOut.text,The camp fire burns itself out.\nRemove the Camp Fire Interact Token.\n\nPlace a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.\n\nIf there are no Fire Tokens on the board, click the 'Set' button and set the Fire Indicator to Off.
+EventCampFireGoesOut.button1,Continue

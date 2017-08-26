@@ -1,7 +1,7 @@
 # In the Dark
 Scenario for Valkyrie and Mansions of Madness, 2 edition
 
-CHANGES DONE
+CHANGES DONE 1
 
 1. Asking about the Ritual
 Made slightly more random.
@@ -31,3 +31,38 @@ Added test for the searching of the crate
 
 7. Ghost of Bettina
 Fixed reference to husband and step-sister.
+
+
+CHANGES DONE 2
+
+1. Painting
+Incremented countSigil for all events triggered by solving the painting.
+
+2. Give Sigil to Role 2
+Redid the text so the Druid grabs the sigil and drops it.
+
+3. EventPlaceRitualSite
+Added a repeat of WhoHasDagger,=,#rand3 as currently the randomizer seems to favour the number 1 when Valkyrie is run for the first time.
+
+4. Camp Fire
+The camp fire goes out at the end of the MajorMythosRound.
+This can have a significant effect on the finale.
+
+5. Spawned Dark Young at Graveyard
+Monster spawned in the rightmost space.
+
+6. Simplified the Dark Young Retreat
+[EventDarkYoungRetreat]
+Text is simplified and the question reversed.
+
+
+
+
+
+
+
+
+
+
+
+
