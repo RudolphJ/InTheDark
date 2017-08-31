@@ -56,12 +56,37 @@ Monster spawned in the rightmost space.
 Text is simplified and the question reversed.
 
 
+CHANGES DONE 3
 
 
+1.  Grave Stone Added
+Text about Bettina moved from Grave to Grave Stone.
 
+2.  Grave Search
+Body of the Druid Matt Barker replaces unknown hiker.
 
+3.  Matt Barker added as a Druid
+The question 'When did you last see Matt Barker' added to each ally.
 
+4.  Zombie Druid Added
+If there are more than 3 investigators, Zombie Druid added with very low health.  Now, players who like combat have something extra to kill.
 
+5. Fire
+Yet more hints added about the Beltane ritual. 
+
+6. Dark Young Retreat made faster
+EventDarkYoungRetreat text changed to following to speed up it getting to the Forest from the Shack.
+	The monster moves 1 space East.
+	If it cannot move to an adjacent space East, it will 	instead move to an adjacent space South.
+	Then, after the first move, the monster moves 1 space 	East.
+	It cannot move across a dashed yellow line.
+	Did the monster move at least one space?
+		Yes, the Monster moved at least one space
+		No, it did not move even one space
+
+7.Added check for Dagger Found to spawning at the Shack\Graves
+EventSpawnDarkYoungOther added check DaggerFound,==,0.
+Once the dagger is found the monster gets to the ritual site for the big finale.
 
 
 
