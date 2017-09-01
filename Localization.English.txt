@@ -1,55 +1,60 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Obscure shades in a dense dark fog, twirling around large stones, chanting. \n\nThen flashes of light, splatters of red, screams of panic.\n\nYou awake disoriented and confused: \nWas this just a unsettling and incoherenet nightmare? Or vague memories of a terrible incident?\n
 UIIntroContinue.uitext,Open your eyes
-TokenAllyA.text,Ammi Pierce
-TokenAllyA.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyA.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyA.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyA.button4,{action} <i>What happened at the ritual?</i>
-TokenAllyA.button5,{action} <i>Who owns this log cabin?</i>
-TokenAllyA.button6,{action} Attack Ammi Pierce
-TokenAllyA.button7,Show the Cult Sigil
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
 QSTALLYCNAME,Othera Gilman
 QSTALLYBNAME,Eric Colt
 QSTALLYDNAME,Corrina Jones
+QSTNOVICENAME,Matt Barker
 QSTPLACEDARKNESS,Place a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.
 QSTSPAWNDARKYOUNG,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated.
-TokenAllyC.text,Othera Gilman
-TokenAllyC.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyC.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyC.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyC.button4,{action} <i>What happened at the ritual?</i>
-TokenAllyC.button5,{action} <i>Tell me about the Marsh family</i>
-TokenAllyC.button6,{action} Attack Othera Gilman
-TokenAllyC.button7,Show Othera Gilman the Cult Sigil
+TokenAllyA.text,Ammi Pierce
+TokenAllyA.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
+TokenAllyA.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
+TokenAllyA.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
+TokenAllyA.button4,{action} <i>When did you last see Matt Barker?</i>
+TokenAllyA.button5,{action} <i>What happened at the ritual?</i>
+TokenAllyA.button6,{action} <i>Who owns this log cabin?</i>
+TokenAllyA.button7,{action} Attack Ammi Pierce
+TokenAllyA.button8,Show the Cult Sigil
 TokenAllyB.text,Eric Colt
 TokenAllyB.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
 TokenAllyB.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
 TokenAllyB.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyB.button4,{action} <i>What happened at the ritual?</i>
-TokenAllyB.button5,{action} Attack Eric Colt
-TokenAllyB.button6,Show Eric Colt the Cult Sigil
+TokenAllyB.button4,{action} <i>When did you last see Matt Barker?</i>
+TokenAllyB.button5,{action} <i>What happened at the ritual?</i>
+TokenAllyB.button6,{action} Attack Eric Colt
+TokenAllyB.button7,Show Eric Colt the Cult Sigil
+TokenAllyC.text,Othera Gilman
+TokenAllyC.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
+TokenAllyC.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
+TokenAllyC.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
+TokenAllyC.button4,{action} <i>When did you last see Matt Barker?</i>
+TokenAllyC.button5,{action} <i>What happened at the ritual?</i>
+TokenAllyC.button6,{action} <i>Tell me about the Marsh family</i>
+TokenAllyC.button7,{action} Attack Othera Gilman
+TokenAllyC.button8,Show Othera Gilman the Cult Sigil
 TokenAllyD.text,Corrina Jones
 TokenAllyD.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
 TokenAllyD.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyD.button3,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyD.button4,{action} <i>What happened at the ritual?</i>
-TokenAllyD.button5,{action} Attack Corrina Jones
-TokenAllyD.button6,Show Corrina Jones the Cult Sigil
+TokenAllyD.button4,{action} <i>When did you last see Matt Barker?</i>
+TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
+TokenAllyD.button6,{action} Attack Corrina Jones
+TokenAllyD.button7,Show Corrina Jones the Cult Sigil
 quest.name,In the Dark
 quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest is a clearing.\nPale moonlight illuminates a stone circle.\nYou awake within the circle dazed and confused.\nAll you remember is something terrible happened here!\nYou fear whatever you witnessed was too horrific for your mind to deal with!\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
 quest.authors,Chief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)
-EventGraveSearch.text,Near the grave is a plain wooden cross inscribed\n<i>{qst:QSTMOTHERNAME}</i>\nFrom the compacted soil, it seems her grave was desecrated several days ago.\nInside, the coffin has been broken open and the remains jumbled up with that of a deformed goat,\n\nTest {observation}\n
+EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}\n\nIf you attempt the puzzle, you gain 2 extra Puzzle Steps if you possess the {c:QItemJournal} Item\n and, in addition, 1 extra Puzzle Step if you have an Evidence Item.\n
 TokenPainting.button1,{action} Attempt Puzzle
-EventGraveSearchTrail1.text,\nThere are two corpses.\nOne is long buried and female and the other recent and a male hiker.\n\nThe hiker died in the process of transforming into Goat Spawn.  There is evidence someone performed some kind of bizare medical experiment on him.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
+EventGraveSearchTrail1.text,\nCovered by bones and a thin layer of earth is a body of a young man.\nHis jacket has a label sewn into it <i>M. Barker</i>.\n\nThe young man died in the process of transforming into Goat Spawn.  Someone within the last few days performed some kind of bizare medical experiment.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
 EventGraveSearchTrail1.button1,Continue
-EventGraveSearchTrail2.text,There is a coffin and a wooden crate.\nThe coffin has been desecrated and contains a middle aged woman who died long ago.\nThe crate contains the remains of a male hiker who died in the process of transforming into Goat Spawn.\nThere is evidence someone performed some bizare kind of bizare medical experiment on him.\nFrom the state of his remains, you infer someone recently dumped the wooden crate in this grave.\nTraces of saltpeter in the crate indicates it was stored underground.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}
+EventGraveSearchTrail2.text,\nCovered by bones and a thin layer of earth is a the body of a young man.\nHis jacket has a label sewn into it <i>M. Barker</i>.\nSomeone performed some bizare kind of bizare medical experiment on him.\nBuried beside him is a wooden crate containing a half goat and half human baby.\nTraces of saltpeter in the crate indicates the crate was stored underground.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}
 EventGraveSearchTrail2.button1,Continue
-TokenGrave.text,The grave contains remains of some kind of herd animal.
+TokenGrave.text,The grave contains piles of bones of deformed goats
 TokenGrave.button1,{action} Explore
 EventOak.text,You may either click the Cancel button or climb the tree.\n\nIf you climb, determine which of your skills is the lowest of {observation} and {agility}.\nThen test the <b>lowest</b> of these skills.\nAdd 2 extra dice if you have the {c:QItemRope} Item.
 EventOak.button1,Pass
@@ -117,12 +122,12 @@ EventAllyAMonologue.text,<i>I've being around awhile and seen things you couldn'
 EventAllyAMonologue.button1,Continue
 EventAllyNotRole4.text,<i>Our order of druids is ancient and sworn to do no harm.\nThe Beltane Fire ceremony celebrates the coming of the new spring.\nOne of us got the words all wrong and a demon was summoned from hell!\nThe demon grabbed Martha and dragged her eastward to a gateway to hell!\nGive me the sigil!\n  I can banish the demon back from whence it came!\n</i>
 EventAllyNotRole4.button1,Continue
-EventAllyNotRole3.text,\n<i>We have an evil Dark Druid in our midst who changed the words of the Beltane Fire Ritual.\nThe servant of Shub-Niggurath carried out a blood pact ritual to transform us into Goat Spawn!\nMartha was taken as a blood sacrifice by a spawn of Shub-Niggurath.\nShe was dragged eastwards into the forest. \nThe other Druids are fools or liars!</i>\n
+EventAllyNotRole3.text,\n<i>The Beltane ritual celebrates the coming of Spring with the lighting of a fire.\nWe have an evil Dark Druid in our midst who changed the words of the ancient ritual.\nThe servant of Shub-Niggurath carried out a blood pact ritual to transform us into Goat Spawn!\nMartha was taken as a blood sacrifice by a spawn of Shub-Niggurath.\nShe was dragged eastwards into the forest. \nThe other Druids are fools or liars!</i>\n
 EventAllyNotRole3.button1,Continue
 EventAllyNotRole1.button1,Continue
 EventLogCabinMonologue1.text,<i>Martha owned this place.\nIt's more solid than it looks and the lights work!</i>
 EventLogCabinMonologue1.button1,Continue
-EventAllyNotRole1.text,<i>I was not standing by the ritual stone when Martha was killed!\nI remember you ran past me.\n</i>\nYou have a flashback of a woman being stabbed with an ornate dagger and falling forwards onto the sigil on the ritual stone.\nHer screaming drowns out the chanting.\n\nTwo robed figures are standing next to her.\nTwo figures are standing further back and are not near Martha.
+EventAllyNotRole1.text,<i>\nI was not standing by the ritual stone when Martha was killed!\nI remember you ran past me.\n</i>\nYou have a flashback of a woman being stabbed with an ornate dagger and falling forwards onto the sigil on the ritual stone.\nTwo robed figures are standing next to her.\nTwo figures are standing further back and are not near Martha.
 EventAllyNotRole1Again.text,<i>I was nowhere near Martha when she was stabbed with the dagger and collapsed onto the ritual stone.\nI was standing too far back to have reached her and you ran past me.\nYou recall two Druids standing further back from the others.</i>
 EventAllyNotRole1Again.button1,Continue
 EventAllyNotRole1MoreD.text,The white robes of one of the figures standing further back was stained by colors which could have been paint stains.\nThe figure was holding a paint-brush in their right hand.\n\nGain 1 {clue}\n
@@ -168,24 +173,24 @@ EventLogCabinMonologue2.text,<i>The cabin was left empty after Martha's mother B
 EventLogCabinMonologue2.button1,Continue
 EventAllyE2AboutRitual2.text,<i>But I do remember the following chant,\n\nIa!  Ia!  Shub-Niggarath!\nThe Black Goat of a Thousand Young!\nTake the power of the Ord na Darach Gile\nand bestow your blessing on all at this sacred site.\nFor the blessed will become your children!\n</i>\nGain 1 {clue}
 EventAllyE2AboutRitual2.button1,Continue
-EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane Fire ritual.\nFor many years, at the end of April, the Druids performed the same ritual to celebrate the coming of new spring.\nOut of the blue, Martha insisted they learn a more complex version.\nMartha's friend and another Druid kept on messing up or changing the words but Martha refused to do anything about it.</i>
+EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane ritual.\nFor many years, at the end of April, the Druids performed the same ritual to celebrate the coming of new spring.\nOut of the blue, Martha insisted they learn a more complex version.\nIt was so new and confusing, the novice Matt was told not to join in on the chant.\nMartha's friend and another Druid kept on messing up or changing the words but Martha refused to do anything about it.</i>
 EventAllyE2AboutCult2.button1,Continue
 TokenAllyE2.text, {qst:QSTALLYENAME}
 TokenAllyE2.button1,{action}<i>What do you know about the Druids?</i>
 TokenAllyE2.button2,{action} <i>What happened at the Ritual?</i>
-EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her.\nThe others were further back.</i>
+EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her.\nThe others were further back.</i>
 EventAllyE2AboutRitual1.button1,Continue
 EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey often do charity work and help out at the church and the local orphanage.\n\nColt reckoned the group was going to split up.\nThis was likely to be their last gathering.\nThere were rumors a powerful Dark Druid had infiltrated the order and had turned one of the others!\n</i>
 EventAllyE2AboutCult1.button1,Continue
-EventAllyE1Monologue4.text,<i>I'm not staying out in the open.\n\nHere, take the sigil!\nThe runes have stopped glowing.\nOnce they glow again, return it to me.\nIt's worth inspecting the item from time to time.\nMaybe one of the Druids can help.\n</i>\nGain the {c:QItemCultSigil} Item\n\nGain 2 {clue}\n\nYou may inspect this Item by clicking the 'Items' button
+EventAllyE1Monologue4.text,<i>\nHere, take the sigil!\nThe runes have stopped glowing.\nOnce they glow again, return it to me.\nIt's worth inspecting the item from time to time.\nMaybe one of the Druids can help.\n</i>\nGain the {c:QItemCultSigil} Item\n\nGain 2 {clue}\n\nYou may inspect this Item by clicking the 'Items' button
 EventAllyE1Monologue4.button1,Continue
 EventAllyE1MonologueEnd.text,Sylvia Marsh runs into the Covered Bridge.\n\nRemove the Orange Woman Ally Token\nPlace the Sylvia Marsh Ally Token on the space indicated\n
 EventAllyE1MonologueEnd.button1,Continue
-EventAllyA1Monologue3.text,<i>\nBy the time we got here, things had gone to hell in a handbasket.\nOn the stone was the sigil with runes glowing red.\nI remember Martha in her headband of ivy and mistletoe crying out the Green Man rules the forest.\n\nWe rushed in but we were too late.\nSomething huge emerged from the fog and dragged poor Martha Beck away!\n\nI guessed the sigil was important, grabbed it and ran!\nOne of the Druids helped me escape.\n</i>
+EventAllyA1Monologue3.text,<i>\nBy the time we got here, things had gone to hell in a handbasket.\nA dense fog covered the area.\nOn the stone was the sigil with runes glowing red.\nI remember Martha in her headband of ivy and mistletoe crying out the Green Man rules the forest.\n\nWe rushed in but we were too late.\nSomething huge emerged from the fog and dragged poor Martha Beck away!\n\nI guessed the sigil was important, grabbed it and ran!\nOne of the Druids helped me escape.\n</i>
 EventAllyA1Monologue3.button1,Continue
-EventAllyE1Monologue2.text,<i>\nOn May eve they perform the Celtic Beltane Fire ritual to celebrate the coming of spring.\nThe locals regard them as strange but good.\nMaybe most of the Druids are good but one of them is a Dark Druid and a powerful wizard!\nAn unnatural fog delayed us finding the stone circle.</i>\n
+EventAllyE1Monologue2.text,<i>\nOn May eve they perform the Celtic Beltane ritual and light a fire to celebrate the coming of spring.\nThe locals regard them as strange but good.\nMaybe most of the Druids are good but one of them is a Dark Druid and a powerful wizard!\n\nMatt Barker is a bit enamored of me and agreed to meet  us tonight and act as our guide but he never turned up.\nMaybe you can find out what happened to him?\n</i>
 EventAllyE1Monologue2.button1,Continue
-EventAllyE1Monologue1.text,<i>Don't you recognise your friend and guide?\nI'm Sylvia Marsh.\n\nDon't you remember me helping you to investigate the Druids?\nI gained the trust of the big lug Eric Colt and from him I learnt about the others.\n\nAmmi Pierce is a strange old-timer.\nOthera Gilman proclaims herself to be a powerful witch. Corrina Jones is an avant-garde painter.\nMartha Beck is their less than popular High Priestess.</i>
+EventAllyE1Monologue1.text,<i>Don't you recognise your friend, Sylvia Marsh.\nDon't you remember me helping you to investigate the Druids?\nI gained the trust of the big lug Eric Colt and from him I learnt about the others.\n\nAmmi Pierce is a strange old-timer.\nOthera Gilman proclaims herself to be a powerful witch. Corrina Jones is an avant-garde painter.\n{qst:QSTNOVICENAME} is a recent young recruit.\nMartha Beck is their less than popular High Priestess.</i>
 EventAllyE1Monologue1.button1,Continue
 TokenAllyE1.text,A woman calls out  your name.
 TokenAllyE1.button1,{action} <i>Who are you?</i>
@@ -249,7 +254,7 @@ TokenCampToBridge.text,The light from the camp fire illuminates a covered bridge
 TokenCampToBridge.button1,Reveal
 EventPlaceBridgeTile.text,A ramsuckle covered wooden bridge spans a river.\nThe water glistens in the feeble moonlight.\n\nPlace the large {c:TileBridge} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceBridgeTile.button1,Continue
-EventPlaceCampFire.text,The small camp fire is starting to burn down.\nNext to it is a small log and a large log.\nWhen you toss the small log onto it, it starts to glow again.\n\nPlace 1 Interact Token in this space\nTreat the Token as a Light Source
+EventPlaceCampFire.text,The small camp fire is starting to burn down.\nNext to it is a small log and a large log.\nWhen you toss the small log onto it, it starts to glow again.\n\nPlace 1 Interact Token on this space\nTreat the Token as a Light Source
 EventPlaceCampFire.button1,Continue
 TokenBridgeToCamp.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
 TokenBridgeToCamp.button1,Reveal
@@ -392,9 +397,9 @@ QSTALLYESURNAME,Marsh
 QSTALLYEFIRSTNAME,Sylvia
 EventMoveIn.text,You may move 1 space into this space
 EventMoveIn.button1,Continue
-EventDarkYoungRetreat.text,\nThe monster moves 1 space East.\nIf it cannot move to an adjacent space East, it will instead move to an adjacent space South.\n\nIs it on a space where there is no space East of the space it is on?\nIs it on the Eastern edge of the Game Board?\n
-EventDarkYoungRetreat.button1,Yes, the Monster has reached the edge
-EventDarkYoungRetreat.button2,No, it is not on the edge
+EventDarkYoungRetreat.text,\nThe monster moves 1 space East.\nIf it cannot move to an adjacent space East, it will instead move to an adjacent space South.\nThen, after the first move, the monster moves 1 space East.\n\nIt cannot move across a dashed yellow line.\n\nDid the monster move at least one space?\n
+EventDarkYoungRetreat.button1,Yes, the Monster moved at least one space
+EventDarkYoungRetreat.button2,No, it did not move even one space
 EventDarkYoungAttack2.text,The creature twists and writhes, slamming its massive tentacles down upon you.\n\nSuffer {var:SufferDamage} Damage ({strength}+1 Negates).
 EventDarkYoungAttack2.button1,Continue
 EventDarkYoungAttack1.text,The creature tries to grab you with its massive tenracles.\n\n Test ({agility}; 1)
@@ -412,8 +417,7 @@ CustomMonsterDarkYoung.monstername,DarkYoung
 CustomMonsterDarkYoung.info,-
 EventPlaceGravesTile.text,\nPlace the {c:TileGraves} Tile\n\nThe faint light from a spent candle flickers out.\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceGravesTile.button1,Continue
-EventPlaceTileGravesTokens.text,Before you is an open grave.\n\nPlace 1 Search Token as indicated
-EventPlaceTileGravesTokens.button1,Continue
+EventPlaceGraveToken.button1,Continue
 EventAllyAaboutAllyBFalse.button1,Button1
 EventPlaceOldOakTile.text,A large ancient oak tree towers over you.\nPlace the {c:TileOldOak} Tile.\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceOldOakTile.button1,Continue
@@ -457,7 +461,7 @@ EventGiveSigilToFriend1.button1,Continue
 EventGiveSigilToFriend2A.text,Ammi Pierce stands up and says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me !</i> \n
 EventGiveSigilToRole1.text,The Druid's stare is mesmerising and the Druid cries out,\n<i>Hand me the sigil!\nI command it!</i>\nYou have an overpowering compulsion to hand it over\n\nHolding up the sigil, the Druid says,<i>\nI am the child of the High Priestess of the Dark Druids - Bettina Beck!\nNow, at last, I can fulfil her legacy and complete the blessing of the blood of the Black Goat</i>!\n
 EventGiveSigilToRole1.button1,Continue
-EventGiveSigilToRole2.text,The Druid says,<i>\nYou were wise not to give this to\n the unworthy fool who failed to complete the ritual!\n Now I shall use it to gain high standing with the Marsh family!</i>\n\nThe Priest makes a complex hand movement.\nThe runes on the sigil glow more brightly.\nA poisonous mist fills this room.\n\nAll investigators in the room suffer {var:SufferDamage} Damage ({strength} Negates)
+EventGiveSigilToRole2.text,The Druid says,<i>\nYou were wise not to give this to\n the unworthy fool who failed to complete the ritual!\n\nThe Druid makes a complex hand movement.\nThe runes on the sigil glow more brightly.\nA poisonous mist fills this room.\n\nAll investigators in the room suffer {var:SufferDamage} Damage ({strength} Negates)
 EventGiveSigilToRole2.button1,Continue
 EventGiveSigilInactive.text,The Druid looks at the {c:QItemCultSigil} and says,\n<i>This is key to undoing what has been done.</i>\n\nThe Druid makes a complex hand movement over it.\nAfter a few moments, the Druid says,\n <i>I'm sorry!\nUntil we learn more, the counter spell cannot be cast! </i>\n
 EventGiveSigilInactive.button1,Continue
@@ -511,7 +515,7 @@ EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, da
 EventAllyBIsWarlock.button1,Continue
 EventAllyCIsWarlock.text,\n<i>{qst:QSTFATHERFIRSTNAME} Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with {qst:QSTMOTHERNAME}.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\{qst:QSTALLYCNAME} will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers.</i>\n\nGain 2 {clue}
 EventAllyCIsWarlock.button1,Continue
-EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, the father of Mrs {qst:QSTALLYDNAME}, was the father of Martha Beck.\nCorrina and Martha were sisters but this was kept hidden because {qst:QSTALLYDFIRSTNAME} was born out of wedlock.\nThe sigil you have was owned by Martha's mother {qst:QSTMOTHERNAME} and passed onto Martha.\nShe obtained it after {qst:QSTFATHERFIRSTNAME} died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n</i>\nGain 2 {clue}
+EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, the father of Mrs {qst:QSTALLYDNAME}, was the father of Martha Beck.\nCorrina and Martha were sisters but this was kept hidden because {qst:QSTALLYDFIRSTNAME} was born out of wedlock.  The sigil you have was owned by Martha's mother {qst:QSTMOTHERNAME} and passed onto Martha.\nShe obtained it after {qst:QSTFATHERFIRSTNAME} died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n</i>\nGain 2 {clue}\n
 EventAllyDIsWarlock.button1,Continue
 EventAlreadyTold.text,<i>I've already told you all I know!</i>
 EventAlreadyTold.button1,Continue
@@ -554,12 +558,12 @@ EventAllyCIsEnemyMore.button1,Continue
 EventAllyCIsEnemyMore.text,<i>{qst:QSTALLYDNAME} and Martha did not get on with each other.</i>
 EventAllyDIsEnemyMore.text,<i>{qst:QSTALLYCNAME} believed Martha shut her out.</i>
 EventAllyDIsEnemyMore.button1,Continue
-EventGiveSigilToRole2More.text,Suddenly, the Druid cries out in pain.\nThe sigil glows red hot and you drop it.\n\nPlace the {c:QItemCultSigil} Item on your space
+EventGiveSigilToRole2More.text,The Druid grabs the sigil but it glows red hot and the Druid drops it.\n\nPlace the {c:QItemCultSigil} Item on your space\n
 EventGiveSigilToRole2More.button1,Continue
 EventWizardDefeated.text,The Dark Druid falls to the ground.\n\nOn the body you find a {c:QItemDagger}.\n\nPlace the {c:QItemDagger} Item\non the last space The Dark Druid Monster was on \n\nTreat the {c:QItemDagger} as a Key Item
 EventWizardDefeated.button1,Continue
 TokenStone1.button1,{action} Search
-TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is a 3 feet high and about 6 feet long.
+TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is a 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
 EventPlaceRitualSiteTokens.button1,Continue
 EventPlaceInvestigators.text,You awake confused and dazed. \n\nYou have memories of a vague nightmare of chanting and strange twirling dancing around stones enveloped in a dense dark fog.\n\nPlace the Investigator figures
 EventPlaceInvestigators.button1,Continue
@@ -696,7 +700,7 @@ TokenAllyB3.button1,Continue
 TokenAllyC3.text,The White Druid
 TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
-EventStone1Search.text,\nNear the stone there are traces of a small bonfire which has burnt out.\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
+EventStone1Search.text,\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\nA fire burns with eerie eldritch flames next to the stone.  \n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
 EventStone1SearchDone.text,The humming sound has become fainter.
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
@@ -721,7 +725,7 @@ EventCellarTestFailed.text,The woman shouts,\n<i>You are no friends of the Druid
 EventCellarTestFailed.button1,Continue
 EventDarkYoungGrab.text,The creature tries to grab you with its tentacles and drag you into the forest.\nTest ({agility}:1)\n\nIf you fail, suffer 1 Damage and move the Dark Young Monster and your figures up to 2 spaces East.
 EventDarkYoungGrab.button1,Continue
-EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA loud humming sound eminates from the stone and the stone becomes warm to the touch.\n\nThere is something needed before the ritual can begin.\n
+EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA loud humming sound eminates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\n
 EventFinaleNoFire.button1,Continue
 EventCaveDoorLocked2.button2,Fail
 EventCaveDoorLockedFail.text,The man shouts back,\n<i>I ain't convinced you can be trusted!</i>
@@ -753,7 +757,7 @@ EventMarshAsk.button1,Continue
 TokenAllyC2.button6,{action} <i>Tell me about the Marsh family</i>
 EventMarshAskAMono.text,<i>\nI believed {qst:QSTALLYENAME} was different because she's astranged from her family and you can't blame someone for a name.\n\nBut now I'm concerned she's here to steal our magical artifacts to give to the Marsh family to regain their favour.\nWhat do you really know about Sylvia Marsh?</i>\n\nGain 1 {clue}
 EventMarshAskAMono.button1,Continue
-EventMarshAskBMono.text,<i>\nInitially I thought {qst:QSTALLYENAME} was a spy but I came to trust her.\nYou should not judge someone just by a name.\nShe has helped me before.\nShe recently revealed to me one of the Druids is a double agent wotking for the Marsh family!\n</i>\nGain 1 {clue}
+EventMarshAskBMono.text,<i>\nInitially I thought {qst:QSTALLYENAME} was a spy but I came to trust her.\nShe revealed to me she suspects one of us could be working with the Marsh family!\n</i>\nGain 1 {clue}
 EventMarshAskBMono.button1,Continue
 EventMarshAsk.text,<i>\nTraditionally, ancestors of the Marsh family worshipped the power of the sea while the Beck family venerated the spirit of the woods, \nThere was a feud between them that went on for generations.\nThey have used spells, curses, subterfuge and sabotage.</i>
 CustomMonsterDruid.info,-
@@ -793,3 +797,38 @@ TokenCampToRapids.text,The light from the camp fire illuminates a fast flowing r
 TokenCampToRapids.button1,Continue
 EventPlaceRapidsTile.text,Place the {c:TileRapids} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceRapidsTile.button1,Continue
+EventCampFireGoesOut.text,The camp fire burns itself out.\nRemove the Camp Fire Interact Token.\n\nPlace a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.\n\nIf there are no Fire Tokens on the board, click the 'Set' button and set the Fire Indicator to Off.
+EventCampFireGoesOut.button1,Continue
+TokenGraveStone.text,The grave stones are overgrown with ivy.\nDue to long neglect, it is hard to read the inscriptions.\n
+TokenGraveStone.button1,{action} Search
+EventPlaceGraveToken.text,Before you is an open grave.\n\nPlace 1 Search Token as indicated
+EventPlaceGraveStoneToken.text,The long neglected damaged gravestones are overgrown with ivy.\n\nPlace 1 Search Token as indicated
+EventPlaceGraveStoneToken.button1,Continue
+EventGraveStoneSearch.text,The original stones and inscriptions have been vandalised and neglected.\nOn one of the stones the following has being scratched by hand.\n<i>Bettina Beck\nMother you are not forgotten\nYour legacy will live on\nAll will become servants of the Black Goat\n</i>\nGain 1 {clue}
+EventGraveStoneSearch.button1,Continue
+EventAllyAAboutBarker.text,<i>{qst:QSTNOVICENAME} is a cocky young whippersnapper.\nHe never bothered to learn the words of the ritual.\nHe did not turn up tonight which I thought odd as I talked to him briefly this morning and he was enthusiastic about the ceremony.\n</i>\nGain 1 {clue}
+EventAllyAAboutBarker.button1,Continue
+EventAllyBAboutBarker.text,<i>Matt Barker failed to turn up tonight.\nI'm not surprised.\nHe's too young and inexperienced to even be allowed to join in the singing.\nIt's not unusual for him not to bother to come.\nHe was here this morning.</i>
+EventAllyBAboutBarker.button1,Continue
+EventAllyCAboutBarker.text,<i>Matt Barker is a recent young recruit.\nHe has not even bothered to learn the words of the ceremonies.\nI last saw him this morning.</i>
+EventAllyCAboutBarker.button1,Continue
+EventAllyDAboutBarker.text,<i>{qst:QSTNOVICENAME} is a young guy who is more interested in chasing girls than learning the rituals.\nHe was here this morning.</i>
+EventAllyDAboutBarker.button1,Continue
+EventAboutBarkerAorDText.text,<i>He was talking a long time with Corrina Jones.\nHe then ran off after Ammi who he looks up to like a long lost uncle.\nHe rarely talks to anyone else.\n</i>\nGain 1 {clue}
+EventAboutBarkerAorDText.button1,Continue
+EventAboutBarkerBorCText.text,\n<i>He is always hanging out with Othera and he looks up to Eric as a father figure.\nHe follows them both everywhere and would do anything for them.\nHe barely talks to me.\n</i>\nGain 1 {clue}\n
+EventAboutBarkerBorCText.button1,Continue
+EventAboutBarkerBorDText.text,<i>He regards {qst:QSTALLYBNAME} and {qst:QSTALLYDNAME} as his friends.\nHe complains nobody else likes him.\n\nGain 1 {clue}</i>
+EventAboutBarkerBorDText.button1,Continue
+EventAboutBarkerAorBText.text,<i>He was hanging out with Eric and Ammi.\nHe thinks all the women treat him like a child.</i>\n\nGain 1 {clue}
+EventAboutBarkerAorBText.button1,Continue
+EventAboutBarkerCorDText.text,<i>He was following the woman Corrina and Othera about and would not leave them alone.\nHe fancies himself a bit of a ladies man.\n</i>\n\nGain 1 {clue}
+EventAboutBarkerCorDText.button1,Continue
+SpawnZombieDruid1.text,The corpse rises up out of the grave!\n\nPlace a Cultist Monster as indicated
+SpawnZombieDruid2.button1,Continue
+CustomMonsterZombieDruid.info,-
+CustomMonsterZombieDruid.monstername,Zombie Druid
+SpawnZombieDruid1.button1,Continue
+SpawnZombieDruid2.text,The body trembles as growths appear all over it.\nThe corpse clambers out of the grave!\n\nPlace a Zombie Monster as indicated
+SpawnZombieDruid3.text,The body trembles as growths appear all over it.\nThe corpse clambers out of the grave!\n\nPlace a Thrall Monster on the space indicated
+SpawnZombieDruid3.button1,Continue
