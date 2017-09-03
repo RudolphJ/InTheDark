@@ -178,7 +178,7 @@ EventAllyE2AboutCult2.button1,Continue
 TokenAllyE2.text, {qst:QSTALLYENAME}
 TokenAllyE2.button1,{action}<i>What do you know about the Druids?</i>
 TokenAllyE2.button2,{action} <i>What happened at the Ritual?</i>
-EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her.\nThe others were further back.</i>
+EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her. The others were further back.\nThere was also a group of local girls watching the ceremony, but when the chaos started they ran off into the woods.</i>
 EventAllyE2AboutRitual1.button1,Continue
 EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey often do charity work and help out at the church and the local orphanage.\n\nColt reckoned the group was going to split up.\nThis was likely to be their last gathering.\nThere were rumors a powerful Dark Druid had infiltrated the order and had turned one of the others!\n</i>
 EventAllyE2AboutCult1.button1,Continue
