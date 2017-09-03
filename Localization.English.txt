@@ -530,7 +530,7 @@ SpawnPriestOfDagon.button1,Continue
 EventPriestOfDagonDefeated.text,When the Priest of Dagon is killed,\nshe drops the {c:QItemDagger} on the ground.\n\nPlace the {c:QItemDagger} Item on the space where the Priest of Dagon Monster was defeated\n\nTreat the {c:QItemDagger} as a Key Item\n
 EventPriestOfDagonDefeated.button1,Continue
 SpawnDruidA.button1,Continue
-EventAttackConfirmedA.text,For such an old guy Ammi Pierce is surprisingly fast.\nHe lifts up his walking stick and smashes out the light.\n\nPlace a Darkness Token on this Tile\nTreat all spaces on this Tile as if they contain a Darkness Token
+EventAttackConfirmedA.text,For such an old guy Ammi Pierce is surprisingly fast.\nHe lifts up his walking stick and smashes out the light.\n\n{qst:QSTPLACEDARKNESS}
 SpawnDruidB.text,He runs back into the cave.\n\nRemove the {qst:QSTALLYBNAME} Ally Token\nSpawn a Cultist Monster on the space indicated\n
 SpawnDruidB.button1,Continue
 SpawnDruidA.text,He flees into the log cabin.\n\nRemove the {qst:QSTALLYANAME} Ally Token.\nSpawn a Cultist Monster on the space indicated.\n
@@ -796,8 +796,8 @@ EventCrateSearchFail.button1,Continue
 TokenCampToRapids.text,The light from the camp fire illuminates a fast flowing river.\n\nYou may click Reveal if you are on any space on the {c:TileCamp} Tile
 TokenCampToRapids.button1,Continue
 EventPlaceRapidsTile.text,Place the {c:TileRapids} Tile\n\n{qst:QSTPLACEDARKNESS}
-EventPlaceRapidsTile.button1,Continue
-EventCampFireGoesOut.text,The camp fire burns itself out.\nRemove the Camp Fire Interact Token.\n\nPlace a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.\n\nIf there are no Fire Tokens on the board, click the 'Set' button and set the Fire Indicator to Off.
+EventPlaceRapidsTile.button1,Continue  
+EventCampFireGoesOut.text,The camp fire burns itself out.\nRemove the Camp Fire Interact Token.\n\n{qst:QSTPLACEDARKNESS}\n\nIf there are no Fire Tokens on the board, click the 'Set' button and set the Fire Indicator to Off.
 EventCampFireGoesOut.button1,Continue
 TokenGraveStone.text,The grave stones are overgrown with ivy.\nDue to long neglect, it is hard to read the inscriptions.\n
 TokenGraveStone.button1,{action} Search
