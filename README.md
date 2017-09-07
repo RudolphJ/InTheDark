@@ -89,5 +89,74 @@ EventSpawnDarkYoungOther added check DaggerFound,==,0.
 Once the dagger is found the monster gets to the ritual site for the big finale.
 
 
+CHANGES DONE 4
+
+1) Question 'Who owns this cabin?' (Question improved)
+Replace with 'Can you tell me about this place?'
+The original question sounds like the investigator wants to buy the cabin.
+
+2) Attack Ally instructs removal of wrong Ally Token (Bug Fix)
+[SpawnWizard1] move text 'Remove the <X> Ally Token' to the event [EventAttackConfirmedX]
+Otherwise the wrong Ally Token is removed.
+
+3) [EventTokenAllyD3] (Bug Fix)
+add=TokenAllyB3 should be add=TokenAllyD3
+
+4) [EventAllyE1Monologue2] The term wizard implies male (Response made clearer)
+'one of them is a Dark Druid and a powerful wizard!'
+Replace the term 'wizard' with 'spell caster'.
+
+5) Renamed Matt Barker to Pete Barker
+The name Matt Barker sounds too similar to the British TV presenter Matt Baker
+
+6) Sylvia Marsh now gives info about Barker 
+[EventAllyE1Monologue2] 
+e.g. 'Barker agreed to meet us tonight with proof of who is a Dark Druid'
+
+7) [TokenDrownedBody] 
+Text 'Push the 'Body' replaced with the 'Push the woman'
+
+8) Typos fixed
+Replace holy bush with holly bush
+Replace short out this mess with sort out this mess
+
+9) Message that the Camp Fire Burns Out is shown on repeated turns (Significant Bug)
+[EventCampFireGoesOut] 
+The event for the fire burning out may occur repeatably
+In conditions=#round,>=,MajorMythosStart replace >= with =
+
+10) The investigators must now find the Old Journal before the door to the Shack can be opened
+Both Steve and Fran thought Corrina (like Ammi) would only open the door if the investigator had the Sigil.
+The test now requires finding the Old Journal (and learning about the history of the Beck family).
+[ShackDoorLocked1]  'You are outsiders who know nothing about the history of  the Beck family and this place!'
+[ShackDoorLocked2]  Corrina refuses to open the door if JournalFound == 1
+[ShackDoorLocked3]  Influence test (3 successes needed) if JournalFound == 0
+
+11) The Retreat of the Dark Young now is split into two questions
+With the retreat of the Dark Young, Steve read the question to mean the Dark Young is removed if it cannot make the final (second) move east.
+So the question is now split into two questions.
+	[EventDarkYoungRetreat] 
+	The monster moves 1 space East.
+	If it cannot move to an adjacent space East, it will instead move 1 space South.
+		Did the monster move at least one space (either East or South)?
+			Yes, the Monster moved at least one space [Calls EventDarkYoungRetreatSecondStep]
+			No, it did not move even one space
+
+	[EventDarkYoungRetreatSecondStep]
+	The monster moves 1 additional space East.	
+
+12) Torch card now placed on camp fire space
+This makes it more of a challenge to get the Torch card.
+Added the existing RemoveDarknessCamp event to the events triggered by igniting camp fire.
+
+13) Redid the answers to the question 'When did you last see Pete Barker?'
+
+
+
+
+
+
+
+
 
 
