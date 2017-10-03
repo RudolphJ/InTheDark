@@ -153,10 +153,29 @@ Added the existing RemoveDarknessCamp event to the events triggered by igniting 
 
 
 
+CHANGES DONE 5
 
+1) Various Typos fixed
 
+2) Sylvia Marsh
+Added new option 'Tell her what you know about the Ritual'
+Add new monster spawn 'Child of Dagon'
+The effect of attacking Marsh is now different and more dramatic!
 
+3) UI Image
+Used the images of the stones for the UI Introduction
 
+4) Place Investigators
+Modified so 1 Clue is given to a random investigator
+All investigators gain the Dazed Condition
+
+5) Added hints that being dazed was caused by the Dark Druid
+
+6) Added humming noise to stones
+
+7) Split music into 2 parts - introduction and chanting
+
+8) Added general hints to EventSpoilers
 
 
 
