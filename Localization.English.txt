@@ -1,4 +1,4 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -498,7 +498,7 @@ EventFinale3.text,And the Druid begins to sing...\n\nOne by one, the Children of
 EventFinale3.button1,Continue
 EventFinale4.text,The sound of eerie, forlorn and yet hauntingly beautiful singing seems to be coming from within the stones and trees themselves!
 EventFinale4.button1,Continue
-EventFinale5.text,\nOne by one the Children of the Goat and the Goat Spawn synchronise their movements until they are dancing and twirling in perfect unison,\nin a reel too complex for you to follow...\ndancing between the stones.\n And - one by one - they vanish.\n\nAll the other creatures are consumed by a strange eldtritch fire.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n
+EventFinale5.text,\nOne by one the Children of the Goat and the Goat Spawn synchronise their movements until they are dancing and twirling in perfect unison,\nin a reel too complex for you to follow...\ndancing between the stones.\n And - one by one - they vanish.\n\nAll the other creatures are consumed by a strange eldritch fire.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n
 EventFinale5.button1,Continue
 EventFinale6.text,\nYou search for the dancers, the Bard, or any of the Druids.\n\nYou find no traces of them.\n\nYou set fire to the log cabin...\ndestroying the last traces of the Beck family history.\nIt seems the right thing to do.\n
 EventFinale6.button1,Continue
