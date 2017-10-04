@@ -864,5 +864,5 @@ EventAllyE2TellCursedA.text,\n<i>The key to reversing the curse is finding the {
 EventAllyE2TellCursedA.button1,Continue
 EventAllyE2TellCursedB.text,\n<i>\nAt last my mind is clear.\nSomething from beyond the grave, something no longer human, has clouded our minds.\nIt feeds off confusion and fear and has possessed one of the Druids!\nI will not stay in this accursed place!\n</i>\nGain 1 {clue}\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedB.button1,Continue
-EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\n\nRemove the Sylvia Marsh Ally Token\n
+EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\nTreat the {c:QItemDagger} as a Key Item\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedC.button1,Continue
