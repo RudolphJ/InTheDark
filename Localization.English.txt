@@ -492,13 +492,13 @@ EventGiveDaggerFound.button1,Continue
 EventGiveDagger.text,You may only click the 'Continue' button\nif you have the {c:QItemDagger} Item
 EventFinale1.text,You place the sigil upon the stone.\n\nThe ancient stones start to glow with a strange unearthly energy.\n
 EventFinale1.button1,Continue
-EventFinale2.text,The White Druid appears.\nThe spell cast by the Dark Druid causing memory loss lifts.\n\nThe White Druid cries out,\n<i>O ancient stones harken to the song\nof the last Bard of the Ord na Darach Gile!</i>\n
+EventFinale2.text,The White Druid appears.\nThe spell cast by the Dark Druid causing mental confusion lifts.\n\nThe White Druid cries out,\n<i>O ancient stones harken to the song\nof the last Bard of the Ord na Darach Gile!</i>\n
 EventFinale2.button1,Continue
 EventFinale3.text,And the Druid begins to sing...\n\nOne by one, the Children of the Goat and the Goat Spawn emerge from the trees and begin to dance!
 EventFinale3.button1,Continue
 EventFinale4.text,The sound of eerie, forlorn and yet hauntingly beautiful singing seems to be coming from within the stones and trees themselves!
 EventFinale4.button1,Continue
-EventFinale5.text,\n\nOne by one the creatures synchronise their movements until they are dancing and twirling in perfect unison\nin a reel too complex for you to follow...\ndancing between the stones.\n\n And - one by one - they vanish.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n
+EventFinale5.text,\nOne by one the Children of the Goat and the Goat Spawn synchronise their movements until they are dancing and twirling in perfect unison,\nin a reel too complex for you to follow...\ndancing between the stones.\n And - one by one - they vanish.\n\nAll the other creatures are consumed by a strange eldtritch fire.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n
 EventFinale5.button1,Continue
 EventFinale6.text,\nYou search for the dancers, the Bard, or any of the Druids.\n\nYou find no traces of them.\n\nYou set fire to the log cabin...\ndestroying the last traces of the Beck family history.\nIt seems the right thing to do.\n
 EventFinale6.button1,Continue
@@ -609,7 +609,7 @@ SpawnDeepOne1.button1,Continue
 EventGiveSigilAskAllyE.text,You must click the 'Cancel' button\nif your Investigator does not possess the {c:QItemCultSigil} Item (or is not in the same space as the Ally Token).
 EventGiveSigilAskAllyE.button1,{action} Give her the Sigil
 EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh laughs and cries out,<i>\n At last I have obtained what my family desires.\nI will reveal to you the power of Dagon.\n</i>\nShe casts a spell and a choking fog fills the bridge.\nAll Investigators on a space on the Covered Bridge\nsuffer {var:SufferDamage} Damage\n({strength} Negates)\n\nSuddenly, the sigil glows red hot and she drops it.\nPlace the {c:QitemCultSigil} Item on the space indicated\n
-EventSigilInactiveAllyE.text,You hold out the {c:QItemCultSigil} to Sylvia Marsh and she examines it.\n\nShe says,\n<i>The {c:QItemCultSigil} can only be used when the runes are visible.\nI do not know the secrets of the Druids.\nKey to learning how to use it may be to discover more about the ritual and the Druids.\nInspect it frequently and once the runes are visible, return and hand it to me!\n</i>\nNote: the {c:QItemCultSigil} Item can be inspected by clicking the 'Items' button
+EventSigilInactiveAllyE.text,You give the {c:QItemCultSigil} to Sylvia Marsh and she examines it.\n\nShe says,\n<i>The {c:QItemCultSigil} can only be used when the runes are visible.\nI do not know the secrets of the Druids.\nKey to learning how to use it may be to discover more about the ritual and the Druids.\nInspect it frequently and once the runes are visible, return and hand it to me!\n</i>\nNote: the {c:QItemCultSigil} Item can be inspected by clicking the 'Items' button
 EventSigilInactiveAllyE.button1,Continue
 TokenStone2.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is a 3 feet high and about 6 feet long.
 TokenStone2.button1,{action} Place the Cult Sigil on the Stone
@@ -729,7 +729,7 @@ EventCellarTestFailed.text,The woman shouts,\n<i>You are no friends of the Druid
 EventCellarTestFailed.button1,Continue
 EventDarkYoungGrab.text,The creature tries to grab you with its tentacles and drag you into the forest.\nTest ({agility}:1)\n\nIf you fail, suffer 1 Damage and move the Dark Young Monster and your figures up to 2 spaces East.
 EventDarkYoungGrab.button1,Continue
-EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA loud humming sound emanates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\n
+EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA humming sound emanates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\n
 EventFinaleNoFire.button1,Continue
 EventCaveDoorLocked2.button2,Fail
 EventCaveDoorLockedFail.text,The man shouts back,\n<i>I ain't convinced you can be trusted!</i>
