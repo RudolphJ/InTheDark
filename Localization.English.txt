@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -61,10 +61,10 @@ EventOak.text,You may either click the Cancel button or climb the tree.\n\nIf yo
 EventOak.button1,Pass
 EventOak.button2,Fail
 EventOak.button3,Cancel
-EventOakPass.text,You discover the remains of Martha Beck lying on top of a large branch sticking out to the right.\nHer body has been tossed onto the branch like a broken bleeding rag-doll.\nShe is still wearing her headband of mistletoe and ivy.\nYou clamber out onto the branch.\n
+EventOakPass.text,You discover the remains of woman lying on top of a large branch sticking out to the right.\nHer body has been tossed onto the branch like a broken bleeding rag-doll.\nHer red hair is tied back by a headband of mistletoe and ivy.\nYou clamber out onto the branch.\n
 EventOakPass1.button1,Continue
 EventOakPass2Up.button1,Continue
-EventOakPass2A.text,Inside her coat pocket, you find a handwritten note.\n<i>\nThe magick of your friend ain't nothing compared to mine!\nBeware your sibling.\nBeware the Black Blood of the Goat!\nThis scroll was owned by Malachi Cooter Pierce.\nI am the White Druid whose return was foretold.\nThis gift shows I am loyal!\nAmmi\n</i>
+EventOakPass2A.text,Inside her coat pocket, you find a handwritten note.\n<i>\nThe magick of your friend ain't nothing compared to mine!\nBeware the Black Blood of the Goat!\nThis scroll was owned by Malachi Cooter Pierce.\nI am the White Druid whose return was foretold.\nThis gift shows I am loyal!\nAmmi\n</i>
 EventOakPass2A.button1,Continue
 TokenOak.text,The woman hanging from the noose has vanished.\n\nThere is something white in the topmost branches of the giant ancient oak tree.
 TokenOak.button1,{action} Search
@@ -190,7 +190,7 @@ EventAllyE1Monologue4.text,<i>\nHere, take the sigil!\nThe runes have stopped gl
 EventAllyE1Monologue4.button1,Continue
 EventAllyE1MonologueEnd.text,A crashing sound causes Sylvia Marsh to run into the Covered Bridge.\n\nRemove the Orange Woman Ally Token\nPlace the Sylvia Marsh Ally Token on the space indicated\n
 EventAllyE1MonologueEnd.button1,Continue
-EventAllyA1Monologue3.text,<i>\nBy the time we got here, things had gone to hell in a handbasket.\nA dense fog covered the area.\nOn the stone was the sigil with runes glowing red.\nI remember Martha in her headband of ivy and mistletoe crying out the Green Man rules the forest.\n\nWe rushed in but we were too late.\nSomething huge emerged from the fog and dragged poor Martha Beck away!\n\nI guessed the sigil was important, grabbed it and ran!\nOne of the Druids helped me escape.\n</i>
+EventAllyA1Monologue3.text,<i>\nBy the time we got here, things had gone to hell in a handbasket.\nA dense fog covered the area.\nOn the stone was the sigil with runes glowing red.\nI remember Martha with her flaming red hair held in place by a headband of ivy and mistletoe.\n She cried out the Green Man rules the forest.\n\nWe rushed in but we were too late.\nSomething huge emerged from the fog and dragged poor Martha Beck away!\n\nI guessed the sigil was important, grabbed it and ran!\nOne of the Druids helped me escape.\n</i>
 EventAllyA1Monologue3.button1,Continue
 EventAllyE1Monologue2.text,<i>\nOn May eve they perform the Celtic Beltane ritual and light a fire to celebrate the coming of spring.\nThe locals regard them as strange but good!\nMaybe most of them are good but one of them is a Dark Druid and a powerful spell-caster!\n\n{qst:QSTNOVICENAME} agreed to meet us tonight with proof of who the Dark Druid is but he never turned up.\n</i>
 EventAllyE1Monologue2.button1,Continue
@@ -305,7 +305,7 @@ EventPlaceForestTile.text,You see a dense forest with many ancient oak trees.\n\
 EventPlaceForestTile.button1,Continue
 EventOakPass2Down.button1,Continue
 EventOakPass2B.button1,Continue
-EventOakPass2C.text,Inside her coat pocket, you find a handwritten note.\n<i>\nOnly a true wiccan can help you!\nBeware your sibling.\nBeware the Black Blood of the Goat!\nYour friend's magick is too weak to help you.\nI am the White Druid whose return was foretold.\nThis gift shows I am loyal!\n</i>
+EventOakPass2C.text,Inside her coat pocket, you find a handwritten note.\n<i>\nOnly a true wiccan of power can help you!\nBeware the Black Blood of the Goat!\nYour friend's magick is too weak to help you.\nI am the White Druid whose return was foretold.\nThis gift shows I am loyal!\n</i>
 EventOakPass2C.button1,Continue
 EventOakFail.text,The climb starts off easy but as you get higher the branches become less sturdy.\nSuddenly, a branch gives way and you fall.\n\nSuffer 1 Damage
 EventOakFail.button1,Continue
@@ -577,7 +577,7 @@ EventPlaceTent.text,The campers left a canvas tent held up by a rope strung betw
 EventTentDismantle.text,You dismantle the tent and coil up the rope.\n\nGain the {c:QItemRope} Item
 PuzzlePorchLock.button1,Unlock Door
 EventWhereIsDaggerNot2.text,<i>I remember seeing Martha being stabbed with the ritual dagger,\nThe murderer placed the bloody dagger on the ritual stone.\nWhen I next looked it had gone!\nMaybe Sylvia grabbed it when she picked up the sigil?\n</i>\nGain 1 {clue}
-EventOakPass2B.text,Inside her coat pocket, you find a handwritten note.\n<i>\nBeware your sibling.\nBeware the Black Blood of the Goat!\nYour friend's magick is weak.\nI am the White Druid whose return was foretold.\nUs Colt family stick together.\nWe have passed down the lore from one generation to the next.\n</i>
+EventOakPass2B.text,Inside her coat pocket, you find a handwritten note.\n<i>\nBeware the Black Blood of the Goat!\nYour friend's magick is weak.\nI am the White Druid whose return was foretold.\nUs Colt family stick together.\nWe have passed down the lore from one generation to the next.\n</i>
 EventSpoilers.text,GENERAL HINTS\n\n1. Trust no one and take notes!\n2. Did you quickly obtain the Cult Sigil and frequently inspect it?\n3. Did you ask everyone what happened at the ritual?\n4. Randomly attacking suspects may lead to disaster.\n\nMAJOR SPOILERS FOLLOW\n\nThe scenario has ended.\nRead on only if you think the story does not make sense.\n\nPlease check the log to determine if the responses of each of the Allies matches their roles.\nAmmi Pierce is Role No. {var:RoleAllyA}\nEric Colt is Role No. {var:RoleAllyB}\nOthera Gilman is Role No. {var:RoleAllyC}\nCorrina Jones is Role No. {var:RoleAllyD}\n\nNo. 1 = The Dark Druid who is the child of Bettina Beck.\nNo. 2 = The Dark Druid's unreliable Acolyte.\nNo. 3 = The Friend of Martha and not a Dark Druid\nNo. 4 = The White Druid\na) Both No. 1 and No. 2 tend to lie.\nb) The Friend of Martha is not a powerful magic user.\n\nAt the start of each game, the roles are assigned randomly.\n
 EventSpoilers.button1,Continue
 EventAttackWhiteDruid.button2,Spoilers
@@ -585,9 +585,9 @@ EventWhereIsDaggerNot3.text,<i>I remember seeing the dagger plunged into Martha'
 EventWhereIsDaggerNot1.text,<i>I remember seeing Martha being stabbed with a dagger and she fell forwards onto the stone with it sticking in her side.\nWhen the creature dragged her away she still had the dagger stuck in her side.\n\nSylvia Marsh ran after the monster!\n</i>\nGain 1 {clue}
 EventWhereIsDagger.button1,Continue
 EventOakPass.button1,Continue
-EventOakWoundRight.text,You check the wound in Martha's side.\nThe entry point of the wound indicates the killer is right-handed.\n\nGain 1 {clue}
+EventOakWoundRight.text,You check the wound in her side.\nThe entry point of the wound indicates the killer is right-handed.\n\nGain 1 {clue}
 EventOakWoundRight.button1,Continue
-EventOakWoundLeft.text,You check the wound in Martha's side.\nThe entry point of the wound indicates the killer is left-handed.\n\nGain 1 {clue}
+EventOakWoundLeft.text,You check the wound in her side.\nThe entry point of the wound indicates the killer is left-handed.\n\nGain 1 {clue}
 EventOakWoundLeft.button1,Continue
 EventWhereIsDaggerNot2.button1,Continue
 EventWhereIsDaggerNot3.button1,Continue
@@ -692,7 +692,7 @@ EventGhostDefeated.button1,Continue
 EventGiveSigilAskAllyE.button2,Cancel
 EventSpawnDarkYoung.button1,Continue
 EventPaintingBMale.text,In the background of the picture is a boy.\n\nGain 2 {clue}
-EventPaintingBFemale.text,In the background of the picture is a girl.\n\nGain 2 {clue}
+EventPaintingBFemale.text,In the background of the picture is a young girl.\nHer hair is dark but is not red.\n\nGain 2 {clue}
 EventPaintingBFemale.button1,Continue
 EventPaintingBMale.button1,Continue
 EventPlaceWhiskey.button1,Continue
