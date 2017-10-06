@@ -94,16 +94,16 @@ EventPlaceOperationTokens.text,The table has been scrubbed\nbut there are faint 
 EventPlaceOperationTokens.button1,Continue
 TokenToOperatingRoom.text,The door leads further into the cabin.
 TokenToOperatingRoom.button1,{action} Explore
-EventLetterResultMoreC.text,<i>Dearest Martha,\n\nYou hold your relative in high regard but do you not fear they may be a Dark Druid.\nThey've been in trouble with the law since childhood. They might be plotting to take over the leadership!\n\nYour friend thinks they are an occult expert but compared to me it is like the Moon compared to the Sun.\nOnly a true wiccan of great power can be trusted with the power of the sigil!\nI am the last of the Order of the White Druids.\n I have demonstrated both my loyalty and powers!\n\nYour true friend\nOthera Gilman\n</i>\nGain 1 {clue}
+EventLetterResultMoreC.text,<i>Dearest Martha,\n\nYou hold your relative in high regard but do you not fear they may be a Dark Druid.\nThey've been in trouble with the law since childhood. They might be plotting to take over the leadership!\nOnly a true wiccan of great power can be trusted with the power of the sigil!\nI am privy to the secrets of the Order of the White Druids.\n\nYour true friend\nOthera Gilman\n</i>\nGain 1 {clue}
 EventLetterResultMoreC.button1,Continue
 EventLetterResult.text,Inside one of the drawers, you find a letter written to Martha Beck.
 EventLetterResult.button1,Continue
-EventLetterResultMoreD.text,<i>\nDear Martha,\n\nYou hold your relative in high regard but can your sibling be trusted!\nThey've been in trouble with the law since childhood.\nThey might be a Dark Druid  plotting to take over the group!\n\nAs for other Druids, do you really think any of them know more than me!\nConsider the wonders beyond imagination I have shown you!\nI am the last of the Order of the White Druids.\nOnly I can be trusted with the sigil!\n\nYour true follower\nCorrina Jones\n</i>\nGain 1 {clue}
+EventLetterResultMoreD.text,<i>\nDear Martha,\n\nYou hold your relative in high regard but can your sibling be trusted!\nCan somebody in trouble with the law since childhood really be so reformed?\nYour relative is a Dark Druid plotting to take over the group!\nOnly I can be trusted with the sigil!\n\nYour true follower\nCorrina Jones\n</i>\nGain 1 {clue}
 QSTALLYDFIRSTNAME,Corrina
 EventLetterResultMoreD.button1,Continue
 TokenLetter.text,The cabinet contains a number of draws.
 TokenLetter.button1,{action} Search
-EventLetterResultMoreA.text,<i>Martha Beck,\nHigh Priestess of the Venerable Order of Druids\n\nBlood is thicker than water but what do you rightly know about your sibling! \nThey've been in trouble with the law since childhood.\nI heard the orphanage burning down was no accident.\n\nCompared to me the other Druids know little!\nI am the last of the Order of the White Druids.\nI have revealed to you my true powerful magick.\nGive me the Sigil and I will keep it safe.\n\nYour obedient follower\nAmmi Pierce\n</i>\nGain 1 {clue}
+EventLetterResultMoreA.text,<i>Martha Beck,\nHigh Priestess of the Venerable Order of Druids\n\nCompared to me the other Druids know little!\nI am the last of the Order of the White Druids.\nI have revealed to you my true powerful magick.\nGive me the Sigil and I will keep it safe.\n\nYour obedient follower\nAmmi Pierce\n</i>\nGain 1 {clue}
 EventLetterResultMoreA.button1,Continue
 QSTALLYANAME,Ammi Pierce
 EventPendantSearchResult.text,You find a small pendant.\nIts chain is caught in the bush.\n\nGain the {c:QItemPendant}\n\nTo the North there are massive hoof marks.\n
@@ -182,7 +182,7 @@ TokenAllyE2.button4,{action} Tell her what you know about the Ritual
 TokenAllyE2.button5,Give Sylvia Marsh the Cult Sigil
 EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her. The others were further back.\nThere was also a group of local girls watching the ceremony, but when the chaos started they ran off into the woods.</i>
 EventAllyE2AboutRitual1.button1,Continue
-EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey often do charity work and help out at the church and the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\n{qst:QSTNOVICENAME} reckoned the group was going to split up.\nSome had begun to fear a powerful Dark Druid had infiltrated the order!\n{qst:QSTNOVICENAME} believed the Dark Druid existed and was training up one of the others to become another Dark Druid.\n</i>
+EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nPete Barker reckons the group was going to split up.\nSome had begun to fear a powerful Dark Druid had infiltrated the order!\nHe believes the Dark Druid not only exists but is training up one of the others to become an acolyte of the Black Goat.\nHe first became suspicious because of the Dark Druid's past - even as a child they were in trouble with the law.</i>
 EventAllyE2AboutCult1.button1,Continue
 EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane ritual.\nFor many years, at the end of April, the Druids performed the same ritual with a lighting of a fire and a song to welcome the coming of spring.\nOut of the blue, Martha insisted they learn a more complex ceremony.\n</i>
 EventAllyE2AboutCult2.button1,Continue
@@ -514,7 +514,7 @@ EventAllyE2AboutCultA.text,<i>I'd keep a close eye on old man Pierce!\nFolks rou
 EventAllyE2AboutCultA.button1,Continue
 EventAllyE2AboutCultC.text,<i>I'd keep a close eye on Othera Gilman.\nLocals fear her!\nShe has a reputation as a powerful witch! \nShe even boasts about it!</i>\n\nGain 1 {clue}
 EventAllyE2AboutCultC.button1,Continue
-EventPlaceOak.text,The branches of a giant knarled old oak tree\ntowers over you. \n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave you come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror
+EventPlaceOak.text,The branches of a giant knarled old oak tree\ntowers over you. \n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave you come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror
 EventPlaceOak.button1,Continue
 EventSigilReady.text,You speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage
 EventAllyAIsWarlock.button1,Continue
