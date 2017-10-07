@@ -164,7 +164,7 @@ TokenAllyC2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyC2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
 TokenAllyC2.button4,{action} <i>Tell me about the Marsh family</i>
 TokenAllyC2.button5,{action} Give Dagger to Othera
-EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShe had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat\nbut they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
+EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShe had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat\nbut they age not as normal children do.\nI fear I have but delayed their fate.\nYou will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
 EventJournal2.button1,Continue
 EventJournal1.text,\nYou open the cabinet and find\na journal written by Bettina Beck.\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nThrough her experimentation she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a description of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
 EventJournal1.button1,Continue
@@ -479,7 +479,7 @@ EventGiveSigilToFriend2D.text,Corrina Jones says,\n<i>Keep the sigil safe.\nWhen
 EventGiveSigilToFriend2B.button1,Continue
 EventGiveSigilToFriend2C.button1,Continue
 EventGiveSigilToFriend2D.button1,Continue
-EventGiveSigilAsk.button1,Continue
+EventGiveSigilAsk.button1,{action} Continue
 EventGiveSigilConfirmed.button1,Continue
 EventGiveSigilAsk.text,One of the Druids could be a powerful Dark Druid.\nAre you sure you want to continue?\n\nYou must click the 'Cancel' button\nif your Investigator does not possess the {c:QItemCultSigil} Item
 EventGiveSigilConfirmed.text,You show the Druid the magical item and tell what you have learnt.
@@ -576,7 +576,7 @@ EventTentDismantle.button1,Continue
 EventPlaceTent.text,The campers left a canvas tent held up by a rope strung between two trees.\nNear the fire, the edge of the canvas is held down by the large log.\n\nPlace 1 Search Token
 EventTentDismantle.text,You dismantle the tent and coil up the rope.\n\nGain the {c:QItemRope} Item
 PuzzlePorchLock.button1,Unlock Door
-EventWhereIsDaggerNot2.text,<i>I remember seeing Martha being stabbed with the ritual dagger,\nThe murderer placed the bloody dagger on the ritual stone.\nWhen I next looked it had gone!\nMaybe Sylvia grabbed it when she picked up the sigil?\n</i>\nGain 1 {clue}
+EventWhereIsDaggerNot2.text,<i>I remember seeing Martha being stabbed with the ritual dagger,\nMartha fell forwards onto the stone.\nI saw the bloody dagger drop onto the stone.\nWhen I next looked it had gone!\nMaybe Sylvia grabbed it when she picked up the sigil?’\n</i>\nGain 1 {clue}
 EventOakPass2B.text,Inside her coat pocket, you find a handwritten note.\n<i>\nBeware the Black Blood of the Goat!\nYour friend's magick is weak.\nI am the White Druid whose return was foretold.\nUs Colt family stick together.\nWe have passed down the lore from one generation to the next.\n</i>
 EventSpoilers.text,GENERAL HINTS\n\n1. Trust no one and take notes!\n2. Did you quickly obtain the Cult Sigil and frequently inspect it?\n3. Did you ask everyone what happened at the ritual?\n4. Randomly attacking suspects may lead to disaster.\n\nMAJOR SPOILERS FOLLOW\n\nThe scenario has ended.\nRead on only if you think the story does not make sense.\n\nPlease check the log to determine if the responses of each of the Allies matches their roles.\nAmmi Pierce is Role No. {var:RoleAllyA}\nEric Colt is Role No. {var:RoleAllyB}\nOthera Gilman is Role No. {var:RoleAllyC}\nCorrina Jones is Role No. {var:RoleAllyD}\n\nNo. 1 = The Dark Druid who is the child of Bettina Beck.\nNo. 2 = The Dark Druid's unreliable Acolyte.\nNo. 3 = The Friend of Martha and not a Dark Druid\nNo. 4 = The White Druid\na) Both No. 1 and No. 2 tend to lie.\nb) The Friend of Martha is not a powerful magic user.\n\nAt the start of each game, the roles are assigned randomly.\n
 EventSpoilers.button1,Continue
