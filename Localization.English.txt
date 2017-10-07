@@ -61,7 +61,7 @@ EventOak.text,You may either click the Cancel button or climb the tree.\n\nIf yo
 EventOak.button1,Pass
 EventOak.button2,Fail
 EventOak.button3,Cancel
-EventOakPass.text,You discover the remains of woman lying on top of a large branch sticking out to the right.\nHer body has been tossed onto the branch like a broken bleeding rag-doll.\nHer red hair is tied back by a headband of mistletoe and ivy.\nYou clamber out onto the branch.\n
+EventOakPass.text,\nYou discover the remains of a woman lying on top of a large branch sticking out to the right.\nHer body has been tossed onto the branch like a broken bleeding rag-doll.\nHer red hair is tied back by a headband of mistletoe and ivy.\nYou clamber out onto the branch.\n
 EventOakPass1.button1,Continue
 EventOakPass2Up.button1,Continue
 EventOakPass2A.text,Inside her coat pocket, you find a handwritten note.\n<i>\nThe magick of your friend ain't nothing compared to mine!\nBeware the Black Blood of the Goat!\nThis scroll was owned by Malachi Cooter Pierce.\nI am the White Druid whose return was foretold.\nThis gift shows I am loyal!\nAmmi\n</i>
@@ -106,7 +106,7 @@ TokenLetter.button1,{action} Search
 EventLetterResultMoreA.text,<i>Martha Beck,\nHigh Priestess of the Venerable Order of Druids\n\nCompared to me the other Druids know little!\nI am the last of the Order of the White Druids.\nI have revealed to you my true powerful magick.\nGive me the Sigil and I will keep it safe.\n\nYour obedient follower\nAmmi Pierce\n</i>\nGain 1 {clue}
 EventLetterResultMoreA.button1,Continue
 QSTALLYANAME,Ammi Pierce
-EventPendantSearchResult.text,You find a small pendant.\nIts chain is caught in the bush.\n\nGain the {c:QItemPendant}\n\nTo the North there are massive hoof marks.\n
+EventPendantSearchResult.text,You find a small pendant.\nIts chain is caught in the bush.\n\nGain the {c:QItemPendant}.\n\nTo the North there are massive hoof marks.\n
 EventPendantSearchResult.button1,Continue
 EventPendantSearch.text,You search the bush and find a large fragment of a ripped white cloth stained with blood.\n\nTest {observation}
 EventPendantSearch.button1,Continue
@@ -164,7 +164,7 @@ TokenAllyC2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyC2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
 TokenAllyC2.button4,{action} <i>Tell me about the Marsh family</i>
 TokenAllyC2.button5,{action} Give Dagger to Othera
-EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShe had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
+EventJournal2.text,\nWhen her children started to grow, they started to show the first faint signs of transformation.\nShe had no other relatives who trusted her.\nShe sacrificed one of her daughters to save the others.\n\nThe last page reads,\n<i>My two remaining children show no signs of the blood of the Black Goat\nbut they age not as normal children do.\nI fear I have but delayed their fate.\nI cannot go on!\n You will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
 EventJournal2.button1,Continue
 EventJournal1.text,\nYou open the cabinet and find\na journal written by Bettina Beck.\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nThrough her experimentation she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a description of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
 EventJournal1.button1,Continue
@@ -186,7 +186,7 @@ EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do
 EventAllyE2AboutCult1.button1,Continue
 EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane ritual.\nFor many years, at the end of April, the Druids performed the same ritual with a lighting of a fire and a song to welcome the coming of spring.\nOut of the blue, Martha insisted they learn a more complex ceremony.\n</i>
 EventAllyE2AboutCult2.button1,Continue
-EventAllyE1Monologue4.text,<i>\nHere, take the sigil!\nThe runes have stopped glowing.\nOnce they glow again, return it to me.\nIt's worth inspecting it.\nMaybe one of the Druids can help.\n</i>\nGain the {c:QItemCultSigil} Item\n\nGain 1 {clue}\n\nYou may inspect this Item by clicking the 'Items' button
+EventAllyE1Monologue4.text,<i>\nHere, take the sigil!\nThe runes have stopped glowing.\nOnce they glow again, return it to me.\nIt's worth inspecting it.\nMaybe one of the Druids can help.\n</i>\nGain the {c:QItemCultSigil} Item\n\nGain 1 {clue}\n\nYou may inspect this Item by clicking the 'Items' button\n
 EventAllyE1Monologue4.button1,Continue
 EventAllyE1MonologueEnd.text,A crashing sound causes Sylvia Marsh to run into the Covered Bridge.\n\nRemove the Orange Woman Ally Token\nPlace the Sylvia Marsh Ally Token on the space indicated\n
 EventAllyE1MonologueEnd.button1,Continue
@@ -194,7 +194,7 @@ EventAllyA1Monologue3.text,<i>\nBy the time we got here, things had gone to hell
 EventAllyA1Monologue3.button1,Continue
 EventAllyE1Monologue2.text,<i>\nOn May eve they perform the Celtic Beltane ritual and light a fire to celebrate the coming of spring.\nThe locals regard them as strange but good!\nMaybe most of them are good but one of them is a Dark Druid and a powerful spell-caster!\n\n{qst:QSTNOVICENAME} agreed to meet us tonight with proof of who the Dark Druid is but he never turned up.\n</i>
 EventAllyE1Monologue2.button1,Continue
-EventAllyE1Monologue1.text,<i>Don't you recognise your friend, Sylvia Marsh.\nDon't you remember me helping you to investigate the Druids?\nI gained the trust and friendship of the big lug Eric Colt and from him I learnt about the others.\n\nAmmi Pierce is a strange old-timer.\nOthera Gilman proclaims herself to be a powerful witch.\nCorrina Jones is an avant-garde painter.\n{qst:QSTNOVICENAME} is a recent young recruit.\nMartha Beck is their less than popular High Priestess.</i>
+EventAllyE1Monologue1.text,\n<i>Don't you recognise your friend, Sylvia Marsh.\nDon't you remember me helping you to investigate the Druids?\nI gained the trust and friendship of the big lug Eric Colt and from him I learnt about the others.\n\nAmmi Pierce is a strange old-timer.\nOthera Gilman proclaims herself to be a powerful witch.\nCorrina Jones is an avant-garde painter.\n{qst:QSTNOVICENAME} is a recent young recruit.\nMartha Beck is their less than popular High Priestess.</i>\n
 EventAllyE1Monologue1.button1,Continue
 TokenAllyE1.text,A woman cries out your name.
 TokenAllyE1.button1,{action} <i>Who are you?</i>
@@ -414,12 +414,12 @@ EventDarkYoungAttack1.text,The creature tries to grab you with its massive tenra
 EventDarkYoungAttack1.button1,Pass
 EventDarkYoungMove2.text,\nThe Dark Young Monster moves 2 spaces towards the nearest Investigator.\n\nIt may not move onto an Indoor space.\n\nFor every space it moves onto, all Investigators (and all Monsters that are cannot Phase or Fly) take 2 Damage. {agility} Negates\n
 EventDarkYoungMove2.button1,Continue
-EventDarkYoungMove1.text,The Dark Young Monster moves up to 1 space towards the nearest space with an Investigator.\nIt may not move onto an Indoor space\n\nAfter it has moved is it on the same space as an Investigator?
+EventDarkYoungMove1.text,\nThe Dark Young Monster moves up to 1 space towards the nearest space with an Investigator.\nIt may not move onto an Indoor space\n\nAfter it has moved is it on the same space as an Investigator?\n
 EventDarkYoungMove1.button1,Yes, there is an Investigator on its space
 EventDarkYoungMove1.button2,No Investigator on its space
 EventCheckDarkYoungSpawn.button1,Button1
 SpawnDarkYoung1.button1,Continue
-EventDarkYoungVanishes.text,The monster vanishes into the woods.\n\nRemove the Dark Young Monster from the Game Board
+EventDarkYoungVanishes.text,The monster vanishes into the woods. You can still here it knocking down trees.\n\nRemove the Dark Young Monster from the Game Board
 EventDarkYoungVanishes.button1,Continue
 CustomMonsterDarkYoung.monstername,DarkYoung
 CustomMonsterDarkYoung.info,-
@@ -510,13 +510,13 @@ EventGiveDaggerNovice.button1,Continue
 EventAttackAsk.text,{qst:QSTALLYENAME} has told you one of the Druids may be willing to help,\n\nAre you sure you want to continue with your attack?
 EventAttackConfirmedA.button1,Continue
 EventAttackAsk.button2,Cancel your Attack
-EventAllyE2AboutCultA.text,<i>I'd keep a close eye on old man Pierce!\nFolks round here think he is a powerful warlock.\nHis great grandfather Malachi was put on trial for alchemy  and sorcery.</i>\n\nGain 1 {clue}
+EventAllyE2AboutCultA.text,<i>I'd keep a close eye on old man Pierce!\nFolks round here think he is a powerful warlock.\nHis great grandfather Malachi was put on trial for alchemy and sorcery.</i>\n\nGain 1 {clue}
 EventAllyE2AboutCultA.button1,Continue
 EventAllyE2AboutCultC.text,<i>I'd keep a close eye on Othera Gilman.\nLocals fear her!\nShe has a reputation as a powerful witch! \nShe even boasts about it!</i>\n\nGain 1 {clue}
 EventAllyE2AboutCultC.button1,Continue
-EventPlaceOak.text,The branches of a giant knarled old oak tree\ntowers over you. \n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave you come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror
+EventPlaceOak.text,\nThe branches of a giant knarled old oak tree towers over you.\n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave you come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror\n
 EventPlaceOak.button1,Continue
-EventSigilReady.text,You speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage
+EventSigilReady.text,\nYou speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage\n
 EventAllyAIsWarlock.button1,Continue
 EventAllyAIsWarlock.text,<i>The Pierce and the Beck family have always been close.\nThere's gossip about deformities caused by inter-breeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 1 {clue}
 EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 1 {clue}
@@ -568,9 +568,9 @@ EventGiveSigilToRole2More.button1,Continue
 EventWizardDefeated.text,The Dark Druid falls to the ground.\n\nOn the body you find a {c:QItemDagger}.\n\nPlace the {c:QItemDagger} Item\non the last space The Dark Druid Monster was on \n\nTreat the {c:QItemDagger} as a Key Item
 EventWizardDefeated.button1,Continue
 TokenStone1.button1,{action} Search
-TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is a 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
+TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
 EventPlaceRitualSiteTokens.button1,Continue
-EventPlaceInvestigators.text,{rnd:hero} has a vague memory of chanting and strange twirling dancing around the stones...\nand something huge emerging from the fog!\n\nPlace the Investigator figures\n\nAll Investigators gain the Dazed Condition\n\n{rnd:hero} gains 1 {clue}
+EventPlaceInvestigators.text,{rnd:hero} has a vague memory of chanting and\nstrange twirling dancing around the stones...\nand something huge emerging from the fog!\n\nPlace the Investigator figures\nAll Investigators gain the Dazed Condition\n{rnd:hero} gains 1 {clue}
 EventPlaceInvestigators.button1,Continue
 EventTentDismantle.button1,Continue
 EventPlaceTent.text,The campers left a canvas tent held up by a rope strung between two trees.\nNear the fire, the edge of the canvas is held down by the large log.\n\nPlace 1 Search Token
@@ -581,7 +581,7 @@ EventOakPass2B.text,Inside her coat pocket, you find a handwritten note.\n<i>\nB
 EventSpoilers.text,GENERAL HINTS\n\n1. Trust no one and take notes!\n2. Did you quickly obtain the Cult Sigil and frequently inspect it?\n3. Did you ask everyone what happened at the ritual?\n4. Randomly attacking suspects may lead to disaster.\n\nMAJOR SPOILERS FOLLOW\n\nThe scenario has ended.\nRead on only if you think the story does not make sense.\n\nPlease check the log to determine if the responses of each of the Allies matches their roles.\nAmmi Pierce is Role No. {var:RoleAllyA}\nEric Colt is Role No. {var:RoleAllyB}\nOthera Gilman is Role No. {var:RoleAllyC}\nCorrina Jones is Role No. {var:RoleAllyD}\n\nNo. 1 = The Dark Druid who is the child of Bettina Beck.\nNo. 2 = The Dark Druid's unreliable Acolyte.\nNo. 3 = The Friend of Martha and not a Dark Druid\nNo. 4 = The White Druid\na) Both No. 1 and No. 2 tend to lie.\nb) The Friend of Martha is not a powerful magic user.\n\nAt the start of each game, the roles are assigned randomly.\n
 EventSpoilers.button1,Continue
 EventAttackWhiteDruid.button2,Spoilers
-EventWhereIsDaggerNot3.text,<i>I remember seeing the dagger plunged into Martha's side.\nI watched poor Martha being dragged away into the forest. I did not see the dagger fall out!\nEither the murderer has it or it's somewhere in the forest. \n</i>\nGain 1 {clue}
+EventWhereIsDaggerNot3.text,\n<i>I remember seeing the dagger plunged into Martha's side.\nI watched poor Martha being dragged away into the forest. I did not see the dagger fall out!\nEither the murderer has it or it's somewhere in the forest. \n</i>\nGain 1 {clue}\n
 EventWhereIsDaggerNot1.text,<i>I remember seeing Martha being stabbed with a dagger and she fell forwards onto the stone with it sticking in her side.\nWhen the creature dragged her away she still had the dagger stuck in her side.\n\nSylvia Marsh ran after the monster!\n</i>\nGain 1 {clue}
 EventWhereIsDagger.button1,Continue
 EventOakPass.button1,Continue
@@ -608,10 +608,10 @@ SpawnDeepOne1.text,Something inhuman emerges from the river!\n\nPlace a Deep One
 SpawnDeepOne1.button1,Continue
 EventGiveSigilAskAllyE.text,You must click the 'Cancel' button\nif your Investigator does not possess the {c:QItemCultSigil} Item (or is not in the same space as the Ally Token).
 EventGiveSigilAskAllyE.button1,{action} Give her the Sigil
-EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh laughs and cries out,<i>\n At last I have obtained what my family desires.\nI will reveal to you the power of Dagon.\n</i>\nShe casts a spell and a choking fog fills the bridge.\nAll Investigators on a space on the Covered Bridge\nsuffer {var:SufferDamage} Damage\n({strength} Negates)\n\nSuddenly, the sigil glows red hot and she drops it.\nPlace the {c:QitemCultSigil} Item on the space indicated\n
+EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh laughs and cries out,<i>\n At last I have obtained what my family desires.\nI will reveal to you the power of Dagon.\n</i>\nShe casts a spell and a choking fog fills the bridge.\nAll Investigators on a space on the Covered Bridge\nsuffer {var:SufferDamage} Damage\n({strength} Negates)\n\nSuddenly, the sigil glows red hot and she drops it.\nPlace the {c:QitemCultSigil} Item on the space indicated.\n
 EventSigilInactiveAllyE.text,You give the {c:QItemCultSigil} to Sylvia Marsh and she examines it.\n\nShe says,\n<i>The {c:QItemCultSigil} can only be used when the runes are visible.\nI do not know the secrets of the Druids.\nKey to learning how to use it may be to discover more about the ritual and the Druids.\nInspect it frequently and once the runes are visible, return and hand it to me!\n</i>\nNote: the {c:QItemCultSigil} Item can be inspected by clicking the 'Items' button
 EventSigilInactiveAllyE.button1,Continue
-TokenStone2.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is a 3 feet high and about 6 feet long.
+TokenStone2.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.
 TokenStone2.button1,{action} Place the Cult Sigil on the Stone
 EventStone2Interact.button1,Continue
 EventStone2Interact.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item
@@ -704,13 +704,15 @@ TokenAllyB3.button1,Continue
 TokenAllyC3.text,The White Druid
 TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
-EventStone1Search.text,\nThere are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\nA fire burns with eerie eldritch flames next to the stone.  \n  You remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue} \n
+EventStone1Search.text,There are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.
+EventStone1Search2.button1,Continue
+EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\nA fire burns with eerie eldritch flames next to the stone.\nYou remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue}\n
 EventStone1SearchDone.text,The humming sound has become fainter.
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
 EventDarkYoungMove0.button1,Yes
 EventDarkYoungMove0.button2,No
-EventDarkYoungSkip2.text,\nA huge lumbering creature is moving through the forest tearing up trees in its beserk rage.\n\nAll Investigators on an Outdoor space test ({will},2)\nIf failed, take 1 facedown Horror\n
+EventDarkYoungSkip2.text,\nA huge lumbering creature is moving through the forest tearing up trees in its beserk rage.\n\nAll Investigators on an Outdoor space test ({will},2)\nIf failed, take 1 facedown Horror
 EventDarkYoungSkip2.button1,Continue
 EventPlaceDeepOne.text,As she runs onto the covered bridge,\nyou hear something moving beneath it.\n\nPlace a Search Token as indicated.
 EventPlaceDeepOne.button1,Continue
@@ -864,5 +866,5 @@ EventAllyE2TellCursedA.text,\n<i>The key to reversing the curse is finding the {
 EventAllyE2TellCursedA.button1,Continue
 EventAllyE2TellCursedB.text,\n<i>\nAt last my mind is clear.\nSomething from beyond the grave, something no longer human, has clouded our minds.\nIt feeds off confusion and fear and has possessed one of the Druids!\nI will not stay in this accursed place!\n</i>\nGain 1 {clue}\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedB.button1,Continue
-EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\nTreat the {c:QItemDagger} as a Key Item\n\nRemove the Sylvia Marsh Ally Token\n
+EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\nTreat the {c:QItemDagger} as a Key Item\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedC.button1,Continue
