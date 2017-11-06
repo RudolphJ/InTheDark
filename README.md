@@ -179,3 +179,27 @@ All investigators gain the Dazed Condition
 
 
 
+CHANGES DONE 6
+
+1) Major bug in Valkyrie prevents Mythos Events for 5 players
+Workaround until bug in Valkyrie fixed
+If two StartRound or EndRound events run in same round sometimes only one is resolved.
+[EventInitHeroes5]
+Changed MinorMythosStart,=,1 to MinorMythosStart,=,2
+
+2) Goat Spawn 1 not triggered
+This bug was because the check for the saving of the drowned woman which has been removed.
+conditions=#round,==,GoatSpawn1Start DrownedSaved,=,0
+
+3) Cult Sigil
+Inspecting the item now allows defeating of Child of the Goat and Goat Spawn
+
+4) Numerous typos fixed
+
+5) Old Journal
+Text rephrased as it implied all the children were daughters.
+Added text about pages missing.
+
+
+
+
