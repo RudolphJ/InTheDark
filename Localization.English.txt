@@ -1,4 +1,4 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -44,7 +44,7 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v1.2)
+quest.name,In the Dark (v1.3)
 quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
@@ -358,7 +358,7 @@ EventPlacePorchTokens.text,You hold up the {c:QItemCultSigil} against the grille
 EventPlacePorchTokens.button1,Continue
 EventPlaceLetter.text,A large cabinet is up against the wall.\n\nPlace 1 Search Token as indicated.
 EventPlaceLetter.button1,Continue
-TokenPorchToObservation.text,The door is locked with a solid high quality 3 digit combination padlock.\nYou may be able to hear the click of the tumbers.
+TokenPorchToObservation.text,The door is locked with a digit combination padlock.\nThe padlock is too solid to break open with force but you may be able to hear the click of the tumblers.
 TokenPorchToObservation.button1,{action} Pick Lock
 EventPlaceObservationTile.text,On the outside the log cabin looks rotten and derelict but\ninside it is clean and well-lit.\n\nPlace the {c:TileObservation} Tile
 EventPlaceObservationTile.button1,Continue
@@ -397,7 +397,7 @@ EventAllyBaboutAllyD.button1,Continue
 EventAllyBaboutAllyAFalse.button1,Continue
 EventAllyBaboutAllyARandom.button1,Continue
 EventAboutAllyATrue.button1,Button1
-EventStart.button1,Button1
+EventStart.button1,Standard Mode
 EventTalkAboutAllyC.button1,Continue
 EventAboutAllyDFalse.button1,Button1
 QSTALLYCFIRSTNAME,Othera
@@ -421,7 +421,7 @@ EventDarkYoungMove1.button1,Yes, there is an Investigator on its space
 EventDarkYoungMove1.button2,No Investigator on its space
 EventCheckDarkYoungSpawn.button1,Button1
 SpawnDarkYoung1.button1,Continue
-EventDarkYoungVanishes.text,The monster vanishes into the woods. You can still here it knocking down trees.\n\nRemove the Dark Young Monster from the Game Board
+EventDarkYoungVanishes.text,The monster vanishes into the woods. You can still hear it knocking down trees.\n\nRemove the Dark Young Monster from the Game Board
 EventDarkYoungVanishes.button1,Continue
 CustomMonsterDarkYoung.monstername,DarkYoung
 CustomMonsterDarkYoung.info,-
@@ -708,7 +708,7 @@ TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
 EventStone1Search.text,There are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.
 EventStone1Search2.button1,Continue
-EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone.\nnYou remember a fire burning with eerie eldritch flames next to the stone.\nYou remember a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and the Druids fleeing north and west. \n\nGain 1 {clue}\n
+EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone and near the stone a fire burning with eerie eldritch flames.\n\nYou have a vague memory of three of the robed Druids standing close to the stone and two standing further back.\n\nYou have a vision of a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and Druids fleeing north and west. \n\nGain 2 {clue}\n
 EventStone1SearchDone.text,The humming sound has become fainter.
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
@@ -871,3 +871,7 @@ EventAllyE2TellCursedB.button1,Continue
 EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\nTreat the {c:QItemDagger} as a Key Item\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedC.button1,Continue
 PuzzlePorchLockHard.button1,Unlock Door
+EventStart.text,\nWould you like to play standard mode or hard mode?\n\nIt is recommended you play standard mode unless your group has played the scenario before or like a challenge.\nHard mode adds an extra monster and makes one puzzle harder.\n
+EventStart.button2,Hard Mode
+EventDarkYoungDefeated.button1,Continue
+EventDarkYoungDefeated.text,The giant monster is mortally wounded and crashes to the ground\nIt slowly drags itself into the forest.\n\nRemove the Dark Young Monster figure from the game board.\n\nAll Investigators gain 3 {clue}\nAll Investigators discard up to 3 Horror\n\n
