@@ -201,5 +201,14 @@ Text rephrased as it implied all the children were daughters.
 Added text about pages missing.
 
 
+CHANGES DONE 7
+
+1) Added warning to start of scenario that the scenario is a real murder mystery.
+
+2) Added additional clue about the painter to the painting.
+
+3) Changed response of the Novice Druid given the dagger to make it clearer that the White Druid really does exist.
+
+
 
 

@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -44,8 +44,8 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v1.3)
-quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
+quest.name,In the Dark (v1.4)
+quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: this scenario is more like a Sherlock Holmes Consulting Detective or Agatha Christie Mystery than a typical Mansions of Madness scenario.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
@@ -507,7 +507,7 @@ EventFinale6.button1,Continue
 EventFinale7.text,\nYou walk across the covered bridge.\nA distant sound makes you turn around.\nYou hear - coming from the direction of the ritual stone - the erie but beautiful song.\nThe last and final song of the last Bard of the Ord na Darach Gile.\n\nYou listen while watching the smoke rise above the trees.\nThen you walk away.\n\nThe End
 EventFinale7.button1,The End
 EventFinale7.button2,Check the Story (MAJOR SPOILERS)
-EventGiveDaggerNovice.text,The Druid says,\n<i>Oh now I recognise this!\nIt is the long lost language of the Ord na Darach Gile.\nThey died out long ago.\nI'm sorry!\nThere is no one alive who can read these runes!\n</i>
+EventGiveDaggerNovice.text,The Druid says,\n<i>Oh now I recognise these runes!\nIt is the long lost language of the Ord na Darach Gile.\nI thought they died out long ago.\nOnly a White Druid of great power can correctly read these runes!\n</i>
 EventGiveDaggerNovice.button1,Continue
 EventAttackAsk.text,{qst:QSTALLYENAME} has told you one of the Druids may be willing to help,\n\nAre you sure you want to continue with your attack?
 EventAttackConfirmedA.button1,Continue
@@ -673,9 +673,9 @@ EventPlaceStone2.text,The White Druid chants words of long lost Celtic.\nThe run
 EventPlaceStone2.button1,Continue
 EventGiveDagger.button2,Cancel
 PuzzlePainting.button1,Continue
-EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant matches that of the {c:QItemCultSigil}.\n\nGain 2 {clue} 
+EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant matches that of the {c:QItemCultSigil}.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nGain 2 {clue} 
 EventPaintingA.button1,Continue
-EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting is signed <i>Bettina Beck</i>!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult.\n
+EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n Corrina has painted over the signature and signed it herself!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
 EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.
@@ -871,7 +871,5 @@ EventAllyE2TellCursedB.button1,Continue
 EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\nTreat the {c:QItemDagger} as a Key Item\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedC.button1,Continue
 PuzzlePorchLockHard.button1,Unlock Door
-EventStart.text,\nWould you like to play standard mode or hard mode?\n\nIt is recommended you play standard mode unless your group has played the scenario before or like a challenge.\nHard mode adds an extra monster and makes one puzzle harder.\n
-EventStart.button2,Hard Mode
 EventDarkYoungDefeated.button1,Continue
 EventDarkYoungDefeated.text,The giant monster is mortally wounded and crashes to the ground\nIt slowly drags itself into the forest.\n\nRemove the Dark Young Monster figure from the game board.\n\nAll Investigators gain 3 {clue}\nAll Investigators discard up to 3 Horror\n\n
