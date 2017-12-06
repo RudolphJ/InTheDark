@@ -1,0 +1,875 @@
+﻿.,French
+UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
+UIIntroContinue.uitext, Regarder autour de vous
+QSTMOTHERNAME,Bettina Beck
+QSTFATHERFIRSTNAME,John
+QSTALLYCNAME,Othera Gilman
+QSTALLYBNAME,Eric Colt
+QSTALLYDNAME,Corrina Jones
+QSTNOVICENAME,Pete Barker
+QSTNOVICESURNAME,Barker
+QSTPLACEDARKNESS,Placez 1 jeton Obscurité sur la bordure indiquée.\nConsidérez toutes les cases de la tuile comme plongées dans l'Obscurité.
+QSTSPAWNDARKYOUNG,Une créature formée de multiples tentacules immenses et de gueules baveuses, jaillit à travers les arbres.\n\nPlacez le monstre Sombre Rejeton sur la case indiquée.
+TokenAllyA.text,Ammi Pierce
+TokenAllyA.button1,{action} <i>Eric Colt est-il un Druide Noir?</i>
+TokenAllyA.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+TokenAllyA.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+TokenAllyA.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
+TokenAllyA.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
+TokenAllyA.button6, {action} <i>Que pouvez-vous me dire sur cet endroit?</i>
+TokenAllyA.button7,{action} Attaquer Ammi Pierce
+TokenAllyA.button8,Montrer le Sceau de Culte
+TokenAllyB.text,Eric Colt
+TokenAllyB.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
+TokenAllyB.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+TokenAllyB.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+TokenAllyB.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
+TokenAllyB.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
+TokenAllyB.button6,{action} Attaquer Eric Colt
+TokenAllyB.button7,Montrer le Sceau de Culte à Eric Colt
+TokenAllyC.text,Othera Gilman
+TokenAllyC.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
+TokenAllyC.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
+TokenAllyC.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+TokenAllyC.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
+TokenAllyC.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
+TokenAllyC.button6,{action} <i>Que pouvez-vous me dire sur la famille Marsh?</i>
+TokenAllyC.button7,{action} Attaquer Othera Gilman
+TokenAllyC.button8,Montrer le Sceau de Culte à Othera Gilman
+TokenAllyD.text,Corrina Jones
+TokenAllyD.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
+TokenAllyD.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
+TokenAllyD.button3,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
+TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
+TokenAllyD.button6,{action} Attaquer Corrina Jones
+TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
+quest.name,Dans les Ténèbres (v1.5)
+quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention : Ce scénario est plus dans la veine d'une enquête de Sherlock Holmes ou des mystères d'Agatha Christie qu'un scénario typique des Demeures de l'Épouvante.\nPrenez des notes et regardez votre journal régulièrement pour cheminer votre réflexion.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).
+quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
+EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
+EventGraveSearch.button1,Continuer
+TokenPainting.text,Le tableau n'est soit pas terminé, ou abîmé, ou bien très abstrait.\nCela pourrait être le portrait d'une femme tenant un {c:QItemCultSigil}.\n\nSi vous tentez de résoudre l'énigme, vous avez le droit de convertir chacune des preuves en votre possession en étape supplémentaire.
+TokenPainting.button1,{action} Résoudre l'énigme
+EventGraveSearchTrail1.text,Le corps d'un jeune homme est recouvert d'os et d'une fine couche de terre.\nUne étiquette est cousue sur sa veste <i>P. {qst:QSTNOVICESURNAME}</i>.\n\nLe garçon est décédé durant un processus de transformation en rejeton de la chèvre. Quelqu'un a récemment pratiqué une expérience médicale étrange.\n\nDes traces de pas, et de traînées dans de la boue fraîche, se dirigent vers la Cabane et la Véranda.\n\nRécupérez l'Objet Unique {c:QItemForensicEvidence}.\n\nRécupérez 1 jeton {clue}
+EventGraveSearchTrail1.button1,Continuer
+EventGraveSearchTrail2.text,Le corps d'un jeune homme est recouvert d'os et d'une fine couche de terre.\nUne étiquette est cousue sur sa veste <i>P. {qst:QSTNOVICESURNAME}</i>.\nQuelqu'un a pratiqué une expérience médicale étrange sur lui.\nUne caisse en bois, contenant une moitié de chèvre et une moitié de bébé humain, est enfouie à côté.\nDes traces de salpêtre sur la caisse indique qu'elle était rangée en sous-sol.\nRécupérez l'Objet Unique {c:QItemForensicEvidence}.\n\nRécupérez 1 jeton {clue}
+EventGraveSearchTrail2.button1,Continuer
+TokenGrave.text,La tombe contient un tas d'ossements de chèvres difformes.
+TokenGrave.button1,{action} Explorer
+EventOak.text,Vous pouvez soit 'Annuler' ou bien tenter de grimper à l'arbre.\n\nSi vous grimpez, déterminez laquelle de votre compétence {observation} ou {agility} est la plus faible.\nPuis faites un test avec la plus faible.\nAjoutez 1 dé supplémentaire si vous avez l'Objet Unique {c:QItemRope}. Vous réussissez si vous obtenez au moins 1 Réussite.
+EventOak.button1,Succès
+EventOak.button2,Échec
+EventOak.button3,Annuler
+EventOakPass.text,Vous découvrez les restes d'une femme allongée sur le dessus d'une large branche, pointant vers la droite.\nSon corps a été jeté sur la branche comme une poupée de chiffon ensanglantée.\nSa chevelure rousse est maintenue vers l'arrière par un bandeau de gui et de lierre.\nVous finissez de grimper sur la branche.
+EventOakPass1.button1,Continuer
+EventOakPass2Up.button1,Continuer
+EventOakPass2A.text,Dans la poche intérieure de son manteau, vous trouvez une note écrite à la main.\n<i>\nLa magie de ton ami n'est rien comparé à la mienne!\nMéfie-toi du Sang Noir de la Chèvre!\nCe parchemin appartenait à Malachi Cooter Pierce.\nJe suis le Druide Blanc dont on a prédit le retour.\nCe présent démontre ma loyauté!\nAmmi</i>
+EventOakPass2A.button1,Continuer
+TokenOak.text,La femme pendue s'est volatilisée.\n\nIl y a quelque chose de blanc dans les plus hautes branches du gigantesque chêne.
+TokenOak.button1,{action} Rechercher
+EventDrownedRescueFemale.text,Elle s'exclame,\n<i>Cette maudite sorcière n'est que fourberie et mensonge.\nElle nous a persuadés d’assister à cette danse!\nSes sortilèges sont puissants.\nMon esprit est embrumé, je n'arrive pas à me rappeler de son nom.\nSon pouvoir ne connaît-il aucune limite? \nJ'entends encore ses ordres dans mon esprit!\n</i>\nElle s'enfuit, terrifiée.\n\nRécupérez 1 jeton {clue}\n
+EventDrownedRescueFemale.button1,Continuer
+EventDrownedRescueMale.text,Elle s’exclame,\n<i>Méfiez-vous du démoniste!\nIl n'est que tromperie et mensonge.\nIl nous a persuadés d’assister à cette danse!\nSes sortilèges sont puissants.\nMon esprit est embrumé, je n'arrive pas à me rappeler de son nom.\nJ'entends encore ses ordres dans mon esprit!\n</i>\nElle s'enfuit, terrifiée.\n\nRécupérez 1 jeton {clue}
+EventDrownedRescueMale.button1,Continuer
+EventDrownedRescuePass.text,Elle dit,\n<i>Nous regardions les Druides faire une danse.\nJe me tenais assez loin.</i>\n\nC'est une petite victoire contre le mal...\nmême si c'est une victoire éphémère.\n\nVous pouvez défausser 1 Horreur face cachée.
+EventDrownedRescuePass.button1,Continuer
+TokenDrownedBody.text,Une jeune femme est accrochée sur un rocher.\nSa robe fleurie est salement déchirée.\nSes jambes sont celles d'une chèvre.
+TokenDrownedBody.button1,{action} Sauver la femme
+TokenDrownedBody.button2,{action} Pousser la femme dans le courant
+EventDrownedRescue.text,Vous tirez la femme à moitié noyée vers vous.\nElle est affolée et vous essayez de la calmer.\n\nVous pouvez faire un test d'({influence};2) ou de ({lore};2).
+EventDrownedRescue.button1,Succès
+EventDrownedRescue.button2,Échec
+EventPlacePainting.text,Dans le coin, un tableau sur lequel Corrina est en train de travailler.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlacePainting.button1,Continuer
+TokenCellarDoor.text,A travers les planches, vous décelez une cave humide à l'abandon dans laquelle quelqu'un ou quelque chose a été déplacé.\n\nSi vous êtes sur la même case que ce jeton,\nvous pouvez appuyer sur le bouton 'Continuer'.
+TokenCellarDoor.button1,Continuer
+EventCellarDoorLocked1.text,La trappe est verrouillée de l'intérieur.\n\nUne femme crie,\n<i>J'ai suivi la voie de mes aïeux celtes.\nVous êtes dévoués à la famille Marsh!\nDites-moi, serviteurs de Dagon, qui dirige la forêt ?</i>
+EventCellarDoorLocked1.button1,Continuer
+EventCellarDoorLocked2.text,Vous essayez de vous rappeler la mythologie celte.\n\nVous pouvez soit appuyer sur le bouton 'Échec' soit utiliser une {action} pour résoudre un test de ({lore};1).
+EventCellarDoorLocked2.button1,Succès
+EventPlaceAllyC.text,Vous vous écriez,\n<i>L'Homme Verdoyant des Bois!</i>\nLa trappe s'ouvre.\n\nElle dit,\n<i>Bienvenue, mon nom est Othera Gilman.</i>\n\nPlacez le jeton Personnage Allié Othera Gilman.
+EventPlaceAllyC.button1,Continuer
+EventPlaceOperationTokens.text,Des lanières en cuir sont disposées sur la table.\nDe légères traces de taches de sang ont été frottées.\n\nDes bandages propres sont aussi entreposés sur la table.\n\nPlacez l'Objet Commun {c:QItemBandages} sur la case indiquée.
+EventPlaceOperationTokens.button1,Continuer
+TokenToOperatingRoom.text,La porte conduit plus loin dans la cabane.
+TokenToOperatingRoom.button1,{action} Explorer
+EventLetterResultMoreC.text,<i>Chère Martha,\nVous avez une haute estime de votre lignée mais ne craignez-vous pas que l'un deux puisse être un Druide Noir ?\nIls ont toujours eu des problèmes avec la justice depuis l'enfance. Ils auraient très bien pu comploter pour s'emparer du commandement!\nSeul le grand pouvoir du Wicca est digne de confiance avec la puissance du Sceau!\nJ'ai un accès privilégié aux secrets de l'Ordre des Druides Blancs.\nVotre amie dévouée\nOthera Gilman.</i>\nRécupérez 1 jeton {clue}
+EventLetterResultMoreC.button1,Continuer
+EventLetterResult.text,Dans l'un des tiroirs, vous trouvez une lettre à l’attention de Martha Beck.
+EventLetterResult.button1,Continuer
+EventLetterResultMoreD.text,<i>Chère Martha,\n\nVous avez une haute estime de votre lignée mais en va-t-il de même pour vos frères et sœurs?\nÊtre si peu enclin au respect de la loi depuis l'enfance, n'y a-t-il ainsi pas de risque de revirement?\nUn de vos parents est un Druide Noir qui manigance pour prendre le commandement du groupe!\nMoi seul suis digne de confiance en possession du Sceau!\n\nVotre servante dévouée\nCorrina Jones\n</i>\nRécupérez 1 jeton {clue}
+QSTALLYDFIRSTNAME,Corrina
+EventLetterResultMoreD.button1,Continuer
+TokenLetter.text,Le meuble dispose de plusieurs tiroirs.
+TokenLetter.button1,{action} Rechercher
+EventLetterResultMoreA.text,<i>Martha Beck,\nGrande prêtresse du Vénérable Ordre Druidique.\n\nComparés à moi, les autres Druides en savent bien peu!\nJe suis le dernier de l'Ordre des Druides Blancs.\nJe vous ai montré la puissance de ma magie.\nDonnez-moi le Sceau et je veillerai sur lui.\n\nVotre servant dévoué\nAmmi Pierce\n</i>\nRécupérez 1 jeton {clue}
+EventLetterResultMoreA.button1,Continuer
+QSTALLYANAME,Ammi Pierce
+EventPendantSearchResult.text,Vous trouvez un petit pendentif.\nSa chaîne est prise dans le buisson.\n\nRécupérez l'Objet Commun {c:QItemPendant}.\n\nAu Nord, vous voyez d'imposantes traces de sabot.
+EventPendantSearchResult.button1,Continuer
+EventPendantSearch.text,En fouillant les buissons, vous trouvez un grand morceau de tissu blanc teinté de sang.\n\nTest {observation}
+EventPendantSearch.button1,Continuer
+TokenPendant.text,Pendant un bref instant, le clair de lune reflète quelque chose de petit dans l'épaisse brume.
+TokenPendant.button1,{action} Rechercher
+EventPainting.button1,Continuer
+EventAllyCMonologue.text,<i>Je suis une sorcière blanche, issue d'une longue lignée de femmes avisées!\nJe sais des choses que d'autres ignorent!</i>
+EventAllyCMonologue.button1,Continuer
+EventAllyBMonologue.text,<i>Les autres me pensent juste un Redneck mais les Colt vivent en ces lieux depuis des temps immémoriaux!</i>
+EventAllyBMonologue.button1,Continuer
+EventAllyDMonologue.text,<i>Ma vision artistique me permet souvent de déceler ce qui se cache aux yeux des autres!</i>
+EventAllyDMonologue.button1,Continuer
+EventAllyAMonologue.text,<i>J'ai beaucoup voyagé et vu des choses que vous ne pouvez imaginer... même dans vos pires cauchemars!\nJe ne suis pas dupe, mais ma clairvoyance n'est plus ce qu'elle était.</i>
+EventAllyAMonologue.button1,Continuer
+EventAllyNotRole4.text,<i>Notre Ordre Druidique est ancien et a prêté serment de ne porter atteinte à quiconque.\nLa cérémonie du Feu de Beltaine célèbre l'arrivée d'un nouveau printemps.\nTout ne s'est pas passé comme prévu, soit parce que votre ami s'est emparé du Sceau au milieu du rituel,\nou bien car l'un d'entre nous n'a pas dit les bons mots.\nUn démon a été invoqué.\nIl a attrapé Martha et l'a traînée à travers la forêt vers un portail menant droit aux enfers!\nDonnez-moi le Sceau!\nJe peux bannir le démon pour qu'il retourne d'où il vient!</i>
+EventAllyNotRole4.button1,Continuer
+EventAllyNotRole3.text,<i>Le rituel de Beltaine célèbre l'arrivée du printemps en allumant un feu.\nIl y a parmi nous, un Druide Noir diabolique qui a modifié cet ancien texte rituel.\nLes serviteurs de Shub-Niggurath ont fait sceller un pacte de sang pour nous transformer en Rejetons de la Chèvre!\nMartha a été sacrifiée pour invoquer Shub-Niggurath.\nElle a été traînée vers l'Est dans la forêt.\nLes autres Druides sont des fous ou des menteurs!</i>\n\nRécupérez 1 jeton {clue}
+EventAllyNotRole3.button1,Continuer
+EventAllyNotRole1.button1,Continuer
+EventLogCabinMonologue1.text,<i>La forêt et les pierres étaient là bien avant les bâtiments.<i>\nLa mère de Martha, Bettina Beck, a acheté la propriété et a fait construire.\nCette cabane en rondins ne paye pas de mine, mais elle est plus solide qu'elle n'y paraît et les lumières fonctionnent!</i>
+EventLogCabinMonologue1.button1,Continuer
+EventAllyNotRole1.text,<i>Je me tenais près de la pierre rituelle quand Martha a été assassinée!\nJe me souviens avoir entendu un bourdonnement puis quelqu'un s'est exclamé,\n'Abreuve-toi de l'esprit de ces stupides mortels.\nLes païens sur ce lieu sacré deviendront tes enfants!'\n</i>\nVous avez soudain le souvenir d'une femme se faisant poignarder par une dague ornée, puis tomber sur la pierre rituelle.\nDeux silhouettes encapuchonnées se tenaient près d'elle.\nDeux autres étaient en retrait de Martha.
+EventAllyNotRole1Again.text,<i>J'étais loin de Martha quand on l'a poignardée avec la dague, puis elle s'est écroulée sur la pierre rituelle.\nJ'étais aussi bien trop loin pour l'atteindre, mais vous m'avez dépassé.</i>\n\nVous vous souvenez en effet de deux Druides plus en retrait que les autres.
+EventAllyNotRole1Again.button1,Continuer
+EventAllyNotRole1MoreD.text,L'une des silhouettes avait une toge blanche teintée de couleurs qui pourraient bien être des taches de peinture.\nElle tenait un pinceau dans sa main droite.\n\nRécupérez 1 jeton {clue}
+EventAllyNotRole1MoreD.button1,Continuer
+EventAllyNotRole1MoreC.text,Othera Gilman est de petite taille, la carrure de la silhouette en retrait du rituel pourrait correspondre.\n\nRécupérez 1 jeton {clue}
+EventAllyNotRole1MoreC.button1,Continuer
+EventAllyNotRole1MoreB.text,Vous vous rappelez que l'une des silhouettes, en retrait du rituel, était inhabituellement grande et qu'elle tenait une bouteille de Whisky.\n\nCela pourrait correspondre à Eric Colt.\n\nRécupérez 1 jeton {clue}
+EventAllyNotRole1MoreB.button1,Continuer
+EventAllyNotRole1MoreA.text,Vous vous rappelez qu'une des silhouettes en retrait se penchait sur sa main gauche, en tenant une canne de marche.\n\nRécupérez 1 jeton {clue}
+EventAllyNotRole1MoreA.button1,Continuer
+EventAllyNotRole3Again.text,<i>\nLe Druide Noir a lancé la malédiction du Sang Noir de la Chèvre.\nUn groupe de filles qui regardait la cérémonie a été affecté par le sort.\nLe Sceau utilisé pour le rituel est la clé pour inverser la malédiction!\nJe sais de quoi je parle!\nSi vous ne me le donnez pas, votre destin sera scellé!</i>\n\nRécupérez 1 jeton {clue}
+EventAllyNotRole3Again.button1,Continuer
+QSTALLYENAME,Sylvia Marsh
+QSTALLYAFIRSTNAME,Ammi
+TokenAllyA2.text,{qst:QSTALLYANAME}
+TokenAllyA2.button1,{action} <i>Eric Colt est-il un Druide Noir?</i>
+TokenAllyA2.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+TokenAllyA2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+TokenAllyA2.button4,{action} Donner la dague à Ammi
+TokenAllyB2.text,{qst:QSTALLYBNAME}
+TokenAllyB2.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
+TokenAllyB2.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+TokenAllyB2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+TokenAllyB2.button4,{action} Donner la dague à Eric
+TokenAllyD2.text,{qst:QSTALLYDNAME}
+TokenAllyD2.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
+TokenAllyD2.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
+TokenAllyD2.button3,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+TokenAllyD2.button4,{action} Donner la dague à Corrina
+TokenAllyC2.text,{qst:QSTALLYCNAME}
+TokenAllyC2.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
+TokenAllyC2.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
+TokenAllyC2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+TokenAllyC2.button4,{action} <i>Parlez-moi de la famille Marsh</i>
+TokenAllyC2.button5,{action} Donner la dague à Othera
+EventJournal2.text,En grandissant, ses enfants ont commencé à présenter de légers signes de transformation.\nMais le journal est incomplet.\nVous pouvez néanmoins déduire de ces rudiments, que les pages manquantes réfèrent au nom d'un de ses enfants.\n\nLa dernière page mentionne,\n<i>J'ai du sacrifier un de mes enfants pour sauver les autres.\nLes deux qui restent ne semblent pas présenter de signe du Sang Noir de la Chèvre.\nMais ils sont malgré tout bien différents des autres enfants.\nJe ne crains seulement d'avoir retardé l'échéance.\nVous trouverez mon corps près du vieux chêne sacré.</i>\n\nRécupérez l'Objet Unique {c:QItemJournal}.\nTest ({lore};1)\nSi vous réussissez, récupérez 1 jeton {clue}
+EventJournal2.button1,Continuer
+EventJournal1.text,Vous ouvrez la commode et trouvez un journal écrit par Bettina Beck.\nIl décrit comment la malédiction a transformé sa famille en Rejeton de la Chèvre.\nAprès plusieurs expériences menées sur des clochards, elle a appris à retarder le processus, mais les effets sont temporaires à moins de sacrifier un parent proche.\nSes expériences lui ont permis de mettre au monde trois enfants en apparence normaux.\nDans le journal, la description d'un Sceau correspond au {c:QItemCultSigil} et celle d'une dague sertie de runes.\nLe journal contient des incantations, des dessins dérangeants, des symboles et autres descriptions relatifs à des expériences médicales impies.\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur.
+EventJournal1.button1,Continuer
+TokenJournal.text,Le meuble est rempli de papiers.
+TokenJournal.button1,{action} Rechercher
+EventLogCabinMonologue2.text,<i>Le chalet est resté vide après que la mère de Martha se soit pendue au grand chêne dans les bois!\nLes habitants du coin considéraient Bettina comme une meurtrière mais après son suicide, le sheriff a préféré taire certains éléments pour le bien-être des enfants.\n\nQuelques temps après, Martha m'a dit avoir fait du nettoyage.\nElle accueillait un parent, ayant des problèmes avec la loi, et qui avait besoin d'un endroit pour se poser.\nMartha a refusé de m'en dire davantage.</i>\n\nRécupérez 1 jeton {clue}
+EventLogCabinMonologue2.button1,Continuer
+EventAllyE2AboutRitual2.text,<i>Je me souviens avoir entendu cette mélodie juste avant que le Sombre Rejeton n'apparaisse et que tout le monde soit étourdi...\n\n'Lä! Shub-Niggarath!\nChèvre Noire aux milliers de Rejetons!\nPrenez le pouvoir de l'Ord na Darach Gile.\nEmparez-vous de ces stupides mortels.\nAu nom de la malédiction, les impies sur ce sol sacré deviendront tes enfants!'\n</i>\nRécupérez 1 jeton {clue}
+EventAllyE2AboutRitual2.button1,Continuer
+TokenAllyE2.text, {qst:QSTALLYENAME}
+TokenAllyE2.button1,{action} <i>Que savez-vous à propos des Druides?</i>
+TokenAllyE2.button2,{action} <i>Que s'est-il passé pendant le rituel?</i>
+TokenAllyE2.button3,{action} Attaquer Sylvia Marsh
+TokenAllyE2.button4,{action} Lui dire ce que vous savez à propos du rituel
+TokenAllyE2.button5,Donner le Sceau de Culte à Sylvia Marsh
+EventAllyE2AboutRitual1.text,<i>Il n'y a pas grand chose de plus à dire.\nJe ne sais pas ce que j'ai vu dans la brume et l'obscurité.\nLes Druides portaient tous la même toge blanche\net se déplaçaient en cercle durant la danse.\n\nQuand Martha a hurlé, deux druides étaient à côté d'elle. Les autres étaient en retrait.\nIl y avait aussi un groupe de jeunes filles du coin qui regardait la cérémonie, mais quand le chaos a commencé, elles ont détalé dans les bois.</i>
+EventAllyE2AboutRitual1.button1,Continuer
+EventAllyE2AboutCult1.text,<i>Les habitants du coin ont tendance à dire que les Druides ne sont pas mauvais.\nIls participent à des œuvres de charité et aident l'orphelinat local.\nDes rumeurs racontent que l'Ordre accueille le dernier des Druides Blancs, connus pour être des guérisseurs au grand pouvoir.\n\nPete Barker a admis que le groupe était au bord de l'implosion.\nCertains ont commencé à suspecter la présence d'un puissant Druide Noir dans leurs rangs!\nIl ne pense pas seulement que le Druide Noir existe, mais qu'il tente bel et bien de convertir les membres, les uns après les autres, en acolytes de la Chèvre Noire.\nIl est devenu particulièrement méfiant, ne serait-ce que par rapport au passé du Druide Noir – un enfant en conflit avec les règles et la loi.</i>
+EventAllyE2AboutCult1.button1,Continuer
+EventAllyE2AboutCult2.text,<i>La mise en place d'une nouvelle version du rituel de Beltaine était source de friction.\nDepuis plusieurs années, à la fin du mois d'Avril, les Druides effectuent le même rituel en allumant un feu et en chantant la bienvenue du printemps.\nDe but en blanc, Martha a décidé qu'ils mettraient en place une cérémonie plus élaborée et plus complexe.</i>
+EventAllyE2AboutCult2.button1,Continuer
+EventAllyE1Monologue4.text,<i>Tenez, prenez le Sceau!\nLes runes ont cessé de luire.\nLorsqu'elles brilleront à nouveau, rapportez-le moi.\nIl est préférable de l'examiner.\nPeut-être l'un des Druides pourra-t-il vous aider.\n</i>\nRécupérez l'Objet Unique {c:QItemCultSigil}.\n\nRécupérez 1 jeton {clue}\n\nVous pouvons interagir avec cet objet dans l’Inventaire de l'application.
+EventAllyE1Monologue4.button1,Continuer
+EventAllyE1MonologueEnd.text,Un grand bruit oblige Sylvia Marsh à se planquer sous le pont couvert.\n\nRetirez le jeton Personnage Allié Orange.\nPlacez le jeton Personnage Allié Sylvia Marsh sur la case indiquée.
+EventAllyE1MonologueEnd.button1,Continuer
+EventAllyA1Monologue3.text,<i>Depuis un moment les choses allaient à vau-l'eau.\nUn épais brouillard a recouvert la zone.\nSur la pierre était posé le Sceau, les runes luisantes de rouge.\nJe me souviens de Martha et de sa chevelure rousse retenue par un bandeau fait de gui et de lierre.\nElle a crié que l'Homme des Bois régnait sur la forêt.\n\nNous avons accouru, mais trop tard.\nQuelque chose d'immense était sorti du brouillard et avait entraîné la pauvre Martha Beck!\n\nJ'ai deviné que le Sceau était important, je l'ai attrapé et couru!\nUn des Druides m'a aidé à fuir.</i>
+EventAllyA1Monologue3.button1,Continuer
+EventAllyE1Monologue2.text,<i>La nuit du 1er Mai, ils ont effectué le rituel celte de Beltaine et ont allumé un feu pour célébrer l'arrivée du printemps.\nLes autochtones les regardaient bizarrement, mais sans animosité. Peut-être bien que la majorité étaient de bonnes personnes, mais l'un d'eux était un Druide Noir et un terrible jeteur de sort de surcroît!\n\n{qst:QSTNOVICENAME} avait accepté de nous rencontrer ce soir-là, avec la preuve de l'identité du Druide Noir, mais il n'est jamais venu.\n</i>
+EventAllyE1Monologue2.button1,Continuer
+EventAllyE1Monologue1.text,<i>Ne reconnaissez-vous votre amie, Sylvia Marsh.\nNe vous rappelez-vous pas que je vous ai aidé à enquêter sur les Druides?\nJ'ai obtenu la confiance et l'amitié de ce gros lourdaud d'Eric Colt et j'en ai ainsi appris davantage sur les autres.\n\nAmmi Pierce est un étrange rétrograde.\nOthera Gilman s'autoproclame comme une puissante sorcière.\nCorrina Jones est une peintre avant-gardiste.\n{qst:QSTNOVICENAME} est une jeune recrue.\nMartha Beck est leur non moins populaire Grande Prêtresse.</i>
+EventAllyE1Monologue1.button1,Continuer
+TokenAllyE1.text,Une femme crie votre nom.
+TokenAllyE1.button1,{action} <i>Qui êtes-vous?</i>
+EventAllyAaboutAllyD.text,<i>Son art est macabre – De l'horreur et du tabou.\nDites-moi, où puise-t-elle sa source d'inspiration?</i>
+EventAllyAaboutAllyD.button1,Continuer
+EventAllyAaboutAllyC.text,<i>Gilman est une sorcière auto-proclamée, fière d'être issue d'une longue lignée de sorcières.</i>
+EventAllyAaboutAllyC.button1,Continuer
+EventAllyAaboutAllyB.text,<i>Eric Colt est un redneck fainéant - \ncomme le reste du fameux clan Colt!</i>
+EventAllyAaboutAllyB.button1,Continuer
+EventAllyAaboutAllyBTrue.button1,Continuer
+EventAboutAllyB.button1,Button1
+EventAllyBIsEnemy.text, <i>Eric Colt est un Druide Noir!</i>\n
+EventAllyBIsEnemy.button1,Continuer
+EventGoatHairResult.text,Vous trouvez une touffe de longues mèches blondes.\n\nDes traces de sabot, de chèvre dirait-on, se dirigent vers l'Est, au plus profond de la dense forêt.\n\nEn tenant les cheveux, vous vous souvenez d'une jeune femme vêtue d'une robe estivale fleurie, se tenant en périphérie du cercle de pierre.\nElle est entourée de ses amis, regardant la danse.\n\nIls commencent à hurler, griffer leur visage, déchirer leurs vêtements et arracher leurs cheveux. Pris d'hystérie, ils courent vers la forêt.\nEntre les arbres, les cris deviennent ceux d'un animal, jusqu'à devenir le bêlement grossier d'une chèvre.\n\nRécupérez 2 jetons {clue}\n\nRécupérez l'Objet Unique {c:QItemCircumstantial}.
+EventGoatHairResult.button1,Continuer
+TokenGoatHair.text,Pris dans les buissons, un gros morceau de vêtement.
+TokenGoatHair.button1,{action} Rechercher
+EventGoatHair.text,Le morceau de vêtement est blanc clairsemé de marguerites.\n\nTest {observation}\n
+EventGoatHair.button1,Continuer
+EventSigil.text,Le Sceau est un ancien artefact magique druidique.
+EventSigil.button1,Continuer
+EventSigilInspect.text,Si votre investigateur possède l'Objet Unique {c:QItemCultSigil}, vous pouvez (à n'importe quel moment durant votre tour) cliquer sur 'Inspecter le Sceau'.
+EventSigilInspect.button1,Inspecter le Sceau
+EventSigilInspect.button2,Annuler
+EventSigilReady.button1,Continuer
+EventSigilNeedMoreA.text,Il n'y a plus aucun signe de runes rouges brillantes sur le {c:QItemCultSigil}.\nVous n'en savez pas assez pour maîtriser son pouvoir, mais vous pouvez vous servir de ses effets régénérants.\n\nVous pouvez utiliser 1 {action} pour faire un test de ({lore};2)\nSi vous réussissez, un investigateur peut défausser un état Étourdi, Sonné ou Hypnotisé.
+EventSigilNeedMoreA.button1,Continuer
+EventSigilNeedMoreB.text,Il n'y a plus aucun signe de runes rouges brillantes sur le {c:QItemCultSigil}.\nVous n'en savez pas assez pour maîtriser tout son pouvoir, mais vous pouvez vous servir de ses effets régénérants ou de transformation.\n\nVous pouvez utiliser 1 {action} pour faire un test de ({lore};2).\nSi vous réussissez, un investigateur peut défausser un état Étourdi, Sonné ou Hypnotisé.\n\nSi une Progéniture de la Chèvre est à portée, pour 1 {action}, vous pouvez la forcer à fuir vers la forêt, ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
+EventSigilNeedMoreB.button1,Continuer
+EventPlaceRitualSite.text,Placez la tuile {c:TileRitual}\n
+EventPlaceRitualSite.button1,Continuer
+EventAttackAsk.button1,Continuer l'assaut
+TokenCampFire.text,Le feu de camp s’éteint peu à peu.\nIl y a une grosse bûche près du feu.
+TokenCampFire.button1,{action} Mettre le rondin dans le feu
+EventFireInteract.text,Mettre la bûche vous demande un effort coûteux.\nQuand le brasier aura repris, vous pourrez improviser une torche.\n\nPlacez l'Objet Commun {c:QItemTorch} sur la case indiquée.
+EventFireInteract.button1,Continuer
+EventFireInteractSpread1.text,Le brasier est hors de contrôle et s'étend dans le camp.\n\nPlacez 1 jeton Feu sur la case.
+EventFireInteractSpread1.button1,Continuer
+EventFireInteractSpread2.text,Des nuages de fumées noires tourbillonnent autour du camp.\n\n{qst:QSTPLACEDARKNESS}
+EventFireInteractSpread2.button1,Continuer
+EventPlaceDrownedBody.text,Un corps repose contre un rocher au bord de la rivière.
+EventPlaceDrownedBody.button1,Continuer
+QSTRESTRICTSIGHT,Vous ne voyez pas très loin dans cette pénombre.\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
+TokenDrownedBody.button3,Annuler
+EventDrownedKill.text,Vous repoussez la femme dans le courant.\nAlors qu'elle lutte pour ne pas se noyer, ses ébats sont horribles et troublants.\n\nSubissez 1 Horreur.
+EventDrownedKill.button1,Continuer
+EventCaveDoorLocked1.text,Alors que vous secouez la porte, un homme crie,\n<i>Vous perdez votre temps!\nAvec l'étai derrière cette porte, elle ne bougera pas!\nLes Colt ont appris à ne pas faire confiance aux étrangers.</i>
+EventCaveDoorLocked1.button1,Continuer
+EventCaveDoorLocked2.text,Vous rétorquez\n<i>Mr Colt! Sylvia Marsh m'envoie!</i>\n\nVous pouvez soit cliquer sur 'Annuler' ou bien utiliser 1 {action} pour effectuer un test d'({influence};1).
+EventCaveDoorLocked2.button1,Succès
+TokenPorchDoor.text,Au travers d'une petite grille dans la porte, vous voyez qu'elle est bloquée de l'intérieur.\nUne grosse chaise à bascule fait office de support contre la porte et un vieil homme est assis sur un banc.\n\nSi vous êtes sur la même case que ce jeton,\nvous pouvez appuyer sur 'Continuer'.
+TokenPorchDoor.button1,Continuer
+EventPorchDoorLocked1.text,Vous criez à travers la grille,\n<i>Laissez-moi entrer!</i>\n\nLe vieil homme rétorque d'une voix fébrile,\n<i>Partez!\nLes gens d'ici n'ont aucune raison de faire confiance à une bande de citadins stressés!\nProuvez-moi que vous êtes digne de confiance!</i>
+EventPorchDoorLocked1.button1,Continuer
+EventPorchDoorLocked2.text,Si vous avez l'Objet Unique {c:QItemCultSigil}, vous pouvez utiliser 1 {action} pour le sortir et le montrer à travers la grille.
+EventPorchDoorLocked2.button1,{action} Brandir le Sceau de Culte
+EventPorchDoorLocked2.button2,Annuler
+TokenCaveDoor.text,Quelqu'un a dégagé le lierre qui poussait autour de l'entrée de la cave.\nLa porte en bois est vieille, mais semble solide.\n\nSi vous êtes sur la même case que ce jeton,\nVous pouvez appuyer sur 'Continuer'.
+TokenCaveDoor.button1,Continuer
+EventPlaceAllyE1.text,Une femme vous invite à approcher, en vous appelant par votre nom.\nElle vous est vaguement familière.\n\nPlacez le jeton Personnage Allié Orange sur la case indiquée.
+EventPlaceAllyE1.button1,Continuer
+EventPlaceBridgeTileTokens.text,Placez le ou les {var:countBridgeSights} jeton(s) Vue comme indiqué.
+EventPlaceBridgeTileTokens.button1,Continuer
+TokenCampToBridge.text,La lumière du feu de camp illumine un pont couvert.\n\nVous pouvez 'Révéler' la zone si vous êtes sur 1 case de la tuile {c:TileCamp}
+TokenCampToBridge.button1,Révéler
+EventPlaceBridgeTile.text,Un pont couvert branlant traverse une rivière.\nL'eau scintille sous un faible rayon de lune.\n\nPlacez la grande tuile {c:TileBridge}\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceBridgeTile.button1,Continuer
+EventPlaceCampFire.text,Le petit feu de camp s'essoufle.\n\nPlacez 1 jeton Interaction sur cette case.\nConsidérez le jeton comme une Source de Lumière.
+EventPlaceCampFire.button1,Continuer
+TokenBridgeToCamp.text,Vous voyez une légère lueur dans cette direction.\n\n{qst:QSTRESTRICTSIGHT}
+TokenBridgeToCamp.button1,Révéler
+EventPlaceCampTile.text,La lumière d'un foyer éclaire un campement.\n\nPlacez la tuile {c:TileCamp}
+EventPlaceCampTile.button1,Continuer
+EventPlaceCampTileTokens.text,Placez le ou les {var:countCampSights} jeton(s) Vue comme indiqué.
+EventPlaceCampTileTokens.button1,Continuer
+TokenTent.text,La tente est maintenue par une corde.
+TokenTent.button1,{action} Rechercher
+EventTentSearch.text,A l'intérieur de la tente, rien d'intéressant, hormis qu'elle est tenue par une corde.
+EventTentSearch.button1,Continuer
+EventPlaceTent.button1,Continuer
+TokenCaveEntranceToCamp.text,Vous voyez une petite lueur dans la pénombre.\nVous ne pouvez 'Révéler' la zone que si vous êtes sur une case avec 1 jeton Vue.
+TokenCaveEntranceToCamp.button1,Révéler
+TokenSolution.text,Allié A est {var:RoleAllyA}\nAllié B est {var:RoleAllyB}\nAllié C est {var:RoleAllyC}\nAllié D est {var:RoleAllyD}\nAllié A 'mensonge' est {var:RoleAllyALie}\nAllié B 'mensonge' est {var:RoleAllyBLie}\nAllié C 'mensonge' est {var:RoleAllyCLie}\nAllié D 'mensonge' est {var:RoleAllyDLie}\Contre-Sceau = {var:countSigil}\nQui a la dague = {var:WhoHasDagger}\nInvestigateurs = {var:#heroes}
+TokenSolution.button1,Test
+EventPlaceAllyBMore.text,Près de la porte, un morceau de bois.\n\nPlacez l'Objet Commun {c:QItem2x4} comme indiqué.
+EventPlaceAllyBMore.button1,Continuer
+EventPlaceAllyB.text,L'homme massif tient une torche dans sa main droite.\nIl semble un peu ivre.\nIl vous accueille chaleureusement,\n<i>Les amis de Sylvia sont mes amis!</i>\n\nPlacez le jeton Personnage Allié Eric Colt sur la case indiquée.
+EventPlaceAllyB.button1,Continuer
+EventPlaceCaveTile.text,Eric Colt vous laisse entrer dans la cave.\n\nPlacez la tuile {c:TileCave} et le(s) jeton(s) Mur comme indiqué. 
+EventPlaceCaveTile.button1,Continuer
+EventAllyCaboutAllyD.text,<i>Les toiles de Corrina traduisent un esprit dérangé.\nSi vous ne me croyez pas, regardez les tableaux ici et ceux dans la cabane!\nElle l'utilise comme atelier et rangement pour ses œuvres qui sont trop 'avant-gardistes' pour des néophytes.</i>
+EventAllyCaboutAllyD.button1,Continuer
+QSTALLYDSURNAME,Jones
+EventAllyCaboutAllyA.text,<i>Ce vieil homme {qst:QSTALLYASURNAME} en sait plus qu'il n'en laisse paraître!\nSon arrière grand-père était un éminent alchimiste!</i>
+EventAllyCaboutAllyA.button1,Continuer
+EventAllyDaboutAllyA.text,<i>Le vieil homme {qst:QSTALLYASURNAME} cache un passé sombre, dont il ne parle jamais. Les habitants du coin le craignent, car il le pense être un alchimiste comme son grand-père et son arrière grand-père!</i>
+EventAllyDaboutAllyA.button1,Continuer
+EventAllyBaboutAllyA.text,<i>{qst:QSTALLYAFIRSTNAME} est un vieux fou.</i>
+EventAllyBaboutAllyA.button1,Continuer
+QSTALLYASURNAME,Pierce
+TokenForestToOldOak.text,Au nord, un immense et ancien chêne obscurcit le ciel étoilé.\n\nLes branches, les broussailles et le dense sous-bois entravent votre progression.\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
+TokenForestToOldOak.button1,Révéler
+EventPlacePendant.text,Un pale rayon de lune reflète quelque chose dans la brume épaisse.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlacePendant.button1,Continuer
+EventPlaceGoatHair.text,Un morceau de vêtement est pris dans les buissons.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceGoatHair.button1,Continuer
+TokenCaveEntranceToForest.text,Vous ne voyez pas très loin dans la pénombre.\nDans cette direction, la lumière de la lune est partiellement obscurcie par les branches des hauts arbres.\n\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
+TokenCaveEntranceToForest.button1,Révéler
+EventPlaceForestTile.text,Vous voyez une forêt dense constituée d'anciens chênes.\n\nPlacez la grande tuile {c:TileForest}\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceForestTile.button1,Continuer
+EventOakPass2Down.button1,Continuer
+EventOakPass2B.button1,Continuer
+EventOakPass2C.text,Dans la poche intérieure de son manteau, vous trouvez une note manuscrite.\n<i>\nSeul le vrai pouvoir du Wicca peut vous aider!\nMéfiez-vous du Sang Noir de la Chèvre!\nLa magie de votre ami est trop faible.\nJe suis le Druide Blanc dont le retour avait été annoncé.\nCe présent témoigne de ma loyauté!</i>
+EventOakPass2C.button1,Continuer
+EventOakFail.text,Le début de l'ascension était facile, mais les branches sont de moins en moins robustes.\nSoudain, une branche cède et vous tombez au sol.\n\nSubissez 1 Dégât.
+EventOakFail.button1,Continuer
+QSTALLYBSURNAME,Colt
+QSTALLYCSURNAME,Gilman
+EventPlaceAllyAMore.text,<i>C'est un puissant et fantastique Sceau que vous avez là.\nPourquoi ne pas m'en faire don...,\net je vous sors de ce pétrin!</i>
+EventPlaceAllyAMore.button1,Continuer
+EventPlaceAllyA.text,Le vieux type aux cheveux grisonnants marche résolument vers le banc, sa main gauche posée, et le corps penché, sur une canne de marche.\n\nIl s'assoit sur le banc en bois tout gardant les deux mains sur sa canne.\n\nPlacez le jeton Personnage Allié Ammi Pierce.
+EventPlaceAllyA.button1,Continuer
+EventPlacePorchTileTokens.text,Placez 1 jeton Exploration\net le ou les {var:countPorchSights} jeton(s) Vue comme indiqué.
+EventPlacePorchTileTokens.button1,Continuer
+EventPlacePorchTile.text,Un portail mène à une cabane en bois.\n\nPlacez la tuile {c:TilePorch}
+EventPlacePorchTile.button1,Continuer
+TokenRitualToPorch.text,Vous percevez une légère lueur dans cette direction.\n\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
+TokenRitualToPorch.button1,Révéler
+EventPlaceCellarWall2.text,Placez 1 jeton Mur intérieur comme indiqué.
+EventPlaceCellarWall2.button1,Continuer
+EventPlaceCellarWall1.text,Placez 1 jeton Mur intérieur comme indiqué.
+EventPlaceCellarWall1.button1,Continuer
+EventCellarTileTokens.text,Placez 1 jeton Exploration et\n{var:countCellarSights} jeton(s) Vue.
+EventCellarTileTokens.button1,Continuer
+EventPlaceCellarTile.text,Un faible éclairage provient du Nord, et aussi au travers de quelques rameaux pourrissants, menant à une cave à légumes.\n\nPlacez la tuile {c:TileCellar}
+EventPlaceCellarTile.button1,Continuer
+TokenRitualToCellar.text, Vous ne voyez grand chose dans la pénombre.\n\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
+TokenRitualToCellar.button1,Révéler
+EventInitRoles.button1,Button1
+TokenRitualToBridge.button1,Révéler
+TokenRitualToBridge.text,Vous ne voyez grand chose dans la pénombre.\n\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
+EventPlaceShackTile.button1,Continuer
+EventPlaceShackTile.text,Vous voyez une cahute à l'abandon. Une petite source de lumière éclaire seulement le pourtour de la bâtisse.\n\nPlacez la tuile {c:TileShack}
+EventPlaceShackTileTokens.text,Placez 1 jeton Exploration\net le ou les {var:countPorchSights} jeton(s) Vue comme indiqué.
+EventPlaceShackTileTokens.button1,Continuer
+TokenPorchToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenPorchToShack.button1,Révéler
+EventPlaceAllyD.text,Une personne ouvre la porte et vous laisse entrer.\n\nPlacez le jeton Personnage Allié Corrina Jones.
+EventPlaceAllyD.button1,Continuer
+EventShackDoorLocked2.text,Vous lui racontez ce que vous avez appris.\nVous tentez de la persuader de l'aide que vous lui apporteriez, mais elle refuse de déverrouiller la porte.
+EventShackDoorLocked2.button1,Continuer
+EventShackDoorLocked3.text,Vous vous exclamez,\n<i>Nous avons trouvé le Sceau des Druides et le journal de Bettina Beck.</i>\n\nVous pourriez la persuader de lui venir en aide.\n\nVous pouvez soit de suite appuyer sur 'Continuer', ou bien utiliser 1 {action} pour résoudre un test d'{influence}, entrer le nombre, puis appuyer sur 'Continuer'.
+EventShackDoorLocked3.button1,Continuer
+TokenShackDoor.text,La porte de la cabane est close.\n\nSi vous êtes sur la même case que ce jeton,\nvous pouvez appuyer sur 'Continuer'.
+TokenShackDoor.button1,Continuer
+EventShackDoorLocked1.text,La porte est verrouillée. En actionnant la poignée, une femme crie,\n<i>Comment pensez-vous résister à un pouvoir aussi diabolique?\nVous êtes des étrangers qui ne savez rien de l'histoire de la famille Beck et de cet endroit!</i>
+EventShackDoorLocked1.button1,Continuer
+TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToGraves.button1,Révéler
+EventPlacePorchTokens.text,Vous tenez le {c:QItemCultSigil} contre la grille. Le vieil homme débloque et ouvre la porte.\n\nUne autre porte de l'autre côté du porche mène plus loin vers une hutte en bois.\n\nPlacez 1 jeton Exploration.
+EventPlacePorchTokens.button1,Continuer
+EventPlaceLetter.text,Une grande armoire se dresse contre le mur.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceLetter.button1,Continuer
+TokenPorchToObservation.text,La porte est verrouillée par un cadenas à chiffres.\nLe verrou est trop solide pour être brisé par la force, mais vous pourriez entendre le cliquetis des culbuteurs.
+TokenPorchToObservation.button1,{action} Crocheter
+EventPlaceObservationTile.text,De l'extérieur, la chaumière semblait pourrie et abandonnée, mais\nl'intérieur est propre et coquet.\n\nPlacez la tuile {c:TileObservation}
+EventPlaceObservationTile.button1,Continuer
+EventPlaceObservationTokens.text,Une porte mène plus loin dans la cabane.\n\nPlacez 1 jeton Exploration et 1 jeton Mur comme indiqué.
+EventPlaceObservationTokens.button1,Continuer
+EventAllyAIsFriend.text,<i>Mais le vieux Pierce n'est pas un Druide Noir!</i>
+EventAllyAIsFriend.button1,Continuer
+EventAllyBaboutAllyC.text,<i>{qst:QSTALLYCNAME} est fière de se revendiquer comme une sorcière et se vante d'en savoir plus dans les arts occultes que nous tous réunis!</i>
+EventAllyBaboutAllyC.button1,Continuer
+EventAboutAllyC.button1,Button1
+EventAllyCIsEnemy.text, <i>Othera Gilman est une Druidesse Noire!</i>
+EventAllyCIsEnemy.button1,Continuer
+EventAllyCIsFriend.text,<i>Mais Othera Gilman n'est pas une Druidesse Noire!</i>
+EventAllyCIsFriend.button1,Continuer
+EventAllyBaboutAllyATrue.button1,Continuer
+EventAboutAllyA.button1,Button1
+EventAllyAIsEnemy.text,<i>{qst:QSTALLYANAME} est un Druide Noir!</i>
+EventAllyAIsEnemy.button1,Continuer
+EventAllyDaboutAllyC.text,<i>Othera Gilman est une sorcière, issue d'une grande lignée, et elle ne se prive pas de le raconter à qui veut l'entendre!\nElle est si imbue de sa personne!</i>
+EventAllyDaboutAllyC.button1,Continuer
+QSTALLYBFIRSTNAME,Eric
+EventAllyBIsFriend.text,<i>Mais {qst:QSTALLYBFIRSTNAME} n'est pas un Druide Noir!</i>
+EventAllyBIsFriend.button1,Continuer
+EventAllyDaboutAllyB.text,<i>Eric a servi pendant la Grande Guerre et quand il est revenu, il n'a plus jamais été le même!\nIl a développé un intérêt pour la Whisky et la violence.\nComme s'il voulait se venger du monde entier!</i>
+EventAllyDaboutAllyB.button1,Continuer
+EventAllyCaboutAllyB.text,<i>{qst:QSTALLYBNAME} souffre de trous de mémoire et de violents accès de rage!</i> 
+EventAllyCaboutAllyB.button1,Continuer
+EventAllyDIsEnemy.text,<i>{qst:QSTALLYDNAME} est une Druidesse Noire!</i>
+EventAllyDIsEnemy.button1,Continuer
+EventAboutAllyD.button1,Continuer
+EventAllyDIsFriend.text,<i>Mais, {qst:QSTALLYDNAME} n'est pas une Druidesse Noire!</i>
+EventAllyDIsFriend.button1,Continuer
+EventAllyAaboutAllyCTrue.button1,Button1
+EventAllyBaboutAllyD.text,<i>{qst:QSTALLYDNAME} est une manouche sauvage et insouciante – méprisante envers les autochtones guindés qui la considèrent comme une clocharde.</i>
+EventAllyBaboutAllyD.button1,Continuer
+EventAllyBaboutAllyAFalse.button1,Continuer
+EventAllyBaboutAllyARandom.button1,Continuer
+EventAboutAllyATrue.button1,Button1
+EventStart.button1,Mode Standard
+EventTalkAboutAllyC.button1,Continuer
+EventAboutAllyDFalse.button1,Button1
+QSTALLYCFIRSTNAME,Othera
+QSTALLYESURNAME,Marsh
+QSTALLYEFIRSTNAME,Sylvia
+EventMoveIn.text,Vous pouvez vous déplacer d'1 case dans la zone.
+EventMoveIn.button1,Continuer
+EventDarkYoungRetreat.text,Le monstre se déplace d'1 case vers l'Est.\nS'il ne peut se déplacer sur une case adjacente à l'Est, il se déplace sur une case adjacente au Sud.\nNote: Il <i>ne</i> peut <i>pas</i> se déplacer à travers <i>une ligne jaune discontinue</i>.\n\nLe monstre s'est-il au moins déplacé d'1 case?
+EventDarkYoungRetreat.button1,Oui, le monstre s'est déplacé d'au moins 1 case.
+EventDarkYoungRetreat.button2,Non, il ne s'est pas déplacé.
+EventDarkYoungRetreatMoveAgain.text,Le monstre se déplace d'1 case vers l'Est.
+EventDarkYoungRetreatMoveAgain.button1,Continuer
+EventDarkYoungAttack2.text,La créature tortille et abat ses tentacules imposantes sur vous.\n\nSubissez {var:SufferDamage} Dégât(s) ({strength}+1 Annule).
+EventDarkYoungAttack2.button1,Continuer
+EventDarkYoungAttack1.text,La créature tente de vous saisir avec ses tentacules.\n\nTest ({agility}; 1)
+EventDarkYoungAttack1.button1,Succès
+EventDarkYoungMove2.text,\nLe Sombre Rejeton se déplace de 2 cases vers l’investigateur le plus proche.\n\nIl ne peut se déplacer sur une case intérieure.\n\nPour toute case qu'il traverse, tout les investigateurs (et monstres non-phasés et non-volants) subissent 2 Dégâts. ({agility} Annule)
+EventDarkYoungMove2.button1,Continuer
+EventDarkYoungMove1.text,Le Sombre Rejeton se déplace jusqu'à 1 case vers l'investigateur le plus proche.\nIl ne peut se déplacer sur une case intérieure.\n\nAprès s'être déplacé, le monstre est-il sur la même case qu'un investigateur?
+EventDarkYoungMove1.button1,Oui, il y a un investigateur sur le même case.
+EventDarkYoungMove1.button2,Non pas d'investigateur sur la case.
+EventCheckDarkYoungSpawn.button1,Button1
+SpawnDarkYoung1.button1,Continuer
+EventDarkYoungVanishes.text,Le monstre s'évanouit dans les bois. Vous continuez de l'entendre se cogner contre les arbres.\n\nRetirez le Sombre Rejeton du plateau.
+EventDarkYoungVanishes.button1,Continuer
+CustomMonsterDarkYoung.monstername,Sombre Rejeton
+CustomMonsterDarkYoung.info,-
+EventPlaceGravesTile.text,Placez la tuile {c:TileGraves}\n\nLa petite lumière d'une bougie usée scintille.\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceGravesTile.button1,Continuer
+EventPlaceGraveToken.button1,Continuer
+EventAllyAaboutAllyBFalse.button1,Button1
+EventPlaceOldOakTile.text,Un imposant et ancien chêne vous domine.\nPlacez la tuile {c:TileOldOak}\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceOldOakTile.button1,Continuer
+EventPlaceCaveEntrance.text,A l'Est, une sombre forêt luxuriante.\nUne volée de corbeaux passe dans la nuit.\n\nAu nord-Est l'entrée d'une grotte.\n\nPlacez la tuile {c:TileCaveEntrance}\n\nPlacez 1 jeton Obscurité sur la bordure indiquée.\nConsidérez toutes les cases comme contenant un jeton Obscurité.
+EventPlaceCaveEntrance.button1,Continuer
+EventSurnameAllyA.text, {qst:QSTALLYASURNAME}
+EventSurnameAllyA.button1,Continuer
+TokenCampToCaveEntrance.text,Vous ne voyez pas grand chose dans cette pénombre.\n\nVous pouvez 'Révéler' la zone si vous êtes sur la même case que le jeton Vue.
+TokenCampToCaveEntrance.button1,Révéler
+EventBridgeToCamp.button1,Continuer
+TokenShackToPorch.text,Une faible lueur vous empêche de voir plus loin.\nVous pouvez 'Révéler' la zone si vous êtes sur la même case que le jeton Vue.
+TokenShackToPorch.button1,Continuer
+EventPlaceCaveEntranceTokens.text,Placez 1 jeton Exploration et \n{var:countCaveSights} jeton(s) Vue comme indiqué.
+EventPlaceCaveEntranceTokens.button1,Continuer
+TokenBridgeToRapids.text,Vous ne voyez pas grand chose dans cette pénombre.\n\nVous pouvez 'Révéler' la zone si vous êtes sur la même case que le jeton Vue.
+TokenBridgeToRapids.button1,Révéler
+TokenCellarToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenCellarToShack.button1,Révéler
+TokenShackToCellar.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToCellar.button1,Continuer
+EventPorchToShack.button1,Continuer
+TokenCellarWall1.text,Porte de Cellier 1
+TokenCellarWall1.button1,Continuer
+EventShuffleRoles.button1,Button1
+EventAllyAaboutAllyCRandom.button1,Button1
+EventAllyBAboutAllyCRandom.button1,Button1
+EventAllyAaboutAllyBRandom.button1,Button1
+EventAboutAllyBTrue.button1,Button1
+EventAboutAllyBFalse.button1,Button1
+EventAboutAllyCFalse.button1,Continuer
+EventAboutAllyAFalse.button1,Button1
+EventAboutAllyCTrue.button1,Button1
+EventAboutAllyDTrue.button1,Button1
+EventAllyAaboutAllyCFalse.button1,Button1
+EventTalkAboutAllyD.button1,Continuer
+EventLetterResultUp.button1,Continuer
+EventLetterResultDown.button1,Continuer
+EventGiveSigilToFriend1.text,Le Personnage parcoure soigneusement les runes, puis dit,\n<i>Ces runes me sont familiaires.\nPendant le rituel, j'ai vu une {c:QItemDagger} comportant les mêmes runes.\nCes runes sur la dague sont la clé pour contrer le sort.</i>
+EventGiveSigilToFriend2A.button1,Continuer
+EventGiveSigilToFriend1.button1,Continuer
+EventGiveSigilToFriend2A.text,Ammi Pierce se redresse et vous dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
+EventGiveSigilToRole1.text,Le regard du Personnage reste fixe, comme hypnotisé, puis il s'exclame,\n<i>Passez-moi le Sceau!\nordonne-t-il.</i>\nUne contrainte écrasante vous oblige à lui donner.\n\nEn le tenant, le Personnage dit,<i>\nJe suis le fils de la Grande Prêtresse des Druides Noirs - Bettina Beck!\nJe peux enfin honorer son héritage et achever la bénédiction du sang de la Chèvre Noire</i>!
+EventGiveSigilToRole1.button1,Continuer
+EventGiveSigilToRole2.text,Le Personnage dit,<i>\nVous avez été sage de pas le donner à cet imbécile indigne,\nincapable d'achever le rituel!\n\nLe Druide fait de grands gestes complexes.\nLes runes sur le Sceau brillent de plus en plus vivement.\nUne brume empoisonnée remplit la pièce.</i>\n\nTout les investigateurs subissent {var:SufferDamage} Dégât(s) ({strength} Annule).
+EventGiveSigilToRole2.button1,Continuer
+EventGiveSigilInactive.text,Le Personnage regarde le {c:QItemCultSigil}, puis dit,\n<i>Il s'agit de la clé pour défaire ce qui a été fait.</i>\n\nIl fait de grands gestes complexes au-dessus.\nPeu après, il dit,\n <i>Toutes mes excuses!\nA moins d'en apprendre davantage, le contre-sort ne peut être lancé! </i>
+EventGiveSigilInactive.button1,Continuer
+EventGiveSigilToFriend2B.text,Eric Colt dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
+EventGiveSigilToFriend2C.text,Othera dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
+EventGiveSigilToFriend2D.text,Corrina Jones dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
+EventGiveSigilToFriend2B.button1,Continuer
+EventGiveSigilToFriend2C.button1,Continuer
+EventGiveSigilToFriend2D.button1,Continuer
+EventGiveSigilAsk.button1,{action} Continuer
+EventGiveSigilConfirmed.button1,Continuer
+EventGiveSigilAsk.text,Ce personnage pourrait être un puissant Druide Noir.\nÊtes-vous sûr de vouloir continuer?\n\nVous devez appuyer sur 'Annuler'\nsi votre investigateur ne possède pas l'Objet Unique {c:QItemCultSigil}.
+EventGiveSigilConfirmed.text,Vous lui montrez l'objet magique et dites ce que vous avez appris.
+EventGiveSigilAsk.button2,Annuler
+EventGiveDagger.button1,Continuer
+EventGiveDaggerNotFound.text,Le Personnage regarde l'objet, puis dit,\n<i>Ce n'est pas une {c:QItemDagger}, reprenez-le !</i>
+EventGiveDaggerNotFound.button1,Continuer
+EventGiveDaggerFound.text,Le Personnage prend la {c:QItemDagger}\net examine soigneusement les runes sur la poignée.
+EventGiveDaggerFound.button1,Continuer
+EventGiveDagger.text,Vous pouvez cliquer sur 'Continuer'\nsi vous avez l'Objet {c:QItemDagger}.
+EventFinale1.text,Vous placez le Sceau sur la pierre.\n\nLes pierres anciennes se mettent à briller d'une énergie surnaturelle.
+EventFinale1.button1,Continuer
+EventFinale2.text,Le Druide Blanc apparaît.\nLe sort jeté par le Druide Noir engendre des accès de confusion mentale.\nVous vous souvenez de ce qui vous a amené ici : empêcher le Druide Noir d'accomplir le rituel du pacte de sang.\n\nLe Druide Blanc s'exclame,\n<i>Ô anciennes pierres, entendez la chanson\ndu dernier Barde du Ord na Darach Gile!</i>
+EventFinale2.button1,Continuer
+EventFinale3.text,Puis le Druide commence à chanter...\n\nUn à un, les progénitures et les rejetons de la Chèvre sortent de la forêt et se mettent à danser!
+EventFinale3.button1,Continuer
+EventFinale4.text,Le son mystérieux, mélancolique puis magnifiquement obsédant, semble désormais venir des pierres et des arbres eux-mêmes!\n\nUn à un, les progénitures et les rejetons de la Chèvre se retransforment en femmes et fillettes – vous en reconnaissez comme étant des habitants du coin qui regardaient la danse.\nElles se joignent au chant.
+EventFinale4.button1,Continuer
+EventFinale5.text,Un à un les danseurs synchronisent leur mouvement, puis se mettent à danser et tourbillonner parfaitement à l'unisson,\ndans un moulinet complexe qu'il vous est impossible de suivre...,\nau milieu des pierres.Puis, un à un, ils disparaissent.\n\nToutes les autres créatures sont consumées par un étrange feu Eldritch.\n\nQuand la danse se termine,\nles danseurs et le Barde sont partis.
+EventFinale5.button1,Continuer
+EventFinale6.text,Vous cherchez des traces des danseurs, du Barde ou de tout autre Druide.\n\nMais rien.\n\nVous mettez le feu à la cabane en bois...\nDétruisant les dernières vestiges de la famille Beck.\nC'est probablement la meilleure chose à faire.
+EventFinale6.button1,Continuer
+EventFinale7.text,Vous traversez le pont couvert.\nUn son au loin vous fait vous retourner.\nVous entendez – provenant des pierres rituelles – la mystérieuse et magnifique chanson.\nLa toute dernière interprétation du dernier Barde de l'Ord na Darach Gile.\n\nVous regardez la fumée s'étendre au-dessus des arbres.\nPuis vous partez.\n\nFin.
+EventFinale7.button1,Fin
+EventFinale7.button2,Revoir l'Histoire (SPOIL IMPORTANT)
+EventGiveDaggerNovice.text,Le Personnage dit,\n<i>Oh maintenant je reconnais ces runes!\nIl s'agit du langage perdu de l'Ord na Darach Gile.\nJe le pensais disparu depuis longtemps.\nSeulement un Druide Blanc d'une grande puissance peut correctement lire ces runes!</i>
+EventGiveDaggerNovice.button1,Continuer
+EventAttackAsk.text,{qst:QSTALLYENAME} vous a dit que l'un des Druides serait disposé à vous aider.\n\nÊtes-vous sûr de vouloir donner l'assaut?
+EventAttackConfirmedA.button1,Continuer
+EventAttackAsk.button2,Annuler l'attaque
+EventAllyE2AboutCultA.text,<i>A votre place, je garderais un œil sur le vieux Pierce!\nLes gens ici, pensent qu'il est un puissant sorcier.\nSon grand-père Malachi a été jugé pour sorcellerie et alchimie.</i>\n\nRécupérez 1 jeton {clue}
+EventAllyE2AboutCultA.button1,Continuer
+EventAllyE2AboutCultC.text,<i>A votre place, je garderais un œil sur Othera Gilman.\nLes gens ont peur d'elle ici!\nElle a une réputation de puissante sorcière! \nElle s'en vante même!</i>\n\nRécupérez 1 jeton {clue}
+EventAllyE2AboutCultC.button1,Continuer
+EventPlaceOak.text,Les branches du chêne noueux vous surplombent.\n\nPlacez 1 jeton Recherche sur la case indiquée.\n\nSur une branche immense, le corps d'une femme pend au bout d'un nœud coulant.\nSa chevelure rousse lumineuse ondule au gré des bourrasques de vent – sauf qu'il n'y a pas de vent.\nSon cou est brisé mais elle s'exclame malgré tout!\n<i>John, c'est toi !\nTu es enfin revenu !</i>\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur.
+EventPlaceOak.button1,Continuer
+EventSigilReady.text,Vous prononcez les mots de puissance appris dans le journal de Bettina Beck.\nDe brillantes runes apparaissent sur le Sceau.\nVous déduisez qu'elles appartiennent à l'ancienne langue de l'Ordre des Druides Blancs.\n\nVous êtes incapable de les lire.\nPeut-être que l'un des Druides pourra vous aider?\n\nVous pouvez utiliser 1 {action} pour résoudre un test de ({lore};1)\nSi vous réussissez, un investigateur peut défausser 1 État Étourdi, Sonné ou Hypnotisé ou bien défausser 1 Dégât face cachée.\n\nSi une Progéniture ou un Rejeton de la Chèvre est à portée, vous pouvez utiliser 1 {action} pour l'obliger à fuir dans la forêt, test ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
+EventAllyAIsWarlock.button1,Continuer
+EventAllyAIsWarlock.text,<i>Les familles Pierce et Beck ont toujours été proches.\nGénérant de nombreux commérages autour de malformations et de consanguinité!\nBettina Beck a hérité du Sceau. Il faisait partie du patrimoine familial depuis l'époque de l'éminent alchimiste Malachi Cooter Pierce.\nMais le Sceau de Culte n'appartenait initialement pas à Malachi. Il l'a obtenu en tuant un puissant Druide Blanc pour faire le mal plutôt que le bien.\n\n</i>Récupérez 1 jeton {clue}
+EventAllyBIsWarlock.text,<i>Le clan Colt a la réputation d'être introverti, dangereux et violent.\nEric est le fils illégitime d'une union secrète entre {qst:QSTFATHERFIRSTNAME} Colt et {qst:QSTMOTHERNAME}.\nLe {c:QItemCultSigil} a été donné à Bettina par {qst:QSTFATHERFIRSTNAME} Colt, mais il n'était pas le propriétaire originel.\nIl a appartenu initialement à un vagabond, très populaire pour ses pouvoirs de guérison, qui se réclamait d'être le dernier des vrais Druides.\nQuand il a disparu, le sheriff a mené une enquête mais les gens étaient si effrayés par les Colt, que peu étaient enclins à témoigner contre eux.\n</i>\nRécupérez 1 jeton {clue}
+EventAllyBIsWarlock.button1,Continuer
+EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman était le père d'Othera Gilman.\nIl a eu une union secrète avec {qst:QSTMOTHERNAME}.\nIls ont acquis le puissant Sceau en tuant son propriétaire légitime – un vagabond qui se réclamait d'être le dernier véritable Druide Blanc.\nRien n'arrêtera {qst:QSTALLYCNAME} avant qu'elle n'ait le Sceau en sa possession.\nElle le convoite comme s'il était légitimement le sien.</i>\n\nRécupérez 1 jeton {clue}
+EventAllyCIsWarlock.button1,Continuer
+EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, le père de Mrs {qst:QSTALLYDNAME}, était le père de Martha Beck.\nCela était tenu secret car {qst:QSTALLYDFIRSTNAME} était née d'une union conjugale.\nLe Sceau que vous avez, appartenait à {qst:QSTMOTHERNAME}, la mère de Martha et lui a été légué.\nElle l'a reçu à la mort de {qst:QSTFATHERFIRSTNAME}.\nIl l'a lui-même récupéré sur le corps d'un vagabon qui disait être le dernier des Druides Blancs.\n</i>\nRécupérez 1 jeton {clue}
+EventAllyDIsWarlock.button1,Continuer
+EventAlreadyTold.text,<i>Je vous ai déjà dit tout ce que je savais!</i>
+EventAlreadyTold.button1,Continuer
+EventAttackAllyE.button1,Continuer
+EventDarkYoungMove.button1,Oui, il y a un investigateur en extérieur à portée.
+EventDarkYoungAttack.button1,Button1
+SpawnPriestOfDagon.text,Sylvia Marsh s'exclame,\n<i>Bande d'idiots! Vous ne savez rien de la puissance de Dagon!</i>\n\nRemplacez le jeton Personnage Allié Sylvia Marsh\npar un Prêtre de Dagon.
+SpawnPriestOfDagon.button1,Continuer
+EventPriestOfDagonDefeated.text,En mourant,\nelle laisse tomber une dague sur le sol.\n\nPlacez l'Objet Commun {c:QItemDagger} sur la case où est tombé le Prêtre de Dagon.\n\nConsidérez la {c:QItemDagger} comme un objet-clé.
+EventPriestOfDagonDefeated.button1,Continuer
+SpawnDruidA.button1,Continuer
+EventAttackConfirmedA.text,Pour un vieil homme, Ammi Pierce est étonnement rapide.\nIl lève sa canne et frappe la source de lumière.\n\nPlacez 1 jeton Obscurité sur la bordure indiquée.\nConsidérez toutes les cases de la tuile comme ayant 1 jeton Obscurité.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYANAME}.
+SpawnDruidB.text,Il s'enfuit dans la grotte.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYBNAME}.\nPosez un Cultiste sur la case indiquée.
+SpawnDruidB.button1,Continuer
+SpawnDruidA.text,Il se réfugie dans la cabane en bois.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYANAME}.\nPosez un Cultiste sur la case indiquée.
+SpawnDruidC.text,Elle recule dans le cellier.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYCNAME}.\nPosez un Cultiste sur la case indiquée.
+SpawnWizard1.text,Le Druide Noir se déplace à une vitesse inhumaine vers la Pierre Rituelle.\nPosez un Druide Noir sur la case indiquée.
+SpawnWizard1.button1,Continuer
+SpawnWizard2.button1,Continuer
+SpawnWizard2.text,Le Druide Noir se déplace à une vitesse inhumaine vers la Pierre Rituelle.\nPosez un Druide Noir sur la case indiquée.
+EventAttackConfirmedB.text,Pour un homme aussi massif, Eric Colt se déplace bien vite.\nIl jette sa torche dans l'eau.\n\nPlacez 1 jeton Obscurité sur la bordure indiquée.\nConsidérez toutes les cases de la tuile comme ayant 1 jeton Obscurité.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYBNAME}.
+EventAttackConfirmedB.button1,Continuer
+EventAttackConfirmedC.text,Othera Gilman jette un sort d'une lumière vive qui vous aveugle brièvement.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYCNAME}.
+EventAttackConfirmedC.button1,Continuer
+EventAttackConfirmedD.text,Corrina Jones jette un sort d'une lumière vive qui vous aveugle brièvement.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYDNAME}.
+EventAttackConfirmedD.button1,Continuer
+SpawnDruidD.text,Elle court se réfugier dans la cahute.\n\nRetirez le jeton Personnage Allié {qst:QSTALLYDNAME}.\nPosez un Cultiste sur la case indiquée.
+SpawnDruidD.button1,Continuer
+SpawnDruidC.button1,Continuer
+EventAttackWhiteDruid.text,Le Personnage dit,\n<i>Ainsi vous avez choisi de servir le Druide Noir!\nIdiots!\nIl vous a perverti!\nA mon départ vous succomberez à la malédiction du Sang de la Chèvre Noire.\n</i>\nSur ces mots, le Druide Blanc disparaît.\nVous vous écroulez, agonisant, vos muscles, peau et os commençant à se transformer.
+EventAttackWhiteDruid.button1,Continuer
+EventAllyBEnemyMore.button1,Continuer
+EventAllyBEnemyMore.text,<i>Eric a du tempérament et a souvent eu de violentes disputes avec Martha!</i>
+EventAllyAIsEnemyMore.text,<i>Le vieux {qst:QSTALLYASURNAME} s'est toujours vu comme un chef légitime à cause de son ancienneté, contestant souvent l'autorité de Martha.</i>
+EventAllyAIsEnemyMore.button1,Continuer
+EventAllyCIsEnemyMore.button1,Continuer
+EventAllyCIsEnemyMore.text,<i>{qst:QSTALLYCNAME} a été peu clémente quand elle parlait dans le dos de Martha et a toujours défendu qu'elle devait diriger le groupe.</i>
+EventAllyDIsEnemyMore.text,<i>{qst:QSTALLYDNAME} était cinglante sur ce que Martha avait pu mal faire par le passé, basculant de l'amertume à la haine.</i>
+EventAllyDIsEnemyMore.button1,Continuer
+EventGiveSigilToRole2More.text,Le Personnage attrape et se brûle sur le Sceau rouge incandescent, et le lâche au sol.\n\nPlacez l'Objet Unique {c:QItemCultSigil} sur votre case.
+EventGiveSigilToRole2More.button1,Continuer
+EventWizardDefeated.text,Le Druide Noir s'écroule.\n\nSur son corps vous trouvez une {c:QItemDagger}.\n\nPlacez l'Objet Commun {c:QItemDagger}\nsur la case qu'occupait le Druide Noir.\n\nConsidérez la {c:QItemDagger} comme un objet-clé.
+EventWizardDefeated.button1,Continuer
+TokenStone1.button1,{action} Rechercher
+TokenStone1.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
+EventPlaceRitualSiteTokens.button1,Continuer
+EventPlaceInvestigators.text,{rnd:hero} a le vague souvenir d'avoir chanté\net d'avoir dansé en tourbillonnant bizarrement autour de ces pierres...\net de quelque chose d’immense sortant du brouillard!\n\nPlacez les figurines comme indiqué.\nTout les investigateurs deviennent Étourdi.\n{rnd:hero} récupère 1 jeton {clue}
+EventPlaceInvestigators.button1,Continuer
+EventTentDismantle.button1,Continuer
+EventPlaceTent.text,Les campeurs ont laissé une tente bâchée, maintenue par une corde entre deux arbres.\nPrès du feu, une grosse bûche sur un des bords de la bâche.\n\nPlacez 1 jeton Recherche.
+EventTentDismantle.text,Vous démontez la tente et enroulez la corde.\n\nRécupérez l'Objet Unique {c:QItemRope}.
+PuzzlePorchLock.button1,Déverrouiller la porte
+EventWhereIsDaggerNot2.text,<i>Je me souviens avoir vu Martha être poignardée avec une dague rituelle,\nElle est tombée sur la pierre.\nPuis j'ai vu la dague ensanglantée tomber sur le sol.\nL'instant d'après elle avait disparu!\nSylvia l'a peut-être prise en même temps que le Sceau?\n</i>\nRécupérez 1 jeton {clue}
+EventOakPass2B.text,Dans la poche intérieure de son manteau, vous trouvez une lettre manuscrite.\n<i>\nMéfiez du Sang Noir de la Chèvre!\nLa magie de votre ami est faible.\nJe suis le Druide Blanc dont le retour était prédit.\nNous et la famille Colt sommes proches.\nNous avons transmis nos connaissances de génération en génération.</i>
+EventSpoilers.text,Indices Généraux\n\n1. Ne faites confiance à personne et prenez des notes!\n2. Avez-vous obtenu le Sceau et l'avez-vous souvent examiné?\n3. Avez-vous demandé à tout le monde ce qui s'était passé au rituel?\n4. Attaquer au hasard des suspects peut être dramatique.\n\nGROS SPOIL\n\nLe scénario est terminé.\nA lire seulement si vous trouvez que l'histoire n'a aucun sens.\n\nVérifiez bien dans le log, que les réponses de chaque allié correspondent à leur rôle.\nAmmi Pierce a le Rôle n°{var:RoleAllyA}\nEric Colt a le rôle n°{var:RoleAllyB}\nOthera Gilman a le rôle n°{var:RoleAllyC}\nCorrina Jones a le rôle n°{var:RoleAllyD}\n\nN°1 = Le Druide Noir, enfant de Bettina Beck.\nN°2 = L'acolyte incertain du Druide Noir.\nN°3 = L'ami de Martha qui n'est pas un Druide Noir\nN°4 = Le Druide Blanc\na) Les N°1 et N°2 ont tendance à mentir.\nb) L'ami de Martha ne sait pas puissamment utiliser la magie.\n\nAu début de chaque partie, les rôles sont assignés aléatoirement.
+EventSpoilers.button1,Continuer
+EventAttackWhiteDruid.button2,Spoils
+EventWhereIsDaggerNot3.text,\n<i>Je me souviens voir la lame plonger dans le flanc de Martha.\nJ'ai regardé la pauvre Martha être traînée dans la forêt. Je n'ai pas vu la dague tomber!\nSoit le meurtrier l'a encore, ou bien elle est quelque part dans la forêt.\n</i>\nRécupérez 1 jeton {clue}
+EventWhereIsDaggerNot1.text,<i>Je me souviens voir Martha être poignardée au moyen d'une dague, puis la voir tomber sur la pierre avec la dague plantée dans son flanc.\nQuand la créature l'a entrainée, la dague y était toujours.\n\nSylvia Marsh a couru après le monstre!\n</i>\nRécupérez 1 jeton {clue}
+EventWhereIsDagger.button1,Continuer
+EventOakPass.button1,Continuer
+EventOakWoundRight.text,Vous examinez la blessure sur le flanc.\nLe point d'entrée de la blessure montre que le tueur est droitier.\n\nRécupérez 1 jeton {clue}
+EventOakWoundRight.button1,Continuer
+EventOakWoundLeft.text,Vous examinez la blessure sur le flanc.\nLe point d'entrée de la blessure montre que le tueur est gaucher.\n\nRécupérez 1 jeton {clue}
+EventOakWoundLeft.button1,Continuer
+EventWhereIsDaggerNot2.button1,Continuer
+EventWhereIsDaggerNot3.button1,Continuer
+EventWhereIsDaggerNot1.button1,Continuer
+EventPlaceRobe.button1,Continuer
+TokenRobe.button1,{action} Rechercher
+TokenRobe.text,Sur le sol, une robe blanche déchirée et tâchée de sang.
+EventRobeSearch.text,Sous la robe blanche, le parchemin d'un sort.\n\nRécupérez le Sort {c:QItemDefenceSpell}.
+EventRobeSearch.button1,Continuer
+EventPlaceRobe.text,Sur le sol, une robe blanche déchirée et tâchée de sang.\n\nPlacez 1 jeton Recherche comme indiqué.
+TokenDeepOne.text,Des bruits étranges indiquent que quelque chose bouge sous le pont.
+TokenDeepOne.button1,Continuer
+EventDeepOneSearch.text,Vous essayez d'apercevoir ce qu'il y a dessous, mais la végtétation est trop dense et il fait trop sombre.\n\nTest {observation}
+EventDeepOneSearch.button1,Continuer
+EventDeepOneSearchPassA.button1,Continuer
+EventDeepOneSearchPassA.text,Vous entrapercevez un Profond sous le pont.\nIl regarde Sylvia Marsh à travers les trous du plancher en bois.\nPuis il nage vers l'Ouest en direction d'un étang marécageux.\n\nRécupérez 1 jeton {clue}\n\nLa vue de cette horreur et l'odeur de poisson faisandé, accompagnant les clapotements dans l'étang, vous retournent.\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur face cachée.
+SpawnDeepOne1.text,Une chose inhumaine sort de la rivière!\n\nPlacez un Profond sur la case indiquée.
+SpawnDeepOne1.button1,Continuer
+EventGiveSigilAskAllyE.text,Vous devez appuyer sur 'Annuler'\nsi votre investigateur n'est pas en possession du {c:QItemCultSigil} (ou s'il n'est pas sur la même case que le jeton Allié).
+EventGiveSigilAskAllyE.button1,{action} Lui donner le Sceau
+EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh rit aux éclats puis dit,<i>\nAu moins, ai-je obtenu ce que ma famille désire.\nJe vais vous révéler le pouvoir de Dagon.\n</i>\nElle incante un sort et un brouillard suffoquant recouvre le pont.\nTout les investigateurs sur le Pont Couvert\nsubissent {var:SufferDamage} Dégât(s)\n({strength} Annule)\n\nSoudain, le Sceau devient incandescent et elle le lâche sur le sol.\nPlacez l'Objet Unique {c:QitemCultSigil} sur la case indiquée.
+EventSigilInactiveAllyE.text,Vous tendez le {c:QItemCultSigil} à Sylvia Marsh pour qu'elle l'examine.\n\nElle dit,\n<i>Le {c:QItemCultSigil} ne peut seulement être utilisé quand les runes sont visibles.\nJe ne connais pas les secrets des Druides.\nEn savoir davantage sur le Rituel et les Druides, peut être la clé pour apprendre à s'en servir.\nExaminez-le régulièrement et quand les runes seront visibles, revenez me l'apporter!\n</i>\nNote: l'Objet Unique {c:QItemCultSigil} peut être examiné en cliquant dans l'Inventaire de l'application.
+EventSigilInactiveAllyE.button1,Continuer
+TokenStone2.text,Une grande pierre rectangulaire occupe le centre du cercle de pierre.\nElle fait trois pieds de haut sur six pieds de long.
+TokenStone2.button1,{action} Placer le Sceau de Culte sur la Pierre
+EventStone2Interact.button1,Continuer
+EventStone2Interact.text,Vous entendez un bourdonnement venir de la pierre.\n\nVous pouvez appuyer sur 'Continuer'\nsi vous possédez l'Objet Unique {c:QItemCultSigil}.
+SpawnGhost.button1,Continuer
+SpawnGhost.text,La femme fantomatique s'exclame,\n<i>Mon Sceau est prêt!\nJe vais pouvoir revenir!</i>\n\nLa silhouette descend de l'arbre.\n\nPosez un Fantôme sur la case indiquée.
+SpawnChildOfTheGoat1.button1,Continuer
+EventBeginMinor.button1,Button1
+SpawnDarkYoung2.text,{qst:QSTSPAWNDARKYOUNG}
+EventPlaceRitualSiteTokens.text,Il fait nuit et le clair de lune est pale.\nVous distinguez peu de choses dans la pénombre.\n\n{qst:QSTPLACEDARKNESS}\n\nPlacez 3 jetons Vue comme indiqué.
+EventPlaceStone1.text,Une grande pierre rectangulaire occupe le centre du cercle de pierre.\n\nPlacez 1 jeton Interaction comme indiqué.
+EventPlaceStone1.button1,Continuer
+SpawnDarkYoung2.button1,Continuer
+SpawnDarkYoung1.text,{qst:QSTSPAWNDARKYOUNG}
+EventDarkYoungMove.text,Le Sombre Rejeton est-il à portée d'un investigateur situé sur une case en extérieur?
+EventDarkYoungMove.button2,Non
+EventDarkYoungAttack1Fail.button1,Continuer
+EventDarkYoungAttack1Pass.button1,Continuer
+EventDarkYoungAttack1Pass.text,Vous vous projetez au sol, mais recevez quand même le puissant coup d'une de ses tentacules.\n\nSubissez 1 Dégât face cachée.
+EventDarkYoungAttack1Fail.text,Une tentacule géante vous attrape.\n\nDevenez Entravé et Sonné.\nVous sentez vos os se broyer, subissez {var:SufferDamage} Dégât(s) ({strength}+1 Annule).\n\nLa créature vous traîne vers les bois.\nDéplacez le Sombre Rejeton et l'investigateur d'une case vers l'Est.\nSi le monstre ne peut pas se déplacer, subissez 1 Dégât supplémentaire.
+EventDarkYoungAttack1.button2,Échec
+EventDarkYoungAttack3.text,La créature devient folle furieuse, frappant les alentours de ses tentacules.\n\nTout les investigateurs sur sa case subissent 3 Dégâts ({agility} Annule).\nTout les monstres sur la case (non-phasés et non-volants) subissent 3 Dégâts.
+EventDarkYoungAttack3.button1,Continuer
+EventCheckDarkYoungSkip2.text,Vous entendez le bruit d'une créature immense, écrasant tout sur son passage, venir du bois à une vitesse incroyable.\nLe sol tremble et les branches sont mises en pièce.\n\nTout les investigateurs sur une case en extérieur doivent réaliser un test de ({will};2).\n\nS'ils échouent, ils subissent 1 Horreur face cachée.
+SpawnDarkYoung3.text,{qst:QSTSPAWNDARKYOUNG}
+SpawnDarkYoung3.button1,Continuer
+SpawnDarkYoung4.text,{qst:QSTSPAWNDARKYOUNG}
+SpawnDarkYoung4.button1,Continuer
+EventDarkYoungMoveToStone.text,Le Sombre Rejeton se déplace d'1 case vers la case centrale de la tuile du Site du Rituel.\n\nIl ne peut pas se déplacer sur une case en intérieur.\n\nAprès son déplacement, tout les investigateurs et les monstres (non-phasés et non-volants) sur sa case subissent 2 Dégâts ({agility} Annule).
+EventDarkYoungMoveToStone.button1,Continuer
+EventCheckDarkYoungSkip2.button1,Continuer
+EventCheckDarkYoungSkip1.text,Quelque chose d'immense se rue à travers la forêt à une vitesse phénoménale.
+EventCheckDarkYoungSkip1.button1,Continuer
+SpawnChildOfTheGoat1.text,Un horrible cri de femme sort des sous-bois.\n\nGénérez une Progéniture de la Chèvre sur la case indiquée.
+SpawnChildOfTheGoat2.text,Elle parvient à sortir de l'eau. La femme grogne férocement tel un animal acculé et vous attaque!\n\nGénérez une Progéniture de la Chèvre sur la case indiquée.
+SpawnChildOfTheGoat2.button1,Continuer
+SpawnDarkYoung.button1,Continuer
+SpawnGoatSpawn1.text,Générez un Rejeton de la Chèvre sur la case indiquée.
+SpawnGoatSpawn1.button1,Continuer
+TokenCross.text,Une croix en métal repose au fond d'une rivière tumultueuse.\nVous allez devoir nager pour l'atteindre.
+TokenCross.button1,{action} Rechercher
+EventPlaceCross.text,Le clair de lune fait miroiter quelque chose de métallique dans l'eau.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceCross.button1,Continuer
+EventCrossSearch.text,Il y a une petit croix en métal dans la rivière.\nPour l'atteindre, vous devez lutter contre un fort courant.\nTest ({agility};2)
+EventCrossSearch.button1,Réussite
+EventCrossPassA.text,Vous attrapez la croix et rejoignez la berge.\n\nRécupérez l'Objet Commun {c:QItemCross}.\n\nIl y est inscrit,\n<i>A {qst:QSTALLYANAME} pour son excellente assiduité,\nÉcole St John</i>.
+EventCrossPassA.button1,Continuer
+EventCrossPassB.text,Vous attrapez la croix et rejoignez la berge.\n\nRécupérez l'Objet Commun {c:QItemCross}.\n\nIl y est inscrit,\n<i>A {qst:QSTALLYBNAME}, Chef des enfants de chœur de l'Église de Tout les Saints</i>.
+EventCrossPassB.button1,Continuer
+EventCrossPassC.text,Vous attrapez la croix et vous atteignez la berge.\n\nRécupérez l'Objet Commun {c:QItemCross}.\n\nIl y est inscrit,\n<i>A {qst:QSTALLYCNAME}, Directeur de l'École St Mary</i>.
+EventCrossPassC.button1,Continuer
+EventCrossPassD.text,Vous attrapez la croix et vous atteignez la berge.\n\nRécupérez l'Objet Commun {c:QItemCross}.\n\nIl y est inscrit,\n<i>A {qst:QSTALLYDNAME}, pour son excellence dans les Arts,\nÉcole St Mary</i>.
+EventCrossPassD.button1,Continuer
+EventCrossSearch.button2,Échec
+EventCrossFail.text,Une chose dans l'eau vous attrape la jambe!\nVous paniquez et avalez la tasse avant de réussir à atteindre la berge.\n\nSubissez 1 Dégât face cachée et 1 Horreur.
+EventCrossFail.button1,Continuer
+EventPlaceStone2.text,Le Druide Blanc prononce des paroles en une vieille langue celtique.\nLes runes sur la {c:QItemDagger} deviennent plus brillantes.\n\nLe Druide Blanc vous la tend, puis dit,\n<i>Tout est prêt pour que vous puissiez mener le vrai Rituel de Beltaine!</i>
+EventPlaceStone2.button1,Continuer
+EventGiveDagger.button2,Annuler
+PuzzlePainting.button1,Continuer
+EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nRécupérez 2 jetons {clue} 
+EventPaintingA.button1,Continuer
+EventPaintingB.text,La peinture représente une femme portant le {c:QItemCultSigil} en pendentif.\nElle a été initialement signée par <i>Bettina Beck</i>.\nMais Corrina a peint son nom par-dessus!\n\nCorrina Jones est une opportuniste.\nElle n'a jamais peint ces œuvres !\nElle a rénové les toiles de Bettina Beck et a fait comme si c'était les siennes!\n\nElle a fait de nombreuses erreurs dans ses rénovations qui indiquent sa connaissance limitée de l'occulte.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.
+EventPaintingB.button1,Continuer
+TokenCrate.button1,{action} Rechercher
+EventPlaceCrate.text,Un tas de caisses est posé contre le mur.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceCrate.button1,Continuer
+TokenCrate.text,Une pile de caisses est entreposée dans le coin du cellier.
+EventCrateSearch.text,Les caisses contiennent du bric-à-brac provenant de la cabane à l'époque où Bettina Beck y résidait.\nIl y a une collection de vieux livres qui pourraient s'avérer utiles.\n\nTest ({lore};2)
+EventCrateSearch.button1,Réussite
+EventCrateSearchResult.button1,Continuer
+EventCrateSearchResultA.text,Au milieu de cette camelote variée, vous trouvez un livre de sorts écrit par {qst:QSTALLYCNAME}.\n\nVous comprenez l'un d'entre eux.\nElle est clairement une puissante sorcière, mais vous ne pouvez pas être certain qu'il s'agisse d'une Sorcière Blanche ou bien d'une Druidesse Noire.\n\nRécupérez 1 jeton {clue}\n\nRécupérez le Sort {c:QItemAttackSpell}.
+EventCrateSearchResultA.button1,Continuer
+EventCrateSearchResultB.text,Au milieu de cette camelote variée, vous trouvez un livre de sorts écrit par {qst:QSTMOTHERNAME}.\n\nVous en comprenez un.\n\nRécupérez le sort {c:QItemAttackSpell}.\n\n{qst:QSTALLYCNAME} a ajouté des notes qui sont totalement erronées. Ses maigres connaissances occultes peinent à égaler celles de {qst:QSTMOTHERNAME}!\nElle doit être malfaisante ou bien mal avisée,\nmais vous ne pouvez être certain qu'elle soit une Druidesse Noire!\n\nRécupérez 1 jeton {clue}
+EventCrateSearchResultB.button1,Continuer
+PuzzleCode.button1,Résolu
+EventGhostDefeated.text,Dans un dernier hurlement de défi, l'esprit de Bettina Beck se dissipe dans la brume.\nTout ce qu'il reste d'elle est la {c:QItemDagger}.\n\nPlacez l'Objet Commun {c:QItemDagger} sur la case sur laquelle se situait le monstre.\n\nConsidérez la {c:QItemDagger} comme un objet-clé.
+EventGhostDefeated.button1,Continuer
+EventGiveSigilAskAllyE.button2,Annuler
+EventSpawnDarkYoung.button1,Continuer
+EventPaintingBMale.text,Au second plan de la peinture, vous voyez un petit garçon.\n\nRécupérez 2 jetons {clue}
+EventPaintingBFemale.text,Au second plan de la peinture, vous voyez une petite fille.\nSa chevelure est noire et non pas rousse.\n\nRécupérez 2 jetons {clue}
+EventPaintingBFemale.button1,Continuer
+EventPaintingBMale.button1,Continuer
+EventPlaceWhiskey.button1,Continuer
+EventStone2Interact.button2,Annuler
+TokenAllyD3.text,Le Druide Blanc
+TokenAllyD3.button1,Continuer
+TokenAllyB3.text,Le Druide Blanc
+TokenAllyB3.button1,Continuer
+TokenAllyC3.text,Le Druide Blanc
+TokenAllyC3.button1,Continuer
+EventStone1Search.button1,Continuer
+EventStone1Search.text,Il y a des traces de sang sur le haut de la pierre.\nD'autres traces de sang vont en direction de l'Est, vers la forêt.
+EventStone1Search2.button1,Continuer
+EventStone1Search2.text,Un faible bourdonnement provient de la pierre.\nLe son vous semble familier.\n\nVous avez un soudain souvenir de Druides, en robe blanche, regardant quelque chose de rayonnant en haut de la pierre. Près d'elle, un mystérieux feu Eldritch se consume.\n\nVous vous souvenez que trois Druides se tenaient près de la pierre et que deux étaient en retrait.\n\nVous distinguez un épais brouillard, puis une immense créature, dotée de plusieurs gueules et de multiples tentacules, en émerger. Les Druides fuient vers le Nord et vers l'Ouest.\n\nRécupérez 2 jetons {clue}
+EventStone1SearchDone.text,Le grondement s'affaiblit.
+EventStone1SearchDone.button1,Continuer
+EventDarkYoungMove0.text,Le Sombre Rejeton est-il sur la même case qu'un investigateur?
+EventDarkYoungMove0.button1,Oui
+EventDarkYoungMove0.button2,Non
+EventDarkYoungSkip2.text,Une immense créature avance d'un pas pesant à travers les bois, ravageant les arbres dans sa rage folle furieuse.\n\nTout les investigateurs sur une case en extérieur doivent résoudre un test de ({will};2)\nS'ils échouent, ils subissent 1 Horreur face cachée.
+EventDarkYoungSkip2.button1,Continuer
+EventPlaceDeepOne.text,Alors qu'elle s'échappe sous le pont couvert,\nvous entendez un bruit venir d'en dessous.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceDeepOne.button1,Continuer
+EventDeepOneSearchPassB.text,Une créature, apparentée à une chèvre, se déplace sous le pont.\nElle s'apprête à tendre une embuscade!\nSylvia Marsh lui jette un sort de bannissement et\nla créature s'enfuit.\nVous vous rappelez qu'elle vous a déjà aidé par le passé.\n\nRécupérez 1 jeton {clue}
+EventDeepOneSearchPassB.button1,Continuer
+EventGiveSigilToAllyEHasDagger.button1,Continuer
+EventGiveSigilToAllyENoDagger.text,Sylvia Marsh l'examine attentivement, puis vous la rend.\nElle dit,<i>\nJe suis désolée, mais je ne peux déchiffrer ces runes.\nElles ont été écrites dans un ancien, et désormais perdu, langage druidique.\nSeul un Druide, pourrait le faire.</i>
+EventGiveSigilToAllyENoDagger.button1,Continuer
+EventPlaceWhiskey.text,Au fond de la grotte, une planque de bouteilles de Whisky.\nToutes les bouteilles sont vides, sauf une.\n\nPlacez l'Objet Commun {c:QItemWhiskey} sur la case indiquée.
+EventCellarTest.text,Vous vous rappelez, par ailleurs, de plusieurs noms celtiques possibles. 
+EventCellarTest.button1,Le Grand Dieu Pan
+EventCellarTest.button2,L'Homme Verdoyant des Bois
+EventCellarTest.button3,Herne le Chasseur
+EventCellarDoorLocked2.button2,Échec
+EventCellarTestFailed.text,La femme crie,\n<i>Vous n'êtes pas l'ami des Druides!</i>
+EventCellarTestFailed.button1,Continuer
+EventDarkYoungGrab.text,La créature tente de vous attraper avec ses tentacules, pour vous traîner dans les bois.\nTest ({agility};1)\n\nSi vous échouez, subissez 1 Dégât et déplacez le Sombre Rejeton et vos personnages de 2 cases vers l'Est.
+EventDarkYoungGrab.button1,Continuer
+EventFinaleNoFire.text,Vous placez le {c:QItemCultSigil} sur la pierre.\n\nUn grondement provient de la pierre.\nElle devient plus chaude au toucher.\nIl manque quelque chose pour commencer le vrai Rituel de Beltaine.
+EventFinaleNoFire.button1,Continuer
+EventCaveDoorLocked2.button2,Échec
+EventCaveDoorLockedFail.text,L'homme assène,\n<i>Je ne suis pas sûr de pouvoir vous faire confiance!</i>
+EventCaveDoorLockedFail.button1,Continuer
+EventDarkYoungA.text,Une immense créature, dotée de plusieurs gueules et de troncs d'arbre en guise de jambes, surgit des bois.\n\nPlacez un Sombre Rejeton sur la case indiquée.
+EventDarkYoungA.button1,Continuer
+EventDarkYoungB.text,Une immense créature, dotée de plusieurs gueules et de troncs d'arbre en guise de jambes, surgit des bois.\n\nPlacez un Sombre Rejeton sur la case indiquée.
+EventDarkYoungB.button1,Continuer
+EventDarkYoungC.text,Une immense créature, dotée de plusieurs gueules et de troncs d'arbre en guise de jambes, surgit de derrière la cabane en bois.\n\nPlacez un Sombre Rejeton sur la case indiquée.
+EventDarkYoungC.button1,Continuer
+EventDarkYoungD.text,Une immense créature, dotée de plusieurs gueules et de troncs d'arbre en guise de jambes, s'avance en détruisant les pierres tombales.\n\nPlacez un Sombre Rejeton sur la case indiquée.
+EventDarkYoungD.button1,Continuer
+EventDarkYoungSpawnMove.text,Un investigateur sur une case en extérieur est-il à portée du Sombre Rejeton?
+EventDarkYoungSpawnMove.button1,Oui
+EventDarkYoungSpawnMove.button2,Non
+EventSpawnDarkYoung2.button1,Continuer
+EventSpawnDarkYoung2.button2,Non
+EventPlaceJournal.text,Dans le coin le plus éloigné, un meuble rempli de papiers.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceJournal.button1,Continuer
+SpawnGoatSpawn2.text,Générez un Rejeton de la Chèvre sur la case indiquée.
+SpawnGoatSpawn2.button1,Continuer
+TokenCellarPainting.text,Sur les murs du cellier, plusieurs peintures.\nElles ont été endommagées par l'humidité.
+TokenCellarPainting.button1,{action} Rechercher
+EventCellarPaintingSearch.text,La peinture est trop endommagée pour identifier quoique ce soit.\nElle représente une table d'opération couverte de sang dans une cabane.\n\nRécupérez 1 jeton {clue}
+EventCellarPaintingSearch.button1,Continuer
+EventPlaceCellarPainting.button1,Continuer
+EventPlaceCellarPainting.text,Sur les murs du cellier, plusieurs peintures.\nElles ont toutes souffert des affres de l'humidité, exceptée une.\n\nPlacez 1 jeton Recherche sur la case indiquée.
+EventMarshAsk.button1,Continuer
+TokenAllyC2.button6,{action} <i>Parlez-moi de la famille Marsh.</i>
+EventMarshAskAMono.text,<i>Je pensais {qst:QSTALLYENAME} différente, car elle n'était pas proche de sa famille et que je ne pouvais pas lui tenir rigueur d'avoir seulement le même nom.\n\nMais maintenant je réalise qu'elle n'est ici que pour voler nos artefacts magiques et rendre son prestige à la famille Marsh.\nQue savez-vous vraiment de Sylvia Marsh?</i>\n\nRécupérez 1 jeton {clue}
+EventMarshAskAMono.button1,Continuer
+EventMarshAskBMono.text,<i>A l'origine, Sylvia Marsh était une espionne, mais j'ai réussi à établir un lien de confiance avec elle.\nElle m'a avoué qu'elle suspectait un des Druides d'avoir pris contact avec la famille Marsh et d'avoir l'intention de tous nous trahir!\n</i>\nRécupérez 1 jeton {clue}
+EventMarshAskBMono.button1,Continuer
+EventMarshAsk.text,<i>De tradition, les ancêtres de la famille Marsh vénéraient le pouvoir de la Mer pendant que la famille Beck idolâtrait l'esprit des Bois.\nUne querelle a eu lieu entre eux et elle a perduré pendant des générations.\nIls ont alors usé de toutes sortes de sorts, malédictions, sabotages et autres subterfuges.</i>
+CustomMonsterDruid.info,-
+CustomMonsterDruid.monstername,Druide
+SpawnDeepOne2.text,Une chose inhumaine patauge dans l'eau marécageuse!\n\nGénérez un Profond sur la case indiquée.
+SpawnDeepOne2.button1,Continuer
+EventSpawnDeepOne2.text,Placez la tuile {c:TilePond}\n\n{qst:QSTPLACEDARKNESS}
+EventSpawnDeepOne2.button1,Continuer
+CustomMonsterDarkDruid.info,-
+EventSpawnGhost.text,Un bruit vous fait baisser le regard.\nEn-dessous de vous, la femme est à nouveau pendue à une branche, une corde autour de son cou brisé.\nSon corps se balance d'avant en arrière.\n\nElle s'écrie,\n<i>Oh John! John!\nRapporte moi le Sceau que je puisse revivre!\nEnlassons-nous une fois de plus!</i>\n\nL'instant d'après elle se tient brusquement près de vous.\nC'était autrefois une belle femme.\nDésormais, elle porte sur elle la puanteur de la mort et de la décomposition.\n\nSubissez 2 Horreurs ({lore} Annule).
+EventSpawnGhost.button1,Continuer
+EventSpawnGhostMore.text,Vous paniquez et alors que vous vous agitez dans les branches,\nvous tombez au sol.\n\nSubissez 2 Dégâts ({agility} Annule).\nLancez 1 dé supplémentaire si vous avez l'Objet {c:QItemRope}.\n\nPlacez votre investigateur sur la case indiquée.
+EventSpawnGhostMore.button1,Continuer
+EventCellarDoorLocked2.button3,Annuler
+EventSigilActiveAllyE.text,Elle dit,\n<i>Vous avez bien fait!</i>
+EventSigilActiveAllyE.button1,Continuer
+EventEliminated.button1,Fin
+EventEliminated.button2,Examiner l'histoire (SPOILS IMPORTANTS)
+EventEliminated.text,Vous ne résistez pas au sort de transformation.\nVous souffrez de plus en plus et rampez à quatre pattes sur le sol.\nPeu après, votre cri se transforme en un bêlement.\nVotre dernière vision est l'image de vos compagnons se transformant en Rejetons de la Chèvre.
+TokenBranch.text,Au-dessus de vous flotte toujours la silhouette de la femme.\n\nVous ne pouvez appuyer sur 'Invoquer le fantôme'\nque si votre investigateur possède l'Objet {c:QItemCultSigil}.
+TokenBranch.button1,{action} Invoquer le fantôme
+EventSummonGhost.text,Vous brandissez le {c:QItemCultSigil} et vous écriez,\n<i>J'ai ramené ce que vous vouliez.\nApparaissez!</i>
+EventSummonGhost.button1,Continuer
+EventPlaceBranch.text,Couché sur le sol, vous voyez encore la repoussante silhouette fantomatique de la femme pendue à une corde sur la branche au-dessus de vous.\n\nPlacez 1 jeton Recherche sur la case indiquée.
+EventPlaceBranch.button1,Continuer
+EventSummonGhostFail.text,Elle crie tristement,\n<i>Il n'est pas prêt!\nJohn, n'avez-vous rien appris de moi!</i>
+EventSummonGhostFail.button1,Continuer
+EventAllyCloseFriendMale.button1,Continuer
+EventAllyCloseFriendMale.text,<i>Lui et Martha étaient de proches amis.\nCertains trouvaient même qu'ils étaient trop proches et qu'elle lui pardonnait facilement ses fautes!</i>
+EventAllyCloseFriendFemale.button1,Continuer
+EventAllyCloseFriendFemale.text,<i>Elle et Martha étaient les meilleures amies.\nLeur grande proximité était source de tension dans le groupe.\nPeut-être Martha lui pardonnait-elle trop facilement ses fautes!</i>
+EventCrateSearch.button2,Échec
+EventCrateSearchFail.text,Les livres et parchemins ont été endommagés par l'humidité.\nVous n'arrivez à rien en tirer.
+EventCrateSearchFail.button1,Continuer
+TokenCampToRapids.text,La lumière du feu de camp illumine une rivière tumultueuse.\n\nVous pouvez appuyer sur 'Révéler' si vous êtes sur une case de la tuile {c:TileCamp}
+TokenCampToRapids.button1,Continuer
+EventPlaceRapidsTile.text,Placez la tuile {c:TileRapids}\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceRapidsTile.button1,Continuer
+EventCampFireGoesOut.text,Le feu de camp finit de se consumer.\nRetirer le jeton Interaction.\n\n{qst:QSTPLACEDARKNESS}\n\nS'il n'y a aucun jeton de Feu sur le plateau, appuyez sur 'Appliquer' et définissez l'indicateur de Feu sur 'Feu éteint'.
+EventCampFireGoesOut.button1,Continuer
+TokenGraveStone.text,Les pierres tombales sont recouvertes de lierre.\nFaute d'entretien, il est difficile de lire les inscriptions.
+TokenGraveStone.button1,{action} Rechercher
+EventPlaceGraveToken.text,Devant vous, une tombe a été exhumée.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceGraveStoneToken.text,Par manque d'entretien, un lierre dense a abîmé les pierres tombales.\n\nPlacez 1 jeton Recherche comme indiqué.
+EventPlaceGraveStoneToken.button1,Continuer
+EventGraveStoneSearch.text,Les pierres originelles et les inscriptions ont été vandalisées et négligées.\nSur la pierre de Bettina Beck, une inscription a été faite à la main.\n<i>Mère, vous ne serez pas oubliée\nVotre héritage perdurera\nTous deviendront des serviteurs de la Chèvre Noire\n</i>\nRécupérez 1 jeton {clue}
+EventGraveStoneSearch.button1,Continuer
+SpawnZombieDruid1.text,Des corps se relèvent des tombes!\n\nPlacez un Cultiste comme indiqué.
+SpawnZombieDruid2.button1,Continuer
+CustomMonsterZombieDruid.info,-
+CustomMonsterZombieDruid.monstername, Druide Zombie
+SpawnZombieDruid1.button1,Continuer
+SpawnZombieDruid2.text,Le corp se met à trembler pris de convulsions.\nLes corps se hissent hors des tombes!\n\nPlacez un Zombie comme indiqué.
+SpawnZombieDruid3.text,Le corp se met à trembler pris de convulsions.\nLes corps se hissent hors des tombes!\n\nPlacez un Thrall sur la case indiquée.
+SpawnZombieDruid3.button1,Continuer
+EventAllyMonologueGeneral.text,<i>Je ne sais pas ce qui est arrivé!\nUn maléfique et puissant Druide a du jeter une espèce de sort d'amnésie sur nous!\nJe me souviens d'une chose saisissant Martha et la trainant vers l'Est dans la forêt.\nSi vous me donnez le Sceau, j'utiliserai ses pouvoirs pour nous rendre la mémoire.\nOu bien patientez que le sort se dissipe et que je recouvre la mémoire.</i>
+EventAllyMonologueGeneral.button1,Continuer
+EventAllyAAboutBarker.text,<i>{qst:QSTNOVICENAME} s'est lui-même rendu impopulaire par son attitude et sa suspicion.</i>
+EventAllyAAboutBarker.button1,Continuer
+EventAllyBAboutBarker.text,<i>{qst:QSTNOVICENAME} ne s'est pas présenté ce soir-là.\nIl est trop jeune et inexpérimenté pour même espérer participer à la communion chantée.\nComme moi, il a du tempérament et peut dire des choses qu'il regrette plus tard – S'il a eu l'opportunité de se calmer!</i>
+EventAllyBAboutBarker.button1,Continuer
+EventAllyCAboutBarker.text,<i>{qst:QSTNOVICENAME} est une jeune recrue.\nIl n'a même pas pris la peine d'apprendre le texte des cérémonies.</i>
+EventAllyCAboutBarker.button1,Continuer
+EventAllyDAboutBarker.text,<i>{qst:QSTNOVICENAME} est un gamin peu fiable.\nIl ne s'est pas présenté à la cérémonie.\nIl est davantage intéressé par faire la cour aux filles que d'apprendre les rituels.</i>
+EventAllyDAboutBarker.button1,Continuer
+EventAboutBarkerAorB.text,<i>La dernière fois que je l'ai vu, c'était ce matin après la réunion.\nIl nous a averti qu'un maléfique démoniste était parmi nous.\nEt qu'il avait aussi découvert l'endroit où il apprenait à quelqu'un comment se servir de d'une magie diabolique.\nIl pensait, qu'une fois que l'acolyte du Druide Noir aurait maitrisé la magie, les deux seraient assez puissants pour prendre le contrôle de l'Ordre.</i>\n\nRécupérez 1 jeton {clue}
+EventAboutBarkerAorB.button1,Continuer
+EventAboutBarkerCorD.text,<i>La dernière fois que je l'ai vu, c'était ce matin après la réunion.\nIl disait avoir découvert le repère d'une puissante sorcière qui complotait contre nous, pour nous détruire.\nIl a tempété qu'il trouverait des preuves avant la fin du jour!</i>\n\nRécupérez 1 jeton {clue}
+EventAboutBarkerCorD.button1,Continuer
+EventAboutBarkerA.text,<i>Ce matin, {qst:QSTNOVICENAME} a défié Martha pour essayer de la persuader qu'Ammi n'était pas une personne de confiance.\nIl a affirmé qu'Ammi était l'acolyte du Druide Noir, ou bien le Druide Noir lui-même.\nIl a raconté avoir découvert des livres d'alchimie impie.\n\n</i>Récupérez 1 jeton {clue}
+EventAboutBarkerA.button1,Continuer
+EventAboutBarkerB.text,<i>La dernière fois que je l'ai vu, c'était ce matin après la réunion.\n{qst:QSTNOVICENAME} a accusé Eric d'être soit un Druide Noir soit d'être celui qui reçoit ses enseignements.\nIl disait avoir découvert des livres de magie noire!\n\n</i>Récupérez 1 jeton {clue}
+EventAboutBarkerB.button1,Continuer
+EventAboutBarkerC.text,<i>La dernière fois que je l'ai vu, c'était ce matin.\n{qst:QSTNOVICENAME} a accusé Othera. Elle est soit une Druidesse Noire, soit elle recevrait des enseignements de magie noire de la part du Druide Noir.\n\n</i>Récupérez 1 jeton {clue}
+EventAboutBarkerC.button1,Continuer
+EventAboutBarkerD.text,<i>La dernière fois que je l'ai vu, c'était ce matin.\n{qst:QSTNOVICENAME} disait à Martha qu'il accusait Corrina d'être la Druidesse Noire ou d'être celle qui suivait des enseignements de magie noire de sa part.\n\n</i>Récupérez 1 jeton {clue}
+EventAboutBarkerD.button1,Continuer
+EventMissedMorning.text,<i>Je ne l'ai pas vu depuis des jours.\nJ'ai cru comprendre qu'il avait contrarié plusieurs d'entre nous avec des accusations dérangeantes, après quoi il est parti furieux.\nJe ne peux vous en dire plus car je n'étais pas à la réunion de ce matin.</i>
+EventMissedMorning.button1,Continuer
+EventBarkerSpy1.text,<i>La dernière fois que j'ai vu Pete Barker après la réunion de ce matin, il poireautait près du pont.</i>
+EventBarkerSpy1.button1,Continuer
+EventBarkerSpy2.text,<i>Après la réunion de ce matin, {qst:QSTNOVICENAME} m'a demandé de l'aider à préparer une réunion qui devait avoir lieu le soir dans la vieille forêt.\nIl m'a dit qu'il était persuadé que l'un d'entre nous était un Druide Noir nécromant planifiant la résurrection de sa mère.\n\n</i>Récupérez 1 jeton {clue}
+EventBarkerSpy2.button1,Continuer
+EventAboutBarker1.text,<i>Je l'ai vu ce matin pour la dernière fois.\n{qst:QSTNOVICENAME} était confus et inquiet.\nMais il n'a confiance qu'en moi.\nIl me disait suspecter l'un de nous de comploter contre notre chef Martha, en utilisant tout les moyens possibles pour s'en débarraser – le meurtre y compris.</i>
+EventAboutBarker1.button1,Continuer
+EventAboutBarker2.text,<i>J'ai vu {qst:QSTNOVICENAME} ce matin pour la dernière fois, poireautant autour de la cabane en bois.\nIl criait que le Druide Noir allait tous avoir notre peau!</i>\n\nRécupérez 1 jeton {clue}
+EventAboutBarker2.button1,Continuer
+EventAllyE2TellCursed.text,Après avoir parlé des détails du rituel avec Sylvia Marsh, vous réalisez que tous – elle y compris – ont été maudits pour devenir des Rejetons de la Chèvre.\nVous suspectez Sylvia Marsh d'en savoir plus qu'elle ne le dit.\n\nTest {influence}\n\nVous pouvez ajouter un dé supplémentaire pour chaque Preuve que vous détenez.
+EventAllyE2TellCursed.button1,Continuer
+EventAllyE2TellCursedNoProof.text,<i>Vous n'en savez pas assez au sujet du rituel et de la malédiction.\nRetournez-y jusqu'à que les runes brillent sur le {c:QItemCultSigil}!</i>\n\nNote: le {c:QItemCultSigil} peut être examiné en cliquant sur 'Objets-Items'.
+EventAllyE2TellCursedNoProof.button1,Continuer
+EventAttackAllyE.text,Êtes-vous sûr de vouloir attaquer Sylvia Marsh?
+EventAttackAllyE.button2,Annuler
+EventSigilActiveAllyE.button2,Annuler
+EventDrownedRescueFail.text,Elle vous mord avec la férocité d'un animal acculé, avant d'être emportée par le courant.\n\nSubissez 1 Dégât.
+EventDrownedRescueFail.button1,Continuer
+SpawnChildOfDagon.text,La Progéniture de Dagon apparaît et court vers le pont.\nElle hurle et quelque chose dans l'eau répond par un gargouillemen plaintif.\n\nGénérez la Progéniture de Dagon comme indiqué.
+SpawnChildOfDagon.button1,Continuer
+EventAllyE2TellCursedA.text,<i>La clé pour inverser la malédiction réside dans l'utilisation de la {c:QItemDagger} pour sceller le Pacte de Sang.\nLe Druide Noir est en train de déchaîner son pouvoir contre vous.\nJ'ai fait tout ce que j'ai pu!\n</i>\nRécupérez 1 jeton {clue}\n\nRetirez le jeton Personnage Allié Sylvia Marsh.
+EventAllyE2TellCursedA.button1,Continuer
+EventAllyE2TellCursedB.text,<i>\nAu moins ai-je l'esprit serein.\nQuelque chose au-delà des tombes, quelque chose qui n'a plus rien d'humain, a obscurci nos âmes.\nElle se nourrit de peur et de confusion et elle est parvenue à posséder l'un de nos Druides!\nJe ne resterai pas plus longtemps dans cet endroit maudit!\n</i>\nRécupérez 1 jeton {clue}\n\nRetirez le jeton Personnage Allié Sylvia Marsh.
+EventAllyE2TellCursedB.button1,Continuer
+EventAllyE2TellCursedC.text,<i>J'espérais rendre la dague à ma famille pour redorer sa grâce, mais prenez-là et sauvez-nous tous!.\nJ'ai échoué et je dois maintenant faire face à la colère de ma famille!\nEt ils ne sont pas connus pour leur clémence!\n</i>\nRécupérez la {c:QItemDagger}.\nConsidérez la {c:QItemDagger} comme un objet-clé.\n\nRetirez le jeton Personnage Allié Sylvia Marsh.
+EventAllyE2TellCursedC.button1,Continuer
+PuzzlePorchLockHard.button1,Déverrouiller la porte
+EventDarkYoungDefeated.button1,Continuer
+EventDarkYoungDefeated.text,Le monstre géant est mortellement blessé et s'écrase au sol.\nIl se traîne jusqu'à la forêt.\n\nRetirez le Sombre Rejeton du plateau.\n\nTout les investigateurs récupèrent 3 jetons {clue}.\nTout les investigateurs défaussent jusqu'à 3 Horreurs.

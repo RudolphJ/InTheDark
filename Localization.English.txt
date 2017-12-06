@@ -1,4 +1,4 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -44,9 +44,9 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v1.4)
+quest.name,In the Dark (v1.5)
 quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: this scenario is more like a Sherlock Holmes Consulting Detective or Agatha Christie Mystery than a typical Mansions of Madness scenario.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
-quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\n
+quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
@@ -57,7 +57,7 @@ EventGraveSearchTrail2.text,\nCovered by bones and a thin layer of earth is a th
 EventGraveSearchTrail2.button1,Continue
 TokenGrave.text,The grave contains piles of bones of deformed goats
 TokenGrave.button1,{action} Explore
-EventOak.text,You may either click the Cancel button or climb the tree.\n\nIf you climb, determine which of your skills is the lower of {observation} and {agility}.\nThen test the <b>lower</b> of these skills.\nAdd 2 extra dice if you have the {c:QItemRope} Item.
+EventOak.text,You may either click the Cancel button or climb the tree.\n\nIf you climb, determine which of your skills is the lower of {observation} and {agility}.\nThen test the <b>lower</b> of these skills.\n\nAdd 1 extra die if you have the {c:QItemRope} Item.\n\nThe test is passed if you achieve 1 success or more.
 EventOak.button1,Pass
 EventOak.button2,Fail
 EventOak.button3,Cancel
@@ -154,9 +154,9 @@ TokenAllyB2.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
 TokenAllyB2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
 TokenAllyB2.button4,{action} Give Dagger to Eric
 TokenAllyD2.text,{qst:QSTALLYDNAME}
-TokenAllyD2.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyD2.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyD2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
+TokenAllyD2.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
+TokenAllyD2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
+TokenAllyD2.button3,{action} <i>Is Othera Gilman a Dark Druid?</i>
 TokenAllyD2.button4,{action} Give Dagger to Corrina
 TokenAllyC2.text,{qst:QSTALLYCNAME}
 TokenAllyC2.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
@@ -283,7 +283,7 @@ EventPlaceAllyBMore.text,Next to the door is a piece of wood.\n\nPlace the {c:QI
 EventPlaceAllyBMore.button1,Continue
 EventPlaceAllyB.text,The large man is holding in his right hand a torch.\nHe appears to be slightly drunk.\nHe greets you warmly,\n<i>Any friend of Sylvia is a friend of mine!</i>\n\nPlace the Eric Colt Ally Token on the space indicated
 EventPlaceAllyB.button1,Continue
-EventPlaceCaveTile.text,Eric Colt lets you into the cave,\n\nPlace the {c:TileCave} Tile\n
+EventPlaceCaveTile.text,Eric Colt lets you into the cave,\n\nPlace the {c:TileCave} Tile\n\nPlace 2 Wall Tokens
 EventPlaceCaveTile.button1,Continue
 EventAllyCaboutAllyD.text,<i>\nCorrina's paintings reveal a disturbed mind.\nIf you don't believe me check out her paintings here and in the shack! \nShe uses the shack as a studio and to store work she calls too avant-garde for the general public.\n </i>
 EventAllyCaboutAllyD.button1,Continue

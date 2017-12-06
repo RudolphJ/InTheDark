@@ -209,6 +209,12 @@ CHANGES DONE 7
 
 3) Changed response of the Novice Druid given the dagger to make it clearer that the White Druid really does exist.
 
+CHANGES DONE 8
+
+1) French Translation by Indoy
+2) Added mention of 2 wall tokens for cave
+3) Fixed text of AllyD2.  Corrina (if she is given the dagger) refers to the wrong Druids.
+4) Text for climbing oak tree makes it clear one success enought to pass/
 
 
 
