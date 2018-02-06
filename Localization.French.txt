@@ -1,4 +1,4 @@
-﻿.,French
+.,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 UIIntroContinue.uitext, Regarder autour de vous
 QSTMOTHERNAME,Bettina Beck
@@ -44,7 +44,7 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v1.5)
+quest.name,Dans les Ténèbres (v1.6)
 quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention : Ce scénario est plus dans la veine d'une enquête de Sherlock Holmes ou des mystères d'Agatha Christie qu'un scénario typique des Demeures de l'Épouvante.\nPrenez des notes et regardez votre journal régulièrement pour cheminer votre réflexion.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
@@ -709,7 +709,7 @@ EventStone1Search.button1,Continuer
 EventStone1Search.text,Il y a des traces de sang sur le haut de la pierre.\nD'autres traces de sang vont en direction de l'Est, vers la forêt.
 EventStone1Search2.button1,Continuer
 EventStone1Search2.text,Un faible bourdonnement provient de la pierre.\nLe son vous semble familier.\n\nVous avez un soudain souvenir de Druides, en robe blanche, regardant quelque chose de rayonnant en haut de la pierre. Près d'elle, un mystérieux feu Eldritch se consume.\n\nVous vous souvenez que trois Druides se tenaient près de la pierre et que deux étaient en retrait.\n\nVous distinguez un épais brouillard, puis une immense créature, dotée de plusieurs gueules et de multiples tentacules, en émerger. Les Druides fuient vers le Nord et vers l'Ouest.\n\nRécupérez 2 jetons {clue}
-EventStone1SearchDone.text,Le grondement s'affaiblit.
+EventStone1SearchDone.text,\nÀ mesure que le bourdonnement s'atténue, vous entendez brièvement des cris provenant du Sud.\n
 EventStone1SearchDone.button1,Continuer
 EventDarkYoungMove0.text,Le Sombre Rejeton est-il sur la même case qu'un investigateur?
 EventDarkYoungMove0.button1,Oui
@@ -775,10 +775,10 @@ SpawnDeepOne2.button1,Continuer
 EventSpawnDeepOne2.text,Placez la tuile {c:TilePond}\n\n{qst:QSTPLACEDARKNESS}
 EventSpawnDeepOne2.button1,Continuer
 CustomMonsterDarkDruid.info,-
-EventSpawnGhost.text,Un bruit vous fait baisser le regard.\nEn-dessous de vous, la femme est à nouveau pendue à une branche, une corde autour de son cou brisé.\nSon corps se balance d'avant en arrière.\n\nElle s'écrie,\n<i>Oh John! John!\nRapporte moi le Sceau que je puisse revivre!\nEnlassons-nous une fois de plus!</i>\n\nL'instant d'après elle se tient brusquement près de vous.\nC'était autrefois une belle femme.\nDésormais, elle porte sur elle la puanteur de la mort et de la décomposition.\n\nSubissez 2 Horreurs ({lore} Annule).
-EventSpawnGhost.button1,Continuer
-EventSpawnGhostMore.text,Vous paniquez et alors que vous vous agitez dans les branches,\nvous tombez au sol.\n\nSubissez 2 Dégâts ({agility} Annule).\nLancez 1 dé supplémentaire si vous avez l'Objet {c:QItemRope}.\n\nPlacez votre investigateur sur la case indiquée.
-EventSpawnGhostMore.button1,Continuer
+EventGhost.text,Un bruit vous fait baisser le regard.\nEn-dessous de vous, la femme est à nouveau pendue à une branche, une corde autour de son cou brisé.\nSon corps se balance d'avant en arrière.\n\nElle s'écrie,\n<i>\nRapporte moi le Sceau que je puisse revivre!\nEnlassons-nous une fois de plus!</i>\n\nL'instant d'après elle se tient brusquement près de vous.\nC'était autrefois une belle femme.\nDésormais, elle porte sur elle la puanteur de la mort et de la décomposition.\n\nSubissez 2 Horreurs ({lore} Annule).
+EventGhost.button1,Continuer
+EventGhostMore.text,Vous paniquez et alors que vous vous agitez dans les branches,\nvous tombez au sol.\n\nSubissez 2 Dégâts ({agility} Annule).\nLancez 1 dé supplémentaire si vous avez l'Objet {c:QItemRope}.\n\nPlacez votre investigateur sur la case indiquée.
+EventGhostMore.button1,Continuer
 EventCellarDoorLocked2.button3,Annuler
 EventSigilActiveAllyE.text,Elle dit,\n<i>Vous avez bien fait!</i>
 EventSigilActiveAllyE.button1,Continuer
@@ -791,7 +791,7 @@ EventSummonGhost.text,Vous brandissez le {c:QItemCultSigil} et vous écriez,\n<i
 EventSummonGhost.button1,Continuer
 EventPlaceBranch.text,Couché sur le sol, vous voyez encore la repoussante silhouette fantomatique de la femme pendue à une corde sur la branche au-dessus de vous.\n\nPlacez 1 jeton Recherche sur la case indiquée.
 EventPlaceBranch.button1,Continuer
-EventSummonGhostFail.text,Elle crie tristement,\n<i>Il n'est pas prêt!\nJohn, n'avez-vous rien appris de moi!</i>
+EventSummonGhostFail.text,Elle crie tristement,\n<i>Il n'est pas prêt!\n</i>
 EventSummonGhostFail.button1,Continuer
 EventAllyCloseFriendMale.button1,Continuer
 EventAllyCloseFriendMale.text,<i>Lui et Martha étaient de proches amis.\nCertains trouvaient même qu'ils étaient trop proches et qu'elle lui pardonnait facilement ses fautes!</i>
@@ -864,7 +864,7 @@ EventDrownedRescueFail.text,Elle vous mord avec la férocité d'un animal accul�
 EventDrownedRescueFail.button1,Continuer
 SpawnChildOfDagon.text,La Progéniture de Dagon apparaît et court vers le pont.\nElle hurle et quelque chose dans l'eau répond par un gargouillemen plaintif.\n\nGénérez la Progéniture de Dagon comme indiqué.
 SpawnChildOfDagon.button1,Continuer
-EventAllyE2TellCursedA.text,<i>La clé pour inverser la malédiction réside dans l'utilisation de la {c:QItemDagger} pour sceller le Pacte de Sang.\nLe Druide Noir est en train de déchaîner son pouvoir contre vous.\nJ'ai fait tout ce que j'ai pu!\n</i>\nRécupérez 1 jeton {clue}\n\nRetirez le jeton Personnage Allié Sylvia Marsh.
+EventAllyE2TellCursedA.text,<i>La clé pour inverser la malédiction réside dans l'utilisation de la {c:QItemDagger} pour sceller le Pacte de Sang.\nLe Druide Noir est en train de déchaîner son pouvoir contre vous.\nSeul un Druide au grand pouvoir et solidement ancré dans les traditions peut user de la puissance du Sigil et de la dague!\nJ'ai fait tout ce que j'ai pu!\n</i>\nRécupérez 1 jeton {clue}\n\nRetirez le jeton Personnage Allié Sylvia Marsh.
 EventAllyE2TellCursedA.button1,Continuer
 EventAllyE2TellCursedB.text,<i>\nAu moins ai-je l'esprit serein.\nQuelque chose au-delà des tombes, quelque chose qui n'a plus rien d'humain, a obscurci nos âmes.\nElle se nourrit de peur et de confusion et elle est parvenue à posséder l'un de nos Druides!\nJe ne resterai pas plus longtemps dans cet endroit maudit!\n</i>\nRécupérez 1 jeton {clue}\n\nRetirez le jeton Personnage Allié Sylvia Marsh.
 EventAllyE2TellCursedB.button1,Continuer
@@ -873,3 +873,13 @@ EventAllyE2TellCursedC.button1,Continuer
 PuzzlePorchLockHard.button1,Déverrouiller la porte
 EventDarkYoungDefeated.button1,Continuer
 EventDarkYoungDefeated.text,Le monstre géant est mortellement blessé et s'écrase au sol.\nIl se traîne jusqu'à la forêt.\n\nRetirez le Sombre Rejeton du plateau.\n\nTout les investigateurs récupèrent 3 jetons {clue}.\nTout les investigateurs défaussent jusqu'à 3 Horreurs.
+EventMythosTransformText.button1,Continuer
+EventMythosTransformText.text,\nVous sentez votre corps se transformer.\nVous vous sentez contraint de courir au plus profond de la sombre forêt.\n\nTous les investigateurs subissent 1 Dégât ({strength} annule)\n\nTous les investigateurs sur une case en extérieur se déplacent d'1 case vers l'Est.\n
+EventMythosFirstRound.button1,Continuer
+EventMythosFirstRound.text,\nA l'Est, les piaillements obsédants d'un Engoulevent bois-pourri s'intensifient à mesure qu'une chose énorme avance dans les bois.\nPas d'effet.\n
+EventSpawnGhostDaggerVar1.button1,Continuer
+EventSpawnGhostDaggerVar1.text,\n<i>Vous n'êtes pas de la famille!\nPeu importe qui vous êtes, si vous êtes dévoué au culte de la Chèvre Noire, donnez-moi le Sigil!\nUn réceptacle approprié est prêt, mes enfants apporteront bientôt ma dague, et alors je pourrai enfin revivre!</i>\n\nRécupérez 1 jeton {clue}\n
+EventSpawnGhostDaggerVar2.button1,Continuer
+EventSpawnGhostDaggerVar2.text,\nUne dague voltige au-dessus de la main de Bettina, scintillant à mesure qu'elle entre en déphasage de tout réalité humaine.\n\nRécupérez 1 jeton {clue}\n
+EventSpawnGhostDaggerVar3.button1,Continuer
+EventSpawnGhostDaggerVar3.text,\n<i>Vous n'êtes pas de la famille!\nPeu importe qui vous êtes, si vous êtes dévoué au culte de la Chèvre Noire, trouvez-moi ma dague!\nUn intrus l'a volée. Un réceptacle approprié est prêt pour moi, mais j'ai besoin de cette dague pour enfin revivre!</i>\n\nRécupérez 1 jeton {clue}\n

@@ -209,12 +209,77 @@ CHANGES DONE 7
 
 3) Changed response of the Novice Druid given the dagger to make it clearer that the White Druid really does exist.
 
+
 CHANGES DONE 8
 
 1) French Translation by Indoy
 2) Added mention of 2 wall tokens for cave
 3) Fixed text of AllyD2.  Corrina (if she is given the dagger) refers to the wrong Druids.
-4) Text for climbing oak tree makes it clear one success enought to pass/
+4) Text for climbing oak tree makes it clear one success enought to pass.
+
+
+CHANGES DONE 9
+
+1) Scenario intro Typo
+Mansion(s) of Madness ('s' added)
+2) Made 5 players easier by starting with a free evidence
+[EventInitHeroes5]
+countSigil,+,1
+3) Made 2 players easier by delaying start of Dark Young 
+DarkYoungStart,=,6
+4) Starting Equipment Bug
+Pendant turned up as is equipment
+Added to [QItemStartingEquipment]
+ItemCommonElderSignPendant ItemCommonRitualDagger ItemCommonTorch
+5) Clarified Dark Young Movement
+For every space it moves onto, all Investigators (and all Monsters that cannot Phase or Fly) on the space take 2 Damage. {agility} Negates
+6) John have you come back to me at last! 
+[EventPlaceOak} Changed to a question mark and removed mention of John.
+[EventSummonGhostFail] Removed reference to John
+7) Explicityly turned off Mythos Events for Indoor spaces
+Explicitly set $mythosIndoors,=,0
+Raised issue #761 to add check for indoors
+8) Clue trail added to go south if stone inspected
+[EventStone1Search2Done]
+"Once the humming sound has died done, you briefly hear shouting coming from the south."
+10) Replaced flavor mythos event with custom event
+[EventMythosFirstRound]
+'From the East comes the sound of a whippoorwill bird crying out as something huge moves through woods.\nNo Effect.'
+Added bird sound.
+11) Added Custom mythos event trigered by start of Deadly
+[EventMythosTransformText]
+'You feel your body start to transform.
+You feel compelled to run deep into the dark forest.\n\nAll Investigators suffer 1 Damage ({strength} negates)\n\nAll Investigators on an Outdoor space move 1 space East.\n'
+12) Added new hint to look south when searching stone
+[EventStone1SearchDone]
+'Once the humming sound has died done, you briefly hear shouting coming from the south.'
+13) French Translation
+[EventMythosFirstRound]
+[EventMythosTransformText.text]
+[EventStone1SearchDone.text]
+14) Incrimented Version Number
+Now 1.6
+15) Renamed [EventSpawnGhost] to [EventGhost]
+16) Renamed [EventSpawnGhostMore] to [EventGhostMore]
+Added
+[EventSpawnGhostDaggerVar1]
+[EventSpawnGhostDaggerVar2]
+[EventSpawnGhostDaggerVar3]
+
+17) For < 4 players Dark Druid has dagger
+[EventInitHeroes2]
+[EventInitHeroes3]
+[EventWhereIsDagger]
+
+18) Telling Sylvia about Ritual
+Gains 2 clues if dagger not obtained
+Reduced successes needed on influence test by 1.
+[EventAllyE2TellCursedA] Added Text
+'Only a Druid of great power and lore can wield the power of the sigil and dagger!'
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -44,8 +44,8 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v1.5)
-quest.description,In the Dark\nAn adventure for Mansion of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: this scenario is more like a Sherlock Holmes Consulting Detective or Agatha Christie Mystery than a typical Mansions of Madness scenario.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
+quest.name,In the Dark (v1.6)
+quest.description,In the Dark\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: this scenario is more like a Sherlock Holmes Consulting Detective Mystery than a typical Mansions of Madness scenario.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
@@ -414,7 +414,7 @@ EventDarkYoungAttack2.text,The creature twists and writhes, slamming its massive
 EventDarkYoungAttack2.button1,Continue
 EventDarkYoungAttack1.text,The creature tries to grab you with its massive tenracles.\n\n Test ({agility}; 1)
 EventDarkYoungAttack1.button1,Pass
-EventDarkYoungMove2.text,\nThe Dark Young Monster moves 2 spaces towards the nearest Investigator.\n\nIt may not move onto an Indoor space.\n\nFor every space it moves onto, all Investigators (and all Monsters that are cannot Phase or Fly) take 2 Damage. {agility} Negates\n
+EventDarkYoungMove2.text,\nThe Dark Young Monster moves 2 spaces towards the nearest Investigator.\n\nIt may not move onto an Indoor space.\n\nFor every space it moves onto, all Investigators (and all Monsters that cannot Phase or Fly) on the space take 2 Damage. {agility} Negates\n
 EventDarkYoungMove2.button1,Continue
 EventDarkYoungMove1.text,\nThe Dark Young Monster moves up to 1 space towards the nearest space with an Investigator.\nIt may not move onto an Indoor space\n\nAfter it has moved is it on the same space as an Investigator?\n
 EventDarkYoungMove1.button1,Yes, there is an Investigator on its space
@@ -516,7 +516,7 @@ EventAllyE2AboutCultA.text,<i>I'd keep a close eye on old man Pierce!\nFolks rou
 EventAllyE2AboutCultA.button1,Continue
 EventAllyE2AboutCultC.text,<i>I'd keep a close eye on Othera Gilman.\nLocals fear her!\nShe has a reputation as a powerful witch! \nShe even boasts about it!</i>\n\nGain 1 {clue}
 EventAllyE2AboutCultC.button1,Continue
-EventPlaceOak.text,\nThe branches of a giant knarled old oak tree towers over you.\n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>John is that you!\nHave you come back to me at last!</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror\n
+EventPlaceOak.text,\nThe branches of a giant knarled old oak tree towers over you.\n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>Have you come back to me at last?</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror\n
 EventPlaceOak.button1,Continue
 EventSigilReady.text,\nYou speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage.\n\nIf a Child of the Goat Monster or Goat Spawn Monster is in range, you may use an {action} to persuade the person to flee the forest; test ({influence}:2).\nIf you pass, you may discard a {clue} to defeat the monster.\n
 EventAllyAIsWarlock.button1,Continue
@@ -708,13 +708,13 @@ TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
 EventStone1Search.text,There are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.
 EventStone1Search2.button1,Continue
-EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone and near the stone a fire burning with eerie eldritch flames.\n\nYou have a vague memory of three of the robed Druids standing close to the stone and two standing further back.\n\nYou have a vision of a dense fog, and out of the fog a huge creature of tentacles and mouths emerging and Druids fleeing north and west. \n\nGain 2 {clue}\n
-EventStone1SearchDone.text,The humming sound has become fainter.
+EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone and near the stone a fire burning with eerie eldritch flames.\n\nYou have a vague memory of three of the robed Druids standing close to the stone and two standing further back.\n\nYou have a vision of a dense fog, and out of the fog a huge creature of tentacles and mouths emerging from the east and Druids fleeing north and west. \n\nGain 2 {clue}\n
+EventStone1SearchDone.text,\nOnce the humming sound has died done, you briefly hear shouting coming from the South.\n
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
 EventDarkYoungMove0.button1,Yes
 EventDarkYoungMove0.button2,No
-EventDarkYoungSkip2.text,\nA huge lumbering creature is moving through the forest tearing up trees in its berserk rage.\n\nAll Investigators on an Outdoor space test ({will},2)\nIf failed, take 1 facedown Horror
+EventDarkYoungSkip2.text,\nA huge lumbering creature is moving through the forest tearing up trees in its berserk rage.\n\nAll Investigators on an Outdoor space test ({will},2)\nIf failed, take 1 facedown Horror\n
 EventDarkYoungSkip2.button1,Continue
 EventPlaceDeepOne.text,As she runs onto the covered bridge,\nyou hear something moving beneath it.\n\nPlace a Search Token as indicated.
 EventPlaceDeepOne.button1,Continue
@@ -775,10 +775,10 @@ SpawnDeepOne2.button1,Continue
 EventSpawnDeepOne2.text,Place the {c:TilePond} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventSpawnDeepOne2.button1,Continue
 CustomMonsterDarkDruid.info,-
-EventSpawnGhost.text,A noise makes you look down.\nBelow you is a woman suspended from a branch of the tree by a rope around her neck.\nHer neck is broken.\nHer body swings backwards and forwards.\n\nShe cries out,\n<i>O John! John!\nBring me my sigil so I may live again!\nLet us embrace once more!</i>\n\nSuddenly she is next to you.\nShe was once beautiful.\nNow she has the stench of death and decay.\n\nSuffer 2 Horror ({lore} Negates)\n
-EventSpawnGhost.button1,Continue
-EventSpawnGhostMore.text,As you scramble along the branch to get away,\n you fall from the branch.\n\nSuffer 2 Damage ({agility} Negates)\nRoll 1 extra dice if you have the {c:QItemRope} Item\n\nPlace your Investigator figure in the space indicated
-EventSpawnGhostMore.button1,Continue
+EventGhost.text,A noise makes you look down.\nBelow you is a woman suspended from a branch of the tree by a rope around her neck.\nHer neck is broken.\nHer body swings backwards and forwards.\n\nShe cries out,\n<i>Bring me my sigil so I may live again!\nLet us embrace once more!</i>\n\nSuddenly she is next to you.\nShe was once beautiful.\nNow she has the stench of death and decay.\n\nSuffer 2 Horror ({lore} Negates)\n
+EventGhost.button1,Continue
+EventGhostMore.text,As you scramble along the branch to get away,\n you fall from the branch.\n\nSuffer 2 Damage ({agility} Negates)\nRoll 1 extra dice if you have the {c:QItemRope} Item\n\nPlace your Investigator figure in the space indicated
+EventGhostMore.button1,Continue
 EventCellarDoorLocked2.button3,Cancel
 EventSigilActiveAllyE.text,She says,\n<i>You have done well!</i>\n
 EventSigilActiveAllyE.button1,Continue
@@ -791,7 +791,7 @@ EventSummonGhost.text,You hold out the {c:QItemCultSigil} and cry out,\n<i>I hav
 EventSummonGhost.button1,Continue
 EventPlaceBranch.text,\nLying on the ground, you see the ghastly ghostly image of the woman hanging by her neck from the branch above you.\n\nPlace a Search Token on the space indicated
 EventPlaceBranch.button1,Continue
-EventSummonGhostFail.text,She cries out folornly,\n<i>It is not ready!\nJohn, have you learnt nothing from me!</i>
+EventSummonGhostFail.text,She cries out folornly,\n<i>It is not ready!\n</i>
 EventSummonGhostFail.button1,Continue
 EventAllyCloseFriendMale.button1,Continue
 EventAllyCloseFriendMale.text,<i>Him and Martha were very close friends.\nSome thought they were too close and she was too forgiving of his faults!\n</i>\n
@@ -811,7 +811,7 @@ TokenGraveStone.button1,{action} Search
 EventPlaceGraveToken.text,Before you is an open grave.\n\nPlace 1 Search Token as indicated
 EventPlaceGraveStoneToken.text,The long neglected damaged gravestones are overgrown with ivy.\n\nPlace 1 Search Token as indicated
 EventPlaceGraveStoneToken.button1,Continue
-EventGraveStoneSearch.text,The original stones and inscriptions have been vandalised and neglected.\nOn one of the stones the following has being scratched by hand.\n<i>Bettina Beck\nMother you are not forgotten\nYour legacy will live on\nAll will become servants of the Black Goat\n</i>\nGain 1 {clue}
+EventGraveStoneSearch.text,The original stones and inscriptions have been neglected.\nOn one of the stones the following has being scratched by hand.\n<i>Bettina Beck\nMother you are not forgotten\nYour legacy will live on\nAll will become servants of the Black Goat\n</i>\nGain 1 {clue}
 EventGraveStoneSearch.button1,Continue
 SpawnZombieDruid1.text,The corpse rises up out of the grave!\n\nPlace a Cultist Monster as indicated
 SpawnZombieDruid2.button1,Continue
@@ -864,12 +864,22 @@ EventDrownedRescueFail.text,She bites you with the ferocity of a trapped animal 
 EventDrownedRescueFail.button1,Continue
 SpawnChildOfDagon.text,The Child of Dagon appears and runs towards the bridge.\nIt screams and something in the water responds in a gurgling cty.\n\nPlace the Child of Dagon Monster as indicated
 SpawnChildOfDagon.button1,Continue
-EventAllyE2TellCursedA.text,\n<i>The key to reversing the curse is finding the {c:QItemDagger} used to seal the Blood Pact.\nThe Dark Druid is using its power against you.\nI have done all I can!\n</i>\nGain 1 {clue}\n\nRemove the Sylvia Marsh Ally Token
+EventAllyE2TellCursedA.text,\n<i>The key to reversing the curse is finding the {c:QItemDagger} used to seal the Blood Pact.\nThe Dark Druid is using its power against you.\nOnly a Druid of great power and lore can wield the power of the sigil and dagger!\nI have done all I can!\n</i>\nGain 2 {clue}\n\nRemove the Sylvia Marsh Ally Token
 EventAllyE2TellCursedA.button1,Continue
-EventAllyE2TellCursedB.text,\n<i>\nAt last my mind is clear.\nSomething from beyond the grave, something no longer human, has clouded our minds.\nIt feeds off confusion and fear and has possessed one of the Druids!\nI will not stay in this accursed place!\n</i>\nGain 1 {clue}\n\nRemove the Sylvia Marsh Ally Token\n
+EventAllyE2TellCursedB.text,\n<i>\nAt last my mind is clear.\nSomething from beyond the grave, something no longer human, has clouded our minds.\nIt feeds off confusion and fear and has possessed one of the Druids!\nI will not stay in this accursed place!\n</i>\nGain 2 {clue}\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedB.button1,Continue
 EventAllyE2TellCursedC.text,\n<i>I hoped to give this dagger to my family to re-gain their favour but take it and save us all.\nI have failed and must face the wrath of my family!\nThey are not known for their mercy!\n</i>\nYou gain the {c:QItemDagger}\nTreat the {c:QItemDagger} as a Key Item\n\nRemove the Sylvia Marsh Ally Token\n
 EventAllyE2TellCursedC.button1,Continue
 PuzzlePorchLockHard.button1,Unlock Door
 EventDarkYoungDefeated.button1,Continue
 EventDarkYoungDefeated.text,The giant monster is mortally wounded and crashes to the ground\nIt slowly drags itself into the forest.\n\nRemove the Dark Young Monster figure from the game board.\n\nAll Investigators gain 3 {clue}\nAll Investigators discard up to 3 Horror\n\n
+EventMythosTransformText.button1,Continue
+EventMythosTransformText.text,\nYou feel your body start to transform.\nYou feel compelled to run deep into the dark forest.\n\nAll Investigators suffer 1 Damage ({strength} negates)\n\nAll Investigators on an Outdoor space move 1 space East.\n
+EventMythosFirstRound.button1,Continue
+EventMythosFirstRound.text,\nFrom the East comes the sound of a whippoorwill bird crying out as something huge moves through woods.\nNo Effect.\n
+EventSpawnGhostDaggerVar1.button1,Continue
+EventSpawnGhostDaggerVar1.text,\n<i>You are not my kin!\nWhoever you are, if you truly serve the Black Goat, give me the sigil!\nA suitable vessel is ready and soon my child will bring me my dagger so I may live again!</i>\n\nGain 1 {clue}\n
+EventSpawnGhostDaggerVar2.button1,Continue
+EventSpawnGhostDaggerVar2.text,\nHovering above Bettina's hand is a dagger which shimmers as it phases in and out of human reality.\n\nGain 1 {clue}\n
+EventSpawnGhostDaggerVar3.button1,Continue
+EventSpawnGhostDaggerVar3.text,\n<i>You are not my kin!\nWhoever you are, if you truly serve the Black Goat, find me my dagger!\nAn interloper has stolen it.\nA suitable vessel is ready but I need my dagger so I may live again!</i>\n\nGain 1 {clue}\n
