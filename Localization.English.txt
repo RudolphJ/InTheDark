@@ -1,4 +1,4 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -112,7 +112,6 @@ EventPendantSearch.text,You search the bush and find a large fragment of a rippe
 EventPendantSearch.button1,Continue
 TokenPendant.text,For a brief moment moonlight reflects off something small in a dense bush.
 TokenPendant.button1,{action} Search
-EventPainting.button1,Continue
 EventAllyCMonologue.text,<i>I am a white witch from a long line of wise women!\nI know things the others are ignorant of!</i>
 EventAllyCMonologue.button1,Continue
 EventAllyBMonologue.text,<i>The others think I'm just a redneck but Colts have lived in these 'ere parts for as long as folks can remember!</i>\n
@@ -200,7 +199,7 @@ TokenAllyE1.text,A woman cries out your name.
 TokenAllyE1.button1,{action} <i>Who are you?</i>
 EventAllyAaboutAllyD.text,<i>Her art is macabre - of the horrific and the taboo.\nTell me where she gets her ideas for her work?</i>\n
 EventAllyAaboutAllyD.button1,Continue
-EventAllyAaboutAllyC.text,<i>Gilman is a self-proclaimed witch\nand she is proud she comes from a long line of witches.</i>
+EventAllyAaboutAllyC.text,<i>{qst:QSTALLYCNAME} is a self-proclaimed witch\nand she is proud she comes from a long line of witches.</i>
 EventAllyAaboutAllyC.button1,Continue
 EventAllyAaboutAllyB.text,<i>Eric Colt is a redneck layabout hillbilly - \njust like the rest of the notorious Colt clan!</i>
 EventAllyAaboutAllyB.button1,Continue
@@ -512,20 +511,20 @@ EventGiveDaggerNovice.button1,Continue
 EventAttackAsk.text,{qst:QSTALLYENAME} has told you one of the Druids may be willing to help,\n\nAre you sure you want to continue with your attack?
 EventAttackConfirmedA.button1,Continue
 EventAttackAsk.button2,Cancel your Attack
-EventAllyE2AboutCultA.text,<i>I'd keep a close eye on old man Pierce!\nFolks round here think he is a powerful warlock.\nHis great grandfather Malachi was put on trial for alchemy and sorcery.</i>\n\nGain 1 {clue}
-EventAllyE2AboutCultA.button1,Continue
-EventAllyE2AboutCultC.text,<i>I'd keep a close eye on Othera Gilman.\nLocals fear her!\nShe has a reputation as a powerful witch! \nShe even boasts about it!</i>\n\nGain 1 {clue}
+EventAllyE2AboutCultC.text,<i>I'd keep an eye on {qst:QSTALLYCNAME}.\nLocals fear her!\nShe has a reputation as a powerful witch!\nShe even boasts about it!\nShe may have the knowledge to cast powerful spells.</i>\n\nGain 1 {clue}
 EventAllyE2AboutCultC.button1,Continue
+EventAllyE2AboutCultD.text,<i>I'd keep an eye on {qst:QSTALLYDNAME}.\nLocals fear her!\nShe has a reputation for knowing arcane secrets!\nShe may have the knowledge to cast powerful spells.</i>\n\nGain 1 {clue}
+EventAllyE2AboutCultD.button1,Continue
 EventPlaceOak.text,\nThe branches of a giant knarled old oak tree towers over you.\n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>Have you come back to me at last?</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror\n
 EventPlaceOak.button1,Continue
 EventSigilReady.text,\nYou speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage.\n\nIf a Child of the Goat Monster or Goat Spawn Monster is in range, you may use an {action} to persuade the person to flee the forest; test ({influence}:2).\nIf you pass, you may discard a {clue} to defeat the monster.\n
 EventAllyAIsWarlock.button1,Continue
 EventAllyAIsWarlock.text,<i>The Pierce and the Beck family have always been close.\nThere's gossip about deformities caused by inbreeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 1 {clue}
-EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 1 {clue}
+EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 1 {clue}\n
 EventAllyBIsWarlock.button1,Continue
-EventAllyCIsWarlock.text,\n<i>{qst:QSTFATHERFIRSTNAME} Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with {qst:QSTMOTHERNAME}.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\n{qst:QSTALLYCNAME} will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers.</i>\n\nGain 1 {clue}
+EventAllyCIsWarlock.text,\n<i>John Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with Bettina Beck.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\n\nOthera Gilman will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers!\nShe is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
 EventAllyCIsWarlock.button1,Continue
-EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, the father of Mrs {qst:QSTALLYDNAME}, was the father of Martha Beck.\nThis was kept hidden because {qst:QSTALLYDFIRSTNAME} was born out of wedlock.\nThe sigil you have was owned by Martha's mother {qst:QSTMOTHERNAME} and passed onto Martha.\nShe obtained it after {qst:QSTFATHERFIRSTNAME} died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n</i>\nGain 1 {clue}\n
+EventAllyDIsWarlock.text,<i>John Jones, the father of Mrs Corrina Jones, was the father of Martha Beck.\nThis was kept hidden because Corrina was born out of wedlock.\nThe sigil you have was owned by Martha's mother Bettina Beck and passed onto Martha.\nShe obtained it after John died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n\nCorrina is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
 EventAllyDIsWarlock.button1,Continue
 EventAlreadyTold.text,<i>I've already told you all I know!</i>
 EventAlreadyTold.button1,Continue
@@ -672,10 +671,9 @@ EventCrossFail.button1,Continue
 EventPlaceStone2.text,The White Druid chants words of long lost Celtic.\nThe runes on the {c:QItemDagger} grow brighter.\n\nThe White Druid hands it back and says,\n<i>All is ready for you to complete the true Beltane Ritual!\n</i>
 EventPlaceStone2.button1,Continue
 EventGiveDagger.button2,Cancel
-PuzzlePainting.button1,Continue
-EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant matches that of the {c:QItemCultSigil}.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nGain 2 {clue} 
+EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant perfectly matches that of the {c:QItemCultSigil}.\nThe painter clearly knows the runes.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nGain 2 {clue}\n
 EventPaintingA.button1,Continue
-EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n Corrina has painted over the signature and signed it herself!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.
+EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n Corrina has painted over the signature and signed it herself!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
 EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.
@@ -883,3 +881,10 @@ EventSpawnGhostDaggerVar2.button1,Continue
 EventSpawnGhostDaggerVar2.text,\nHovering above Bettina's hand is a dagger which shimmers as it phases in and out of human reality.\n\nGain 1 {clue}\n
 EventSpawnGhostDaggerVar3.button1,Continue
 EventSpawnGhostDaggerVar3.text,\n<i>You are not my kin!\nWhoever you are, if you truly serve the Black Goat, find me my dagger!\nAn interloper has stolen it.\nA suitable vessel is ready but I need my dagger so I may live again!</i>\n\nGain 1 {clue}\n
+EventAllyE2AboutRitualA.button1,Continue
+EventAllyE2AboutRitualA.text,\n<i>I remember another thing about the ritual.\nOne of the Druids standing further back was {qst:QSTALLYANAME}.</i>\n\nGain 1 {clue}\n
+EventAllyE2AboutRitualB.button1,Continue
+EventAllyE2AboutRitualB.text,\n<i>I remember another thing about the ritual.\nOne of the Druids standing further back was {qst:QSTALLYBNAME}.</i>\n\nGain 1 {clue}\n
+EventPainting.button1,Continue
+PuzzlePaintingLevel2.button1,Continue
+PuzzlePaintingLevel3.button1,Continue

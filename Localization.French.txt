@@ -1,4 +1,4 @@
-.,French
+﻿.,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 UIIntroContinue.uitext, Regarder autour de vous
 QSTMOTHERNAME,Bettina Beck
@@ -512,10 +512,10 @@ EventGiveDaggerNovice.button1,Continuer
 EventAttackAsk.text,{qst:QSTALLYENAME} vous a dit que l'un des Druides serait disposé à vous aider.\n\nÊtes-vous sûr de vouloir donner l'assaut?
 EventAttackConfirmedA.button1,Continuer
 EventAttackAsk.button2,Annuler l'attaque
-EventAllyE2AboutCultA.text,<i>A votre place, je garderais un œil sur le vieux Pierce!\nLes gens ici, pensent qu'il est un puissant sorcier.\nSon grand-père Malachi a été jugé pour sorcellerie et alchimie.</i>\n\nRécupérez 1 jeton {clue}
-EventAllyE2AboutCultA.button1,Continuer
-EventAllyE2AboutCultC.text,<i>A votre place, je garderais un œil sur Othera Gilman.\nLes gens ont peur d'elle ici!\nElle a une réputation de puissante sorcière! \nElle s'en vante même!</i>\n\nRécupérez 1 jeton {clue}
+EventAllyE2AboutCultC.text,<i>À votre place je garderais un œil sur {qst:QSTALLYCNAME}.\nLes gens du coin la craignent!\nElle a la réputation d'être une grande sorcière!\nEt elle s'en vante même!\nElle pourrait avoir les connaissances requises pour lancer de puissants sortilèges.</i>n\nRécupérez 1 jeton {clue}\n
 EventAllyE2AboutCultC.button1,Continuer
+EventAllyE2AboutCultD.text,<i>À votre place je garderais un œil sur {qst:QSTALLYDNAME}.\nLes gens du coin la craignent!Elle a la réputation de connaître de puissants et sombres secrets!\nElle pourrait avoir les connaissances requises pour lancer de terribles sortilèges.</i>n\nRécupérez 1 jeton {clue}\n
+EventAllyE2AboutCultD.button1,Continuer
 EventPlaceOak.text,Les branches du chêne noueux vous surplombent.\n\nPlacez 1 jeton Recherche sur la case indiquée.\n\nSur une branche immense, le corps d'une femme pend au bout d'un nœud coulant.\nSa chevelure rousse lumineuse ondule au gré des bourrasques de vent – sauf qu'il n'y a pas de vent.\nSon cou est brisé mais elle s'exclame malgré tout!\n<i>John, c'est toi !\nTu es enfin revenu !</i>\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur.
 EventPlaceOak.button1,Continuer
 EventSigilReady.text,Vous prononcez les mots de puissance appris dans le journal de Bettina Beck.\nDe brillantes runes apparaissent sur le Sceau.\nVous déduisez qu'elles appartiennent à l'ancienne langue de l'Ordre des Druides Blancs.\n\nVous êtes incapable de les lire.\nPeut-être que l'un des Druides pourra vous aider?\n\nVous pouvez utiliser 1 {action} pour résoudre un test de ({lore};1)\nSi vous réussissez, un investigateur peut défausser 1 État Étourdi, Sonné ou Hypnotisé ou bien défausser 1 Dégât face cachée.\n\nSi une Progéniture ou un Rejeton de la Chèvre est à portée, vous pouvez utiliser 1 {action} pour l'obliger à fuir dans la forêt, test ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
@@ -523,9 +523,9 @@ EventAllyAIsWarlock.button1,Continuer
 EventAllyAIsWarlock.text,<i>Les familles Pierce et Beck ont toujours été proches.\nGénérant de nombreux commérages autour de malformations et de consanguinité!\nBettina Beck a hérité du Sceau. Il faisait partie du patrimoine familial depuis l'époque de l'éminent alchimiste Malachi Cooter Pierce.\nMais le Sceau de Culte n'appartenait initialement pas à Malachi. Il l'a obtenu en tuant un puissant Druide Blanc pour faire le mal plutôt que le bien.\n\n</i>Récupérez 1 jeton {clue}
 EventAllyBIsWarlock.text,<i>Le clan Colt a la réputation d'être introverti, dangereux et violent.\nEric est le fils illégitime d'une union secrète entre {qst:QSTFATHERFIRSTNAME} Colt et {qst:QSTMOTHERNAME}.\nLe {c:QItemCultSigil} a été donné à Bettina par {qst:QSTFATHERFIRSTNAME} Colt, mais il n'était pas le propriétaire originel.\nIl a appartenu initialement à un vagabond, très populaire pour ses pouvoirs de guérison, qui se réclamait d'être le dernier des vrais Druides.\nQuand il a disparu, le sheriff a mené une enquête mais les gens étaient si effrayés par les Colt, que peu étaient enclins à témoigner contre eux.\n</i>\nRécupérez 1 jeton {clue}
 EventAllyBIsWarlock.button1,Continuer
-EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman était le père d'Othera Gilman.\nIl a eu une union secrète avec {qst:QSTMOTHERNAME}.\nIls ont acquis le puissant Sceau en tuant son propriétaire légitime – un vagabond qui se réclamait d'être le dernier véritable Druide Blanc.\nRien n'arrêtera {qst:QSTALLYCNAME} avant qu'elle n'ait le Sceau en sa possession.\nElle le convoite comme s'il était légitimement le sien.</i>\n\nRécupérez 1 jeton {clue}
+EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman était le père d'Othera Gilman.\nIl a eu une union secrète avec {qst:QSTMOTHERNAME}.\nIls ont acquis le puissant Sceau en tuant son propriétaire légitime – un vagabond qui se réclamait d'être le dernier véritable Druide Blanc.\nRien n'arrêtera {qst:QSTALLYCNAME} avant qu'elle n'ait le Sceau en sa possession.\nElle le convoite comme s'il était légitimement le sien.\nElle est plus vieille qu'elle n'y paraît.\nDurant son enfance elle est parvenue à invoquer le pouvoir de la Chèvre Noire pour artificiellement prolonger son existence.</i>\n\nRécupérez 2 jeton {clue}
 EventAllyCIsWarlock.button1,Continuer
-EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, le père de Mrs {qst:QSTALLYDNAME}, était le père de Martha Beck.\nCela était tenu secret car {qst:QSTALLYDFIRSTNAME} était née d'une union conjugale.\nLe Sceau que vous avez, appartenait à {qst:QSTMOTHERNAME}, la mère de Martha et lui a été légué.\nElle l'a reçu à la mort de {qst:QSTFATHERFIRSTNAME}.\nIl l'a lui-même récupéré sur le corps d'un vagabon qui disait être le dernier des Druides Blancs.\n</i>\nRécupérez 1 jeton {clue}
+EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, le père de Mrs {qst:QSTALLYDNAME}, était le père de Martha Beck.\nCela était tenu secret car {qst:QSTALLYDFIRSTNAME} était née d'une union conjugale.\nLe Sceau que vous avez, appartenait à {qst:QSTMOTHERNAME}, la mère de Martha et lui a été légué.\nElle l'a reçu à la mort de {qst:QSTFATHERFIRSTNAME}.\nIl l'a lui-même récupéré sur le corps d'un vagabon qui disait être le dernier des Druides Blancs.\n{qst:QSTALLYDFIRSTNAME} est plus vieille qu'elle n'y paraît.\nDurant son enfance elle est parvenue à invoquer le pouvoir de la Chèvre Noire pour artificiellement prolonger son existence.</i>\n\nRécupérez 2 jeton {clue}
 EventAllyDIsWarlock.button1,Continuer
 EventAlreadyTold.text,<i>Je vous ai déjà dit tout ce que je savais!</i>
 EventAlreadyTold.button1,Continuer
@@ -672,10 +672,9 @@ EventCrossFail.button1,Continuer
 EventPlaceStone2.text,Le Druide Blanc prononce des paroles en une vieille langue celtique.\nLes runes sur la {c:QItemDagger} deviennent plus brillantes.\n\nLe Druide Blanc vous la tend, puis dit,\n<i>Tout est prêt pour que vous puissiez mener le vrai Rituel de Beltaine!</i>
 EventPlaceStone2.button1,Continuer
 EventGiveDagger.button2,Annuler
-PuzzlePainting.button1,Continuer
-EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nRécupérez 2 jetons {clue} 
+EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\nLe peintre connait clairement les runes.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nRécupérez 2 jetons {clue}\n
 EventPaintingA.button1,Continuer
-EventPaintingB.text,La peinture représente une femme portant le {c:QItemCultSigil} en pendentif.\nElle a été initialement signée par <i>Bettina Beck</i>.\nMais Corrina a peint son nom par-dessus!\n\nCorrina Jones est une opportuniste.\nElle n'a jamais peint ces œuvres !\nElle a rénové les toiles de Bettina Beck et a fait comme si c'était les siennes!\n\nElle a fait de nombreuses erreurs dans ses rénovations qui indiquent sa connaissance limitée de l'occulte.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.
+EventPaintingB.text,La peinture représente une femme portant le {c:QItemCultSigil} en pendentif.\nElle a été initialement signée par <i>Bettina Beck</i>.\nMais Corrina a peint son nom par-dessus!\n\nCorrina Jones est une opportuniste.\nElle n'a jamais peint ces œuvres !\nElle a rénové les toiles de Bettina Beck et a fait comme si c'était les siennes!\n\nElle a fait de nombreuses erreurs dans ses rénovations qui indiquent sa connaissance limitée de l'occulte.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n
 EventPaintingB.button1,Continuer
 TokenCrate.button1,{action} Rechercher
 EventPlaceCrate.text,Un tas de caisses est posé contre le mur.\n\nPlacez 1 jeton Recherche comme indiqué.
@@ -883,3 +882,9 @@ EventSpawnGhostDaggerVar2.button1,Continuer
 EventSpawnGhostDaggerVar2.text,\nUne dague voltige au-dessus de la main de Bettina, scintillant à mesure qu'elle entre en déphasage de tout réalité humaine.\n\nRécupérez 1 jeton {clue}\n
 EventSpawnGhostDaggerVar3.button1,Continuer
 EventSpawnGhostDaggerVar3.text,\n<i>Vous n'êtes pas de la famille!\nPeu importe qui vous êtes, si vous êtes dévoué au culte de la Chèvre Noire, trouvez-moi ma dague!\nUn intrus l'a volée. Un réceptacle approprié est prêt pour moi, mais j'ai besoin de cette dague pour enfin revivre!</i>\n\nRécupérez 1 jeton {clue}\n
+EventAllyE2AboutRitualA.button1,Continuer
+EventAllyE2AboutRitualA.text,\n<i>Je me souviens d'autre chose à propos du rituel.\nL'un des Druides qui se tenaient en retrait était {qst:QSTALLYANAME}.</i>\n\nRécupérez 1 jeton {clue}\n
+EventAllyE2AboutRitualB.button1,Continuer
+EventAllyE2AboutRitualB.text,\n<i>Je me souviens d'autre chose à propos du rituel.\nL'un des Druides qui se tenaient en retrait était {qst:QSTALLYBNAME}.</i>\n\nRécupérez 1 jeton {clue}\n
+PuzzlePaintingLevel2.button1,Continuer
+PuzzlePaintingLevel3.button1,Continuer

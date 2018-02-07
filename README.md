@@ -278,6 +278,18 @@ Reduced successes needed on influence test by 1.
 'Only a Druid of great power and lore can wield the power of the sigil and dagger!'
 
 
+CHANGES DONE 10
+
+1) Picture Puzzle
+Added easier puzzle for 2 players
+Made it clearer only a powerful Druid could paint the picture
+
+2) Added info to Sylvia's monologue about Ritual
+[EventAllyE2AboutRitualA] + [EventAllyE2AboutRitualB]
+
+3) Changed Sylvia's monologue about Cult
+[EventAllyE2AboutCultA] + [EventAllyE2AboutCultB]
+
 
 
 
