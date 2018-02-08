@@ -219,9 +219,9 @@ EventSigilInspect.text,If your Investigator possesses the {c:QItemCultSigil} Ite
 EventSigilInspect.button1,Inspect Sigil
 EventSigilInspect.button2,Cancel
 EventSigilReady.button1,Continue
-EventSigilNeedMoreA.text, \nThere are no signs of the glowing red runes on the {c:QItemCultSigil}.\nYou have not learnt enough to master its powers but you are able to use some of its restorative affect.\n\nYou may use an {action} to test ({lore}:2)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition.\n
+EventSigilNeedMoreA.text, \nThere are no signs of the glowing red runes on the {c:QItemCultSigil}.\nYou have not learnt enough to master its powers but you are able to use some of its restorative affect.\n\nYou may use an {action} to test ({lore}:2)\nIf you pass, an Investigator may discard a Dazed or Mesmerised Condition.\n
 EventSigilNeedMoreA.button1,Continue
-EventSigilNeedMoreB.text, \nThere are no signs of the glowing red runes on the {c:QItemCultSigil}.\nYou have not learnt enough to master its full powers but you are able to use some of its transformative and restorative affect.\n\nYou may use an {action} to test ({lore}:2)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition.\n\nIf a Child of the Goat Monster is in range, you may use an {action} to persuade the person to flee the forest; test ({influence}:2).\nIf you pass, you may discard a {clue} to defeat the monster.\n
+EventSigilNeedMoreB.text, \nThere are no signs of the glowing red runes on the {c:QItemCultSigil}.\nYou have not learnt enough to master its full powers but you are able to use some of its transformative and restorative affect.\n\nYou may use an {action} to test ({lore}:2)\nIf you pass, an Investigator may discard a Dazed or Mesmerised Condition.\n\nIf a Child of the Goat Monster is in range, you may use an {action} to persuade the person to flee the forest; test ({influence}:2).\nIf you pass, you may discard a {clue} to defeat the monster.\n
 EventSigilNeedMoreB.button1,Continue
 EventPlaceRitualSite.text,Place the square {c:TileRitual} Tile\n
 EventPlaceRitualSite.button1,Continue
@@ -261,7 +261,7 @@ TokenCampToBridge.text,The light from the camp fire illuminates a covered bridge
 TokenCampToBridge.button1,Reveal
 EventPlaceBridgeTile.text,A ramsuckle covered wooden bridge spans a river.\nThe water glistens in the feeble moonlight.\n\nPlace the large {c:TileBridge} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceBridgeTile.button1,Continue
-EventPlaceCampFire.text,The small camp fire is starting to burn down.\n\nPlace 1 Interact Token on this space\nTreat the Token as a Light Source
+EventPlaceCampFire.text,The small camp fire is starting to burn down.\n\nPlace 1 Interact Token on this space\n
 EventPlaceCampFire.button1,Continue
 TokenBridgeToCamp.text,You can see a faint glow of light in this direction.\n\n{qst:QSTRESTRICTSIGHT}
 TokenBridgeToCamp.button1,Reveal
@@ -517,7 +517,9 @@ EventAllyE2AboutCultD.text,<i>I'd keep an eye on {qst:QSTALLYDNAME}.\nLocals fea
 EventAllyE2AboutCultD.button1,Continue
 EventPlaceOak.text,\nThe branches of a giant knarled old oak tree towers over you.\n\nPlace 1 Search Token on the space indicated\n\nOn a huge branch sticking out of the tree hangs the body of a woman from a noose.\nHer bright red hair moves as though blown around by a strong wind - except there is no wind.\n Her neck is broken but she cries out!\n<i>Have you come back to me at last?</i>\n\nTest ({will},1)\nIf  you fail, suffer 1 Horror\n
 EventPlaceOak.button1,Continue
-EventSigilReady.text,\nYou speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nYou determine the runes belong to the long lost language of the ancient order of White Druids.\n\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage.\n\nIf a Child of the Goat Monster or Goat Spawn Monster is in range, you may use an {action} to persuade the person to flee the forest; test ({influence}:2).\nIf you pass, you may discard a {clue} to defeat the monster.\n
+EventSigilReady.text,\nYou speak the words of power learnt from Bettina Beck's journal.\nGlowing red runes appear on the sigil.\nThe runes belong to the lost language of the ancient order of White Druids.\n\nYou may use an {action} to test ({lore}:1)\nIf you pass, an Investigator may discard a Dazed, Stunned or Mesmerised Condition or you may discard 1 facedown Damage.\n\nIf a Child of the Goat Monster or Goat Spawn Monster is in range, you may use an {action} to persuade the person to flee the forest; test ({influence}:2).\nIf you pass, you may discard a {clue} to defeat the monster.\n
+EventSigilReadyNotRead.text,\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n
+EventSigilReadyNotRead.button1,Continue
 EventAllyAIsWarlock.button1,Continue
 EventAllyAIsWarlock.text,<i>The Pierce and the Beck family have always been close.\nThere's gossip about deformities caused by inbreeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 1 {clue}
 EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 1 {clue}\n
@@ -731,7 +733,7 @@ EventCellarTestFailed.text,The woman shouts,\n<i>You are no friends of the Druid
 EventCellarTestFailed.button1,Continue
 EventDarkYoungGrab.text,The creature tries to grab you with its tentacles and drag you into the forest.\nTest ({agility}:1)\n\nIf you fail, suffer 1 Damage and move the Dark Young Monster and your figures up to 2 spaces East.
 EventDarkYoungGrab.button1,Continue
-EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA humming sound emanates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\n
+EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA humming sound emanates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\nYou desperately try to remember what you have learnt about the Beltane ritual.\n
 EventFinaleNoFire.button1,Continue
 EventCaveDoorLocked2.button2,Fail
 EventCaveDoorLockedFail.text,The man shouts back,\n<i>I ain't convinced you can be trusted!</i>
@@ -802,7 +804,7 @@ TokenCampToRapids.text,The light from the camp fire illuminates a fast flowing r
 TokenCampToRapids.button1,Continue
 EventPlaceRapidsTile.text,Place the {c:TileRapids} Tile\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceRapidsTile.button1,Continue  
-EventCampFireGoesOut.text,The camp fire burns itself out.\nRemove the Camp Fire Interact Token.\n\n{qst:QSTPLACEDARKNESS}\n\nIf there are no Fire Tokens on the board, click the 'Set' button and set the Fire Indicator to Off.
+EventCampFireGoesOut.text,The camp fire burns itself out.\nRemove the Camp Fire Interact Token.\n\n{qst:QSTPLACEDARKNESS}\n
 EventCampFireGoesOut.button1,Continue
 TokenGraveStone.text,The grave stones are overgrown with ivy.\nDue to long neglect, it is hard to read the inscriptions.\n
 TokenGraveStone.button1,{action} Search

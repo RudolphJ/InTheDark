@@ -220,9 +220,9 @@ EventSigilInspect.text,Si votre investigateur possède l'Objet Unique {c:QItemCu
 EventSigilInspect.button1,Inspecter le Sceau
 EventSigilInspect.button2,Annuler
 EventSigilReady.button1,Continuer
-EventSigilNeedMoreA.text,Il n'y a plus aucun signe de runes rouges brillantes sur le {c:QItemCultSigil}.\nVous n'en savez pas assez pour maîtriser son pouvoir, mais vous pouvez vous servir de ses effets régénérants.\n\nVous pouvez utiliser 1 {action} pour faire un test de ({lore};2)\nSi vous réussissez, un investigateur peut défausser un état Étourdi, Sonné ou Hypnotisé.
+EventSigilNeedMoreA.text,Il n'y a plus aucun signe de runes rouges brillantes sur le {c:QItemCultSigil}.\nVous n'en savez pas assez pour maîtriser son pouvoir, mais vous pouvez vous servir de ses effets régénérants.\n\nVous pouvez utiliser 1 {action} pour faire un test de ({lore};2)\nSi vous réussissez, un investigateur peut défausser un état Étourdi ou Hypnotisé.
 EventSigilNeedMoreA.button1,Continuer
-EventSigilNeedMoreB.text,Il n'y a plus aucun signe de runes rouges brillantes sur le {c:QItemCultSigil}.\nVous n'en savez pas assez pour maîtriser tout son pouvoir, mais vous pouvez vous servir de ses effets régénérants ou de transformation.\n\nVous pouvez utiliser 1 {action} pour faire un test de ({lore};2).\nSi vous réussissez, un investigateur peut défausser un état Étourdi, Sonné ou Hypnotisé.\n\nSi une Progéniture de la Chèvre est à portée, pour 1 {action}, vous pouvez la forcer à fuir vers la forêt, ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
+EventSigilNeedMoreB.text,Il n'y a plus aucun signe de runes rouges brillantes sur le {c:QItemCultSigil}.\nVous n'en savez pas assez pour maîtriser tout son pouvoir, mais vous pouvez vous servir de ses effets régénérants ou de transformation.\n\nVous pouvez utiliser 1 {action} pour faire un test de ({lore};2).\nSi vous réussissez, un investigateur peut défausser un état Étourdi ou Hypnotisé.\n\nSi une Progéniture de la Chèvre est à portée, pour 1 {action}, vous pouvez la forcer à fuir vers la forêt, ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
 EventSigilNeedMoreB.button1,Continuer
 EventPlaceRitualSite.text,Placez la tuile {c:TileRitual}\n
 EventPlaceRitualSite.button1,Continuer
@@ -262,7 +262,7 @@ TokenCampToBridge.text,La lumière du feu de camp illumine un pont couvert.\n\nV
 TokenCampToBridge.button1,Révéler
 EventPlaceBridgeTile.text,Un pont couvert branlant traverse une rivière.\nL'eau scintille sous un faible rayon de lune.\n\nPlacez la grande tuile {c:TileBridge}\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceBridgeTile.button1,Continuer
-EventPlaceCampFire.text,Le petit feu de camp s'essoufle.\n\nPlacez 1 jeton Interaction sur cette case.\nConsidérez le jeton comme une Source de Lumière.
+EventPlaceCampFire.text,Le petit feu de camp s'essoufle.\n\nPlacez 1 jeton Interaction sur cette case.\n
 EventPlaceCampFire.button1,Continuer
 TokenBridgeToCamp.text,Vous voyez une légère lueur dans cette direction.\n\n{qst:QSTRESTRICTSIGHT}
 TokenBridgeToCamp.button1,Révéler
@@ -518,7 +518,9 @@ EventAllyE2AboutCultD.text,<i>À votre place je garderais un œil sur {qst:QSTAL
 EventAllyE2AboutCultD.button1,Continuer
 EventPlaceOak.text,Les branches du chêne noueux vous surplombent.\n\nPlacez 1 jeton Recherche sur la case indiquée.\n\nSur une branche immense, le corps d'une femme pend au bout d'un nœud coulant.\nSa chevelure rousse lumineuse ondule au gré des bourrasques de vent – sauf qu'il n'y a pas de vent.\nSon cou est brisé mais elle s'exclame malgré tout!\n<i>John, c'est toi !\nTu es enfin revenu !</i>\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur.
 EventPlaceOak.button1,Continuer
-EventSigilReady.text,Vous prononcez les mots de puissance appris dans le journal de Bettina Beck.\nDe brillantes runes apparaissent sur le Sceau.\nVous déduisez qu'elles appartiennent à l'ancienne langue de l'Ordre des Druides Blancs.\n\nVous êtes incapable de les lire.\nPeut-être que l'un des Druides pourra vous aider?\n\nVous pouvez utiliser 1 {action} pour résoudre un test de ({lore};1)\nSi vous réussissez, un investigateur peut défausser 1 État Étourdi, Sonné ou Hypnotisé ou bien défausser 1 Dégât face cachée.\n\nSi une Progéniture ou un Rejeton de la Chèvre est à portée, vous pouvez utiliser 1 {action} pour l'obliger à fuir dans la forêt, test ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
+EventSigilReady.text,Vous prononcez les mots de puissance appris dans le journal de Bettina Beck.\nDe brillantes runes apparaissent sur le Sceau.\nVous déduisez qu'elles appartiennent à l'ancienne langue de l'Ordre des Druides Blancs.\n\nVous pouvez utiliser 1 {action} pour résoudre un test de ({lore};1)\nSi vous réussissez, un investigateur peut défausser 1 État Étourdi, Sonné ou Hypnotisé ou bien défausser 1 Dégât face cachée.\n\nSi une Progéniture ou un Rejeton de la Chèvre est à portée, vous pouvez utiliser 1 {action} pour l'obliger à fuir dans la forêt, test ({influence};2).\nSi vous réussissez, vous pouvez défausser 1 jeton {clue} pour éliminer le monstre.
+EventSigilReadyNotRead.text,\nVous êtes incapable de les lire.\nPeut-être que l'un des Druides pourra vous aider?\n
+EventSigilReadyNotRead.button1,Continuer
 EventAllyAIsWarlock.button1,Continuer
 EventAllyAIsWarlock.text,<i>Les familles Pierce et Beck ont toujours été proches.\nGénérant de nombreux commérages autour de malformations et de consanguinité!\nBettina Beck a hérité du Sceau. Il faisait partie du patrimoine familial depuis l'époque de l'éminent alchimiste Malachi Cooter Pierce.\nMais le Sceau de Culte n'appartenait initialement pas à Malachi. Il l'a obtenu en tuant un puissant Druide Blanc pour faire le mal plutôt que le bien.\n\n</i>Récupérez 1 jeton {clue}
 EventAllyBIsWarlock.text,<i>Le clan Colt a la réputation d'être introverti, dangereux et violent.\nEric est le fils illégitime d'une union secrète entre {qst:QSTFATHERFIRSTNAME} Colt et {qst:QSTMOTHERNAME}.\nLe {c:QItemCultSigil} a été donné à Bettina par {qst:QSTFATHERFIRSTNAME} Colt, mais il n'était pas le propriétaire originel.\nIl a appartenu initialement à un vagabond, très populaire pour ses pouvoirs de guérison, qui se réclamait d'être le dernier des vrais Druides.\nQuand il a disparu, le sheriff a mené une enquête mais les gens étaient si effrayés par les Colt, que peu étaient enclins à témoigner contre eux.\n</i>\nRécupérez 1 jeton {clue}
@@ -803,7 +805,7 @@ TokenCampToRapids.text,La lumière du feu de camp illumine une rivière tumultue
 TokenCampToRapids.button1,Continuer
 EventPlaceRapidsTile.text,Placez la tuile {c:TileRapids}\n\n{qst:QSTPLACEDARKNESS}
 EventPlaceRapidsTile.button1,Continuer
-EventCampFireGoesOut.text,Le feu de camp finit de se consumer.\nRetirer le jeton Interaction.\n\n{qst:QSTPLACEDARKNESS}\n\nS'il n'y a aucun jeton de Feu sur le plateau, appuyez sur 'Appliquer' et définissez l'indicateur de Feu sur 'Feu éteint'.
+EventCampFireGoesOut.text,Le feu de camp finit de se consumer.\nRetirer le jeton Interaction.\n\n{qst:QSTPLACEDARKNESS}\n
 EventCampFireGoesOut.button1,Continuer
 TokenGraveStone.text,Les pierres tombales sont recouvertes de lierre.\nFaute d'entretien, il est difficile de lire les inscriptions.
 TokenGraveStone.button1,{action} Rechercher
