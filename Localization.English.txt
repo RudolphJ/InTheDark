@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
@@ -181,7 +181,7 @@ TokenAllyE2.button4,{action} Tell her what you know about the Ritual
 TokenAllyE2.button5,Give Sylvia Marsh the Cult Sigil
 EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her. The others were further back.\nThere was also a group of local girls watching the ceremony, but when the chaos started they ran off into the woods.</i>
 EventAllyE2AboutRitual1.button1,Continue
-EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nPete Barker reckons the group was going to split up.\nSome had begun to fear a powerful Dark Druid had infiltrated the order!\nHe believes the Dark Druid not only exists but is training up one of the others to become an acolyte of the Black Goat.\nHe first became suspicious because of the Dark Druid's past - even as a child they were in trouble with the law.</i>
+EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nThis morning I met Pete Barker here.  He told me the group was likely to split up because two of the Druids were concerned a powerful Dark Druid had infiltrated the order!\n Pete claimed the Dark Druid not only exists but is training up one of the others to become an acolyte of the Black Goat.\n\nHe first became suspicious because of the Dark Druid's past - even as a child they were in trouble with the law.</i>
 EventAllyE2AboutCult1.button1,Continue
 EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane ritual.\nFor many years, at the end of April, the Druids performed the same ritual with a lighting of a fire and a song to welcome the coming of spring.\nOut of the blue, Martha insisted they learn a more complex ceremony.\n</i>
 EventAllyE2AboutCult2.button1,Continue
@@ -448,7 +448,6 @@ TokenCellarToShack.button1,Reveal
 TokenShackToCellar.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToCellar.button1,Continue
 EventPorchToShack.button1,Continue
-TokenCellarWall1.text,Cellar Door 1
 TokenCellarWall1.button1,Continue
 EventShuffleRoles.button1,Button1
 EventAllyAaboutAllyCRandom.button1,Button1
@@ -765,7 +764,7 @@ EventMarshAsk.button1,Continue
 TokenAllyC2.button6,{action} <i>Tell me about the Marsh family</i>
 EventMarshAskAMono.text,<i>\nI believed {qst:QSTALLYENAME} was different because she's estranged from her family and you can't blame someone for a name.\n\nBut now I'm concerned she's here to steal our magical artifacts to give to the Marsh family to regain their favour.\nWhat do you really know about Sylvia Marsh?</i>\n\nGain 1 {clue}
 EventMarshAskAMono.button1,Continue
-EventMarshAskBMono.text,<i>\nInitially I thought Sylvia Marsh was a spy but I came to trust her.\nShe revealed to me she suspects one of the other Druids may have made contact with the Marsh family and plans to betray us all!\n</i>\nGain 1 {clue}
+EventMarshAskBMono.text,<i>\nInitially I thought Sylvia Marsh was a spy but I came to trust her.\n</i>\nGain 1 {clue}
 EventMarshAskBMono.button1,Continue
 EventMarshAsk.text,<i>\nTraditionally, ancestors of the Marsh family worshipped the power of the sea while the Beck family venerated the spirit of the woods, \nThere was a feud between them that went on for generations.\nThey have used spells, curses, subterfuge and sabotage.</i>
 CustomMonsterDruid.info,-

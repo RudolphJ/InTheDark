@@ -1,4 +1,4 @@
-﻿.,French
+.,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 UIIntroContinue.uitext, Regarder autour de vous
 QSTMOTHERNAME,Bettina Beck
@@ -45,7 +45,7 @@ TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
 quest.name,Dans les Ténèbres (v1.6)
-quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention : Ce scénario est plus dans la veine d'une enquête de Sherlock Holmes ou des mystères d'Agatha Christie qu'un scénario typique des Demeures de l'Épouvante.\nPrenez des notes et regardez votre journal régulièrement pour cheminer votre réflexion.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).
+quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention : Ce scénario est plus dans la veine d'une enquête de Sherlock Holmes qu'un scénario typique des Demeures de l'Épouvante.\nPrenez des notes et regardez votre journal régulièrement pour cheminer votre réflexion.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
 EventGraveSearch.button1,Continuer
@@ -182,7 +182,7 @@ TokenAllyE2.button4,{action} Lui dire ce que vous savez à propos du rituel
 TokenAllyE2.button5,Donner le Sceau de Culte à Sylvia Marsh
 EventAllyE2AboutRitual1.text,<i>Il n'y a pas grand chose de plus à dire.\nJe ne sais pas ce que j'ai vu dans la brume et l'obscurité.\nLes Druides portaient tous la même toge blanche\net se déplaçaient en cercle durant la danse.\n\nQuand Martha a hurlé, deux druides étaient à côté d'elle. Les autres étaient en retrait.\nIl y avait aussi un groupe de jeunes filles du coin qui regardait la cérémonie, mais quand le chaos a commencé, elles ont détalé dans les bois.</i>
 EventAllyE2AboutRitual1.button1,Continuer
-EventAllyE2AboutCult1.text,<i>Les habitants du coin ont tendance à dire que les Druides ne sont pas mauvais.\nIls participent à des œuvres de charité et aident l'orphelinat local.\nDes rumeurs racontent que l'Ordre accueille le dernier des Druides Blancs, connus pour être des guérisseurs au grand pouvoir.\n\nPete Barker a admis que le groupe était au bord de l'implosion.\nCertains ont commencé à suspecter la présence d'un puissant Druide Noir dans leurs rangs!\nIl ne pense pas seulement que le Druide Noir existe, mais qu'il tente bel et bien de convertir les membres, les uns après les autres, en acolytes de la Chèvre Noire.\nIl est devenu particulièrement méfiant, ne serait-ce que par rapport au passé du Druide Noir – un enfant en conflit avec les règles et la loi.</i>
+EventAllyE2AboutCult1.text,<i>Les habitants du coin ont tendance à dire que les Druides ne sont pas mauvais.\nIls participent à des œuvres de charité et aident l'orphelinat local.\nDes rumeurs racontent que l'Ordre accueille le dernier des Druides Blancs, connus pour être des guérisseurs au grand pouvoir.\n\nJ'ai rencontré Pete ici, ce matin. Il m'a raconté que le groupe était au bord de l'implosion car deux Druides s'inquiétaient qu'un puissant Druide Noir ait réussi à intégré l'Ordre!  Pete m'a dit que, non seulement le Druide Noir existait, mais qu'il convertissait également l'un des autres Druides pour devenir un acolyte de la Chèvre Noire.\n\nIl est devenu particulièrement méfiant, ne serait-ce que par rapport au passé du Druide Noir – un enfant en conflit avec les règles et la loi.</i>\n
 EventAllyE2AboutCult1.button1,Continuer
 EventAllyE2AboutCult2.text,<i>La mise en place d'une nouvelle version du rituel de Beltaine était source de friction.\nDepuis plusieurs années, à la fin du mois d'Avril, les Druides effectuent le même rituel en allumant un feu et en chantant la bienvenue du printemps.\nDe but en blanc, Martha a décidé qu'ils mettraient en place une cérémonie plus élaborée et plus complexe.</i>
 EventAllyE2AboutCult2.button1,Continuer
@@ -449,7 +449,6 @@ TokenCellarToShack.button1,Révéler
 TokenShackToCellar.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToCellar.button1,Continuer
 EventPorchToShack.button1,Continuer
-TokenCellarWall1.text,Porte de Cellier 1
 TokenCellarWall1.button1,Continuer
 EventShuffleRoles.button1,Button1
 EventAllyAaboutAllyCRandom.button1,Button1
@@ -734,7 +733,7 @@ EventCellarTestFailed.text,La femme crie,\n<i>Vous n'êtes pas l'ami des Druides
 EventCellarTestFailed.button1,Continuer
 EventDarkYoungGrab.text,La créature tente de vous attraper avec ses tentacules, pour vous traîner dans les bois.\nTest ({agility};1)\n\nSi vous échouez, subissez 1 Dégât et déplacez le Sombre Rejeton et vos personnages de 2 cases vers l'Est.
 EventDarkYoungGrab.button1,Continuer
-EventFinaleNoFire.text,Vous placez le {c:QItemCultSigil} sur la pierre.\n\nUn grondement provient de la pierre.\nElle devient plus chaude au toucher.\nIl manque quelque chose pour commencer le vrai Rituel de Beltaine.
+EventFinaleNoFire.text,Vous placez le {c:QItemCultSigil} sur la pierre.\n\nUn grondement provient de la pierre.\nElle devient plus chaude au toucher.\nIl manque quelque chose pour commencer le vrai Rituel de Beltaine.\nVous essayez désespéramment de vous souvenir ce que vous avez appris sur le rituel de Beltaine.\n
 EventFinaleNoFire.button1,Continuer
 EventCaveDoorLocked2.button2,Échec
 EventCaveDoorLockedFail.text,L'homme assène,\n<i>Je ne suis pas sûr de pouvoir vous faire confiance!</i>
@@ -766,7 +765,7 @@ EventMarshAsk.button1,Continuer
 TokenAllyC2.button6,{action} <i>Parlez-moi de la famille Marsh.</i>
 EventMarshAskAMono.text,<i>Je pensais {qst:QSTALLYENAME} différente, car elle n'était pas proche de sa famille et que je ne pouvais pas lui tenir rigueur d'avoir seulement le même nom.\n\nMais maintenant je réalise qu'elle n'est ici que pour voler nos artefacts magiques et rendre son prestige à la famille Marsh.\nQue savez-vous vraiment de Sylvia Marsh?</i>\n\nRécupérez 1 jeton {clue}
 EventMarshAskAMono.button1,Continuer
-EventMarshAskBMono.text,<i>A l'origine, Sylvia Marsh était une espionne, mais j'ai réussi à établir un lien de confiance avec elle.\nElle m'a avoué qu'elle suspectait un des Druides d'avoir pris contact avec la famille Marsh et d'avoir l'intention de tous nous trahir!\n</i>\nRécupérez 1 jeton {clue}
+EventMarshAskBMono.text,<i>A l'origine, Sylvia Marsh était une espionne, mais j'ai réussi à établir un lien de confiance avec elle.\n\n</i>\nRécupérez 1 jeton {clue}
 EventMarshAskBMono.button1,Continuer
 EventMarshAsk.text,<i>De tradition, les ancêtres de la famille Marsh vénéraient le pouvoir de la Mer pendant que la famille Beck idolâtrait l'esprit des Bois.\nUne querelle a eu lieu entre eux et elle a perduré pendant des générations.\nIls ont alors usé de toutes sortes de sorts, malédictions, sabotages et autres subterfuges.</i>
 CustomMonsterDruid.info,-
