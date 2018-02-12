@@ -218,7 +218,7 @@ CHANGES DONE 8
 4) Text for climbing oak tree makes it clear one success enought to pass.
 
 
-CHANGES DONE 9
+CHANGES DONE 9 (v1.6)
 
 1) Scenario intro Typo
 Mansion(s) of Madness ('s' added)
@@ -278,7 +278,7 @@ Reduced successes needed on influence test by 1.
 'Only a Druid of great power and lore can wield the power of the sigil and dagger!'
 
 
-CHANGES DONE 10
+CHANGES DONE 10 (v1.6)
 
 1) Picture Puzzle
 Added easier puzzle for 2 players
@@ -289,6 +289,37 @@ Made it clearer only a powerful Druid could paint the picture
 
 3) Changed Sylvia's monologue about Cult
 [EventAllyE2AboutCultA] + [EventAllyE2AboutCultB]
+
+
+CHANGES DONE 10 (v1.7)
+
+1) Turn off search Token for Beneath Bridge
+Turned off for 2 Players as final plot twist turned off
+
+2) Change text about restoring the painting
+[EventPaintingB]
+Redid text as it implied Corrina is a fraud and so a liar.
+
+4) If not a Druid and role is 3
+[AllyCloseFriendFemale]
+Her limited understanding of Druidic lore annoyed the others.
+
+[AllyCloseFriendMale]
+His forgetfulness and lapses in concentration was getting worse.
+
+5) Added new text for Dark Druid killed
+[EventWizardDefeated] renamed [EventDarkDruidDefeated]
+Added 
+[EventWizardDefeatedA] Find dagger
+[EventWizardDefeatedB] Find note about Bettina
+[EventWizardDefeatedC] Find note that Pete Barker is a spy
+
+6) [AllyE2AboutCult1] Text added
+'Pete told me both of these Druids always told the truth.'
+
+7) Added Elder Ward Item for search under the bridge
+Under the bridge you find an Elder Ward
+
 
 
 

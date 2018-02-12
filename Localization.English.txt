@@ -44,7 +44,7 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v1.6)
+quest.name,In the Dark (v1.7)
 quest.description,In the Dark\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: this scenario is more like a Sherlock Holmes Consulting Detective Mystery than a typical Mansions of Madness scenario.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
@@ -181,7 +181,7 @@ TokenAllyE2.button4,{action} Tell her what you know about the Ritual
 TokenAllyE2.button5,Give Sylvia Marsh the Cult Sigil
 EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her. The others were further back.\nThere was also a group of local girls watching the ceremony, but when the chaos started they ran off into the woods.</i>
 EventAllyE2AboutRitual1.button1,Continue
-EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nThis morning I met Pete Barker here.  He told me the group was likely to split up because two of the Druids were concerned a powerful Dark Druid had infiltrated the order!\n Pete claimed the Dark Druid not only exists but is training up one of the others to become an acolyte of the Black Goat.\n\nHe first became suspicious because of the Dark Druid's past - even as a child they were in trouble with the law.</i>
+EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nThis morning I met Pete Barker here.  He told me the group was likely to split up because two of the Druids were concerned a powerful Dark Druid had infiltrated the order!\nPete told me both of these Druids always told the truth.\n Pete claimed the Dark Druid not only exists but is training up one of the others to become an acolyte of the Black Goat.\n\nHe first became suspicious because of the Dark Druid's past - even as a child they were in trouble with the law.</i>
 EventAllyE2AboutCult1.button1,Continue
 EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane ritual.\nFor many years, at the end of April, the Druids performed the same ritual with a lighting of a fire and a song to welcome the coming of spring.\nOut of the blue, Martha insisted they learn a more complex ceremony.\n</i>
 EventAllyE2AboutCult2.button1,Continue
@@ -567,8 +567,12 @@ EventAllyDIsEnemyMore.text,<i>{qst:QSTALLYDNAME} was bitter about some past wron
 EventAllyDIsEnemyMore.button1,Continue
 EventGiveSigilToRole2More.text,The Druid grabs the sigil but it glows red hot and the Druid drops it.\n\nPlace the {c:QItemCultSigil} Item on your space\n
 EventGiveSigilToRole2More.button1,Continue
-EventWizardDefeated.text,The Dark Druid falls to the ground.\n\nOn the body you find a {c:QItemDagger}.\n\nPlace the {c:QItemDagger} Item\non the last space The Dark Druid Monster was on \n\nTreat the {c:QItemDagger} as a Key Item
-EventWizardDefeated.button1,Continue
+EventDarkDruidDefeatedA.text,The Dark Druid falls to the ground.\n\nOn the body you find a {c:QItemDagger}.\n\nPlace the {c:QItemDagger} Item\non the last space The Dark Druid Monster was on \n\nTreat the {c:QItemDagger} as a Key Item
+EventDarkDruidDefeatedA.button1,Continue
+EventDarkDruidDefeatedB.text,The Dark Druid falls to the ground.\n\nOn the body you find a page torn from an ancient tome.\nScribbled notes in the margin describe how a powerful Dark Druid may return to life by possessing the body of a suitable ancestor!
+EventDarkDruidDefeatedB.button1,Continue
+EventDarkDruidDefeatedC.text,The Dark Druid falls to the ground.\n\nOn the body you find a hastily scribbled note.\n<i>Keep an eye on {qst:QSTNOVICENAME}!\nHe is a spy who serves Dagon!</i>
+EventDarkDruidDefeatedC.button1,Continue
 TokenStone1.button1,{action} Search
 TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
 EventPlaceRitualSiteTokens.button1,Continue
@@ -674,7 +678,7 @@ EventPlaceStone2.button1,Continue
 EventGiveDagger.button2,Cancel
 EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant perfectly matches that of the {c:QItemCultSigil}.\nThe painter clearly knows the runes.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nGain 2 {clue}\n
 EventPaintingA.button1,Continue
-EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n Corrina has painted over the signature and signed it herself!\n\nCorrina Jones is a charlatan.\nShe did not paint her pictures.\nInstead she restored paintings done by Bettina Beck and passed them off as her own!\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n
+EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n \nCorrina Jones did not paint the picture.\nShe is restoring the painting done by Bettina Beck.\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult and of the runes.\n\nBy carefully examining the slant of her recent brushstrokes you infer she is right handed.
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
 EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.
@@ -793,9 +797,9 @@ EventPlaceBranch.button1,Continue
 EventSummonGhostFail.text,She cries out folornly,\n<i>It is not ready!\n</i>
 EventSummonGhostFail.button1,Continue
 EventAllyCloseFriendMale.button1,Continue
-EventAllyCloseFriendMale.text,<i>Him and Martha were very close friends.\nSome thought they were too close and she was too forgiving of his faults!\n</i>\n
+EventAllyCloseFriendMale.text,<i>Him and Martha were very close friends.\nSome thought they were too close and she was too forgiving of his faults!\nHis forgetfulness and lapses in concentration was getting worse.</i>
 EventAllyCloseFriendFemale.button1,Continue
-EventAllyCloseFriendFemale.text,<i>Her and Martha were best friends.\nTheir close friendship was a source of friction within the group.\nMaybe Martha was too forgiving of her faults!\n</i>\n
+EventAllyCloseFriendFemale.text,<i>Her and Martha were best friends.\nTheir close friendship was a source of friction within the group.\nMaybe Martha was too forgiving of her faults!\nHer limited understanding of Druidic lore annoyed the others.</i>\n
 EventCrateSearch.button2,Fail
 EventCrateSearchFail.text,The books and scrolls have been damaged by the damp.\nYou cannot read many of the words.
 EventCrateSearchFail.button1,Continue
@@ -889,3 +893,5 @@ EventAllyE2AboutRitualB.text,\n<i>I remember another thing about the ritual.\nOn
 EventPainting.button1,Continue
 PuzzlePaintingLevel2.button1,Continue
 PuzzlePaintingLevel3.button1,Continue
+EventUnderBridgeItem.text,Beneath the bridge you find something. \n\nGain the {c:QItemElderWard} Item
+EventUnderBridgeItem.button1,Continue

@@ -44,7 +44,7 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v1.6)
+quest.name,Dans les Ténèbres (v1.7)
 quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention : Ce scénario est plus dans la veine d'une enquête de Sherlock Holmes qu'un scénario typique des Demeures de l'Épouvante.\nPrenez des notes et regardez votre journal régulièrement pour cheminer votre réflexion.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).
 quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
@@ -182,7 +182,7 @@ TokenAllyE2.button4,{action} Lui dire ce que vous savez à propos du rituel
 TokenAllyE2.button5,Donner le Sceau de Culte à Sylvia Marsh
 EventAllyE2AboutRitual1.text,<i>Il n'y a pas grand chose de plus à dire.\nJe ne sais pas ce que j'ai vu dans la brume et l'obscurité.\nLes Druides portaient tous la même toge blanche\net se déplaçaient en cercle durant la danse.\n\nQuand Martha a hurlé, deux druides étaient à côté d'elle. Les autres étaient en retrait.\nIl y avait aussi un groupe de jeunes filles du coin qui regardait la cérémonie, mais quand le chaos a commencé, elles ont détalé dans les bois.</i>
 EventAllyE2AboutRitual1.button1,Continuer
-EventAllyE2AboutCult1.text,<i>Les habitants du coin ont tendance à dire que les Druides ne sont pas mauvais.\nIls participent à des œuvres de charité et aident l'orphelinat local.\nDes rumeurs racontent que l'Ordre accueille le dernier des Druides Blancs, connus pour être des guérisseurs au grand pouvoir.\n\nJ'ai rencontré Pete ici, ce matin. Il m'a raconté que le groupe était au bord de l'implosion car deux Druides s'inquiétaient qu'un puissant Druide Noir ait réussi à intégré l'Ordre!  Pete m'a dit que, non seulement le Druide Noir existait, mais qu'il convertissait également l'un des autres Druides pour devenir un acolyte de la Chèvre Noire.\n\nIl est devenu particulièrement méfiant, ne serait-ce que par rapport au passé du Druide Noir – un enfant en conflit avec les règles et la loi.</i>\n
+EventAllyE2AboutCult1.text,<i>Les habitants du coin ont tendance à dire que les Druides ne sont pas mauvais.\nIls participent à des œuvres de charité et aident l'orphelinat local.\nDes rumeurs racontent que l'Ordre accueille le dernier des Druides Blancs, connus pour être des guérisseurs au grand pouvoir.\n\nJ'ai rencontré Pete ici, ce matin. Il m'a raconté que le groupe était au bord de l'implosion car deux Druides s'inquiétaient qu'un puissant Druide Noir ait réussi à intégré l'Ordre!\nPete m'a dit que ces deux Druides disaient toujours la vérité.\nPete m'a dit que, non seulement le Druide Noir existait, mais qu'il convertissait également l'un des autres Druides pour devenir un acolyte de la Chèvre Noire.\n\nIl est devenu particulièrement méfiant, ne serait-ce que par rapport au passé du Druide Noir – un enfant en conflit avec les règles et la loi.</i>\n
 EventAllyE2AboutCult1.button1,Continuer
 EventAllyE2AboutCult2.text,<i>La mise en place d'une nouvelle version du rituel de Beltaine était source de friction.\nDepuis plusieurs années, à la fin du mois d'Avril, les Druides effectuent le même rituel en allumant un feu et en chantant la bienvenue du printemps.\nDe but en blanc, Martha a décidé qu'ils mettraient en place une cérémonie plus élaborée et plus complexe.</i>
 EventAllyE2AboutCult2.button1,Continuer
@@ -568,8 +568,12 @@ EventAllyDIsEnemyMore.text,<i>{qst:QSTALLYDNAME} était cinglante sur ce que Mar
 EventAllyDIsEnemyMore.button1,Continuer
 EventGiveSigilToRole2More.text,Le Personnage attrape et se brûle sur le Sceau rouge incandescent, et le lâche au sol.\n\nPlacez l'Objet Unique {c:QItemCultSigil} sur votre case.
 EventGiveSigilToRole2More.button1,Continuer
-EventWizardDefeated.text,Le Druide Noir s'écroule.\n\nSur son corps vous trouvez une {c:QItemDagger}.\n\nPlacez l'Objet Commun {c:QItemDagger}\nsur la case qu'occupait le Druide Noir.\n\nConsidérez la {c:QItemDagger} comme un objet-clé.
-EventWizardDefeated.button1,Continuer
+EventDarkDruidDefeatedA.text,Le Druide Noir s'écroule.\n\nSur son corps vous trouvez une {c:QItemDagger}.\n\nPlacez l'Objet Commun {c:QItemDagger}\nsur la case qu'occupait le Druide Noir.\n\nConsidérez la {c:QItemDagger} comme un objet-clé.
+EventDarkDruidDefeatedA.button1,Continuer
+EventDarkDruidDefeatedB.text,Le Druide Noir s'écroule au sol.\n\nSur son cadavre vous trouvez une page déchirée provenant d'un ouvrage ancien.\nQuelques notes griffonnées dans la marge décrivent comment le puissant Druide Noir a pu revenir à la vie en prenant possession du corps d'un de ces ancêtres!
+EventDarkDruidDefeatedB.button1,Continuer
+EventDarkDruidDefeatedC.text,Le Druide Noir s'écroule au sol.\n\nSur son cadavre vous trouvez une note griffonnée à la hâte.\n<i>Garder un œil sur {qst:QSTNOVICENAME}!\nIl est un espion au service de Dagon!</i>
+EventDarkDruidDefeatedC.button1,Continuer
 TokenStone1.button1,{action} Rechercher
 TokenStone1.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
 EventPlaceRitualSiteTokens.button1,Continuer
@@ -675,7 +679,7 @@ EventPlaceStone2.button1,Continuer
 EventGiveDagger.button2,Annuler
 EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\nLe peintre connait clairement les runes.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nRécupérez 2 jetons {clue}\n
 EventPaintingA.button1,Continuer
-EventPaintingB.text,La peinture représente une femme portant le {c:QItemCultSigil} en pendentif.\nElle a été initialement signée par <i>Bettina Beck</i>.\nMais Corrina a peint son nom par-dessus!\n\nCorrina Jones est une opportuniste.\nElle n'a jamais peint ces œuvres !\nElle a rénové les toiles de Bettina Beck et a fait comme si c'était les siennes!\n\nElle a fait de nombreuses erreurs dans ses rénovations qui indiquent sa connaissance limitée de l'occulte.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n
+EventPaintingB.text,La peinture représente une femme portant le {c:QItemCultSigil} en pendentif.\nElle a été initialement signée par <i>Bettina Beck</i>.\nMais Corrina a peint son nom par-dessus!\nElle n'a jamais peint ces œuvres!\nElle a rénové les toiles de Bettina Beck et a fait comme si c'était les siennes!\n\nElle a fait de nombreuses erreurs dans ses rénovations qui indiquent sa connaissance limitée de l'occulte.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n
 EventPaintingB.button1,Continuer
 TokenCrate.button1,{action} Rechercher
 EventPlaceCrate.text,Un tas de caisses est posé contre le mur.\n\nPlacez 1 jeton Recherche comme indiqué.
@@ -794,9 +798,9 @@ EventPlaceBranch.button1,Continuer
 EventSummonGhostFail.text,Elle crie tristement,\n<i>Il n'est pas prêt!\n</i>
 EventSummonGhostFail.button1,Continuer
 EventAllyCloseFriendMale.button1,Continuer
-EventAllyCloseFriendMale.text,<i>Lui et Martha étaient de proches amis.\nCertains trouvaient même qu'ils étaient trop proches et qu'elle lui pardonnait facilement ses fautes!</i>
+EventAllyCloseFriendMale.text,<i>Lui et Martha étaient de proches amis.\nCertains trouvaient même qu'ils étaient trop proches et qu'elle lui pardonnait facilement ses fautes!\nSes pertes de mémoire et son manque de concentration empiraient.</i>
 EventAllyCloseFriendFemale.button1,Continuer
-EventAllyCloseFriendFemale.text,<i>Elle et Martha étaient les meilleures amies.\nLeur grande proximité était source de tension dans le groupe.\nPeut-être Martha lui pardonnait-elle trop facilement ses fautes!</i>
+EventAllyCloseFriendFemale.text,<i>Elle et Martha étaient les meilleures amies.\nLeur grande proximité était source de tension dans le groupe.\nPeut-être Martha lui pardonnait-elle trop facilement ses fautes!\nSa compréhension limitée des traditions druidiques embarrassait les autres.</i>
 EventCrateSearch.button2,Échec
 EventCrateSearchFail.text,Les livres et parchemins ont été endommagés par l'humidité.\nVous n'arrivez à rien en tirer.
 EventCrateSearchFail.button1,Continuer
@@ -889,3 +893,5 @@ EventAllyE2AboutRitualB.button1,Continuer
 EventAllyE2AboutRitualB.text,\n<i>Je me souviens d'autre chose à propos du rituel.\nL'un des Druides qui se tenaient en retrait était {qst:QSTALLYBNAME}.</i>\n\nRécupérez 1 jeton {clue}\n
 PuzzlePaintingLevel2.button1,Continuer
 PuzzlePaintingLevel3.button1,Continuer
+EventUnderBridgeItem.text,Vous trouvez quelque chose sous le pont.\n\nRécupérez l'Objet Commun {c:QItemElderWard}
+EventUnderBridgeItem.button1,Continuer
