@@ -320,9 +320,11 @@ Added
 7) Added Elder Ward Item for search under the bridge
 Under the bridge you find an Elder Ward
 
+CHANGES DONE 11 (v2.0)
 
-
-
+1) Renamed to v2.0
+2) When placing AllyA check if role3
+[PlaceAllyAMore]
 
 
 
