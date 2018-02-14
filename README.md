@@ -325,6 +325,7 @@ CHANGES DONE 11 (v2.0)
 1) Renamed to v2.0
 2) When placing AllyA check if role3
 [PlaceAllyAMore]
-
+3) [OakPass2B]
+Fix RoleAllyD != 3 should be RoleAllyB != 3
 
 
