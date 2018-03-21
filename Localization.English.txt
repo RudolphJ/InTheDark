@@ -1,6 +1,5 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
-UIIntroContinue.uitext,Look Around
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
 QSTALLYCNAME,Othera Gilman
@@ -44,16 +43,16 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v2.1)
-quest.description,In the Dark\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness (treat it as if every Space had a Darkness Token).
-quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
+quest.name,In the Dark (v3.0)
+quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
+quest.authors,\nDesigner: Nicola Zee\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
 TokenPainting.button1,{action} Attempt Puzzle
-EventGraveSearchTrail1.text,\nCovered by bones and a thin layer of earth is a body of a young man.\nHis jacket has a label sewn into it <i>P. {qst:QSTNOVICESURNAME}</i>.\n\nThe young man died in the process of transforming into Goat Spawn.  Someone within the last few days performed a bizarre medical experiment.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
+EventGraveSearchTrail1.text,\nCovered by bones and a thin layer of earth is a body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in faint pencil.\nOnly one line is legible.\n<i>According to Martha, two of the Druids have little actual knowledge of Druidic runes or Druidic magic!</i>\n\nThe young man died in the process of transforming into Goat Spawn.  Someone within the last few days performed a bizarre medical experiment.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
 EventGraveSearchTrail1.button1,Continue
-EventGraveSearchTrail2.text,\nCovered by bones and a thin layer of earth is a the body of a young man.\nHis jacket has a label sewn into it <i>P. {qst:QSTNOVICESURNAME}</i>.\nSomeone performed a bizarre medical experiment on him.\nBuried beside him is a wooden crate containing a half goat and half human baby.\nTraces of saltpetre in the crate indicates the crate was stored underground.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}
+EventGraveSearchTrail2.text,\nCovered by bones and a thin layer of earth is a the body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in faint pencil.\nOnly one line is legible.\n<i>According to Martha, two of the Druids have little actual knowledge of Druidic runes or Druidic magic!</i>\n\nSomeone performed a bizarre medical experiment on the victim.\n\nBuried beside him is a wooden crate containing a half goat and half human baby.\nTraces of saltpetre in the crate indicates the crate was stored underground.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
 EventGraveSearchTrail2.button1,Continue
 TokenGrave.text,The grave contains piles of bones of deformed goats
 TokenGrave.button1,{action} Explore
@@ -163,10 +162,6 @@ TokenAllyC2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
 TokenAllyC2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
 TokenAllyC2.button4,{action} <i>Tell me about the Marsh family</i>
 TokenAllyC2.button5,{action} Give Dagger to Othera
-EventJournal2.text,\nWhen her children started to grow, they began to show the first faint signs of transformation.\nThe journal is incomplete and pages have been ripped out.\nFrom an incomplete paragraph, you infer at least one of the missing pages refers to one of her children.\n\nThe last page reads,\n<i>I sacrificed one of my children to save the others.\nMy two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nYou will find my body at the sacred oak tree.</i>\n\nGain the {c:QItemJournal} Item
-EventJournal2.button1,Continue
-EventJournal1.text,\nYou open the cabinet and find a journal written by Bettina Beck.\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nDespite the curse she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a description of a dagger marked with runes.\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
-EventJournal1.button1,Continue
 TokenJournal.text,The cabinet is full of papers.
 TokenJournal.button1,{action} Search
 EventLogCabinMonologue2.text,<i>The cabin was left empty after Martha's mother hung herself from the big oak tree in the woods!\nLocals say Bettina was a murderer but after her suicide the sheriff covered things up for the sake of her kids.\n\nAwhile ago Martha told me she was cleaning the place up.\nA relative had been in trouble with the law all their life and needed somewhere to stay.\nMartha refused to tell me more.</i>\n\nGain 1 {clue}
@@ -322,13 +317,9 @@ EventPlacePorchTile.text,There is a porch leading to a log cabin.\n\nPlace the {
 EventPlacePorchTile.button1,Continue
 TokenRitualToPorch.text,You can see a faint glow of light in this direction.\n\nYou may only click Reveal if you are in the same space as this Sight Token.
 TokenRitualToPorch.button1,Reveal
-EventPlaceCellarWall2.text,Place an Indoor Wall Token as indicated
-EventPlaceCellarWall2.button1,Continue
-EventPlaceCellarWall1.text,Place an Indoor Wall Token as indicated
-EventPlaceCellarWall1.button1,Continue
 EventCellarTileTokens.text,Place 1 Explore Token and\n{var:countCellarSights} Sight Token(s).
 EventCellarTileTokens.button1,Continue
-EventPlaceCellarTile.text,Dim light is coming from the north and from between gaps in a rotted wooden hatchway leading to a Root Cellar\n\nPlace the {c:TileCellar}\n
+EventPlaceCellarTile.text,Dim light is coming from the north and from between gaps in a rotted wooden hatchway leading to a Root Cellar\n\nPlace the {c:TileCellar} Tile\n
 EventPlaceCellarTile.button1,Continue
 TokenRitualToCellar.text, In the darkness you cannot see far.\n\nYou may only click Reveal if you are in the same space as this Sight Token.
 TokenRitualToCellar.button1,Reveal
@@ -466,16 +457,16 @@ EventLetterResultDown.button1,Continue
 EventGiveSigilToFriend1.text,The Druid reads the runes carefully on it and says,\n<i>These runes look familiar.\nDuring the ritual, I saw a {c:QItemDagger} inscribed with similar runes.\nThe runes on the dagger are key to reversing the spell.</i>\n
 EventGiveSigilToFriend2A.button1,Continue
 EventGiveSigilToFriend1.button1,Continue
-EventGiveSigilToFriend2A.text,Ammi Pierce stands up and says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me !</i> \n
+EventGiveSigilToFriend2A.text,Ammi Pierce stands up and says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me! \nYou can just rush in and call upon the powers of the stones yourself...\nbut you'd be a darn fool or right desperate to try!\n</i>
 EventGiveSigilToRole1.text,The Druid's stare is mesmerising and the Druid cries out,\n<i>Hand me the sigil!\nI command it!</i>\nYou have an overpowering compulsion to hand it over\n\nHolding up the sigil, the Druid says,<i>\nI am the child of the High Priestess of the Dark Druids - Bettina Beck!\nNow, at last, I can fulfil her legacy and complete the blessing of the blood of the Black Goat</i>!\n
 EventGiveSigilToRole1.button1,Continue
 EventGiveSigilToRole2.text,The Druid says,<i>\nYou were wise not to give this to\n the unworthy fool who failed to complete the ritual!\n\nThe Druid makes a complex hand movement.\nThe runes on the sigil glow more brightly.\nA poisonous mist fills this room.\n\nAll investigators in the room suffer {var:SufferDamage} Damage ({strength} Negates)
 EventGiveSigilToRole2.button1,Continue
 EventGiveSigilInactive.text,The Druid looks at the {c:QItemCultSigil} and says,\n<i>This is key to undoing what has been done.</i>\n\nThe Druid makes a complex hand movement over it.\nAfter a few moments, the Druid says,\n <i>I'm sorry!\nUntil we learn more, the counter spell cannot be cast! </i>\n
 EventGiveSigilInactive.button1,Continue
-EventGiveSigilToFriend2B.text,Eric Colt says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me !</i> \n
-EventGiveSigilToFriend2C.text,Othera says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me !</i> \n\n
-EventGiveSigilToFriend2D.text,Corrina Jones says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to to me !</i> \n
+EventGiveSigilToFriend2B.text,Eric Colt says,\n<i>Keep the sigil safe.\nWhen you've got the dagger, bring it to me!\nYou can just ignore me and call upon the stones yourself...\nbut you ain't no Druid!\n</i>
+EventGiveSigilToFriend2C.text,Othera says,\n<i>Keep the sigil safe.\nWhen you have the dagger, bring it to me! \nYou, can, invoke the power of the ancient stones without me but you are not versed in the lore of the forest!</i>\n
+EventGiveSigilToFriend2D.text,Corrina Jones says,\n<i>Keep the sigil safe.\nWhen you have the dagger, bring it to to me! \nYou can attempt to lift the curse yourself but that would be reckless. \nOnly a Druid knows the secrets of the stones!</i>
 EventGiveSigilToFriend2B.button1,Continue
 EventGiveSigilToFriend2C.button1,Continue
 EventGiveSigilToFriend2D.button1,Continue
@@ -490,21 +481,6 @@ EventGiveDaggerNotFound.button1,Continue
 EventGiveDaggerFound.text,The Druid takes the {c:QItemDagger}\nand carefully examines the runes inscribed on its handle.
 EventGiveDaggerFound.button1,Continue
 EventGiveDagger.text,You may only click the 'Continue' button\nif you have the {c:QItemDagger} Item
-EventFinale1.text,You place the sigil upon the stone.\n\nThe ancient stones start to glow with a strange unearthly energy.\n
-EventFinale1.button1,Continue
-EventFinale2.text,The White Druid appears.\nThe spell cast by the Dark Druid causing mental confusion lifts.\nYou remember the reason you came to this place was to stop the ritual blood pact being completed by the Dark Druid.\n\nThe White Druid cries out,\n<i>O ancient stones harken to the song\nof the last Bard of the Ord na Darach Gile!</i>\n
-EventFinale2.button1,Continue
-EventFinale3.text,And the Druid begins to sing...\n\nOne by one, the Children of the Goat and the Goat Spawn emerge from the trees and begin to dance!
-EventFinale3.button1,Continue
-EventFinale4.text,The sound of eerie, forlorn and yet hauntingly beautiful singing seems to be coming from within the stones and trees themselves!\n\nOne by one, the Goat Spawn and Children of the Goat transform back into women and girls - some you recognise as locals who were watching the dancing.\nThey join in with the song.
-EventFinale4.button1,Continue
-EventFinale5.text,\nOne by one the dancers synchronise their movements until they are dancing and twirling in perfect unison,\nin a reel too complex for you to follow...\ndancing between the stones.\n And - one by one - they vanish.\n\nAll the other creatures are consumed by a strange eldritch fire.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\n
-EventFinale5.button1,Continue
-EventFinale6.text,\nYou search for the dancers, the Bard, or any of the Druids.\n\nYou find no traces of them.\n\nYou set fire to the log cabin...\ndestroying the last traces of the Beck family history.\nIt seems the right thing to do.\n
-EventFinale6.button1,Continue
-EventFinale7.text,\nYou walk across the covered bridge.\nA distant sound makes you turn around.\nYou hear - coming from the direction of the ritual stone - the erie but beautiful song.\nThe last and final song of the last Bard of the Ord na Darach Gile.\n\nYou listen while watching the smoke rise above the trees.\nThen you walk away.\n\nThe End
-EventFinale7.button1,The End
-EventFinale7.button2,Check the Story (MAJOR SPOILERS)
 EventGiveDaggerNovice.text,The Druid says,\n<i>Oh now I recognise these runes!\nIt is the long lost language of the Ord na Darach Gile.\nI thought they died out long ago.\nOnly a White Druid of great power can correctly read these runes!\n</i>
 EventGiveDaggerNovice.button1,Continue
 EventAttackAsk.text,{qst:QSTALLYENAME} has told you one of the Druids may be willing to help,\n\nAre you sure you want to continue with your attack?
@@ -573,8 +549,6 @@ EventDarkDruidDefeatedB.text,The Dark Druid falls to the ground.\n\nOn the body 
 EventDarkDruidDefeatedB.button1,Continue
 EventDarkDruidDefeatedC.text,The Dark Druid falls to the ground.\n\nOn the body you find a hastily scribbled note.\n<i>Keep an eye on {qst:QSTNOVICENAME}!\nHe is a spy who serves Dagon!</i>
 EventDarkDruidDefeatedC.button1,Continue
-TokenStone1.button1,{action} Search
-TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
 EventPlaceRitualSiteTokens.button1,Continue
 EventPlaceInvestigators.text,{rnd:hero} has a vague memory of chanting and\nstrange twirling dancing around the stones...\nand something huge emerging from the fog!\n\nPlace the Investigator figures\nAll Investigators gain the Dazed Condition\n{rnd:hero} gains 1 {clue}
 EventPlaceInvestigators.button1,Continue
@@ -617,10 +591,9 @@ EventGiveSigilAskAllyE.button1,{action} Give her the Sigil
 EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh laughs and cries out,<i>\n At last I have obtained what my family desires.\nI will reveal to you the power of Dagon.\n</i>\nShe casts a spell and a choking fog fills the bridge.\nAll Investigators on a space on the Covered Bridge\nsuffer {var:SufferDamage} Damage\n({strength} Negates)\n\nSuddenly, the sigil glows red hot and she drops it.\nPlace the {c:QitemCultSigil} Item on the space indicated.\n
 EventSigilInactiveAllyE.text,You give the {c:QItemCultSigil} to Sylvia Marsh and she examines it.\n\nShe says,\n<i>The {c:QItemCultSigil} can only be used when the runes are visible.\nI do not know the secrets of the Druids.\nKey to learning how to use it may be to discover more about the ritual and the Druids.\nInspect it frequently and once the runes are visible, return and hand it to me!\n</i>\nNote: the {c:QItemCultSigil} Item can be inspected by clicking the 'Items' button
 EventSigilInactiveAllyE.button1,Continue
-TokenStone2.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.
-TokenStone2.button1,{action} Place the Cult Sigil on the Stone
-EventStone2Interact.button1,Continue
-EventStone2Interact.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item
+TokenStoneFinale.button1,{action} Place the Cult Sigil on the Stone
+EventStoneFinaleInteract.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item
+EventStoneFinaleInteract.button2,Cancel
 SpawnGhost.button1,Continue
 SpawnGhost.text,The ghostly woman cries out,\n<i>My sigil is prepared!\nI return!</i>\n\nHer ghostly form descends from the tree.\n\nSpawn a Ghost Monster in the space indicated\n
 SpawnChildOfTheGoat1.button1,Continue
@@ -673,8 +646,7 @@ EventCrossPassD.button1,Continue
 EventCrossSearch.button2,Fail
 EventCrossFail.text,Something in the water grabs your leg!\nYou panic as you swallow water until you pull yourself onto the river bank.\n \nSuffer 1 facedown Damage and 1 Horror\n
 EventCrossFail.button1,Continue
-EventPlaceStone2.text,The White Druid chants words of long lost Celtic.\nThe runes on the {c:QItemDagger} grow brighter.\n\nThe White Druid hands it back and says,\n<i>All is ready for you to complete the true Beltane Ritual!\n</i>
-EventPlaceStone2.button1,Continue
+EventPlaceStoneFinale.button1,Continue
 EventGiveDagger.button2,Cancel
 EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant perfectly matches that of the {c:QItemCultSigil}.\nThe painter clearly knows the runes.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nGain 2 {clue}\n
 EventPaintingA.button1,Continue
@@ -701,7 +673,6 @@ EventPaintingBFemale.text,In the background of the picture is a young girl.\nHer
 EventPaintingBFemale.button1,Continue
 EventPaintingBMale.button1,Continue
 EventPlaceWhiskey.button1,Continue
-EventStone2Interact.button2,Cancel
 TokenAllyD3.text,The White Druid
 TokenAllyD3.button1,Continue
 TokenAllyB3.text,The White Druid
@@ -736,7 +707,7 @@ EventCellarTestFailed.text,The woman shouts,\n<i>You are no friends of the Druid
 EventCellarTestFailed.button1,Continue
 EventDarkYoungGrab.text,The creature tries to grab you with its tentacles and drag you into the forest.\nTest ({agility}:1)\n\nIf you fail, suffer 1 Damage and move the Dark Young Monster and your figures up to 2 spaces East.
 EventDarkYoungGrab.button1,Continue
-EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA humming sound emanates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\nYou desperately try to remember what you have learnt about the Beltane ritual.\n
+EventFinaleNoFire.text,You place the {c:QItemCultSigil} Item on the stone.\n\nA humming sound emanates from the stone.\nThe stone becomes warm to the touch.\nThere is something needed before the true Beltane ritual can begin.\nYou desperately try to remember what you have learnt about the Beltane ritual.\n\nTest {lore}
 EventFinaleNoFire.button1,Continue
 EventCaveDoorLocked2.button2,Fail
 EventCaveDoorLockedFail.text,The man shouts back,\n<i>I ain't convinced you can be trusted!</i>
@@ -763,7 +734,7 @@ TokenCellarPainting.button1,{action} Search
 EventCellarPaintingSearch.text,The painting is too damaged to make out any exact details.\nIt depicts an operating room in a log cabin covered in blood.\n\nGain 1 {clue}
 EventCellarPaintingSearch.button1,Continue
 EventPlaceCellarPainting.button1,Continue
-EventPlaceCellarPainting.text,On the wall of the cellar are paintings.\nAll have been ruined by the damp except for one.\n\nPlace a Search Token on the space indicated
+EventPlaceCellarPainting.text,On the wall of the cellar are paintings.\nAll have been ruined by the damp except for one.\n\nPlace an Indoor Wall Token on the space indicated\nPlace a Search Token on the space indicated
 EventMarshAsk.button1,Continue
 TokenAllyC2.button6,{action} <i>Tell me about the Marsh family</i>
 EventMarshAskAMono.text,<i>\nI believed {qst:QSTALLYENAME} was different because she's estranged from her family and you can't blame someone for a name.\n\nBut now I'm concerned she's here to steal our magical artifacts to give to the Marsh family to regain their favour.\nWhat do you really know about Sylvia Marsh?</i>\n\nGain 1 {clue}
@@ -785,9 +756,6 @@ EventGhostMore.button1,Continue
 EventCellarDoorLocked2.button3,Cancel
 EventSigilActiveAllyE.text,She says,\n<i>You have done well!</i>\n
 EventSigilActiveAllyE.button1,Continue
-EventEliminated.button1,The End
-EventEliminated.button2,Check the Story (MAJOR SPOILERS)
-EventEliminated.text,You are unable to resist the effects of the transformation spell.\nYou double over in pain and start to crawl along the ground on all fours.\nSoon your cries become the bleating of an animal.\nYour last conscious sight is of your companions transforming into Goat Spawn.\n
 TokenBranch.text,Above you, you see a ghostly image of a woman hanging from a rope.\n\nYou may only click the 'Summon Ghost' button\nif your Investigator possesses the {c:QItemCultSigil} Item
 TokenBranch.button1,{action} Summon Ghost
 EventSummonGhost.text,You hold out the {c:QItemCultSigil} and cry out,\n<i>I have brought what you asked for.\nCome forth!</i>
@@ -890,10 +858,49 @@ EventAllyE2AboutRitualA.button1,Continue
 EventAllyE2AboutRitualA.text,\n<i>I remember another thing about the ritual.\nOne of the Druids standing further back was {qst:QSTALLYANAME}.</i>\n\nGain 1 {clue}\n
 EventAllyE2AboutRitualB.button1,Continue
 EventAllyE2AboutRitualB.text,\n<i>I remember another thing about the ritual.\nOne of the Druids standing further back was {qst:QSTALLYBNAME}.</i>\n\nGain 1 {clue}\n
-EventPainting.button1,Continue
 PuzzlePaintingLevel2.button1,Continue
 PuzzlePaintingLevel3.button1,Continue
 EventUnderBridgeItem.text,Beneath the bridge you find something. \n\nGain the {c:QItemElderWard} Item
 EventUnderBridgeItem.button1,Continue
-EventJournal3.text,In the journal is a phrase which is oddly familiar.\n\n<i>Ia! Ia! Shub-Niggurath!\nMother of a thousand young!\nFill me with your power!</i>\n\nSuddenly you remember three Druids standing in the middle of the stone circle.\nOne is a woman with red hair tied back by a headband.\nThe faces of the other two are hidden by their robes.\nOne of these two Druids chants the phrase as they whip out a dagger and stabs the woman.\nShe collapses onto the altar stone.\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}
+UIEliminatedText.uitext,You are unable to resist the effects of the transformation spell cast by the Dark Druid.\n\nYou double over in pain and start to crawl along the ground on all fours.\nSoon your cries become the bleating of an animal.\nYour last conscious sight is of your companions transforming into Goat Spawn.
+UIFinishButton.uitext,The End
+UISpoilersButton.uitext,Check the Story (SPOILERS)
+UIIntroButton.uitext,Look Around
+UIContinueButton.uitext,Continue
+EventJournal1.text,\nYou open the cabinet and find a journal written by Bettina Beck.\n\nGain the {c:QItemJournal}\n
+EventJournal1.button1,Continue
+EventJournal1BtT.text,\nYou open the cabinet and find a journal written by Bettina Beck.\n\nGain the {c:QItemCultJournal}\n
+EventJournal1BtT.button1,Continue
+EventJournal2.text,\nIt describes her family as cursed to transform into Goat Spawn.\nThrough experimentation on passing tramps she learnt how to delay the process but the effect was temporary unless she sacrificed a close relative.\nDespite the curse she was able to give birth to three normal looking children.\nA sigil in the journal matches the {c:QItemCultSigil} and there is a description of a dagger marked with runes.\n\nThe journal is full of disturbing drawings, symbols and incantations and descriptions of unholy medical experiments.\n\nTest ({will}:1)\nIf you fail, suffer 1 Horror\n
+EventJournal2.button1,Continue
+EventJournal3.text,\nWhen her children started to grow, they began to show the first faint signs of transformation.\nThe journal is incomplete and pages have been ripped out.\nFrom an incomplete paragraph, you infer at least one of the missing pages refers to one of her children.\n\nThe last page reads,\n<i>I sacrificed one of my children to save the others.\nMy two remaining children show no signs of the blood of the Black Goat but they age not as normal children do.\nI fear I have but delayed their fate.\nYou will find my body at the sacred oak tree.\n</i>
 EventJournal3.button1,Continue
+EventJournal4.text,\nIn the journal is a phrase which is oddly familiar.\n\n<i>Ia! Ia! Shub-Niggurath!\nMother of a thousand young!\nFill me with your power!</i>\n\nSuddenly you remember three Druids standing in the middle of the stone circle.\nOne is a woman with red hair tied back by a headband.\nThe faces of the other two are hidden by their robes.\nOne of these two Druids chants the phrase as they whip out a dagger and stabs the woman.\nShe collapses onto the altar stone.\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
+EventJournal4.button1,Continue
+EventFinale1.text,You place the sigil upon the stone.\n\nThe ancient stones start to glow with a strange unearthly energy.\n
+EventFinale1.button1,Continue
+UIFinaleWhiteDruidText.uitext,The White Druid appears.\nThe spell cast by the Dark Druid causing mental confusion lifts.\nYou remember the reason you came to this place was to stop the ritual blood pact being completed by the Dark Druid.\n\nThe White Druid cries out,\n<i>O ancient stones harken to the song\nof the last Bard of the Ord na Darach Gile!\n\nAnd the Druid begins to sing...</i>
+UIFinaleDancingText.uitext,One by one, the Children of the Goat and the Goat Spawn emerge from the trees and begin to dance!\nThe sound of eerie, forlorn and yet hauntingly beautiful singing seems to be coming from within the stones and trees themselves!\n\nOne by one, the Goat Spawn and Children of the Goat transform back into women and girls - some you recognise as locals who were watching the dancing.\nThey join in with the song.\n\nOne by one the dancers synchronise their movements until they are dancing and twirling in perfect unison,\nin a reel too complex for you to follow...\ndancing between the stones.
+UIFinaleBurningText.uitext,While the dancers dance, the other creatures are consumed by a strange eldritch fire.\n\nWhen the dance is finished,\nthe dancers and the Bard have gone.\nYou search for the dancers, the Bard, or any of the Druids.\n\nYou find no traces of them.\n\nYou set fire to the log cabin...\ndestroying the last traces of the Beck family history.\nIt seems the right thing to do.
+UIFinaleCoveredBridgeText.uitext,You walk across the covered bridge.\nA distant sound makes you turn around.\nYou hear - coming from the direction of the ritual stone - the erie but beautiful song.\nThe last and final song of the last Bard of the Ord na Darach Gile.\n\nYou listen while watching the last of the smoke rise above the trees.\n\nDawn breaks...\n\nYou walk away.\n\nThe End
+UIFinaleWhiteDruidContinue.uitext,Continue
+UIFinaleDancingContinue.uitext,Continue
+UIFinaleBurningContinue.uitext,Continue
+TokenStoneFinale.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.
+EventStoneFinaleInteract.button1,Continue
+EventPlaceStoneFinale.text,The White Druid chants words of long lost Celtic.\nThe runes on the {c:QItemDagger} grow brighter.\n\nThe White Druid hands it back and says,\n<i>All is ready for you to complete the true Beltane Ritual!\n</i>
+TokenStone1.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
+TokenStone1.button1,{action} Search
+TokenStone2.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
+TokenStone2.button1,Lift the Curse
+EventStone2PerformRitual1.button1,{action} Continue
+EventPerformRitual2.text,You desperately study the journal to devise a counter-spell to the curse.\n\nTest {lore}
+EventPerformRitual2.button1,Continue
+EventStone2PerformRitual1.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item\nand either the {c:QItemJournal} Item or the {c:QItemCultJournal} Item
+UIFinaleFlash1Text.uitext,There is a blinding flash of light.\nYour vision blurs and all becomes dark...\n\nWhen you awake in the stone circle you cannot remember anything about why you came here or any of the events of this night!\n\nYou flee in panic.
+UIFinaleFlash1Continue.button1,Continue
+UIFinaleFlash1Continue.uitext,Continue
+UIFinaleFlash2Text.uitext,For months you suffer nightmares that always start with you crossing an old covered bridge but they eventually fade.\n\nThey come back worse than ever, after you hear rumours Druids are meeting in the dark woods and they have a Dark Druid in their midst.\n\nYou have a unsettling sense of deju vu and of unfinished business...\n\nThe End
+UIFinaleFlash2Text.button1,Continue
+EventPainting.button1,Continue
+EventStone2PerformRitual1.button2,Cancel

@@ -1,6 +1,5 @@
 .,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
-UIIntroContinue.uitext, Regarder autour de vous
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
 QSTALLYCNAME,Othera Gilman
@@ -44,17 +43,16 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v2.1)
-quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Ce scénario est une énigme complexe.\nVous allez devoir faire correspondre des indices divers et parfois subtiles.\nIl est recommandé de parler à tous les personnages.\nPrenez des notes et utilisez le log pour affiner vos déductions.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).\n
-\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité (considérant chaque case comme occupée par un jeton Obscurité).
-quest.authors,\nChief Designer: Nicola Zee\nAssistant Designer: Jürgen Rudolph\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
+quest.name,Dans les Ténèbres (v3.0)
+quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Ce scénario est une énigme complexe.\nVous allez devoir faire correspondre des indices divers et parfois subtiles.\nIl est recommandé de parler à tous les personnages.\nPrenez des notes et utilisez le log pour affiner vos déductions.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité.
+quest.authors,\nChief Designer: Nicola Zee\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
 EventGraveSearch.button1,Continuer
 TokenPainting.text,Le tableau n'est soit pas terminé, ou abîmé, ou bien très abstrait.\nCela pourrait être le portrait d'une femme tenant un {c:QItemCultSigil}.\n\nSi vous tentez de résoudre l'énigme, vous avez le droit de convertir chacune des preuves en votre possession en étape supplémentaire.
 TokenPainting.button1,{action} Résoudre l'énigme
-EventGraveSearchTrail1.text,Le corps d'un jeune homme est recouvert d'os et d'une fine couche de terre.\nUne étiquette est cousue sur sa veste <i>P. {qst:QSTNOVICESURNAME}</i>.\n\nLe garçon est décédé durant un processus de transformation en rejeton de la chèvre. Quelqu'un a récemment pratiqué une expérience médicale étrange.\n\nDes traces de pas, et de traînées dans de la boue fraîche, se dirigent vers la Cabane et la Véranda.\n\nRécupérez l'Objet Unique {c:QItemForensicEvidence}.\n\nRécupérez 1 jeton {clue}
+EventGraveSearchTrail1.text,Le corps d'un jeune homme est recouvert d'os et d'une fine couche de terre.\nUne étiquette est cousue sur sa veste <i>P. {qst:QSTNOVICESURNAME}</i>.\n\nVous trouvez un bloc-note dans une poche latérale.\nLes mots écrits au crayon fin ont été effacés par l'eau.\nUne ligne seulement reste lisible.\n<i>Selon Martha, deux des Druides ont de faibles connaissances effectives en runes ou en magie!</i>\n\nLe garçon est décédé durant un processus de transformation en rejeton de la chèvre. Quelqu'un a récemment pratiqué une expérience médicale étrange.\n\nDes traces de pas, et de traînées dans de la boue fraîche, se dirigent vers la Cabane et la Véranda.\n\nRécupérez l'Objet Unique {c:QItemForensicEvidence}.\n\nRécupérez 1 jeton {clue}
 EventGraveSearchTrail1.button1,Continuer
-EventGraveSearchTrail2.text,Le corps d'un jeune homme est recouvert d'os et d'une fine couche de terre.\nUne étiquette est cousue sur sa veste <i>P. {qst:QSTNOVICESURNAME}</i>.\nQuelqu'un a pratiqué une expérience médicale étrange sur lui.\nUne caisse en bois, contenant une moitié de chèvre et une moitié de bébé humain, est enfouie à côté.\nDes traces de salpêtre sur la caisse indique qu'elle était rangée en sous-sol.\nRécupérez l'Objet Unique {c:QItemForensicEvidence}.\n\nRécupérez 1 jeton {clue}
+EventGraveSearchTrail2.text,Le corps d'un jeune homme est recouvert d'os et d'une fine couche de terre.\nUne étiquette est cousue sur sa veste <i>P. {qst:QSTNOVICESURNAME}</i>.\n\nVous trouvez un bloc-note dans une poche latérale.\nLes mots écrits au crayon fin ont été effacés par l'eau.\nUne ligne seulement reste lisible.\n<i>Selon Martha, deux des Druides ont de faibles connaissances effectives en runes ou en magie!</i>\n\nQuelqu'un a pratiqué une expérience médicale étrange sur lui.\nUne caisse en bois, contenant une moitié de chèvre et une moitié de bébé humain, est enfouie à côté.\nDes traces de salpêtre sur la caisse indique qu'elle était rangée en sous-sol.\nRécupérez l'Objet Unique {c:QItemForensicEvidence}.\n\nRécupérez 1 jeton {clue}
 EventGraveSearchTrail2.button1,Continuer
 TokenGrave.text,La tombe contient un tas d'ossements de chèvres difformes.
 TokenGrave.button1,{action} Explorer
@@ -113,7 +111,6 @@ EventPendantSearch.text,En fouillant les buissons, vous trouvez un grand morceau
 EventPendantSearch.button1,Continuer
 TokenPendant.text,Pendant un bref instant, le clair de lune reflète quelque chose de petit dans l'épaisse brume.
 TokenPendant.button1,{action} Rechercher
-EventPainting.button1,Continuer
 EventAllyCMonologue.text,<i>Je suis une sorcière blanche, issue d'une longue lignée de femmes avisées!\nJe sais des choses que d'autres ignorent!</i>
 EventAllyCMonologue.button1,Continuer
 EventAllyBMonologue.text,<i>Les autres me pensent juste un Redneck mais les Colt vivent en ces lieux depuis des temps immémoriaux!</i>
@@ -165,10 +162,6 @@ TokenAllyC2.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
 TokenAllyC2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
 TokenAllyC2.button4,{action} <i>Parlez-moi de la famille Marsh</i>
 TokenAllyC2.button5,{action} Donner la dague à Othera
-EventJournal2.text,En grandissant, ses enfants ont commencé à présenter de légers signes de transformation.\nMais le journal est incomplet.\nVous pouvez néanmoins déduire de ces rudiments, que les pages manquantes réfèrent au nom d'un de ses enfants.\n\nLa dernière page mentionne,\n<i>J'ai du sacrifier un de mes enfants pour sauver les autres.\nLes deux qui restent ne semblent pas présenter de signe du Sang Noir de la Chèvre.\nMais ils sont malgré tout bien différents des autres enfants.\nJe ne crains seulement d'avoir retardé l'échéance.\nVous trouverez mon corps près du vieux chêne sacré.</i>\n\nRécupérez l'Objet Unique {c:QItemJournal}.\n
-EventJournal2.button1,Continuer
-EventJournal1.text,Vous ouvrez la commode et trouvez un journal écrit par Bettina Beck.\nIl décrit comment la malédiction a transformé sa famille en Rejeton de la Chèvre.\nAprès plusieurs expériences menées sur des clochards, elle a appris à retarder le processus, mais les effets sont temporaires à moins de sacrifier un parent proche.\nSes expériences lui ont permis de mettre au monde trois enfants en apparence normaux.\nDans le journal, la description d'un Sceau correspond au {c:QItemCultSigil} et celle d'une dague sertie de runes.\nLe journal contient des incantations, des dessins dérangeants, des symboles et autres descriptions relatifs à des expériences médicales impies.\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur.
-EventJournal1.button1,Continuer
 TokenJournal.text,Le meuble est rempli de papiers.
 TokenJournal.button1,{action} Rechercher
 EventLogCabinMonologue2.text,<i>Le chalet est resté vide après que la mère de Martha se soit pendue au grand chêne dans les bois!\nLes habitants du coin considéraient Bettina comme une meurtrière mais après son suicide, le sheriff a préféré taire certains éléments pour le bien-être des enfants.\n\nQuelques temps après, Martha m'a dit avoir fait du nettoyage.\nElle accueillait un parent, ayant des problèmes avec la loi, et qui avait besoin d'un endroit pour se poser.\nMartha a refusé de m'en dire davantage.</i>\n\nRécupérez 1 jeton {clue}
@@ -324,10 +317,6 @@ EventPlacePorchTile.text,Un portail mène à une cabane en bois.\n\nPlacez la tu
 EventPlacePorchTile.button1,Continuer
 TokenRitualToPorch.text,Vous percevez une légère lueur dans cette direction.\n\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
 TokenRitualToPorch.button1,Révéler
-EventPlaceCellarWall2.text,Placez 1 jeton Mur intérieur comme indiqué.
-EventPlaceCellarWall2.button1,Continuer
-EventPlaceCellarWall1.text,Placez 1 jeton Mur intérieur comme indiqué.
-EventPlaceCellarWall1.button1,Continuer
 EventCellarTileTokens.text,Placez 1 jeton Exploration et\n{var:countCellarSights} jeton(s) Vue.
 EventCellarTileTokens.button1,Continuer
 EventPlaceCellarTile.text,Un faible éclairage provient du Nord, et aussi au travers de quelques rameaux pourrissants, menant à une cave à légumes.\n\nPlacez la tuile {c:TileCellar}
@@ -468,16 +457,16 @@ EventLetterResultDown.button1,Continuer
 EventGiveSigilToFriend1.text,Le Personnage parcoure soigneusement les runes, puis dit,\n<i>Ces runes me sont familiaires.\nPendant le rituel, j'ai vu une {c:QItemDagger} comportant les mêmes runes.\nCes runes sur la dague sont la clé pour contrer le sort.</i>
 EventGiveSigilToFriend2A.button1,Continuer
 EventGiveSigilToFriend1.button1,Continuer
-EventGiveSigilToFriend2A.text,Ammi Pierce se redresse et vous dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
+EventGiveSigilToFriend2A.text,Ammi Pierce se redresse et vous dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi!\nVous pouvez juste vous dépêcher pour invoquer vous-même le pouvoir des pierres...\nmais cela serait complétement idiot et désespéré de votre part!</i>
 EventGiveSigilToRole1.text,Le regard du Personnage reste fixe, comme hypnotisé, puis il s'exclame,\n<i>Passez-moi le Sceau!\nordonne-t-il.</i>\nUne contrainte écrasante vous oblige à lui donner.\n\nEn le tenant, le Personnage dit,<i>\nJe suis le fils de la Grande Prêtresse des Druides Noirs - Bettina Beck!\nJe peux enfin honorer son héritage et achever la bénédiction du sang de la Chèvre Noire</i>!
 EventGiveSigilToRole1.button1,Continuer
 EventGiveSigilToRole2.text,Le Personnage dit,<i>\nVous avez été sage de pas le donner à cet imbécile indigne,\nincapable d'achever le rituel!\n\nLe Druide fait de grands gestes complexes.\nLes runes sur le Sceau brillent de plus en plus vivement.\nUne brume empoisonnée remplit la pièce.</i>\n\nTout les investigateurs subissent {var:SufferDamage} Dégât(s) ({strength} Annule).
 EventGiveSigilToRole2.button1,Continuer
 EventGiveSigilInactive.text,Le Personnage regarde le {c:QItemCultSigil}, puis dit,\n<i>Il s'agit de la clé pour défaire ce qui a été fait.</i>\n\nIl fait de grands gestes complexes au-dessus.\nPeu après, il dit,\n <i>Toutes mes excuses!\nA moins d'en apprendre davantage, le contre-sort ne peut être lancé! </i>
 EventGiveSigilInactive.button1,Continuer
-EventGiveSigilToFriend2B.text,Eric Colt dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
-EventGiveSigilToFriend2C.text,Othera dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
-EventGiveSigilToFriend2D.text,Corrina Jones dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi !</i>
+EventGiveSigilToFriend2B.text,Eric Colt dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi!\nVous pouvez juste m'ignorer et invoquer le pouvoir des pierres vous-même...\nmais vous n'êtes en rien un Druide!</i>
+EventGiveSigilToFriend2C.text,Othera dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi!\nVous pouvez invoquez le pouvoir des anciennes pierres sans mon aide,\nmais vous n'êtes pas suffisamment initié aux traditions de la forêt!</i>
+EventGiveSigilToFriend2D.text,Corrina Jones dit,\n<i>Prenez soin du Sceau.\nQuand vous aurez la dague, rapportez-la moi!\nVous pouvez tenter de lever la malédiction par vous-même mais cela serait pourrait être imprudent.\nSeul un Druide connait les secrets des pierres!</i>
 EventGiveSigilToFriend2B.button1,Continuer
 EventGiveSigilToFriend2C.button1,Continuer
 EventGiveSigilToFriend2D.button1,Continuer
@@ -492,21 +481,6 @@ EventGiveDaggerNotFound.button1,Continuer
 EventGiveDaggerFound.text,Le Personnage prend la {c:QItemDagger}\net examine soigneusement les runes sur la poignée.
 EventGiveDaggerFound.button1,Continuer
 EventGiveDagger.text,Vous pouvez cliquer sur 'Continuer'\nsi vous avez l'Objet {c:QItemDagger}.
-EventFinale1.text,Vous placez le Sceau sur la pierre.\n\nLes pierres anciennes se mettent à briller d'une énergie surnaturelle.
-EventFinale1.button1,Continuer
-EventFinale2.text,Le Druide Blanc apparaît.\nLe sort jeté par le Druide Noir engendre des accès de confusion mentale.\nVous vous souvenez de ce qui vous a amené ici : empêcher le Druide Noir d'accomplir le rituel du pacte de sang.\n\nLe Druide Blanc s'exclame,\n<i>Ô anciennes pierres, entendez la chanson\ndu dernier Barde du Ord na Darach Gile!</i>
-EventFinale2.button1,Continuer
-EventFinale3.text,Puis le Druide commence à chanter...\n\nUn à un, les progénitures et les rejetons de la Chèvre sortent de la forêt et se mettent à danser!
-EventFinale3.button1,Continuer
-EventFinale4.text,Le son mystérieux, mélancolique puis magnifiquement obsédant, semble désormais venir des pierres et des arbres eux-mêmes!\n\nUn à un, les progénitures et les rejetons de la Chèvre se retransforment en femmes et fillettes – vous en reconnaissez comme étant des habitants du coin qui regardaient la danse.\nElles se joignent au chant.
-EventFinale4.button1,Continuer
-EventFinale5.text,Un à un les danseurs synchronisent leur mouvement, puis se mettent à danser et tourbillonner parfaitement à l'unisson,\ndans un moulinet complexe qu'il vous est impossible de suivre...,\nau milieu des pierres.Puis, un à un, ils disparaissent.\n\nToutes les autres créatures sont consumées par un étrange feu Eldritch.\n\nQuand la danse se termine,\nles danseurs et le Barde sont partis.
-EventFinale5.button1,Continuer
-EventFinale6.text,Vous cherchez des traces des danseurs, du Barde ou de tout autre Druide.\n\nMais rien.\n\nVous mettez le feu à la cabane en bois...\nDétruisant les dernières vestiges de la famille Beck.\nC'est probablement la meilleure chose à faire.
-EventFinale6.button1,Continuer
-EventFinale7.text,Vous traversez le pont couvert.\nUn son au loin vous fait vous retourner.\nVous entendez – provenant des pierres rituelles – la mystérieuse et magnifique chanson.\nLa toute dernière interprétation du dernier Barde de l'Ord na Darach Gile.\n\nVous regardez la fumée s'étendre au-dessus des arbres.\nPuis vous partez.\n\nFin.
-EventFinale7.button1,Fin
-EventFinale7.button2,Revoir l'Histoire (SPOIL IMPORTANT)
 EventGiveDaggerNovice.text,Le Personnage dit,\n<i>Oh maintenant je reconnais ces runes!\nIl s'agit du langage perdu de l'Ord na Darach Gile.\nJe le pensais disparu depuis longtemps.\nSeulement un Druide Blanc d'une grande puissance peut correctement lire ces runes!</i>
 EventGiveDaggerNovice.button1,Continuer
 EventAttackAsk.text,{qst:QSTALLYENAME} vous a dit que l'un des Druides serait disposé à vous aider.\n\nÊtes-vous sûr de vouloir donner l'assaut?
@@ -575,8 +549,6 @@ EventDarkDruidDefeatedB.text,Le Druide Noir s'écroule au sol.\n\nSur son cadavr
 EventDarkDruidDefeatedB.button1,Continuer
 EventDarkDruidDefeatedC.text,Le Druide Noir s'écroule au sol.\n\nSur son cadavre vous trouvez une note griffonnée à la hâte.\n<i>Garder un œil sur {qst:QSTNOVICENAME}!\nIl est un espion au service de Dagon!</i>
 EventDarkDruidDefeatedC.button1,Continuer
-TokenStone1.button1,{action} Rechercher
-TokenStone1.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
 EventPlaceRitualSiteTokens.button1,Continuer
 EventPlaceInvestigators.text,{rnd:hero} a le vague souvenir d'avoir chanté\net d'avoir dansé en tourbillonnant bizarrement autour de ces pierres...\net de quelque chose d’immense sortant du brouillard!\n\nPlacez les figurines comme indiqué.\nTout les investigateurs deviennent Étourdi.\n{rnd:hero} récupère 1 jeton {clue}
 EventPlaceInvestigators.button1,Continuer
@@ -619,10 +591,9 @@ EventGiveSigilAskAllyE.button1,{action} Lui donner le Sceau
 EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh rit aux éclats puis dit,<i>\nAu moins, ai-je obtenu ce que ma famille désire.\nJe vais vous révéler le pouvoir de Dagon.\n</i>\nElle incante un sort et un brouillard suffoquant recouvre le pont.\nTout les investigateurs sur le Pont Couvert\nsubissent {var:SufferDamage} Dégât(s)\n({strength} Annule)\n\nSoudain, le Sceau devient incandescent et elle le lâche sur le sol.\nPlacez l'Objet Unique {c:QitemCultSigil} sur la case indiquée.
 EventSigilInactiveAllyE.text,Vous tendez le {c:QItemCultSigil} à Sylvia Marsh pour qu'elle l'examine.\n\nElle dit,\n<i>Le {c:QItemCultSigil} ne peut seulement être utilisé quand les runes sont visibles.\nJe ne connais pas les secrets des Druides.\nEn savoir davantage sur le Rituel et les Druides, peut être la clé pour apprendre à s'en servir.\nExaminez-le régulièrement et quand les runes seront visibles, revenez me l'apporter!\n</i>\nNote: l'Objet Unique {c:QItemCultSigil} peut être examiné en cliquant dans l'Inventaire de l'application.
 EventSigilInactiveAllyE.button1,Continuer
-TokenStone2.text,Une grande pierre rectangulaire occupe le centre du cercle de pierre.\nElle fait trois pieds de haut sur six pieds de long.
-TokenStone2.button1,{action} Placer le Sceau de Culte sur la Pierre
-EventStone2Interact.button1,Continuer
-EventStone2Interact.text,Vous entendez un bourdonnement venir de la pierre.\n\nVous pouvez appuyer sur 'Continuer'\nsi vous possédez l'Objet Unique {c:QItemCultSigil}.
+TokenStoneFinale.button1,{action} Placer le Sceau de Culte sur la Pierre
+EventStoneFinaleInteract.text,Vous entendez un bourdonnement venir de la pierre.\n\nVous pouvez appuyer sur 'Continuer'\nsi vous possédez l'Objet Unique {c:QItemCultSigil}.
+EventStoneFinaleInteract.button2,Annuler
 SpawnGhost.button1,Continuer
 SpawnGhost.text,La femme fantomatique s'exclame,\n<i>Mon Sceau est prêt!\nJe vais pouvoir revenir!</i>\n\nLa silhouette descend de l'arbre.\n\nPosez un Fantôme sur la case indiquée.
 SpawnChildOfTheGoat1.button1,Continuer
@@ -675,8 +646,7 @@ EventCrossPassD.button1,Continuer
 EventCrossSearch.button2,Échec
 EventCrossFail.text,Une chose dans l'eau vous attrape la jambe!\nVous paniquez et avalez la tasse avant de réussir à atteindre la berge.\n\nSubissez 1 Dégât face cachée et 1 Horreur.
 EventCrossFail.button1,Continuer
-EventPlaceStone2.text,Le Druide Blanc prononce des paroles en une vieille langue celtique.\nLes runes sur la {c:QItemDagger} deviennent plus brillantes.\n\nLe Druide Blanc vous la tend, puis dit,\n<i>Tout est prêt pour que vous puissiez mener le vrai Rituel de Beltaine!</i>
-EventPlaceStone2.button1,Continuer
+EventPlaceStoneFinale.button1,Continuer
 EventGiveDagger.button2,Annuler
 EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\nLe peintre connait clairement les runes.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nRécupérez 2 jetons {clue}\n
 EventPaintingA.button1,Continuer
@@ -703,7 +673,6 @@ EventPaintingBFemale.text,Au second plan de la peinture, vous voyez une petite f
 EventPaintingBFemale.button1,Continuer
 EventPaintingBMale.button1,Continuer
 EventPlaceWhiskey.button1,Continuer
-EventStone2Interact.button2,Annuler
 TokenAllyD3.text,Le Druide Blanc
 TokenAllyD3.button1,Continuer
 TokenAllyB3.text,Le Druide Blanc
@@ -765,7 +734,7 @@ TokenCellarPainting.button1,{action} Rechercher
 EventCellarPaintingSearch.text,La peinture est trop endommagée pour identifier quoique ce soit.\nElle représente une table d'opération couverte de sang dans une cabane.\n\nRécupérez 1 jeton {clue}
 EventCellarPaintingSearch.button1,Continuer
 EventPlaceCellarPainting.button1,Continuer
-EventPlaceCellarPainting.text,Sur les murs du cellier, plusieurs peintures.\nElles ont toutes souffert des affres de l'humidité, exceptée une.\n\nPlacez 1 jeton Recherche sur la case indiquée.
+EventPlaceCellarPainting.text,Sur les murs du cellier, plusieurs peintures.\nElles ont toutes souffert des affres de l'humidité, exceptée une.\n\nPlacez 1 jeton Mur intérieur comme indiqué.\nPlacez 1 jeton Recherche sur la case indiquée.
 EventMarshAsk.button1,Continuer
 TokenAllyC2.button6,{action} <i>Parlez-moi de la famille Marsh.</i>
 EventMarshAskAMono.text,<i>Je pensais {qst:QSTALLYENAME} différente, car elle n'était pas proche de sa famille et que je ne pouvais pas lui tenir rigueur d'avoir seulement le même nom.\n\nMais maintenant je réalise qu'elle n'est ici que pour voler nos artefacts magiques et rendre son prestige à la famille Marsh.\nQue savez-vous vraiment de Sylvia Marsh?</i>\n\nRécupérez 1 jeton {clue}
@@ -787,9 +756,6 @@ EventGhostMore.button1,Continuer
 EventCellarDoorLocked2.button3,Annuler
 EventSigilActiveAllyE.text,Elle dit,\n<i>Vous avez bien fait!</i>
 EventSigilActiveAllyE.button1,Continuer
-EventEliminated.button1,Fin
-EventEliminated.button2,Examiner l'histoire (SPOILS IMPORTANTS)
-EventEliminated.text,Vous ne résistez pas au sort de transformation.\nVous souffrez de plus en plus et rampez à quatre pattes sur le sol.\nPeu après, votre cri se transforme en un bêlement.\nVotre dernière vision est l'image de vos compagnons se transformant en Rejetons de la Chèvre.
 TokenBranch.text,Au-dessus de vous flotte toujours la silhouette de la femme.\n\nVous ne pouvez appuyer sur 'Invoquer le fantôme'\nque si votre investigateur possède l'Objet {c:QItemCultSigil}.
 TokenBranch.button1,{action} Invoquer le fantôme
 EventSummonGhost.text,Vous brandissez le {c:QItemCultSigil} et vous écriez,\n<i>J'ai ramené ce que vous vouliez.\nApparaissez!</i>
@@ -896,5 +862,45 @@ PuzzlePaintingLevel2.button1,Continuer
 PuzzlePaintingLevel3.button1,Continuer
 EventUnderBridgeItem.text,Vous trouvez quelque chose sous le pont.\n\nRécupérez l'Objet Commun {c:QItemElderWard}
 EventUnderBridgeItem.button1,Continuer
-EventJournal3.text,\nDans le journal, des phrases vous semblent étrangement familière.\n\n<i>Ia! Ia! Shub-Niggurath!\nMère aux mille progénitures!\nPuisses-tu m'abreuver ton pouvoir!</i>\n\nVous vous rappelez soudainement de trois druides se tenant au milieu du cercle de pierres.\nL'une des personnes est une femme aux cheveux roux attachés avec un bandeau.\nLes visages des deux autres sont cachés par la capuche de leur toge.\nL'un de ces druides entonne les phrases du journal en même temps qu'elle sort une dague et poignarde la femme.\nElle s'écroule sur l'autel en pierre.\n\nTest ({lore}:1)\nSi vous réussissez, récupérez 1 {clue}\n
-EventJournal3.button1,Continuer
+UIEliminatedText.uitext,Vous ne résistez pas au sort de transformation.\nVous souffrez de plus en plus et rampez à quatre pattes sur le sol.\nPeu après, votre cri se transforme en un bêlement.\nVotre dernière vision est l'image de vos compagnons se transformant en Rejetons de la Chèvre.
+UIFinishButton.uitext,Fin
+UISpoilersButton.uitext,Examiner l'histoire (SPOILS)
+UIIntroButton.uitext, Regarder autour de vous
+UIContinueButton.uitext,Continuer
+EventJournal1.text,Vous ouvrez la commode et trouvez un journal écrit par Bettina Beck.\n\nRécupérez l'Objet Unique {c:QItemJournal}.\n
+EventJournal1.button1,Continuer
+EventJournal1BtB.text,Vous ouvrez la commode et trouvez un journal écrit par Bettina Beck.\n\nRécupérez l'Objet Unique {c:QItemCultJournal}.\n
+EventJournal1BtB.button1,Continuer
+EventJournal2.text,\nIl décrit comment la malédiction a transformé sa famille en Rejeton de la Chèvre.\nAprès plusieurs expériences menées sur des clochards, elle a appris à retarder le processus, mais les effets sont temporaires à moins de sacrifier un parent proche.\nSes expériences lui ont permis de mettre au monde trois enfants en apparence normaux.\nDans le journal, la description d'un Sceau correspond au {c:QItemCultSigil} et celle d'une dague sertie de runes.\n\nLe journal contient des incantations, des dessins dérangeants, des symboles et autres descriptions relatifs à des expériences médicales impies.\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur.
+EventJournal2.button1,Continuer
+EventJournal3.text,En grandissant, ses enfants ont commencé à présenter de légers signes de transformation.\nMais le journal est incomplet.\nVous pouvez néanmoins déduire de ces rudiments, que les pages manquantes réfèrent au nom d'un de ses enfants.\n\nLa dernière page mentionne,\n<i>J'ai du sacrifier un de mes enfants pour sauver les autres.\nLes deux qui restent ne semblent pas présenter de signe du Sang Noir de la Chèvre.\nMais ils sont malgré tout bien différents des autres enfants.\nJe ne crains seulement d'avoir retardé l'échéance.\nVous trouverez mon corps près du vieux chêne sacré.</i>
+EventJournal3.button1,Continue
+EventJournal4.text,\nDans le journal, des phrases vous semblent étrangement familière.\n\n<i>Ia! Ia! Shub-Niggurath!\nMère aux mille progénitures!\nPuisses-tu m'abreuver ton pouvoir!</i>\n\nVous vous rappelez soudainement de trois druides se tenant au milieu du cercle de pierres.\nL'une des personnes est une femme aux cheveux roux attachés avec un bandeau.\nLes visages des deux autres sont cachés par la capuche de leur toge.\nL'un de ces druides entonne les phrases du journal en même temps qu'elle sort une dague et poignarde la femme.\nElle s'écroule sur l'autel en pierre.\n\nTest ({lore}:1)\nSi vous réussissez, récupérez 1 {clue}\n
+EventJournal4.button1,Continue
+EventFinale1.text,Vous placez le Sceau sur la pierre.\n\nLes pierres anciennes se mettent à briller d'une énergie surnaturelle.
+EventFinale1.button1,Continuer
+UIFinaleWhiteDruidText.uitext,Le Druide Blanc apparaît.\nLe sort jeté par le Druide Noir engendre des accès de confusion mentale.\nVous vous souvenez de ce qui vous a amené ici : empêcher le Druide Noir d'accomplir le rituel du pacte de sang.\n\nLe Druide Blanc s'exclame,\n<i>Ô anciennes pierres, entendez la chanson\ndu dernier Barde du Ord na Darach Gile!</i>\n\nPuis le Druide commence à chanter...
+UIFinaleDancingText.uitext,Un à un, les progénitures et les rejetons de la Chèvre sortent de la forêt et se mettent à danser!Le son mystérieux, mélancolique puis magnifiquement obsédant, semble désormais venir des pierres et des arbres eux-mêmes!\n\nUn à un, les progénitures et les rejetons de la Chèvre se retransforment en femmes et fillettes – vous en reconnaissez comme étant des habitants du coin qui regardaient la danse.\nElles se joignent au chant.
+UIFinaleBurningText.uitext,Vous cherchez des traces des danseurs, du Barde ou de tout autre Druide.\n\nMais rien.\n\nVous mettez le feu à la cabane en bois...\nDétruisant les dernières vestiges de la famille Beck.\nC'est probablement la meilleure chose à faire.
+UIFinaleCoveredBridgeText.uitext,Vous traversez le pont couvert.\nUn son au loin vous fait vous retourner.\nVous entendez – provenant des pierres rituelles – la mystérieuse et magnifique chanson.\nLa toute dernière interprétation du dernier Barde de l'Ord na Darach Gile.\n\nVous regardez la fumée s'étendre au-dessus des arbres.\nPuis vous partez.\n\nFin.
+UIFinaleWhiteDruidContinue.uitext,Continuer
+UIFinaleDancingContinue.uitext,Continuer
+UIFinaleBurningContinue.uitext,Continuer
+TokenStoneFinale.text,Une grande pierre rectangulaire occupe le centre du cercle de pierre.\nElle fait trois pieds de haut sur six pieds de long.
+EventStoneFinaleInteract.button1,Continuer
+EventPlaceStoneFinale.text,Le Druide Blanc prononce des paroles en une vieille langue celtique.\nLes runes sur la {c:QItemDagger} deviennent plus brillantes.\n\nLe Druide Blanc vous la tend, puis dit,\n<i>Tout est prêt pour que vous puissiez mener le vrai Rituel de Beltaine!</i>
+TokenStone1.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
+TokenStone1.button1,{action} Rechercher
+TokenStone2.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
+TokenStone2.button1,{action} Perform the Ritual
+EventStone2PerformRitual1.button1,{action} Continuer
+EventPerformRitual2.text,Vous étudiez désespéramment le journal pour mettre au point un contre-sort à la malédiction.\n\nTest {lore}
+EventPerformRitual2.button1,Continuer
+EventStone2PerformRitual1.text,Vous entendez un bourdonnement provenir des pierres.\n\nVous pouvez cliquer sur le bouton Continuer\nseulement si vous avez l'objet {c:QItemCultSigil}\navec, soit l'objet {c:QItemJournal} ou soit l'objet {c:QItemCultJournal}.
+UIFinaleFlash1Text.uitext,Un éclair de lumière vous aveugle.\nVotre vision se trouble puis tout devient sombre...\n\nEn vous réveillant au milieu du cercle de pierres, vous ne vous souvenez ni des raisons de votre venue en ces lieux, ni des derniers évènements de cette nuit!\n\nVous fuyez, paniqué.
+UIFinaleFlash1Continue.button1,Continuer
+UIFinaleFlash1Continue.uitext,Continuer
+UIFinaleFlash2Text.uitext,Durant des mois, vous êtes envahi par des cauchemars qui commencent à chaque fois avec vous traversant un vieux pont couvert. Le temps passe puis ils deviennent de moins en moins fréquents.\n\nIls reviennent alors, pires qu'avant, quand vous entendez des rumeurs à propos de Druides se réunissant dans une forêt sombre et de la présence d'un Druide Noir en leur sein.\n\nVous avez un terrible sentiment de déjà-vu et d'une enquête avortée...\n\nFin
+UIFinaleFlash2Text.button1,Continuer
+EventPainting.button1,Continuer
+EventStone2PerformRitual1.button2,Annuler
