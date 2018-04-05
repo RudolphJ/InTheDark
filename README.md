@@ -329,3 +329,39 @@ CHANGES DONE 11 (v2.0)
 Fix RoleAllyD != 3 should be RoleAllyB != 3
 
 
+CHANGES DONE 14 (v3.1)
+
+1) [EventStone1SearchDone]
+Added '\nSomeone is calling out your name.\n'
+
+2) [EventAllyE2AboutCult1.text]
+'This morning I met Pete Barker here.  He told me the group was gathering here to celebrate the coming of Spring.  He said the group was likely to split up after tonight because two feared a powerful evil Dark Druid had infiltrated the order!
+Pete told me he believes these two about an evildoer in their midst because they were trustworthy and helpful.'
+
+3) Add for 2 investigators extra trust of Sylvia
+[SigilNeedMoreA] and [SigilNeedMoreB]
+Add [SigilAboutSylvia] Event
+As you hold the sigil, your mind becomes less clouded and you remember coming to this place with Sylvia Marsh to meet Pete Barker and confront the evil powerful Dark Druid.
+
+\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
+
+Add flag clueSigilAboutSylvia
+
+
+4) UIEliminatedText.uitext
+
+You are unable to resist the effects of the transformation spell cast by the Dark Druid.\n\nYou double over in pain and start to crawl along the ground on all fours.
+
+Wiry black hairs sprout all over your lower body.
+Your bones crack as they visibly move under your skin and small drops of blood ooze from every pore.
+
+\nSoon your cries become the bleating of an animal.\nYour last conscious sight is of your companions transforming into Goat Spawn.
+
+
+
+
+
+
+
+
+

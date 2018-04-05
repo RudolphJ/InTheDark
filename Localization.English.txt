@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,16 +43,16 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v3.0)
-quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
-quest.authors,\nDesigner: Nicola Zee\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
+quest.name,In the Dark (v3.1)
+quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
+quest.authors,\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
 TokenPainting.button1,{action} Attempt Puzzle
-EventGraveSearchTrail1.text,\nCovered by bones and a thin layer of earth is a body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in faint pencil.\nOnly one line is legible.\n<i>According to Martha, two of the Druids have little actual knowledge of Druidic runes or Druidic magic!</i>\n\nThe young man died in the process of transforming into Goat Spawn.  Someone within the last few days performed a bizarre medical experiment.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
+EventGraveSearchTrail1.text,\nCovered by bones and a thin layer of earth is a body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in pencil.  Only a few lines are legible.\n<i>\nMartha is being misled by the Dark Druid and the acolyte of the Dark Druid into believing the evil Dark Druid is the last of the powerful and good White Druids whose return was foretold.\nThe Dark Druid and the acolyte are convincing liars and it will take proof to persuade Martha one of the other Druids is the real White Druid.\nMartha has dismissed the fears of her friend because her friend has no real knowledge of Druidic lore.\n</i>\nThe young man died in the process of transforming into Goat Spawn.  Someone within the last few days performed a bizarre medical experiment.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
 EventGraveSearchTrail1.button1,Continue
-EventGraveSearchTrail2.text,\nCovered by bones and a thin layer of earth is a the body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in faint pencil.\nOnly one line is legible.\n<i>According to Martha, two of the Druids have little actual knowledge of Druidic runes or Druidic magic!</i>\n\nSomeone performed a bizarre medical experiment on the victim.\n\nBuried beside him is a wooden crate containing a half goat and half human baby.\nTraces of saltpetre in the crate indicates the crate was stored underground.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
+EventGraveSearchTrail2.text,\nCovered by bones and a thin layer of earth is a the body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in pencil.  Only a few lines are legible.\n<i>\nMartha is being misled by the Dark Druid and the acolyte of the Dark Druid into believing the evil Dark Druid is the last of the powerful and good White Druids whose return was foretold.\nThe Dark Druid and the acolyte are convincing liars and it will take proof to persuade Martha one of the other Druids is the real White Druid.\nMartha has dismissed the fears of her friend because her friend has no real knowledge of Druidic lore.\n</i>\nSomeone performed a bizarre medical experiment on the victim.\n\nBuried beside him is a wooden crate containing a half goat and half human baby.\nTraces of saltpetre in the crate indicates the crate was stored underground.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
 EventGraveSearchTrail2.button1,Continue
 TokenGrave.text,The grave contains piles of bones of deformed goats
 TokenGrave.button1,{action} Explore
@@ -176,7 +176,7 @@ TokenAllyE2.button4,{action} Tell her what you know about the Ritual
 TokenAllyE2.button5,Give Sylvia Marsh the Cult Sigil
 EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her. The others were further back.\nThere was also a group of local girls watching the ceremony, but when the chaos started they ran off into the woods.</i>
 EventAllyE2AboutRitual1.button1,Continue
-EventAllyE2AboutCult1.text,<i>\nThe locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nThis morning I met Pete Barker here.  He told me the group was likely to split up because two of the Druids were concerned a powerful Dark Druid had infiltrated the order!\nPete told me both of these Druids always told the truth.\n Pete claimed the Dark Druid not only exists but is training up one of the others to become an acolyte of the Black Goat.\n\nHe first became suspicious because of the Dark Druid's past - even as a child they were in trouble with the law.</i>
+EventAllyE2AboutCult1.text,<i>The locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nThis morning I met Pete Barker here.\nHe said the group was likely to split up after tonight because two feared a powerful evil Dark Druid had infiltrated the order!\nPete told me he was persuaded they were right because he found both of them trustworthy and helpful.\n\nPete was making good progress with his investigations. He told me he had discovered even in the Dark Druid's childhood the Dark Druid was evil, a liar and in trouble with the law.\n\nPete claimed the evil Dark Druid is training up another to become an acolyte of the Black Goat.\n</i>
 EventAllyE2AboutCult1.button1,Continue
 EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a new version of the Beltane ritual.\nFor many years, at the end of April, the Druids performed the same ritual with a lighting of a fire and a song to welcome the coming of spring.\nOut of the blue, Martha insisted they learn a more complex ceremony.\n</i>
 EventAllyE2AboutCult2.button1,Continue
@@ -402,7 +402,7 @@ EventDarkYoungRetreatMoveAgain.text,The monster moves up to 1 space East.
 EventDarkYoungRetreatMoveAgain.button1,Continue
 EventDarkYoungAttack2.text,The creature twists and writhes, slamming its massive tentacles down upon you.\n\nSuffer {var:SufferDamage} Damage ({strength}+1 Negates).
 EventDarkYoungAttack2.button1,Continue
-EventDarkYoungAttack1.text,The creature tries to grab you with its massive tenracles.\n\n Test ({agility}; 1)
+EventDarkYoungAttack1.text,The creature tries to grab you with its massive tentacles.\n\n Test ({agility}; 1)
 EventDarkYoungAttack1.button1,Pass
 EventDarkYoungMove2.text,\nThe Dark Young Monster moves 2 spaces towards the nearest Investigator.\n\nIt may not move onto an Indoor space.\n\nFor every space it moves onto, all Investigators (and all Monsters that cannot Phase or Fly) on the space take 2 Damage. {agility} Negates\n
 EventDarkYoungMove2.button1,Continue
@@ -683,7 +683,7 @@ EventStone1Search.button1,Continue
 EventStone1Search.text,There are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.
 EventStone1Search2.button1,Continue
 EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone and near the stone a fire burning with eerie eldritch flames.\n\nYou have a vague memory of three of the robed Druids standing close to the stone and two standing further back.\n\nYou have a vision of a dense fog, and out of the fog a huge creature of tentacles and mouths emerging from the east and Druids fleeing north and west. \n\nGain 2 {clue}\n
-EventStone1SearchDone.text,\nOnce the humming sound has died done, you briefly hear shouting coming from the South.\n
+EventStone1SearchDone.text,\nOnce the humming sound has died down, you briefly hear shouting coming from the South.\nSomeone is calling out your name.\n
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
 EventDarkYoungMove0.button1,Yes
@@ -862,7 +862,7 @@ PuzzlePaintingLevel2.button1,Continue
 PuzzlePaintingLevel3.button1,Continue
 EventUnderBridgeItem.text,Beneath the bridge you find something. \n\nGain the {c:QItemElderWard} Item
 EventUnderBridgeItem.button1,Continue
-UIEliminatedText.uitext,You are unable to resist the effects of the transformation spell cast by the Dark Druid.\n\nYou double over in pain and start to crawl along the ground on all fours.\nSoon your cries become the bleating of an animal.\nYour last conscious sight is of your companions transforming into Goat Spawn.
+UIEliminatedText.uitext,You are unable to resist the effects of the transformation spell cast by the Dark Druid.\n\nYou double over in pain and start to crawl along the ground on all fours.\nWiry black hairs sprout over your lower body.\nYour bones crack as they visibly move under your skin and drops of blood ooze from every pore.\nSoon your cries become the bleating of an animal.\nYour last conscious sight is of your companions transforming into Goat Spawn.
 UIFinishButton.uitext,The End
 UISpoilersButton.uitext,Check the Story (SPOILERS)
 UIIntroButton.uitext,Look Around
@@ -893,14 +893,19 @@ TokenStone1.text,A large rectangular stone fills the central space of the stone 
 TokenStone1.button1,{action} Search
 TokenStone2.text,A large rectangular stone fills the central space of the stone circle.\nThe stone is 3 feet high and about 6 feet long.\n\nNear the stone there are traces of a small bonfire which has burnt out.
 TokenStone2.button1,Lift the Curse
-EventStone2PerformRitual1.button1,{action} Continue
 EventPerformRitual2.text,You desperately study the journal to devise a counter-spell to the curse.\n\nTest {lore}
 EventPerformRitual2.button1,Continue
-EventStone2PerformRitual1.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item\nand either the {c:QItemJournal} Item or the {c:QItemCultJournal} Item
 UIFinaleFlash1Text.uitext,There is a blinding flash of light.\nYour vision blurs and all becomes dark...\n\nWhen you awake in the stone circle you cannot remember anything about why you came here or any of the events of this night!\n\nYou flee in panic.
 UIFinaleFlash1Continue.button1,Continue
 UIFinaleFlash1Continue.uitext,Continue
 UIFinaleFlash2Text.uitext,For months you suffer nightmares that always start with you crossing an old covered bridge but they eventually fade.\n\nThey come back worse than ever, after you hear rumours Druids are meeting in the dark woods and they have a Dark Druid in their midst.\n\nYou have a unsettling sense of deju vu and of unfinished business...\n\nThe End
 UIFinaleFlash2Text.button1,Continue
 EventPainting.button1,Continue
+EventStone2PerformRitual1.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item and the {c:QItemOldJournal} Item\n
+EventStone2PerformRitual1.button1,{action} Continue
 EventStone2PerformRitual1.button2,Cancel
+EventStone2PerformRitual1BtT.text,You hear a humming coming from the stones.\n\nYou may only click the Continue button\nif you have the {c:QItemCultSigil} Item and the {c:QItemCultJournal} Item\n
+EventStone2PerformRitual1BtT.button1,{action} Continue
+EventStone2PerformRitual1BtT.button2,Cancel
+EventSigilAboutSylvia.text,As you hold the sigil, your mind becomes less clouded.\nYou remember coming to this place with Sylvia Marsh to meet Pete Barker and confront the evil powerful Dark Druid.\n
+EventSigilAboutSylvia.button1,Continue

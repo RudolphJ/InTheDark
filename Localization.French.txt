@@ -43,8 +43,8 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v3.0)
-quest.description,- <i>Dans les Ténèbres</i> -\nUne aventure pour Les Demeures de l'Épouvante 2nd Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle en pierre.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Ce scénario est une énigme complexe.\nVous allez devoir faire correspondre des indices divers et parfois subtiles.\nIl est recommandé de parler à tous les personnages.\nPrenez des notes et utilisez le log pour affiner vos déductions.\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont dans l'Obscurité.
+quest.name,Dans les Ténèbres (v3.1)
+quest.description,- <i>Dans les Ténèbres</i> -\n\nUne aventure pour Les Demeures de l'Épouvante 2ème Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle de pierres.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Cette histoire est un mystère complexe à résoudre.\nVous devrez faire correspondre divers subtiles indices.\nIl est recommandé de parler avec tous les personnages.\nPrenez des notes et utilisez le journal pour régulièrement affiner vos déductions.\nUne feuille vierge de vérification nommée 'InTheDarkClueCribSheet.pdf' se trouve dans le répertoire du scénario, ou bien peut être téléchargée à l'adresse suivante : https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont considérées dans l'Obscurité.\n
 quest.authors,\nChief Designer: Nicola Zee\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
 EventGraveSearch.button1,Continuer
@@ -176,7 +176,7 @@ TokenAllyE2.button4,{action} Lui dire ce que vous savez à propos du rituel
 TokenAllyE2.button5,Donner le Sceau de Culte à Sylvia Marsh
 EventAllyE2AboutRitual1.text,<i>Il n'y a pas grand chose de plus à dire.\nJe ne sais pas ce que j'ai vu dans la brume et l'obscurité.\nLes Druides portaient tous la même toge blanche\net se déplaçaient en cercle durant la danse.\n\nQuand Martha a hurlé, deux druides étaient à côté d'elle. Les autres étaient en retrait.\nIl y avait aussi un groupe de jeunes filles du coin qui regardait la cérémonie, mais quand le chaos a commencé, elles ont détalé dans les bois.</i>
 EventAllyE2AboutRitual1.button1,Continuer
-EventAllyE2AboutCult1.text,<i>Les habitants du coin ont tendance à dire que les Druides ne sont pas mauvais.\nIls participent à des œuvres de charité et aident l'orphelinat local.\nDes rumeurs racontent que l'Ordre accueille le dernier des Druides Blancs, connus pour être des guérisseurs au grand pouvoir.\n\nJ'ai rencontré Pete ici, ce matin. Il m'a raconté que le groupe était au bord de l'implosion car deux Druides s'inquiétaient qu'un puissant Druide Noir ait réussi à intégré l'Ordre!\nPete m'a dit que ces deux Druides disaient toujours la vérité.\nPete m'a dit que, non seulement le Druide Noir existait, mais qu'il convertissait également l'un des autres Druides pour devenir un acolyte de la Chèvre Noire.\n\nIl est devenu particulièrement méfiant, ne serait-ce que par rapport au passé du Druide Noir – un enfant en conflit avec les règles et la loi.</i>\n
+EventAllyE2AboutCult1.text,\nLes habitants s'accordent à dire que les Druides ne sont pas mauvais.\nIls contribuent à des œuvres de charité et s'investissent dans l'orphelinat du coin.\nIl y a même des rumeurs qui laissent entendre que l'Ordre abrite en son sein le dernier des Druides Blancs, reconnus d'ailleurs pour leur grand talent de guérisseurs.\n\nJ'ai rencontré Pete Barker ce matin ici-même.\nIl disait que le groupe allait probablement imploser après ce soir, car deux d'entre eux craignaient qu'un puissant et maléfique Druide Noir n'ait infiltré l'Ordre!\nPete m'a dit être persuadé de leur bonne foi, car il les a trouvés particulièrement sincères et fiables.\n\nPete a fait de grandes avancées dans ses investigations. Il me racontait aussi avoir découvert que, même durant son enfance, le Druide Noir était déjà quelqu'un de mauvais ayant des difficultés avec le respect de la loi.\n\nPete a affirmé que le maléfique Druide Noir tentait en ce moment-même de convertir une autre personne en acolyte de la Chèvre Noire.\n
 EventAllyE2AboutCult1.button1,Continuer
 EventAllyE2AboutCult2.text,<i>La mise en place d'une nouvelle version du rituel de Beltaine était source de friction.\nDepuis plusieurs années, à la fin du mois d'Avril, les Druides effectuent le même rituel en allumant un feu et en chantant la bienvenue du printemps.\nDe but en blanc, Martha a décidé qu'ils mettraient en place une cérémonie plus élaborée et plus complexe.</i>
 EventAllyE2AboutCult2.button1,Continuer
@@ -680,10 +680,10 @@ TokenAllyB3.button1,Continuer
 TokenAllyC3.text,Le Druide Blanc
 TokenAllyC3.button1,Continuer
 EventStone1Search.button1,Continuer
-EventStone1Search.text,Il y a des traces de sang sur le haut de la pierre.\nD'autres traces de sang vont en direction de l'Est, vers la forêt.
+EventStone1Search.text,\nUne fois que le bourdonnement a disparu, vous entendez brièvement crier en direction du Sud.\nQuelqu'un vous appelle par votre nom.\n
 EventStone1Search2.button1,Continuer
 EventStone1Search2.text,Un faible bourdonnement provient de la pierre.\nLe son vous semble familier.\n\nVous avez un soudain souvenir de Druides, en robe blanche, regardant quelque chose de rayonnant en haut de la pierre. Près d'elle, un mystérieux feu Eldritch se consume.\n\nVous vous souvenez que trois Druides se tenaient près de la pierre et que deux étaient en retrait.\n\nVous distinguez un épais brouillard, puis une immense créature, dotée de plusieurs gueules et de multiples tentacules, en émerger. Les Druides fuient vers le Nord et vers l'Ouest.\n\nRécupérez 2 jetons {clue}
-EventStone1SearchDone.text,\nÀ mesure que le bourdonnement s'atténue, vous entendez brièvement des cris provenant du Sud.\n
+EventStone1SearchDone.text,\nÀ mesure que le bourdonnement s'atténue, vous entendez brièvement des cris provenant du Sud.\nQuelqu'un appelle votre nom.\n
 EventStone1SearchDone.button1,Continuer
 EventDarkYoungMove0.text,Le Sombre Rejeton est-il sur la même case qu'un investigateur?
 EventDarkYoungMove0.button1,Oui
@@ -862,7 +862,7 @@ PuzzlePaintingLevel2.button1,Continuer
 PuzzlePaintingLevel3.button1,Continuer
 EventUnderBridgeItem.text,Vous trouvez quelque chose sous le pont.\n\nRécupérez l'Objet Commun {c:QItemElderWard}
 EventUnderBridgeItem.button1,Continuer
-UIEliminatedText.uitext,Vous ne résistez pas au sort de transformation.\nVous souffrez de plus en plus et rampez à quatre pattes sur le sol.\nPeu après, votre cri se transforme en un bêlement.\nVotre dernière vision est l'image de vos compagnons se transformant en Rejetons de la Chèvre.
+UIEliminatedText.uitext,\nVous êtes incapable de résister au sort de transformation que vous lance le Druide Noir.\n\nVous redoublez de souffrance et commencez à ramper à quatre pattes sur le sol.\nDe petits poils noirs se mettent à pousser sur le bas du corps.\nVos os craquent en se déplaçant sous votre peau et à mesure que du sang perle à travers chacune de vos pores.\nVos hurlements deviennent bientôt le bêlement d'un animal.\nVotre dernier souvenir conscient est la vision de vos compagnons se transformant en Rejeton de la Chèvre.\n
 UIFinishButton.uitext,Fin
 UISpoilersButton.uitext,Examiner l'histoire (SPOILS)
 UIIntroButton.uitext, Regarder autour de vous
@@ -893,14 +893,19 @@ TokenStone1.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bl
 TokenStone1.button1,{action} Rechercher
 TokenStone2.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
 TokenStone2.button1,{action} Perform the Ritual
-EventStone2PerformRitual1.button1,{action} Continuer
 EventPerformRitual2.text,Vous étudiez désespéramment le journal pour mettre au point un contre-sort à la malédiction.\n\nTest {lore}
 EventPerformRitual2.button1,Continuer
-EventStone2PerformRitual1.text,Vous entendez un bourdonnement provenir des pierres.\n\nVous pouvez cliquer sur le bouton Continuer\nseulement si vous avez l'objet {c:QItemCultSigil}\navec, soit l'objet {c:QItemJournal} ou soit l'objet {c:QItemCultJournal}.
 UIFinaleFlash1Text.uitext,Un éclair de lumière vous aveugle.\nVotre vision se trouble puis tout devient sombre...\n\nEn vous réveillant au milieu du cercle de pierres, vous ne vous souvenez ni des raisons de votre venue en ces lieux, ni des derniers évènements de cette nuit!\n\nVous fuyez, paniqué.
 UIFinaleFlash1Continue.button1,Continuer
 UIFinaleFlash1Continue.uitext,Continuer
 UIFinaleFlash2Text.uitext,Durant des mois, vous êtes envahi par des cauchemars qui commencent à chaque fois avec vous traversant un vieux pont couvert. Le temps passe puis ils deviennent de moins en moins fréquents.\n\nIls reviennent alors, pires qu'avant, quand vous entendez des rumeurs à propos de Druides se réunissant dans une forêt sombre et de la présence d'un Druide Noir en leur sein.\n\nVous avez un terrible sentiment de déjà-vu et d'une enquête avortée...\n\nFin
 UIFinaleFlash2Text.button1,Continuer
 EventPainting.button1,Continuer
+EventStone2PerformRitual1.text,Vous entendez un bourdonnement provenir des pierres.\n\nVous pouvez cliquer sur le bouton Continuer\nseulement si vous avez l'objet {c:QItemCultSigil} et l'objet {c:QItemJournal}.
+EventStone2PerformRitual1.button1,{action} Continuer
 EventStone2PerformRitual1.button2,Annuler
+EventStone2PerformRitual1BtT.text,Vous entendez un bourdonnement provenir des pierres.\n\nVous pouvez cliquer sur le bouton Continuer\nseulement si vous avez l'objet {c:QItemCultSigil} et l'objet {c:QItemCultJournal}.
+EventStone2PerformRitual1BtT.button1,{action} Continuer
+EventStone2PerformRitual1BtT.button2,Annuler
+EventSigilAboutSylvia.text,\nEn tenant le Sigil, votre esprit est moins brumeux.\nVous vous souvenez être venu à cet endroit avec Sylvia Marsh pour rencontrer Pete Barker et vous confronter au puissant et maléfique Druide Noir.\n
+EventSigilAboutSylvia.button1,Continuer
