@@ -1,4 +1,4 @@
-.,French
+﻿.,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,9 +43,9 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v3.1)
+quest.name,Dans les Ténèbres (v3.3)
 quest.description,- <i>Dans les Ténèbres</i> -\n\nUne aventure pour Les Demeures de l'Épouvante 2ème Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle de pierres.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Cette histoire est un mystère complexe à résoudre.\nVous devrez faire correspondre divers subtiles indices.\nIl est recommandé de parler avec tous les personnages.\nPrenez des notes et utilisez le journal pour régulièrement affiner vos déductions.\nUne feuille vierge de vérification nommée 'InTheDarkClueCribSheet.pdf' se trouve dans le répertoire du scénario, ou bien peut être téléchargée à l'adresse suivante : https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont considérées dans l'Obscurité.\n
-quest.authors,\nChief Designer: Nicola Zee\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
+quest.authors,\nDesigner: Nicola Zee\nChef Playtester: Jürgen Rudolph\n\n\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
 EventGraveSearch.button1,Continuer
 TokenPainting.text,Le tableau n'est soit pas terminé, ou abîmé, ou bien très abstrait.\nCela pourrait être le portrait d'une femme tenant un {c:QItemCultSigil}.\n\nSi vous tentez de résoudre l'énigme, vous avez le droit de convertir chacune des preuves en votre possession en étape supplémentaire.
@@ -309,7 +309,7 @@ QSTALLYBSURNAME,Colt
 QSTALLYCSURNAME,Gilman
 EventPlaceAllyAMore.text,<i>C'est un puissant et fantastique Sceau que vous avez là.\nPourquoi ne pas m'en faire don...,\net je vous sors de ce pétrin!</i>
 EventPlaceAllyAMore.button1,Continuer
-EventPlaceAllyA.text,Le vieux type aux cheveux grisonnants marche résolument vers le banc, sa main gauche posée, et le corps penché, sur une canne de marche.\n\nIl s'assoit sur le banc en bois tout gardant les deux mains sur sa canne.\n\nPlacez le jeton Personnage Allié Ammi Pierce.
+EventPlaceAllyA.text,\nLe vieux type aux cheveux blancs marche vers le banc, penché, mais fermement appuyé sur sa canne de marche avec sa main gauche.\n\nIl s'assoit sur le banc et pose sa canne à portée.\nDe sa main gauche, il sort une petite flasque de son blouson usé, puis boit une rapide lampée.\n\nPlacez le jeton Personnage Allié Ammi Pierce.\n
 EventPlaceAllyA.button1,Continuer
 EventPlacePorchTileTokens.text,Placez 1 jeton Exploration\net le ou les {var:countPorchSights} jeton(s) Vue comme indiqué.
 EventPlacePorchTileTokens.button1,Continuer
@@ -501,7 +501,7 @@ EventAllyBIsWarlock.text,<i>Le clan Colt a la réputation d'être introverti, da
 EventAllyBIsWarlock.button1,Continuer
 EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman était le père d'Othera Gilman.\nIl a eu une union secrète avec {qst:QSTMOTHERNAME}.\nIls ont acquis le puissant Sceau en tuant son propriétaire légitime – un vagabond qui se réclamait d'être le dernier véritable Druide Blanc.\nRien n'arrêtera {qst:QSTALLYCNAME} avant qu'elle n'ait le Sceau en sa possession.\nElle le convoite comme s'il était légitimement le sien.\nElle est plus vieille qu'elle n'y paraît.\nDurant son enfance elle est parvenue à invoquer le pouvoir de la Chèvre Noire pour artificiellement prolonger son existence.</i>\n\nRécupérez 2 jeton {clue}
 EventAllyCIsWarlock.button1,Continuer
-EventAllyDIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Jones, le père de Mrs {qst:QSTALLYDNAME}, était le père de Martha Beck.\nCela était tenu secret car {qst:QSTALLYDFIRSTNAME} était née d'une union conjugale.\nLe Sceau que vous avez, appartenait à {qst:QSTMOTHERNAME}, la mère de Martha et lui a été légué.\nElle l'a reçu à la mort de {qst:QSTFATHERFIRSTNAME}.\nIl l'a lui-même récupéré sur le corps d'un vagabon qui disait être le dernier des Druides Blancs.\n{qst:QSTALLYDFIRSTNAME} est plus vieille qu'elle n'y paraît.\nDurant son enfance elle est parvenue à invoquer le pouvoir de la Chèvre Noire pour artificiellement prolonger son existence.</i>\n\nRécupérez 2 jeton {clue}
+EventAllyDIsWarlock.text,<i>Peu savent que Corrina Jones est la demi-sœur de Martha Beck.\nSa mère, Bettina Beck, a pris le sceau à un clochard qui se disait être le dernier des vrais Druides Blancs.\nMartha a hérité du sceau après le suicide de Bettina.\nCorrina considère que le sceau lui revient légitimement.\n\nCorrina est plus âgée qu'elle n'y parait.\nDurant son enfance, elle a appris à maîtriser le pouvoir de la Chèvre Noire pour prolonger sa vie de manière inhabituelle.</i>\n\nRécupérez 2 jeton {clue}
 EventAllyDIsWarlock.button1,Continuer
 EventAlreadyTold.text,<i>Je vous ai déjà dit tout ce que je savais!</i>
 EventAlreadyTold.button1,Continuer
@@ -792,7 +792,7 @@ SpawnZombieDruid1.button1,Continuer
 SpawnZombieDruid2.text,Le corp se met à trembler pris de convulsions.\nLes corps se hissent hors des tombes!\n\nPlacez un Zombie comme indiqué.
 SpawnZombieDruid3.text,Le corp se met à trembler pris de convulsions.\nLes corps se hissent hors des tombes!\n\nPlacez un Thrall sur la case indiquée.
 SpawnZombieDruid3.button1,Continuer
-EventAllyMonologueGeneral.text,<i>Je ne sais pas ce qui est arrivé!\nUn maléfique et puissant Druide a du jeter une espèce de sort d'amnésie sur nous!\nJe me souviens d'une chose saisissant Martha et la trainant vers l'Est dans la forêt.\nSi vous me donnez le Sceau, j'utiliserai ses pouvoirs pour nous rendre la mémoire.\nOu bien patientez que le sort se dissipe et que je recouvre la mémoire.</i>
+EventAllyMonologueGeneral.text,<i>Je ne sais pas trop ce qu'il s'est passé!\nUn maléfique et puissant Druide Noir nous a jeté un sort d'amnésie!\nJe me souviens vaguement de quelque chose saisissant Martha et l'entrainant vers l'Est dans la forêt.\nSi vous me donnez le sceau, j'utiliserai son pouvoir pour nous redonner la mémoire.\n</i>
 EventAllyMonologueGeneral.button1,Continuer
 EventAllyAAboutBarker.text,<i>{qst:QSTNOVICENAME} s'est lui-même rendu impopulaire par son attitude et sa suspicion.</i>
 EventAllyAAboutBarker.button1,Continuer
@@ -909,3 +909,11 @@ EventStone2PerformRitual1BtT.button1,{action} Continuer
 EventStone2PerformRitual1BtT.button2,Annuler
 EventSigilAboutSylvia.text,\nEn tenant le Sigil, votre esprit est moins brumeux.\nVous vous souvenez être venu à cet endroit avec Sylvia Marsh pour rencontrer Pete Barker et vous confronter au puissant et maléfique Druide Noir.\n
 EventSigilAboutSylvia.button1,Continuer
+EventAllyHelpedSylviaA.text,<i>Je me souviens de Sylvia en train d'attraper le sceau puis fuir dans une crise de panique.\nElle a failli rentrer tête la première dans une pierre mais Ammi est parvenu à la stopper juste à temps.</i>
+EventAllyHelpedSylviaB.text,<i>Je me souviens de Sylvia en train d'attraper le sceau puis fuir dans une crise de panique.\nElle est tombée en bordure du cercle en pierre et s'est presque fracassée le crâne sur un rocher.\nEric l'a rattrapée puis aidée à se remettre sur pied.</i>
+EventAllyHelpedSylviaC.text,<i>Je me souviens de Sylvia en train d'attraper le sceau puis fuir dans une crise de panique.\nElle est tombée en bordure du cercle en pierre et s'est presque fracassée le crâne sur un rocher.\nOthera l'a rattrapée puis aidée à se relever.</i>
+EventAllyHelpedSylviaD.text,<i>Je me souviens de Sylvia en train d'attraper le sceau puis fuir dans une crise de panique.\nElle est tombée en bordure du cercle en pierre et s'est presque fracassée le crâne sur un rocher.\nCorrina l'a rattrapée puis aidée à se relever.</i>
+EventAllyHelpedSylviaA.button1,Continuer
+EventAllyHelpedSylviaB.button1,Continuer
+EventAllyHelpedSylviaC.button1,Continuer
+EventAllyHelpedSylviaD.button1,Continuer

@@ -342,9 +342,6 @@ Pete told me he believes these two about an evildoer in their midst because they
 [SigilNeedMoreA] and [SigilNeedMoreB]
 Add [SigilAboutSylvia] Event
 As you hold the sigil, your mind becomes less clouded and you remember coming to this place with Sylvia Marsh to meet Pete Barker and confront the evil powerful Dark Druid.
-
-\n\nTest ({lore}:1)\nIf you pass, gain 1 {clue}\n
-
 Add flag clueSigilAboutSylvia
 
 
@@ -358,10 +355,21 @@ Your bones crack as they visibly move under your skin and small drops of blood o
 \nSoon your cries become the bleating of an animal.\nYour last conscious sight is of your companions transforming into Goat Spawn.
 
 
+CHANGES DONE 15 (v3.3)
 
+1. Added to breadcrumb trail to Sylvia's info dump
+EventAllyE1MonologueEnd.text,\nSylvia Marsh is just about to say more when a crashing sound causes her to flee in panic.\nShe runs into the Covered Bridge.
 
+2. Rewrote text about Corrina being related to Martha 
+AllyDIsWarlock.text,\n<i>Few know Corrina Jones is the half-sister of Martha Beck.\nHer mother Bettina Beck took the sigil from a hobo who claimed to be the last of the true White Druids.\nMartha inherited the sigil after Bettina killed herself.\nCorrina regards the sigil as rightfully hers.\n\nCorrina is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
 
+3. Make it explicit that Ammi is left handed
+EventPlaceAllyA.text,The old white haired guy walks to the bench firmly leaning on his walking stick using his left hand.\n\nHe sits down on the bench and places his stick within reach.\nHe uses his left hand to get out a hip flask from his worn jacket pocket and takes a quick swig.\n\nPlace the Ammi Pierce Ally Token
 
+4. Removed reference to needing more time and added extra bit about which Druid helped Sylvia
+EventAllyMonologueGeneral.text,<i>I'm not certain what happened!\nAn evil powerful Dark Druid cast a kind of spell of forgetfulness on us!\nI remember something grabbing Martha and dragging her eastward into the forest.\nIf you give me the sigil I will use its powers to restore our memories.\n</i>
 
-
-
+EventAllyMonologueSylviaA.text,<i>I remember Sylvia picking up the sigil and fleeing.\nShe would have run head first into a stone but Ammi just managed to stop her in time.</i>\n\ngain 1 {clue}\n
+EventAllyMonologueSylviaB.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nEric caught her and helped her up to get up.</i>\n\ngain 1 {clue}\n
+EventAllyMonologueSylviaC.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nOthera caught her and helped her up to get up and escape.</i>\n\ngain 1 {clue}\n
+EventAllyMonologueSylviaD.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nCorrina caught her and helped her up to get up and escape.</i>\n\ngain 1 {clue}\n

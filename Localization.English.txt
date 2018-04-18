@@ -43,12 +43,12 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v3.1)
+quest.name,In the Dark (v3.3)
 quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
 quest.authors,\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
-TokenPainting.text,\nThe painting is either unfinished, damaged or asbtract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
+TokenPainting.text,\nThe painting is either unfinished, damaged or abstract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
 TokenPainting.button1,{action} Attempt Puzzle
 EventGraveSearchTrail1.text,\nCovered by bones and a thin layer of earth is a body of a young man.\nHis jacket has a label sewn into it: P. Barker.\nIn a sidepocket you find a small notepad.\nWater damage has erased most of the words written in pencil.  Only a few lines are legible.\n<i>\nMartha is being misled by the Dark Druid and the acolyte of the Dark Druid into believing the evil Dark Druid is the last of the powerful and good White Druids whose return was foretold.\nThe Dark Druid and the acolyte are convincing liars and it will take proof to persuade Martha one of the other Druids is the real White Druid.\nMartha has dismissed the fears of her friend because her friend has no real knowledge of Druidic lore.\n</i>\nThe young man died in the process of transforming into Goat Spawn.  Someone within the last few days performed a bizarre medical experiment.\n\nA trail of footsteps and drag marks in the fresh mud leads towards the Shack and the Porch.\n \nGain the {c:QItemForensicEvidence}\n\nGain 1 {clue}\n
 EventGraveSearchTrail1.button1,Continue
@@ -107,7 +107,7 @@ EventLetterResultMoreA.button1,Continue
 QSTALLYANAME,Ammi Pierce
 EventPendantSearchResult.text,You find a small pendant.\nIts chain is caught in the bush.\n\nGain the {c:QItemPendant}.\n\nTo the North there are massive hoof marks.\n
 EventPendantSearchResult.button1,Continue
-EventPendantSearch.text,You search the bush and find a large fragment of a ripped white cloth stained with blood.\n\nTest {observation}
+EventPendantSearch.text,You search the bush and find a fragment of a ripped white cloth stained with blood.\nMoonlight reflects off something small in the dense bush.\n\nTest {observation}
 EventPendantSearch.button1,Continue
 TokenPendant.text,For a brief moment moonlight reflects off something small in a dense bush.
 TokenPendant.button1,{action} Search
@@ -117,7 +117,7 @@ EventAllyBMonologue.text,<i>The others think I'm just a redneck but Colts have l
 EventAllyBMonologue.button1,Continue
 EventAllyDMonologue.text,<i>My artistic eye often enables me to spot things hidden to others!</i>
 EventAllyDMonologue.button1,Continue
-EventAllyAMonologue.text,<i>I've being around awhile and seen things you couldn't imagine... not in your worst nightmares! \nI ain't fooled easy but my eyesight ain't what it used to be.</i>
+EventAllyAMonologue.text,<i>I've seen things you couldn't imagine... not in your worst nightmares!\nI ain't fooled easy but my eyesight ain't what it used to be.</i>
 EventAllyAMonologue.button1,Continue
 EventAllyNotRole4.text,<i>Our order of druids is ancient and sworn to do no harm.\nThe Beltane Fire ceremony celebrates the coming of the new spring.\nPerhaps it went wrong because your friend picked up the sigil in the middle of the ritual.\nMaybe one of us got the words wrong.\nA demon was summoned from hell.\nIt grabbed Martha and dragged her into the forest to a gateway to hell!\nGive me the sigil!\n  I can banish the demon back from whence it came!\n</i>
 EventAllyNotRole4.button1,Continue
@@ -182,7 +182,7 @@ EventAllyE2AboutCult2.text,<i>\nA big source of friction was the learning of a n
 EventAllyE2AboutCult2.button1,Continue
 EventAllyE1Monologue4.text,<i>\nHere, take the sigil!\nThe runes have stopped glowing.\nOnce they glow again, return it to me.\nIt's worth inspecting it.\nMaybe one of the Druids can help.\n</i>\nGain the {c:QItemCultSigil} Item\n\nGain 1 {clue}\n\nYou may inspect this Item by clicking the 'Items' button\n
 EventAllyE1Monologue4.button1,Continue
-EventAllyE1MonologueEnd.text,A crashing sound causes Sylvia Marsh to run into the Covered Bridge.\n\nRemove the Orange Woman Ally Token\nPlace the Sylvia Marsh Ally Token on the space indicated\n
+EventAllyE1MonologueEnd.text,\nSylvia Marsh is just about to say more when a crashing sound causes her to flee in panic.\nShe runs into the Covered Bridge.\n\nRemove the Orange Woman Ally Token\nPlace the Sylvia Marsh Ally Token on the space indicated\n
 EventAllyE1MonologueEnd.button1,Continue
 EventAllyA1Monologue3.text,<i>\nBy the time we got here, things had gone to hell in a handbasket.\nA dense fog covered the area.\nOn the stone was the sigil with runes glowing red.\nI remember Martha with her flaming red hair held in place by a headband of ivy and mistletoe.\n She cried out the Green Man rules the forest.\n\nWe rushed in but we were too late.\nSomething huge emerged from the fog and dragged poor Martha Beck away!\n\nI guessed the sigil was important, grabbed it and ran!\nOne of the Druids helped me escape.\n</i>
 EventAllyA1Monologue3.button1,Continue
@@ -289,7 +289,7 @@ EventAllyDaboutAllyA.button1,Continue
 EventAllyBaboutAllyA.text,<i>{qst:QSTALLYAFIRSTNAME} is a crazy old coot.</i>
 EventAllyBaboutAllyA.button1,Continue
 QSTALLYASURNAME,Pierce
-TokenForestToOldOak.text,To the north, a huge ancient oak tree obscures the stars.\n\nThe forest branches and undergrowth impedes you.\nYou may only click Reveal if you are in the same space as this Sight Token
+TokenForestToOldOak.text,To the north, a huge ancient oak tree obscures the stars.\n\nThe forest branches and undergrowth impede you.\nYou may only click Reveal if you are in the same space as this Sight Token
 TokenForestToOldOak.button1,Reveal
 EventPlacePendant.text,A ray of pale moonlight reflects off something in a dense bush.\n\nPlace a Search Token as indicated.
 EventPlacePendant.button1,Continue
@@ -309,7 +309,7 @@ QSTALLYBSURNAME,Colt
 QSTALLYCSURNAME, Gilman
 EventPlaceAllyAMore.text,<i>That's a mighty powerful sigil you got there.\nHow about you give it me..,\nand I sort out this mess!</i>
 EventPlaceAllyAMore.button1,Continue
-EventPlaceAllyA.text,The old white haired guy walks to the bench firmly leaning on his walking stick using his left hand.\n\nHe sits back down on a wooden bench with his hands resting on the walking stick.\n\nPlace the Ammi Pierce Ally Token
+EventPlaceAllyA.text,The old white haired guy walks to the bench firmly leaning on his walking stick using his left hand.\n\nHe sits down on the bench and places his stick within reach.\nHe uses his left hand to get out a hip flask from his worn jacket pocket and takes a quick swig.\n\nPlace the Ammi Pierce Ally Token
 EventPlaceAllyA.button1,Continue
 EventPlacePorchTileTokens.text,Place 1 Explore Token\nand {var:countPorchSights} Sight Token(s)
 EventPlacePorchTileTokens.button1,Continue
@@ -340,7 +340,7 @@ EventShackDoorLocked3.text,You shout back,\n<i>We have found the sigil of the Dr
 EventShackDoorLocked3.button1,Continue
 TokenShackDoor.text,The Shack Door is shut.\n\nIf you are on the same space as this Token,\nyou may click the 'Continue' button.\n
 TokenShackDoor.button1,Continue
-EventShackDoorLocked1.text,\nThe door is locked.\nWhen you rattle it a woman cries out,\n<i>How can you hope to resist such diabolical power?\nYou are outsiders who know nothing about the history of  the Beck family and this place!\n</i>
+EventShackDoorLocked1.text,\nThe door is locked.\nWhen you rattle it a woman cries out,\n<i>How can you hope to resist such diabolical power?\nYou are outsiders who know nothing about the history of the Beck family and this place!\n</i>
 EventShackDoorLocked1.button1,Continue
 TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
 TokenShackToGraves.button1,Reveal
@@ -496,12 +496,12 @@ EventSigilReady.text,\nYou speak the words of power learnt from Bettina Beck's j
 EventSigilReadyNotRead.text,\nYou are unable to read the runes.\nMaybe one of the Druids can help?\n
 EventSigilReadyNotRead.button1,Continue
 EventAllyAIsWarlock.button1,Continue
-EventAllyAIsWarlock.text,<i>The Pierce and the Beck family have always been close.\nThere's gossip about deformities caused by inbreeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 1 {clue}
+EventAllyAIsWarlock.text,<i>The Pierce and the Beck families have always been close.\nThere's gossip about deformities caused by inbreeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 1 {clue}
 EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 1 {clue}\n
 EventAllyBIsWarlock.button1,Continue
 EventAllyCIsWarlock.text,\n<i>John Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with Bettina Beck.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\n\nOthera Gilman will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers!\nShe is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
 EventAllyCIsWarlock.button1,Continue
-EventAllyDIsWarlock.text,<i>John Jones, the father of Mrs Corrina Jones, was the father of Martha Beck.\nThis was kept hidden because Corrina was born out of wedlock.\nThe sigil you have was owned by Martha's mother Bettina Beck and passed onto Martha.\nShe obtained it after John died.\nHe obtained it from the body of a passing tramp who claimed to be the last of the White Druids.\n\nCorrina is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
+EventAllyDIsWarlock.text,\n<i>Few know Corrina Jones is the half-sister of Martha Beck.\nHer mother Bettina Beck took the sigil from a passing tramp who claimed to be the last of the true White Druids.\nMartha inherited the sigil after Bettina killed herself.\nCorrina regards the sigil as rightfully hers.\n\nCorrina is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
 EventAllyDIsWarlock.button1,Continue
 EventAlreadyTold.text,<i>I've already told you all I know!</i>
 EventAlreadyTold.button1,Continue
@@ -556,7 +556,7 @@ EventTentDismantle.button1,Continue
 EventPlaceTent.text,The campers left a canvas tent held up by a rope strung between two trees.\nNear the fire, the edge of the canvas is held down by the large log.\n\nPlace 1 Search Token
 EventTentDismantle.text,You dismantle the tent and coil up the rope.\n\nGain the {c:QItemRope} Item
 PuzzlePorchLock.button1,Unlock Door
-EventWhereIsDaggerNot2.text,<i>I remember seeing Martha being stabbed with the ritual dagger,\nMartha fell forwards onto the stone.\nI saw the bloody dagger drop onto the stone.\nWhen I next looked it had gone!\nMaybe Sylvia grabbed it when she picked up the sigil?’\n</i>\nGain 1 {clue}
+EventWhereIsDaggerNot2.text,<i>I remember seeing Martha being stabbed with the ritual dagger.\nMartha fell forwards onto the stone.\nI saw the bloody dagger drop onto the stone.\nWhen I next looked it had gone!\nMaybe Sylvia grabbed it when she picked up the sigil?’\n</i>\nGain 1 {clue}
 EventOakPass2B.text,Inside her coat pocket, you find a handwritten note.\n<i>\nBeware the Black Blood of the Goat!\nYour friend's magick is weak.\nI am the White Druid whose return was foretold.\nUs Colt family stick together.\nWe have passed down the lore from one generation to the next.\n</i>
 EventSpoilers.text,GENERAL HINTS\n\n1. Trust no one and take notes!\n2. Did you quickly obtain the Cult Sigil and frequently inspect it?\n3. Did you ask everyone what happened at the ritual?\n4. Randomly attacking suspects may lead to disaster.\n\nMAJOR SPOILERS FOLLOW\n\nThe scenario has ended.\nRead on only if you think the story does not make sense.\n\nPlease check the log to determine if the responses of each of the Allies matches their roles.\nAmmi Pierce is Role No. {var:RoleAllyA}\nEric Colt is Role No. {var:RoleAllyB}\nOthera Gilman is Role No. {var:RoleAllyC}\nCorrina Jones is Role No. {var:RoleAllyD}\n\nNo. 1 = The Dark Druid who is the child of Bettina Beck.\nNo. 2 = The Dark Druid's unreliable Acolyte.\nNo. 3 = The Friend of Martha and not a Dark Druid\nNo. 4 = The White Druid\na) Both No. 1 and No. 2 tend to lie.\nb) The Friend of Martha is not a powerful magic user.\n\nAt the start of each game, the roles are assigned randomly.\n
 EventSpoilers.button1,Continue
@@ -792,7 +792,7 @@ SpawnZombieDruid1.button1,Continue
 SpawnZombieDruid2.text,The body trembles as growths appear all over it.\nThe corpse clambers out of the grave!\n\nPlace a Zombie Monster as indicated
 SpawnZombieDruid3.text,The body trembles as growths appear all over it.\nThe corpse clambers out of the grave!\n\nPlace a Thrall Monster on the space indicated
 SpawnZombieDruid3.button1,Continue
-EventAllyMonologueGeneral.text,<i>But I'm not certain what happened!\nI suspect an evil powerful Dark Druid cast a kind of spell of forgetfulness on us!\nI remember something grabbing Martha and dragging her eastward into the forest.\nIf you give me the sigil I will use its powers to restore our memories.\nIf you don't, you will need to give me time for me to recover from the spell.\n</i>
+EventAllyMonologueGeneral.text,<i>I'm not certain what happened!\nAn evil powerful Dark Druid cast a spell of forgetfulness on us!\nI remember something grabbing Martha and dragging her eastward into the forest.\nIf you give me the sigil I will use its powers to restore our memories.\n</i>
 EventAllyMonologueGeneral.button1,Continue
 EventAllyAAboutBarker.text,<i>{qst:QSTNOVICENAME} made himself right unpopular with his attitude and suspicions.</i>
 EventAllyAAboutBarker.button1,Continue
@@ -909,3 +909,11 @@ EventStone2PerformRitual1BtT.button1,{action} Continue
 EventStone2PerformRitual1BtT.button2,Cancel
 EventSigilAboutSylvia.text,As you hold the sigil, your mind becomes less clouded.\nYou remember coming to this place with Sylvia Marsh to meet Pete Barker and confront the evil powerful Dark Druid.\n
 EventSigilAboutSylvia.button1,Continue
+EventAllyHelpedSylviaA.text,<i>I remember Sylvia grabbing the sigil and fleeing in panic.\nShe almost ran head first into a stone but Ammi just managed to stop her in time.</i>\n\nGain 1 {clue}\n
+EventAllyHelpedSylviaB.text,<i>I remember Sylvia grabbing the sigil and fleeing in panic.\nAt the edge of the stone circle, she fell and almost brained herself on a stone.\nEric caught her and helped her to her feet.</i>\n\nGain 1 {clue}\n
+EventAllyHelpedSylviaC.text,<i>I remember Sylvia grabbing the sigil and fleeing in panic.\nAt the edge of the stone circle, she fell and almost brained herself on a stone.\nOthera caught her and helped her to get up.</i>\n\nGain 1 {clue}\n
+EventAllyHelpedSylviaD.text,<i>I remember Sylvia grabbing the sigil and fleeing in panic.\nAt the edge of the stone circle, she fell and almost brained herself on a stone.\nCorrina caught her and helped her to get up.</i>\n\nGain 1 {clue}\n
+EventAllyHelpedSylviaA.button1,Continue
+EventAllyHelpedSylviaB.button1,Continue
+EventAllyHelpedSylviaC.button1,Continue
+EventAllyHelpedSylviaD.button1,Continue
