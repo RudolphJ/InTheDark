@@ -43,9 +43,9 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v3.3)
+quest.name,In the Dark (v3.4)
 quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
-quest.authors,\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n
+quest.authors,"\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\n"
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or abstract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
@@ -648,9 +648,9 @@ EventCrossFail.text,Something in the water grabs your leg!\nYou panic as you swa
 EventCrossFail.button1,Continue
 EventPlaceStoneFinale.button1,Continue
 EventGiveDagger.button2,Cancel
-EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant perfectly matches that of the {c:QItemCultSigil}.\nThe painter clearly knows the runes.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nGain 2 {clue}\n
+EventPaintingA.text,The painting is of a woman wearing a pendant.\nThe painting is signed <i>Corrina Jones.</i>\nThe round shape of the pendant and the markings on the pendant perfectly matches that of the {c:QItemCultSigil}.\nThe painter clearly knows the runes.\n\nBy carefully examining the slant of her signature and the direction of her brushstrokes you infer she is right handed.\n\nCorrina Jones sees you studying her painting.\n<i>I painted this after casting a spell conjuring up a vision from the distant past!</i>\n\nGain 2 {clue}\n
 EventPaintingA.button1,Continue
-EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n \nCorrina Jones did not paint the picture.\nShe is restoring the painting done by Bettina Beck.\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult and of the runes.\n\nBy carefully examining the slant of her recent brushstrokes you infer she is right handed.
+EventPaintingB.text,The painting is of a woman wearing the {c:QItemCultSigil} as a pendant.\nThe painting was originally signed <i>Bettina Beck</i>.\n\nCorrina Jones did not paint the picture.\nShe is restoring the painting done by Bettina Beck.\n\nShe has made a number of mistakes in her restoration which indicates she has limited knowledge of the occult and of the runes.\n\nBy carefully examining the slant of her recent brushstrokes you infer she is right handed.
 EventPaintingB.button1,Continue
 TokenCrate.button1,{action} Search
 EventPlaceCrate.text,A stack of crates is up against the wall.\n\nPlace a Search Token as indicated.

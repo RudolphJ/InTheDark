@@ -1,4 +1,4 @@
-﻿.,French
+.,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,9 +43,9 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v3.3)
+quest.name,Dans les Ténèbres (v3.4)
 quest.description,- <i>Dans les Ténèbres</i> -\n\nUne aventure pour Les Demeures de l'Épouvante 2ème Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle de pierres.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Cette histoire est un mystère complexe à résoudre.\nVous devrez faire correspondre divers subtiles indices.\nIl est recommandé de parler avec tous les personnages.\nPrenez des notes et utilisez le journal pour régulièrement affiner vos déductions.\nUne feuille vierge de vérification nommée 'InTheDarkClueCribSheet.pdf' se trouve dans le répertoire du scénario, ou bien peut être téléchargée à l'adresse suivante : https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont considérées dans l'Obscurité.\n
-quest.authors,\nDesigner: Nicola Zee\nChef Playtester: Jürgen Rudolph\n\n\n\nEnd Music: "I've not fear" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n
+quest.authors,"\nDesigner: Nicola Zee\nChef Playtester: Jürgen Rudolph\n\n\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n"
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
 EventGraveSearch.button1,Continuer
 TokenPainting.text,Le tableau n'est soit pas terminé, ou abîmé, ou bien très abstrait.\nCela pourrait être le portrait d'une femme tenant un {c:QItemCultSigil}.\n\nSi vous tentez de résoudre l'énigme, vous avez le droit de convertir chacune des preuves en votre possession en étape supplémentaire.
@@ -648,7 +648,7 @@ EventCrossFail.text,Une chose dans l'eau vous attrape la jambe!\nVous paniquez e
 EventCrossFail.button1,Continuer
 EventPlaceStoneFinale.button1,Continuer
 EventGiveDagger.button2,Annuler
-EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\nLe peintre connait clairement les runes.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nRécupérez 2 jetons {clue}\n
+EventPaintingA.text,La toile représente une femme portant un pendentif.\nElle est signée <i>Corrina Jones.</i>\nLa forme ronde du pendentif et les marques correspondent à celles du {c:QItemCultSigil}.\nLe peintre connait clairement les runes.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n\nCorrina Jones vous voit étudier sa peinture.\n<i>J'ai peint cela après avoir jeté un sort évoquant une vision du passé lointain!</i>\n\nRécupérez 2 jetons {clue}\n
 EventPaintingA.button1,Continuer
 EventPaintingB.text,La peinture représente une femme portant le {c:QItemCultSigil} en pendentif.\nElle a été initialement signée par <i>Bettina Beck</i>.\nMais Corrina a peint son nom par-dessus!\nElle n'a jamais peint ces œuvres!\nElle a rénové les toiles de Bettina Beck et a fait comme si c'était les siennes!\n\nElle a fait de nombreuses erreurs dans ses rénovations qui indiquent sa connaissance limitée de l'occulte.\n\nEn examinant minutieusement l'inclinaison de sa signature et la direction de son coup de pinceau, vous en déduisez qu'elle est droitière.\n
 EventPaintingB.button1,Continuer
