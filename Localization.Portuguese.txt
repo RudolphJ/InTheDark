@@ -1,0 +1,919 @@
+.,Portuguese
+UIIntroText.uitext,Figuras sombrias movendo-se em um denso nevoeiro, girando em torno de grandes pedras. \nEntão clarões de chamas, respingos de vermelho, gritos de pânico ... \n\nVocê acorda desorientado e atordoado para ver um círculo de pedra. \nOs últimos vestígios de névoa se dissipam. \n
+QSTMOTHERNAME,Bettina Beck
+QSTFATHERFIRSTNAME,John
+QSTALLYCNAME,Othera Gilman
+QSTALLYBNAME,Eric Colt
+QSTALLYDNAME,Corrina Jones
+QSTNOVICENAME,Pete Barker
+QSTNOVICESURNAME,Barker
+QSTPLACEDARKNESS,Coloque um Marcador de Escuridão na Delimitação indicada. \nTrate todos os espaços nesta Peça de Mapa como se eles contivessem um Marcador de Escuridão.
+QSTSPAWNDARKYOUNG,Das árvores irrompe uma criatura de tentáculos enormes e bocas salivantes. \n\nColoque um Monstro Filhote Sombrio no espaço indicado.
+TokenAllyA.text,Ammi Pierce
+TokenAllyA.button1,{action} <i> Eric Colt é um Druida Sombrio? </i>
+TokenAllyA.button2,{action} <i> Othera Gilman é uma Druida Sombria? </i>
+TokenAllyA.button3,{action} <i> Corrina Jones é uma Druida Sombria? </i>
+TokenAllyA.button4,{action} <i> Quando você viu pela última vez o Pete Barker? </i>
+TokenAllyA.button5,{action} <i> O que aconteceu no ritual? </i>
+TokenAllyA.button6,{action} <i> Você pode me falar sobre esse lugar? </i>
+TokenAllyA.button7,{action} Ataque Ammi Pierce
+TokenAllyA.button8,Mostrar o Selo do Culto
+TokenAllyB.text,Eric Colt
+TokenAllyB.button1,{action} <i> Ammi Pierce é um Druida Sombrio? </i>
+TokenAllyB.button2,{action} <i> Othera Gilman uma Druida Sombria? </i>
+TokenAllyB.button3,{action} <i> Corrina Jones é uma Druida Sombria? </i>
+TokenAllyB.button4,{action} <i> Quando você viu pela última vez o Pete Barker? </i>
+TokenAllyB.button5,{action} <i> O que aconteceu no ritual? </i>
+TokenAllyB.button6,{action} Ataque Eric Colt
+TokenAllyB.button7,Mostrar ao Eric Colt o Selo do Culto
+TokenAllyC.text,Othera Gilman
+TokenAllyC.button1,{action} <i> Ammi Pierce é um Druida Sombrio? </i>
+TokenAllyC.button2,{action} <i> Eric Colt é um Druida Sombrio? </i>
+TokenAllyC.button3,{action} <i> Corrina Jones é uma Druida Sombria? </i>
+TokenAllyC.button4,{action} <i> Quando você viu pela última vez o Pete Barker? </i>
+TokenAllyC.button5,{action} <i> O que aconteceu no ritual? </i>
+TokenAllyC.button6,{action} <i> Conte-me sobre a família Marsh </i>
+TokenAllyC.button7,{action} Ataque a Othera Gilman
+TokenAllyC.button8,Mostrar à Othera Gilman o Selo do Culto
+TokenAllyD.text,Corrina Jones
+TokenAllyD.button1,{action} <i> Ammi Pierce é um Druida Sombrio? </i>
+TokenAllyD.button2,{action} <i> Eric Colt é um Druida Sombrio? </i>
+TokenAllyD.button3,{action} <i> Othera Gilman uma Druida Sombria? </i>
+TokenAllyD.button4,{action} <i> Quando você viu pela última vez o Pete Barker? </i>
+TokenAllyD.button5,{action} <i> O que aconteceu no ritual? </i>
+TokenAllyD.button6,{action} Ataque a Corrina Jones
+TokenAllyD.button7,Mostrar à Corrina Jones o Selo do Culto
+quest.name,No Escuro (v3.5)
+quest.description,No Escuro \n\nUma aventura para Mansions of Madness 2a Edição. \nEste cenário requer a Expansão Memórias Reprimidas. \n\nOculto na clareira da floresta, o pálido luar ilumina um círculo de pedra. \nVocê será capaz de resolver o mistério das pedras? \n\nAviso: a história é um mistério desafiador. \nVocê precisará juntar pistas diversas e sutis. \nAconselha-se conversar com todos os personagens. \nFaça anotações e use o registro para verificar suas deduções. \nUma folha chamada 'InTheDarkClueCribSheet.pdf' pode ser encontrada na pasta do cenário ou baixada de \nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet \n\nNeste cenário, há uma regra especial relacionada a Marcadores de Escuridão. \nQuando um Marcador de Escuridão é colocado em uma Delimitação (linha branca ou amarela), todos os espaços dessa Peça de Mapa estão na Escuridão.
+quest.authors,"\nDesigner: Nicola Zee \nChief Playtester: Jürgen Rudolph \n\nEnd Music: ""I've not fear"" por Damiano Baldoni (Licença: CC BY 4.0) \nPintura de imagem por Ahlia77 (Licença CC BY-NC-ND 3.0) \nTradução para o francês: Indoy \nTradução para o português: Danielfrance \n"
+EventGraveSearch.text,Dentro do túmulo estão numerosos ossos de cabras deformadas. \nO solo foi recentemente remexido. \n\nTeste {observation}
+EventGraveSearch.button1,Continuar
+TokenPainting.text,\nA pintura está inacabada, danificada ou abstrata. \nPode ser um retrato de uma mulher segurando o {c:QItemCultSigil}. \n\nSe você tentar o quebra-cabeça, você ganha 1 passo extra de quebra-cabeça extra para cada Item de Evidência que possuir. \n
+TokenPainting.button1,{action} Tentar o Quebra-Cabeça
+EventGraveSearchTrail1.text,\nCoberto por ossos e uma fina camada de terra está o corpo de um jovem. \nO seu casaco tem uma etiqueta costurada: P. Barker. \nEm um bolso lateral, você encontra um pequeno bloco de anotações. \nA água apagou a maior parte do palavras escritas a lápis. Apenas algumas linhas são legíveis. \n\nMartha está sendo enganada pelo Druida Sombrio e seu assistente a acreditar que o Druida Sombrio é o último dos poderosos e bons Druidas Brancos, cujo retorno foi predito. \nO Druida Sombrio e seu assistente são mentirosos convincentes e serão necessárias provas para convencer Martha de que um dos outros druidas é o verdadeiro Druida Branco. \nMartha rejeitou os receios de seu amigo porque seu amigo não tem nenhum conhecimento real sobre a tradição Druídica. \n  \nO jovem morreu no processo de se transformar em uma Prole da Cabra. Alguém nos últimos dias realizou um experimento médico bizarro. \n\nUm rastro de pegadas e marcas de arrasto na lama fresca leva para o Shack e o Porch. \n\nObter o {c:QItemForensicEvidence} \n\nGanhe 1 {clue} \n
+EventGraveSearchTrail1.button1,Continuar
+EventGraveSearchTrail2.text,\nCoberto por ossos e uma fina camada de terra está o corpo de um jovem. \nO seu casaco tem uma etiqueta costurada: P. Barker. \nEm um bolso lateral, você encontra um pequeno bloco de anotações. \nA água apagou a maior parte as palavras escritas a lápis. Apenas algumas linhas são legíveis. \n\n<i>Martha está sendo enganada pelo Druida Sombrio e seu assistente a acreditar que o Druida Sombrio é o último dos poderosos e bons Druidas Brancos cujo retorno foi predito. O Druida Sombrio e o assistente são mentirosos convincentes e serão necessárias provas para convencer Martha de que um dos outros druidas é o verdadeiro Druida Branco. \nMartha rejeitou os medos de seu amigo porque seu amigo não tem nenhum conhecimento real sobre a tradição Druídica. \n </i> \nAlguém realizou um experimento médico bizarro com a vítima. \n\nOculto ao seu lado está um caixote de madeira contendo um bebê meio cabra e meio humano. \nRiscos de salitre no caixote indicam que o caixote foi armazenado no subsolo. \n\nObter a {c:QItemForensicEvidence} \n\nGanhar 1 {clue} \n
+EventGraveSearchTrail2.button1,Continuar
+TokenGrave.text,A sepultura contém pilhas de ossos de cabras deformadas
+TokenGrave.button1,{action} Explorar
+EventOak.text,Você pode clicar no botão Cancelar ou subir na árvore. \n\nSe você subir, determine qual de suas habilidades é a menor entre {observation} e {agility}. \nEntão teste a <b>menor</b> dessas skills. \n\nAdicione 1 dado extra se você tiver o item {c:QItemRope}. \n\nVocê passou no teste se obtiver um sucesso igual ou superior a 1.
+EventOak.button1,Passou
+EventOak.button2,Falhou
+EventOak.button3,Cancelar
+EventOakPass.text,\nVocê descobre os restos de uma mulher deitada em cima de um grande galho apontando para a direita. \nO corpo dela foi jogado no galho como uma boneca de pano quebrada e sangrando. \nO cabelo ruivo é amarrado para trás por uma faixa de visco e hera. \nVocê escala o galho. \n
+EventOakPass1.button1,Continuar
+EventOakPass2Up.button1,Continuar
+EventOakPass2A.text,Dentro do bolso do casaco dela, você encontra uma nota escrita à mão. \n<i>\nA magia do seu amigo não é nada comparada à minha! \nCuide com o Sangue Negro da Cabra! \nEsse pergaminho era de propriedade de Malachi Cooter Pierce. n Eu sou o Druida Branco cujo retorno foi predito. \nEste presente mostra que eu sou leal! \nAmmi \n </i>
+EventOakPass2A.button1,Continuar
+TokenOak.text,A mulher pendurada no laço desapareceu. \n\nHá algo branco nos galhos mais altos do gigantesco carvalho antigo.
+TokenOak.button1,{action} Pesquisar
+EventDrownedRescueFemale.text,\nEla grita, \n<i>A bruxa maligna está cheia de mentiras e enganos. \nEla nos persuadiu a assistir à dança! \nSeus feitiços são muitos e poderosos. \nMeus pensamentos estão obscurecidos e não consigo me lembrar o nome dela. \nNão há limite para seus poderes? \nAté mesmo agora eu ainda ouço em minha mente seus comandos! \n</i>\nEla foge aterrorizada. \n\nGanhe 1 {clue} \n
+EventDrownedRescueFemale.button1,Continuar
+EventDrownedRescueMale.text,Ela clama, \n <i> Cuidado com o feiticeiro! \nEle está cheio de mentiras e traições. \nEle nos convenceu a vir para assistir a dança! \nSeus feitiços são muitos e poderosos. \nOs meus pensamentos estão obscurecidps e não me lembro seu nome. \nAté agora eu ouço em minha mente seus comandos! \n </i> \nEla foge em terror. \n\nGanhe 1 {clue}
+EventDrownedRescueMale.button1,Continuar
+EventDrownedRescuePass.text,Ela diz, \n <i> Nós estávamos assistindo os druidas dançando. \nEu estava mais longe. </i> \n\nVocê ganhou uma pequena vitória contra o mal ... \n mesmo que a vitória seja temporária. \nVocê pode descartar 1 Horror com a face para baixo
+EventDrownedRescuePass.button1,Continuar
+TokenDrownedBody.text,Em uma rocha há uma jovem. \nO vestido floral está rasgado. \nAs pernas têm o formato das de uma cabra. \n
+TokenDrownedBody.button1,{action} Resgate a mulher
+TokenDrownedBody.button2,{action} Empurre a mulher para a corrente
+EventDrownedRescue.text,Você puxa a mulher meio afogada em sua direção. \nEla está perturbada e você tenta acalmá-la. \n\nVocê pode testar ({influence}: 2) ou ({lore}: 2). \n
+EventDrownedRescue.button1,Passou
+EventDrownedRescue.button2,Falhou
+EventPlacePainting.text,No canto, há uma pintura em que Corrina está trabalhando. \n\nColoque um Marcador de Procura como indicado.
+EventPlacePainting.button1,Continuar
+TokenCellarDoor.text,Através das tábuas rústicas, você vislumbra um porão abandonado e úmido, e alguém (ou alguma coisa) se movendo dentro dele. \n\nSe você está no mesmo espaço que este símbolo, \nvocê pode clicar no botão 'Continuar'.
+TokenCellarDoor.button1,Continuar
+EventCellarDoorLocked1.text,A escotilha está firmemente trancada por dentro. \n\nUma mulher grita, \n <i> Eu sigo as maneiras dos meus antepassados celtas. \nVocê serve a família Marsh! \nDigam-me vocês servos de Dagon, quem governa a floresta? \n </i>
+EventCellarDoorLocked1.button1,Continuar
+EventCellarDoorLocked2.text,Você tenta lembrar a mitologia celta. \n\nVocê pode clicar no botão Falhou \nou usar uma {action} para testar ({lore}, 1)
+EventCellarDoorLocked2.button1,Passou
+EventPlaceAllyC.text,Você grita de volta, \n <i> O Homem Verde da Floresta! </i> \nA escotilha é aberta. \n\nEla diz, \n <i> Bem-vindo, meu nome é Othera Gilman. </i> \n\nColoque o Marcador de Pessoa de Othera Gilman
+EventPlaceAllyC.button1,Continuar
+EventPlaceOperationTokens.text,A mesa tem um conjunto de tiras de couro. \nEla foi limpa, mas há vestígios de manchas de sangue antigas. \n\nNa tabela, há bandagens limpas. \n\nColoque um item {c:QItemBandages} no espaço indicado
+EventPlaceOperationTokens.button1,Continuar
+TokenToOperatingRoom.text,A porta leva mais para dentro da cabine.
+TokenToOperatingRoom.button1,{action} Explorar
+EventLetterResultMoreC.text,<i> Querida Martha, \n\nVocê tem muito respeito por seu parente, mas não tem medo de que ele seja um Druida Sombrio. \nEles têm problemas com a lei desde a infância. Eles podem estar conspirando para assumir a liderança! Apenas um verdadeiro praticante de Wicca de grande poder pode ser confiado com o poder do selo! Estou a par dos segredos da Ordem dos Druidas Brancos. \n\nSua amiga verdadeira \nOthera Gilman \n\nGanhe 1 {clue}
+EventLetterResultMoreC.button1,Continuar
+EventLetterResult.text,Dentro de uma das gavetas, você encontra uma carta escrita para Martha Beck.
+EventLetterResult.button1,Continuar
+EventLetterResultMoreD.text,<i> Querida Martha, \n\nVocê tem muito respeito por seu parente, mas seu irmão pode ser confiável? \nPode alguma pessoa com problemas com a lei desde a infância ter mudado tanto? \nSeu parente é um Druida Sombrio conspirando para assumir o controle do o grupo! \nSó a mim pode ser confiado o selo! \n\nDe sua verdadeira seguidora, \nCorrina Jones \n </i> \nGanhe 1 {clue}
+QSTALLYDFIRSTNAME,Corrina
+EventLetterResultMoreD.button1,Continuar
+TokenLetter.text,O gabinete contém várias gavetas.
+TokenLetter.button1,{action} Pesquisar
+EventLetterResultMoreA.text,<i> Martha Beck, Alta Sacerdotisa da Venerável Ordem dos Druidas \n\nComparado comigo, os outros Druidas sabem pouco! \nEu sou o último da Ordem dos Druidas Brancos. \nEu tenho revelado a você minha verdadeira magia poderosa. \nDê-me o Selo e eu vou mantê-lo seguro. \n\nDo seu e obediente seguidor, \nAmmi Pierce \n</i> \nGanhe 1 {clue}
+EventLetterResultMoreA.button1,Continuar
+QSTALLYANAME,Ammi Pierce
+EventPendantSearchResult.text,Você encontra um pequeno pingente. \nA corrente está presa no arbusto. \n\nObtenha o {c:QItemPendant}. \n\nPara o Norte existem marcas de cascos enormes. \n
+EventPendantSearchResult.button1,Continuar
+EventPendantSearch.text,Você vasculha o arbusto e encontra um fragmento de um pano branco rasgado e manchado de sangue. \nO luar reflete algo pequeno no denso arbusto. \n\nTeste {observation}
+EventPendantSearch.button1,Continuar
+TokenPendant.text,Por um breve momento, o luar reflete algo pequeno em um arbusto denso.
+TokenPendant.button1,{action} Pesquisar
+EventAllyCMonologue.text,<i> Eu sou uma bruxa branca de uma longa linhagem de mulheres sábias! \nEu sei de coisas que os outros ignoram! </i>
+EventAllyCMonologue.button1,Continuar
+EventAllyBMonologue.text,<i> Os outros pensam que eu sou apenas um caipira, mas Colts viveu por estas bandas por tanto tempo quanto se pode lembrar! </i> \n
+EventAllyBMonologue.button1,Continuar
+EventAllyDMonologue.text,<i> Meu olhar artístico muitas vezes me permite detectar coisas escondidas para os outros! </i>
+EventAllyDMonologue.button1,Continuar
+EventAllyAMonologue.text,<i> Eu vi coisas que você não poderia imaginar ... nem em seus piores pesadelos! \nNão sou facilmente enganado, mas minha visão não é o que costumava ser. </i>
+EventAllyAMonologue.button1,Continuar
+EventAllyNotRole4.text,<i> Nossa ordem de druidas é antiga e juramos não fazer mal. \nA cerimônia do Fogo de Beltane celebra a chegada da primavera. \nTalvez tenha dado errado porque seu amigo pegou o Selo no meio do ritual. \nTalvez um de nós entendeu errado. \nUm demônio foi convocado do inferno. \nEle pegou Martha e arrastou-a na floresta a um portal para o inferno! \nDê-me o Selo! \nEu posso banir o demônio para onde ele veio! \n </i>
+EventAllyNotRole4.button1,Continuar
+EventAllyNotRole3.text,\n <i> O ritual de Beltane celebra a chegada da Primavera com o acendimento de uma fogueira. \nEstamos com um Druida das Trevas maligno em nosso meio que mudou as palavras do ritual antigo. \nO servo de Shub-Niggurath realizou um pacto de sangue para nos transformar em Proles da Cabra! \nMartha foi tomada como um sacrifício de sangue por uma prole de Shub-Niggurath. \nEla foi arrastada para o leste na floresta. \nOs outros druidas são tolos ou mentirosos! </i> \n\nGanhe 1 {clue}
+EventAllyNotRole3.button1,Continuar
+EventAllyNotRole1.button1,Continuar
+EventLogCabinMonologue1.text,<i> A floresta e as pedras estavam aqui muito antes dos edifícios. <i> \nA mãe de Martha, Bettina Beck, comprou o terreno e mandou fazer as construções. \nEsta cabana de madeira não é muito, mas é mais sólida do que parece e as luzes funcionam! </i> </i>
+EventLogCabinMonologue1.button1,Continuar
+EventAllyNotRole1.text,<i> \nEu não estava junto à pedra do ritual quando Marta foi morta! \nLembro de ouvir um barulho estranho e alguém na pedra gritar, \nConfundir as mentes desses mortais tolos. \nDescrentes neste lugar sagrado se tornarão seus filhos! \n\n \nVocê tem um flashback de uma mulher sendo esfaqueada com um punhal ornamentado e caindo para a pedra de ritual. \nDuas figuras vestidas estão de pé ao lado dela. \nDuas figuras estão mais para trás e não estão perto de Martha.
+EventAllyNotRole1Again.text,<i> Eu não estava perto de Martha quando ela foi esfaqueada com a adaga e caiu sobre a pedra de ritual. \nEu estava muito longe para alcançá-la e você passou correndo por mim. \nVocê se lembra de dois druidas mais distantes dos outros. . </i>
+EventAllyNotRole1Again.button1,Continuar
+EventAllyNotRole1MoreD.text,As vestes brancas de uma das figuras mais para trás estavam manchadas de cores que poderiam ter sido manchas de tinta. \nA figura segurava um pincel na mão direita. \n\nGanhe 1 {clue} \n
+EventAllyNotRole1MoreD.button1,Continuar
+EventAllyNotRole1MoreC.text,Othera Gilman é baixa e a altura da figura que estava de volta ao ritual é consistente com a altura e a constituição dela. \n\nGanhe 1 {clue} \n
+EventAllyNotRole1MoreC.button1,Continuar
+EventAllyNotRole1MoreB.text,Você se lembra que uma das figuras em pé longe da pedra ritual era estranhamente alta e segurava uma garrafa de uísque. \n\nA altura corresponde à de Eric Colt. \n\nGanhe 1 {clue} \n
+EventAllyNotRole1MoreB.button1,Continuar
+EventAllyNotRole1MoreA.text,Você lembra que uma das figuras em pé estava inclinada com a mão esquerda sobre uma bengala. \n\nGanhe 1 {clue} \n
+EventAllyNotRole1MoreA.button1,Continuar
+EventAllyNotRole3Again.text,<i> \nO Druida Sombrio lançou a maldição do Sangue Negro da Cabra. \nHavia um grupo de garotas locais assistindo à cerimônia. Elas já foram afetadas pela maldição. \nO Selo usado na cerimônia é a chave para reverter o feitiço! \nIsso prova que eu sei do que estou falando! \nSe você não me der o Selo, seu destino será selado! </i> \n\nGanhe 1 {clue}
+EventAllyNotRole3Again.button1,Continuar
+QSTALLYENAME,Sylvia Marsh
+QSTALLYAFIRSTNAME,Ammi
+TokenAllyA2.text,{qst:QSTALLYANAME}
+TokenAllyA2.button1,{action} <i> Eric Colt é um Druida Sombrio? </i>
+TokenAllyA2.button2,{action} <i> Othera Gilman é uma Druida Sombria? </i>
+TokenAllyA2.button3,{action} <i> Corrina Jones é uma Druida Sombria? </i>
+TokenAllyA2.button4,{action} Dar Adaga para Ammi
+TokenAllyB2.text,{qst:QSTALLYBNAME}
+TokenAllyB2.button1,{action} <i> Ammi Pierce é um Druida Sombrio? </i>
+TokenAllyB2.button2,{action} <i> Othera Gilman é uma Druida Sombria? </i>
+TokenAllyB2.button3,{action} <i> Corrina Jones é uma Druida Sombria? </i>
+TokenAllyB2.button4,{action} Dar Dagger para Eric
+TokenAllyD2.text,{qst:QSTALLYDNAME}
+TokenAllyD2.button1,{action} <i> Ammi Pierce é um Druida Sombrio? </i>
+TokenAllyD2.button2,{action} <i> Eric Colt é um Druida Sombrio? </i>
+TokenAllyD2.button3,{action} <i> Othera Gilman é uma Druida Sombria? </i>
+TokenAllyD2.button4,{action} Dar Adaga para Corrina
+TokenAllyC2.text,{qst:QSTALLYCNAME}
+TokenAllyC2.button1,{action} <i> Ammi Pierce é um Druida Sombrio? </i>
+TokenAllyC2.button2,{action} <i> Eric Colt é um Druida Sombrio? </i>
+TokenAllyC2.button3,{action} <i> Corrina Jones é uma Druida Sombria? </i>
+TokenAllyC2.button4,{action} <i> Conte-me sobre a família Marsh </i>
+TokenAllyC2.button5,{action} Dar Adaga a Othera
+TokenJournal.text,O gabinete está cheio de papéis.
+TokenJournal.button1,{action} Pesquisar
+EventLogCabinMonologue2.text,<i> A cabana foi deixada vazia depois que a mãe de Martha se enforcou no grande carvalho na floresta! \nOs moradores dizem que Bettina era uma assassina, mas depois de seu suicídio o xerife encobriu as coisas por causa de seus filhos. \n\nHá um tempo atrás, Marta me disse que estava fazendo uma limpeza no lugar. \nUm parente teve problemas com a lei por toda a vida e precisou de um lugar para ficar. \nMartha se recusou a me contar mais. </i> \n\nGanhe 1 {clue}
+EventLogCabinMonologue2.button1,Continuar
+EventAllyE2AboutRitual2.text,<i> Eu me lembro de ouvir o seguinte canto pouco antes de os Filhotes Sombrios aparecerem e todos ficarem atordoados ... \n\nIa! I a! Shug-Niggarath! \nA Cabra Negra de Mil Filhotes! \nPegue o poder de Ord na Darach Gile. \nConfunda as mentes desses insensatos mortais. \nPor esta maldição, os incrédulos neste local sagrado se tornarão seus filhos! \n </i> \nGanhe 1 {clue}
+EventAllyE2AboutRitual2.button1,Continuar
+TokenAllyE2.text,{qst:QSTALLYENAME}
+TokenAllyE2.button1,{action} <i> O que você sabe sobre os druidas? </i>
+TokenAllyE2.button2,{action} <i> O que aconteceu no ritual? </i>
+TokenAllyE2.button3,{action} Atacar Sylvia Marsh
+TokenAllyE2.button4,{action} Diga a ela o que você sabe sobre o Ritual
+TokenAllyE2.button5,Dê o Selo do Culto a Sylvia Marsh
+EventAllyE2AboutRitual1.text,<i> Não há muito que eu possa lhe dizer. \nEu não tenho certeza do que vi no nevoeiro e na escuridão. \nOs druidas estavam usando as mesmas vestes brancas e estavam se movendo durante a dança. \n\nQuando a Martha gritou, dois druidas estavam perto dela. Os outros estavam mais para trás. Havia também um grupo de garotas locais assistindo à cerimônia, mas quando o caos começou, elas correram para a floresta. </i>
+EventAllyE2AboutRitual1.button1,Continuar
+EventAllyE2AboutCult1.text,<i> Os moradores dizem que os druidas não são maus. \nEles fazem trabalhos de caridade e ajudam no orfanato local. \nHá até rumores de que a ordem contém o último dos Druidas Brancos que eram conhecidos como curandeiros de grande poder. \n\nEsta manhã encontrei Pete Barker aqui. \nEle disse que o grupo provavelmente se separaria depois desta noite porque dois temiam que um poderoso Druida Sombrio se infiltrou na ordem! \nPete me disse que ele estava convencido de que eles era confiáveis e prestativos. \n\nPete estava fazendo um bom progresso com suas investigações. Ele me disse que havia descoberto que, mesmo na infância, o Druida Sombrio era um mentiroso e tinha problemas com a lei. \n\nPete alegou que o Druida Sombrio está treinando outro para se tornar um assistente da Cabra Negra. \n </i>
+EventAllyE2AboutCult1.button1,Continuar
+EventAllyE2AboutCult2.text,<i> \nUma grande fonte de desacordo foi o aprendizado de uma nova versão do ritual de Beltane. \nPor muitos anos, no final de abril, os druidas realizaram o mesmo ritual com o acendimento de uma fogueira e uma canção para vinda da primavera. \nRepentinamente, Marta insistiu que aprendessem uma cerimônia mais complexa. \n </i>
+EventAllyE2AboutCult2.button1,Continuar
+EventAllyE1Monologue4.text,<i> \nAqui, pegue o Selo! \nAs runas pararam de brilhar. \nQuando elas brilharem novamente, devolva para mim. \nVale a pena inspecionar. \nTalvez um dos Druidas possa ajudar. \n </i> \nGanhe o item {c:QItemCultSigil} \n\nGanhe 1 {clue} \n\nVocê pode inspecionar este item clicando no botão 'Itens' \n
+EventAllyE1Monologue4.button1,Continuar
+EventAllyE1MonologueEnd.text,\nSylvia Marsh está prestes a dizer mais, quando um barulho faz com que ela fuja em pânico. \nEla corre para a Ponte Coberta. \n\nRemova o Marcador de Personagem Mulher Laranja \nColoque o Marcador de Aliado Sylvia Marsh no espaço indicado \n
+EventAllyE1MonologueEnd.button1,Continuar
+EventAllyA1Monologue3.text,<i> Ao chegarmos aqui, as coisas viraram um total desastre. \nUm denso nevoeiro cobriu a área. \nNa pedra estava o Selo com as runas brilhando em vermelho. \nLembro-me de Martha com seu cabelo vermelho flamejante preso no lugar por uma faixa de hera e visco. \nEla gritou que o Homem Verde governa a floresta. \n\nEntramos correndo, mas foi tarde demais. \nAlguma coisa enorme emergiu da neblina e arrastou a pobre Martha Beck embora! \n\nEu imaginei que o Selo era importante, peguei-o e corri! \nUm dos druidas me ajudou a escapar. \n </i>
+EventAllyA1Monologue3.button1,Continuar
+EventAllyE1Monologue2.text,<i> \nNa véspera de maio eles realizam o ritual celta Beltane e acendem uma fogueira para celebrar a chegada da primavera. \nOs habitantes locais consideram-nos estranhos, mas bons! \nTalvez a maioria deles seja boa, mas um deles é um Druida Sombrio e um poderoso conjurador de feitiços! \n\n {qst:QSTNOVICENAME} concordou em nos encontrar hoje à noite com prova de quem é o Druida Sombrio, mas ele nunca apareceu. \n </i>
+EventAllyE1Monologue2.button1,Continuar
+EventAllyE1Monologue1.text,\n <i> Você não reconhece sua amiga, Sylvia Marsh. \nVocê não se lembra de mim ajudando você a investigar os Druidas? \nEu ganhei a confiança e amizade do Eric Colt e com ele aprendi sobre os outros. \n\nAmmi Pierce é um velhote estranho. \nOthera Gilman se proclama uma poderosa bruxa. \nCorrina Jones é uma pintora de vanguarda. \n {qst:QSTNOVICENAME} é um jovem recruta recente. \nMartha Beck é sua não tão popular Alta Sacerdotisa. </i> \n
+EventAllyE1Monologue1.button1,Continuar
+TokenAllyE1.text,Uma mulher grita seu nome.
+TokenAllyE1.button1,{action} <i> Quem é você? </i>
+EventAllyAaboutAllyD.text,<i> A arte dela é macabra - do horrível e do tabu. \nDiga onde ela consegue as ideias para seu trabalho? </i>
+EventAllyAaboutAllyD.button1,Continuar
+EventAllyAaboutAllyC.text,<i> {qst:QSTALLYCNAME} é uma bruxa autoproclamada e ela está orgulhosa de ter vindo de uma longa linhagem de bruxas. </i>
+EventAllyAaboutAllyC.button1,Continuar
+EventAllyAaboutAllyB.text,<i> Eric Colt é um caipira  - \ncomo o resto do notório clã Colt! </i>
+EventAllyAaboutAllyB.button1,Continuar
+EventAllyAaboutAllyBTrue.button1,Continuar
+EventAboutAllyB.button1,Button1
+EventAllyBIsEnemy.text,<i> Eric Colt é um Druida Sombrio! </i>
+EventAllyBIsEnemy.button1,Continuar
+EventGoatHairResult.text,Você encontra um tufo de longos cabelos louros. \n\n Leves marcas de cascos de cabra levam a Leste, mais fundo na densa floresta. \n\nQuando segura o cabelo, você se lembra de uma menina com longos cabelos loiros em um  vestido floral parada nos limites do círculo de pedras. Ela está cercada por seus amigos que assistem a dança. Eles começam a gritar e rasgar seus rostos, cabelos e roupas. Em um frenesi maluco, eles correm para a floresta. \nDentro das árvores, os gritos se tornam semelhantes a animais, até soarem como o grosseiro balido das cabras. \n\nGanhe 2 {clue} \n\nGanhe o Item {c:QItemCircumstantial}
+EventGoatHairResult.button1,Continuar
+TokenGoatHair.text,Um grande fragmento de pano foi pego nos arbustos.
+TokenGoatHair.button1,{action} Pesquisar
+EventGoatHair.text,O fragmento de pano é branco com margaridas amarelas. \n\nTeste {observation} \n
+EventGoatHair.button1,Continuar
+EventSigil.text,O Selo é um artefato mágico antigo \n dos druidas.
+EventSigil.button1,Continuar
+EventSigilInspect.text,Se o seu Investigador possui o item {c:QItemCultSigil}, você pode (a qualquer momento durante o seu turno) clicar no botão 'Inspecionar o Selo'.
+EventSigilInspect.button1,Inspecione o Selo
+EventSigilInspect.button2,Cancelar
+EventSigilReady.button1,Continuar
+EventSigilNeedMoreA.text,\nNão há sinais de runas vermelhas brilhantes no {c:QItemCultSigil}. \nVocê não aprendeu o suficiente para dominar seus poderes, mas é possível usar alguns de seus efeitos restaurativos. \n\nVocê pode usar uma {action} para testar ({lore}: 2) \nSe você passar, um investigador pode descartar uma Condição Atordoado ou Mesmerized. \n
+EventSigilNeedMoreA.button1,Continuar
+EventSigilNeedMoreB.text,\nNão há sinais de runas vermelhas brilhantes no {c:QItemCultSigil}. \nVocê não aprendeu o suficiente para dominar todos os seus poderes, mas é capaz de usar alguns de seus efeitos transformadores e restauradores. \n\nVocê pode usar ums {action} para testar ({lore}: 2) \nSe você passar, um Investigador pode descartar uma Condição Atordoado ou Mesmerised. \n\nSe um Monstro Prole da da Cabra estiver ao alcance, você pode usar uma {action} para persuadir a pessoa a fugir da floresta; teste ({influence}:2). \nSe você passar, você pode descartar uma {clue} para derrotar o monstro. \n
+EventSigilNeedMoreB.button1,Continuar
+EventPlaceRitualSite.text,Coloque a Peça de Mapa quadrada {c:TileRitual} \n
+EventPlaceRitualSite.button1,Continuar
+EventAttackAsk.button1,Continuar com seu Ataque
+TokenCampFire.text,O fogo do acampamento está queimando lentamente. \nHá um grande tronco cortado ao lado do fogo.
+TokenCampFire.button1,{action} Adicione o tronco ao fogo
+EventFireInteract.text,É preciso esforço para derrubar o tronco no fogo. \nUma vez que ele estiver em chamas, você poderá improvisar uma tocha. \n\nColoque o item {c:QItemTorch} no espaço indicado.
+EventFireInteract.button1,Continuar
+EventFireInteractSpread1.text,O fogo escaldante fica fora de controle e incendeia o acampamento. \n\nColoque um Marcador de Fogo neste espaço \n
+EventFireInteractSpread1.button1,Continuar
+EventFireInteractSpread2.text,Nuvens de fumaça preta rodeiam o acampamento. \n\n {qst:QSTPLACEDARKNESS}
+EventFireInteractSpread2.button1,Continuar
+EventPlaceDrownedBody.text,Um corpo está em uma pedra que sai da margem do rio.
+EventPlaceDrownedBody.button1,Continuar
+QSTRESTRICTSIGHT,Na escuridão você não pode enxergar longe. \nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenDrownedBody.button3,Cancelar
+EventDrownedKill.text,Você empurra a mulher para a correnteza. A mulher se debate enquanto lentamente se afoga. É perturbador e digno de pena. \n\nSofra um Horror
+EventDrownedKill.button1,Continuar
+EventCaveDoorLocked1.text,Enquanto você sacode a porta, um homem grita: \n <i> Você está perdendo seu tempo! \nFaça o que fizer, esta porta vai aguentar! \nOs Colts aprenderam a não confiar em estranhos. \n </i>
+EventCaveDoorLocked1.button1,Continuar
+EventCaveDoorLocked2.text,Você grita de volta \n <i> Mr Colt! Sylvia Marsh me enviou! </i> \n\nVocê pode clicar no botão 'Falha' \n or usar uma {action} para testar ({influence}, 1)
+EventCaveDoorLocked2.button1,Passou
+TokenPorchDoor.text,"\nAtravés de uma pequena grade na porta, você vê que ela está parafusada por dentro. \nUma grande cadeira de balanço está apoiada contra a porta e um homem idoso está sentado em um banco. \n\nSe você estiver no mesmo espaço que este marcador, \nvocê pode clicar no botão ""Continuar"". \n"
+TokenPorchDoor.button1,Continuar
+EventPorchDoorLocked1.text,Você grita através da grade, \n <i> Deixe-me entrar! </i> \n\nO homem velho grita de volta em uma voz frágil, \n <i> Vá embora! \nAs pessoas da região não têm nenhuma razão para confiar em um monte de vigaristas da cidade! \nMostre-me uma prova de que posso confiar em você! </i>
+EventPorchDoorLocked1.button1,Continuar
+EventPorchDoorLocked2.text,Se você tem o item {c:QItemCultSigil}, você pode usar uma {action} para sacá-lo e segurá-lo na grade da porta.
+EventPorchDoorLocked2.button1,{action} Segure o Selo do Culto contra a grade
+EventPorchDoorLocked2.button2,Cancelar
+TokenCaveDoor.text,Alguém removeu a hera que crescia na entrada da caverna. \nA porta de madeira parece velha, mas sólida. \n\nSe você estiver no mesmo espaço que este Marcador, \nvocê pode clicar no botão 'Continuar'. \n
+TokenCaveDoor.button1,Continuar
+EventPlaceAllyE1.text,Uma mulher acena e chama o seu nome. \nEla parece vagamente familiar. \n\nColoque o Marcador de Pessoa Aliada Mulher Laranja no espaço indicado.
+EventPlaceAllyE1.button1,Continuar
+EventPlaceBridgeTileTokens.text,Coloque {var:countBridgeSights} Marcador(es) de Avistamento
+EventPlaceBridgeTileTokens.button1,Continuar
+TokenCampToBridge.text,A luz da fogueira do acampamento ilumina uma ponte coberta. \n\nVocê pode clicar em Revelar se estiver em qualquer espaço na Peça de Mapa {c:TileCamp}
+TokenCampToBridge.button1,Revelar
+EventPlaceBridgeTile.text,Uma ponte de madeira cobre o rio. \nA água brilha no luar esmaecido. \n\nColoque a Peça de Mapa {c:TileBridge} \n\n {qst:QSTPLACEDARKNESS}
+EventPlaceBridgeTile.button1,Continuar
+EventPlaceCampFire.text,A pequena fogueira do acampamento está começando a queimar. \n\nColoque 1 Marcador de Interação neste espaço \n
+EventPlaceCampFire.button1,Continuar
+TokenBridgeToCamp.text,Você pode ver um leve brilho de luz nessa direção. \n\n {qst:QSTRESTRICTSIGHT}
+TokenBridgeToCamp.button1,Revelar
+EventPlaceCampTile.text,A luz de uma pequena fogueira ilumina o acampamento. \n\nColoque a Peça de Mapa {c:TileCamp} \n
+EventPlaceCampTile.button1,Continuar
+EventPlaceCampTileTokens.text,Coloque {var:countCampSights} Marcador(es) de Avistamento. \n
+EventPlaceCampTileTokens.button1,Continuar
+TokenTent.text,A tenda é sustentada por uma corda. \n
+TokenTent.button1,{action} Pesquisar
+EventTentSearch.text,Dentro da tenda não há nada de interesse, mas a tenda é sustentada por uma corda.
+EventTentSearch.button1,Continuar
+EventPlaceTent.button1,Continuar
+TokenCaveEntranceToCamp.text,Na escuridão, você vê um brilho de luz muito fraco. \n Você só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenCaveEntranceToCamp.button1,Revelar
+TokenSolution.text,AllyA é {var:RoleAllyA} \nAllyB é {var:RoleAllyB} \nAllyC é {var:RoleAllyC} \nAllyD é {var:RoleAllyD} \nAllyA Lie é {var:RoleAllyALie} \nAllyB Lie é {var:RoleAllyBLie} \nAllyC Lie é {var:RoleAllyCLie} \nAllyD Lie é {var:RoleAllyDLie} \ncountSigil = {var:countSigil} \nWhoHasDagger = {var:WhoHasDagger} \nHeroes = {var:#heroes}
+TokenSolution.button1,Teste
+EventPlaceAllyBMore.text,Ao lado da porta há um pedaço de madeira. \n\nColoque o Item {c:QItem2x4} no espaço indicado
+EventPlaceAllyBMore.button1,Continuar
+EventPlaceAllyB.text,O homem grande está segurando em sua mão direita uma tocha. \nEle parece estar ligeiramente bêbado. \nEle cumprimenta você calorosamente, \n <i> Qualquer amigo de Sylvia é meu amigo! </i> \n\nColoque o Marcador de Pessoa Eric Colt no espaço indicado
+EventPlaceAllyB.button1,Continuar
+EventPlaceCaveTile.text,Eric Colt deixa você entrar na caverna, \n\nColoque a Peça de Mapa {c:TileCave} \n\nColoque 2 Marcadores de Parede
+EventPlaceCaveTile.button1,Continuar
+EventAllyCaboutAllyD.text,<i> \nAs pinturas de Corrina revelam uma mente perturbada. \nSe você não acredita em mim, confira suas pinturas aqui e no barraco! \nEla usa o barraco como um estúdio e para armazenar o trabalho que ela chama de moderno demais para o público em geral. \n </i>
+EventAllyCaboutAllyD.button1,Continuar
+QSTALLYDSURNAME,Jones
+EventAllyCaboutAllyA.text,<i> Aquele velho {qst:QSTALLYASURNAME} sabe muito mais do que ele parece! \nO seu bisavô Malachi era um famoso alquimista! </i>
+EventAllyCaboutAllyA.button1,Continuar
+EventAllyDaboutAllyA.text,<i> O  velho {qst:QSTALLYASURNAME} tem um passado sombrio sobre o qual ele nunca fala. Os moradores têm medo dele porque pensam que ele é um alquimista como seu avô e seu avô antes dele! </i>
+EventAllyDaboutAllyA.button1,Continuar
+EventAllyBaboutAllyA.text,<i> {qst:QSTALLYAFIRSTNAME} é um velho pateta e louco. </i>
+EventAllyBaboutAllyA.button1,Continuar
+QSTALLYASURNAME,Pierce
+TokenForestToOldOak.text,Ao norte, um enorme carvalho antigo obscurece as estrelas. \n\nOs ramos da floresta e vegetação rasteira o impedem. \nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento
+TokenForestToOldOak.button1,Revelar
+EventPlacePendant.text,Um pálido raio de luz da lua reflete algo em um arbusto denso. \n\nColoque um Marcador de Procura como indicado.
+EventPlacePendant.button1,Continuar
+EventPlaceGoatHair.text,Há um fragmento de pano agarrado nos arbustos. \n\nColoque um Marcador de Procura como indicado.
+EventPlaceGoatHair.button1,Continuar
+TokenCaveEntranceToForest.text,Na escuridão você não pode ver ao longe. \nNesta direção, a lua pálida é parcialmente obscurecida pelos galhos das árvores altas. \n\nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenCaveEntranceToForest.button1,Revelar
+EventPlaceForestTile.text,Você vê uma floresta densa com muitos carvalhos antigos. \n\nColoque a Peça de Mapa {c:TileForest} \n\n {qst:QSTPLACEDARKNESS}
+EventPlaceForestTile.button1,Continuar
+EventOakPass2Down.button1,Continuar
+EventOakPass2B.button1,Continuar
+EventOakPass2C.text,Dentro do bolso do casaco, você encontra uma nota manuscrita. <i>\n\nSomente um verdadeiro praticante de wicca pode ajudá-lo! \nCuidado com o Sangue Negro da Cabra! \nA magia de seu amigo é fraca demais para ajudá-lo. \nEu sou o Druida Branco cujo retorno foi predito. \nEste presente mostra que eu sou leal! \n </i>
+EventOakPass2C.button1,Continuar
+EventOakFail.text,A subida começa fácil, mas à medida que você sobe, os galhos se tornam menos resistentes. \nSubitamente, um galho cede e você cai. \n\nSofra 1 Dano
+EventOakFail.button1,Continuar
+QSTALLYBSURNAME,Colt
+QSTALLYCSURNAME,Gilman
+EventPlaceAllyAMore.text,<i> É um selo poderoso esse que você tem. \nQue tal se você der isso, \ne eu resolvo essa bagunça! </i>
+EventPlaceAllyAMore.button1,Continuar
+EventPlaceAllyA.text,O velho de cabelos brancos caminha até o banco firmemente apoiado em sua bengala usando a mão esquerda. \n\nEle se senta no banco e deixa a bengala próxima. \nEle usa a mão esquerda para tirar um frasco do bolso de casaco desgastado e toma um gole rápido. \n\nColoque o Marcador de Pessoa Ammi Pierce
+EventPlaceAllyA.button1,Continuar
+EventPlacePorchTileTokens.text,Coloque 1 Marcador de Exploração\ne {var:countPorchSights} Marcador(es) de Avistamento
+EventPlacePorchTileTokens.button1,Continuar
+EventPlacePorchTile.text,Há uma varanda que leva a uma cabana de madeira. \n\nColoque a Peça de Mapa {c:TilePorch} \n
+EventPlacePorchTile.button1,Continuar
+TokenRitualToPorch.text,Você pode ver um leve brilho nessa direção. \n\nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenRitualToPorch.button1,Revelar
+EventCellarTileTokens.text,Coloque 1 Marcador de Exploração e \n {var:countCellarSights} Marcador(es) de Avistamento.
+EventCellarTileTokens.button1,Continuar
+EventPlaceCellarTile.text,A luz fraca está vindo do norte e por entre as lacunas de um alçapão de madeira apodrecida que leva a uma Adega. \n\nColoque a Peça de Mapa {c:TileCellar} \n
+EventPlaceCellarTile.button1,Continuar
+TokenRitualToCellar.text,Na escuridão, você não consegue enxergar longe. \n\nVocê só pode clicar em Revelar se estiver no mesmo espaço que este marcador de Avistamento.
+TokenRitualToCellar.button1,Revelar
+EventInitRoles.button1,Button1
+TokenRitualToBridge.button1,Revelar
+TokenRitualToBridge.text,Na escuridão, você não consegue enxergar longe. \n\nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+EventPlaceShackTile.button1,Continuar
+EventPlaceShackTile.text,Você vê uma cabana abandonada. Lâmpadas esmaecidas ligadas na cabana iluminam a área ao redor. \n\nColoque a Peça de Mapa {c:TileShack}\n
+EventPlaceShackTileTokens.text,\nColoque 1 Marcador de Exploração \ne {var:countShackSights} Marcador(es) de Avistamento
+EventPlaceShackTileTokens.button1,Continuar
+TokenPorchToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenPorchToShack.button1,Revelar
+EventPlaceAllyD.text,Ela abre a porta e deixa você entrar. \n\nColoque o Marcador de Pessoa Corrina Jones
+EventPlaceAllyD.button1,Continuar
+EventShackDoorLocked2.text,Você diz a ela o que descobriu. \nVocê tenta convencê-la de que pode ajudar, mas ela se recusa a abrir a porta. \n
+EventShackDoorLocked2.button1,Continuar
+EventShackDoorLocked3.text,Você grita de volta, \n <i> Encontramos o Selo dos Druidas e o diário de Bettina Beck. </i> \n\nVocê pode tentar persuadi-la a ajudar. \n\nVocê pode clicar imediatamente em 'Continuar' \n ou use uma {action} para testar {influence}, insira os sucessos e clique em 'Continuar'
+EventShackDoorLocked3.button1,Continuar
+TokenShackDoor.text,A porta da cabana está fechada. \n\nSe você estiver no mesmo espaço que este Marcador, \n você pode clicar no botão 'Continuar'. \n
+TokenShackDoor.button1,Continuar
+EventShackDoorLocked1.text,\nA porta está trancada. \nQuando você sacode a porta, uma mulher grita, \n <i> Como você pode esperar resistir a esse poder diabólico? \nVocê é de fora e não sabe nada sobre a história da família Beck e sobre este lugar! <i>
+EventShackDoorLocked1.button1,Continuar
+TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToGraves.button1,Revelar
+EventPlacePorchTokens.text,Você segura o {c:QItemCultSigil} contra a grade. O velho abre a porta. \n\nOutra porta do outro lado da varanda leva mais para dentro da cabana. \n\nColoque 1 Marcador de Exploração
+EventPlacePorchTokens.button1,Continuar
+EventPlaceLetter.text,Um gabinete grande está encostado na parede. \n\nColoque 1 Marcador de Procura conforme indicado.
+EventPlaceLetter.button1,Continuar
+TokenPorchToObservation.text,A porta está trancada com um cadeado de combinações de dígitos. \nO cadeado é muito resistente para se abrir com força, mas você pode ouvir o clique das ganchetas.
+TokenPorchToObservation.button1,{action} Arrombar o Cadeado
+EventPlaceObservationTile.text,Do lado de fora, a cabana de madeira parece podre e abandonada, mas a parte de dentro é limpa e bem iluminada. \n\nColoque a Peça de Mapa {c:TileObservation}
+EventPlaceObservationTile.button1,Continuar
+EventPlaceObservationTokens.text,Uma porta leva mais adiante na cabana. \n\nColoque 1 Marcador de Exploração e 1 Marcador de Parede.
+EventPlaceObservationTokens.button1,Continuar
+EventAllyAIsFriend.text,<i> Mas o velho Pierce não é um Druida Sombrio! </i>
+EventAllyAIsFriend.button1,Continuar
+EventAllyBaboutAllyC.text,<i> {qst:QSTALLYCNAME} tem o orgulho de se chamar de bruxa e se vangloria de que ela sabe mais sobre o ocultismo do que qualquer um de nós! </i>
+EventAllyBaboutAllyC.button1,Continuar
+EventAboutAllyC.button1,Button1
+EventAllyCIsEnemy.text,<i> Othera Gilman é uma Druida Sombria! </i> \n
+EventAllyCIsEnemy.button1,Continuar
+EventAllyCIsFriend.text,<i> Mas Othera Gilman não é uma Druid Maligna! </i>
+EventAllyCIsFriend.button1,Continuar
+EventAllyBaboutAllyATrue.button1,Continuar
+EventAboutAllyA.button1,Button1
+EventAllyAIsEnemy.text,<i> {qst:QSTALLYANAME} é um Druida Sombrio! </i>
+EventAllyAIsEnemy.button1,Continuar
+EventAllyDaboutAllyC.text,<i> Othera Gilman é uma bruxa de uma longa linhagem de bruxas e ela não gosta de contar isso para todo mundo! \nEla está tão cheia de si! </i>
+EventAllyDaboutAllyC.button1,Continuar
+QSTALLYBFIRSTNAME,Eric
+EventAllyBIsFriend.text,<i> Mas {qst:QSTALLYBFIRSTNAME} não é um Druida Sombrio! </i>
+EventAllyBIsFriend.button1,Continuar
+EventAllyDaboutAllyB.text,Eric serviu na Grande Guerra e, quando voltou, nunca mais foi o mesmo! Ele desenvolveu gosto pelo uísque e pela violência. Era como se ele quisesse vingar-se do mundo inteiro!
+EventAllyDaboutAllyB.button1,Continuar
+EventAllyCaboutAllyB.text,<i> {qst:QSTALLYBNAME} sofre de apagões e ataques de violência! </i>
+EventAllyCaboutAllyB.button1,Continuar
+EventAllyDIsEnemy.text,<i> {qst:QSTALLYDNAME} é um Druida Sombrio! </i>
+EventAllyDIsEnemy.button1,Continuar
+EventAboutAllyD.button1,Continuar
+EventAllyDIsFriend.text,<i> Mas, {qst:QSTALLYDNAME} não é um Druida Sombrio! </i>
+EventAllyDIsFriend.button1,Continuar
+EventAllyAaboutAllyCTrue.button1,Button1
+EventAllyBaboutAllyD.text,<i> {qst:QSTALLYDNAME} é um cigano despreocupado - desdenhoso com os moradores, que o consideram não muito melhor que um vagabundo. </i>
+EventAllyBaboutAllyD.button1,Continuar
+EventAllyBaboutAllyAFalse.button1,Continuar
+EventAllyBaboutAllyARandom.button1,Continuar
+EventAboutAllyATrue.button1,Button1
+EventStart.button1,Standard Mode
+EventTalkAboutAllyC.button1,Continuar
+EventAboutAllyDFalse.button1,Button1
+QSTALLYCFIRSTNAME,Othera
+QSTALLYESURNAME,Marsh
+QSTALLYEFIRSTNAME,Sylvia
+EventMoveIn.text,Você pode se mover 1 espaço para este espaço
+EventMoveIn.button1,Continuar
+EventDarkYoungRetreat.text,\nO monstro se move 1 espaço para Leste. \nSe não puder se mover para um espaço adjacente a Leste, ele irá mover para um espaço adjacente a Sul. \nNota: ele nunca pode se mover através de uma linha tracejada amarela. \n\nO monstro se moveu ao menos um espaço? \n
+EventDarkYoungRetreat.button1,Sim, o monstro se moveu pelo menos um espaço
+EventDarkYoungRetreat.button2,Não, não se moveu nem um espaço
+EventDarkYoungRetreatMoveAgain.text,O monstro se move para um espaço a Leste.
+EventDarkYoungRetreatMoveAgain.button1,Continuar
+EventDarkYoungAttack2.text,A criatura se contorce, golpeando seus enormes tentáculos contra você. \n\nSofra {var:SufferDamage} Dano ({strength} +1 para Negar).
+EventDarkYoungAttack2.button1,Continuar
+EventDarkYoungAttack1.text,A criatura tenta pegar você com seus enormes tentáculos. \n\n Teste ({agility}; 1)
+EventDarkYoungAttack1.button1,Passou
+EventDarkYoungMove2.text,\nO Monstro Filhote Sombrio se move 2 espaços em direção ao Investigador mais próximo. \n\nEle não pode se mover para um espaço interno. \n\nPara cada espaço em que ele se move, todos os Investigadores (e todos os Monstros que não podem Agir ou Voar) sofrem 2 de Danos. {agility} para Negar \n
+EventDarkYoungMove2.button1,Continuar
+EventDarkYoungMove1.text,\nO Monstro Filhote Sombrio se move até 1 espaço para o espaço mais próximo com um Investigador. \nNão pode se mover para um espaço interno \n\nDepois de ter movido, ele está no mesmo espaço que um Investigador? \n
+EventDarkYoungMove1.button1,Sim, existe um investigador no seu espaço
+EventDarkYoungMove1.button2,Nenhum investigador em seu espaço
+EventCheckDarkYoungSpawn.button1,Button1
+SpawnDarkYoung1.button1,Continuar
+EventDarkYoungVanishes.text,O monstro desaparece na floresta. Você ainda pode ouvi-lo derrubando árvores. \n\nRemova o Monstro Filhote Sombrio do Tabuleiro de Jogo
+EventDarkYoungVanishes.button1,Continuar
+CustomMonsterDarkYoung.monstername,Filhote Sombrio
+CustomMonsterDarkYoung.info,-
+EventPlaceGravesTile.text,\nColoque a Peça de Mapa {c:TileGraves} \n\nA luz fraca de uma vela cintila. \n\n {qst:QSTPLACEDARKNESS}
+EventPlaceGravesTile.button1,Continuar
+EventPlaceGraveToken.button1,Continuar
+EventAllyAaboutAllyBFalse.button1,Button1
+EventPlaceOldOakTile.text,Um grande e antigo carvalho se ergue sobre você. \nColoque a Peça de Mapa {c:TileOldOak}. \n\n {qst:QSTPLACEDARKNESS}
+EventPlaceOldOakTile.button1,Continuar
+EventPlaceCaveEntrance.text,Para o leste há uma densa floresta escura coberta de mato. \nUm bando de corvos voa para a noite. \n\nA nordeste, há uma entrada de caverna. \n\nColoque a Peça de Mapa {c:TileCaveEntrance} \n\nColoque um Marcador de Escuridão na Delimitação indicada. \nTrate todos os espaços nesta Peça de Mapa como se eles contivessem um Marcador de Escuridão.
+EventPlaceCaveEntrance.button1,Continuar
+EventSurnameAllyA.text,{qst:QSTALLYASURNAME}
+EventSurnameAllyA.button1,Continuar
+TokenCampToCaveEntrance.text,Na escuridão, você não consegue enxergar longe. \n\nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenCampToCaveEntrance.button1,Revelar
+EventBridgeToCamp.button1,Continuar
+TokenShackToPorch.text,Na penumbra não é possível enxergar longe. \nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenShackToPorch.button1,Continuar
+EventPlaceCaveEntranceTokens.text,Coloque 1 Marcador de Exploração e \n {var:countCaveSights} Marcador(es) de Avistamento. \n
+EventPlaceCaveEntranceTokens.button1,Continuar
+TokenBridgeToRapids.text,Na escuridão você não pode enxergar longe. \nVocê só pode clicar em Revelar se estiver no mesmo espaço que este Marcador de Avistamento.
+TokenBridgeToRapids.button1,Revelar
+TokenCellarToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenCellarToShack.button1,Revelar
+TokenShackToCellar.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToCellar.button1,Continuar
+EventPorchToShack.button1,Continuar
+TokenCellarWall1.button1,Continuar
+EventShuffleRoles.button1,Button1
+EventAllyAaboutAllyCRandom.button1,Button1
+EventAllyBAboutAllyCRandom.button1,Button1
+EventAllyAaboutAllyBRandom.button1,Button1
+EventAboutAllyBTrue.button1,Button1
+EventAboutAllyBFalse.button1,Button1
+EventAboutAllyCFalse.button1,Continuar
+EventAboutAllyAFalse.button1,Button1
+EventAboutAllyCTrue.button1,Button1
+EventAboutAllyDTrue.button1,Button1
+EventAllyAaboutAllyCFalse.button1,Button1
+EventTalkAboutAllyD.button1,Continuar
+EventLetterResultUp.button1,Continuar
+EventLetterResultDown.button1,Continuar
+EventGiveSigilToFriend1.text,O Druida lê as runas cuidadosamente e diz: \n <i> Estas runas parecem familiares. \nDurante o ritual, vi um {c:QItemDagger} inscrito com runas semelhantes. \nAs runas na adaga são a chave para reverter o feitiço. </i> \n
+EventGiveSigilToFriend2A.button1,Continuar
+EventGiveSigilToFriend1.button1,Continuar
+EventGiveSigilToFriend2A.text,Ammi Pierce se levanta e diz: \n <i> Mantenha o Selo seguro. \nQuando você tiver o punhal, traga-o para mim! \nVocê pode apressar-se e invocar os poderes das pedras você mesmo ... \nmas você seria um idiota ou desesperado para tentar! \n </i>
+EventGiveSigilToRole1.text,"O olhar do druida é hipnotizante e o druida clama, \n <i> Entregue-me o Selo! \nEu ordeno! diz: ""Eu sou o filho da Alta Sacerdotisa dos Druidas Malignos - Bettina Beck! \nAgora, finalmente, eu posso cumprir seu legado e completar a bênção do sangue da Cabra Negra! </i> n"
+EventGiveSigilToRole1.button1,Continuar
+EventGiveSigilToRole2.text,O druida diz, <i> \nVocê foi sábio para não dar isso ao tolo indigno que não conseguiu completar o ritual! \n\nO Druida faz um movimento complexo de mãos. \nAs runas no Selo brilham mais intensamente. \n Uma névoa venenosa preenche esta sala. \n\nTodos os investigadores na sala sofrem {var:sufferDamage} Dano ({strength} para Negar)
+EventGiveSigilToRole2.button1,Continuar
+EventGiveSigilInactive.text,O Druida olha para o {c:QItemCultSigil} e diz: \n <i> Isto é a chave para desfazer o que foi feito. </i> \n\nO Druida faz um movimento complexo com a mão sobre ele. \nApós alguns momentos , o Druida diz: \n <i> Sinto muito! \nAté compreendermos melhor, o contra-feitiço não pode ser lançado! </i> \n
+EventGiveSigilInactive.button1,Continuar
+EventGiveSigilToFriend2B.text,Eric Colt diz: \n <i> Mantenha o Selo seguro. \nQuando você tiver o punhal, traga-o para mim! \nVocê pode simplesmente me ignorar e invocar as pedras sozinho ... \nmas você não é um Druida! \n </i>
+EventGiveSigilToFriend2C.text,Othera diz, \n <i> Mantenha o Selo seguro. \nQuando você tiver o punhal, traga-o para mim! \nVocê pode invocar o poder das pedras antigas sem mim, mas você não é versado no conhecimento da floresta! </i>
+EventGiveSigilToFriend2D.text,Corrina Jones diz: \n <i> Mantenha o Selo seguro. \nQuando você tiver o punhal, traga-o para mim! \nVocê pode tentar remover a maldição sozinho, mas isso seria imprudente. \nSomente um Druida conhece os segredos das pedras! </i>
+EventGiveSigilToFriend2B.button1,Continuar
+EventGiveSigilToFriend2C.button1,Continuar
+EventGiveSigilToFriend2D.button1,Continuar
+EventGiveSigilAsk.button1,{action} Continuar
+EventGiveSigilConfirmed.button1,Continuar
+EventGiveSigilAsk.text,Um dos Druidas pode ser um poderoso Druida Sombrio. \nTem certeza de que deseja continuar? \n\nVocê deve clicar no botão 'Cancelar' \nse seu Investigador não possuir o item {c:QItemCultSigil}
+EventGiveSigilConfirmed.text,Você mostra ao druida o item mágico e conta o que descobriu
+EventGiveSigilAsk.button2,Cancelar
+EventGiveDagger.button1,Continuar
+EventGiveDaggerNotFound.text,O Druida olha o item e diz: \n <i> Este não é o {c:QItemDagger} e o devolve! </i>
+EventGiveDaggerNotFound.button1,Continuar
+EventGiveDaggerFound.text,O Druida pega o {c:QItemDagger} \ne examina cuidadosamente as runas inscritas em seu cabo.
+EventGiveDaggerFound.button1,Continuar
+EventGiveDagger.text,"Você só pode clicar no botão ""Continuar"", se tiver o Item {c:QItemDagger}"
+EventGiveDaggerNovice.text,O druida diz: \n <i> Agora eu reconheço estas runas! \nÉ a língua perdida há muito tempo do Ord na Darach Gile. \nEu pensei que eles tivessem morrido há muito tempo. \nSó um Druida Branco de grande poder pode ler corretamente estas runas! \n </i>
+EventGiveDaggerNovice.button1,Continuar
+EventAttackAsk.text,{qst:QSTALLYENAME} disse a você que um dos druidas pode estar disposto a ajudar, \n\nTem certeza de que deseja continuar com seu ataque?
+EventAttackConfirmedA.button1,Continuar
+EventAttackAsk.button2,Cancelar seu ataque
+EventAllyE2AboutCultC.text,<i> Eu ficaria de olho em {qst:QSTALLYCNAME}. \nOs moradores locais a temem! \nEla tem a reputação de ser uma bruxa poderosa! \nEla até se vangloria disso! \nEla pode ter o conhecimento para lançar feitiços poderosos. </i> \n\nGanhe 1 {clue}
+EventAllyE2AboutCultC.button1,Continuar
+EventAllyE2AboutCultD.text,<i> Eu ficaria de olho em {qst:QSTALLYDNAME}. \nOs moradores locais a temem! \nEla tem a reputação de conhecer segredos arcanos! \nEla pode ter o conhecimento necessário para lançar magias poderosas. </i> \n\nGanhe 1 {clue}
+EventAllyE2AboutCultD.button1,Continuar
+EventPlaceOak.text,\nOs galhos de um velho carvalho gigante se elevam sobre você. \n\nColoque 1 Marcador de Procura no espaço indicado \n\nEm um galho enorme saindo da árvore, o corpo de uma mulher está em um laço. \nSeus cabelos ruivos e brilhantes se movem como se fossem soprados por um vento forte - exceto que não há vento. \n Seu pescoço está quebrado, mas ela grita! \n <i> Você voltou para mim finalmente? </i> Teste ({will}, 1) \nSe falhar, sofra 1 Horror \n
+EventPlaceOak.button1,Continuar
+EventSigilReady.text,\nVocê fala as palavras de poder aprendidas no diário de Bettina Beck. As runas vermelhas aparecem no Selo. \nAs runas pertencem à linguagem perdida da antiga ordem dos Druidas Brancos. \n\nVocê pode usar uma {action} para testar ({lore}: 1) \nSe você passar, um Investigador pode descartar uma Condição Atordoado, Preso ou Hipnotizado, ou você pode descartar 1 Dano virados para baixo. \n\nSe um Monstro Filho da Cabra ou Prole da Cabra estiver ao alcance, você pode usar uma ação para persuadir a pessoa a fugir da floresta; teste ({influence}: 2). \nSe você passar, você pode descartar uma {clue} para derrotar o monstro. \n
+EventSigilReadyNotRead.text,\nVocê não consegue ler as runas. \nTalvez um dos Druidas possa ajudar? \n
+EventSigilReadyNotRead.button1,Continuar
+EventAllyAIsWarlock.button1,Continuar
+EventAllyAIsWarlock.text,<i> As famílias Pierce e Beck sempre foram próximas. \nHá fofocas sobre deformidades causadas por endogamia! \nBettina Beck herdou o Selo. Foi uma herança de família transmitida através de gerações do notório alquimista Malachi Cooter Pierce. \nMas o Selo do Culto não era originalmente de propriedade de Malachi. Ele obteve isso matando um poderoso Druida Branco e usando seu poder para o mal ao invés do bem. \n\n </i> Ganhe 1 {clue}
+EventAllyBIsWarlock.text,<i> O clã Colt tem a reputação de ser insular, perigoso e violento. \nEric é o filho ilegítimo de um caso secreto ilícito entre {qst:QSTFATHERFIRSTNAME} Colt e {qst:QSTMOTHERNAME}. \nO {c:QItemCultSigil} foi dado a Bettina por {qst:QSTFATHERFIRSTNAME} Colt mas ele não era seu verdadeiro dono. Originalmente era de um vagabundo que afirmava ser o último dos verdadeiros druidas e que era popular por suas habilidades de cura. Quando o vagabundo desapareceu, o xerife fez perguntas, mas os moradores locais estavam com tanto medo dos Colts que ninguém estava disposto a testemunhar contra eles. \n </i> \nGanhe 1 {clue} \n
+EventAllyBIsWarlock.button1,Continuar
+EventAllyCIsWarlock.text,\n <i> John Gilman era o pai de Othera Gilman. \nEle teve um caso secreto com Bettina Beck. Eles obtiveram o poderoso Selo matando seu dono original - um vagabundo de passagem que alegou ser o último dos verdadeiros Druidas  Brancos. \n\nOthera Gilman não vai parar até conseguir ganhar a posse do Selo. \nEla o considera legitimamente dela! \nEla é mais velha do que parece. \nNa sua infância, ela aprendeu a usar o poder da Cabra Negra para prolongar sua vida anormalmente. </i> \n\nGanhe 2 {clue} \n
+EventAllyCIsWarlock.button1,Continuar
+EventAllyDIsWarlock.text,\n <i> Poucos sabem que Corrina Jones é a meia-irmã de Martha Beck. \nSua mãe Bettina Beck levou o Selo de um vagabundo de passagem que reivindicou ser o último dos verdadeiros Druidas Brancos. \nMartha herdou o Selo depois que Bettina se matou \nCorrina considera o Selo como legítimo dela. \n\nCorrina é mais velha do que parece. \nNa infância, ela aprendeu a usar o poder da Cabra Preta para prolongar sua vida anormalmente. </i> \n\nGanhe 2 {clue} \n
+EventAllyDIsWarlock.button1,Continuar
+EventAlreadyTold.text,<i> Eu já te disse tudo o que sei! </i>
+EventAlreadyTold.button1,Continuar
+EventAttackAllyE.button1,Continuar
+EventDarkYoungMove.button1,Sim, há um investigador ao ar livre ao alcance
+EventDarkYoungAttack.button1,Button1
+SpawnPriestOfDagon.text,Sylvia Marsh grita, \n <i> Você é um tolo! Você não conhece o poder de Dagon! </i> \n\nSubstitua o Marcador de Pessoa de Sylvia Marsh \npelo Monstro Sacerdote de Dagon
+SpawnPriestOfDagon.button1,Continuar
+EventPriestOfDagonDefeated.text,Quando o Sacerdote de Dagon for morto, \nela soltará o {c:QItemDagger} no chão. \n\nColoque o item {c:QItemDagger} no espaço onde o Monstro  Sacerdote de Dagon foi derrotado \n\nTrate o {c : QItemDagger} como um Item Especial \n
+EventPriestOfDagonDefeated.button1,Continuar
+SpawnDruidA.button1,Continuar
+EventAttackConfirmedA.text,Para um cara tão velho, Ammi Pierce é surpreendentemente rápido. \nEle ergue sua bengala e apaga a luz. \n\nColoque um marcador de Escuridão na Delimitação indicada. \nTrate todos os espaços nesta Peça de Mapa como se eles contivessem um Símbolo da Escuridão. . \n\nRemova o Marcador de Pessoa de {qst:QSTALLYANAME}
+SpawnDruidB.text,Ele corre de volta para a caverna. \n\nRemova o Marcador de Pessoa de {qst:QSTALLYBNAME} \nFaça aparecer um Monstro Cultista no espaço indicado \n
+SpawnDruidB.button1,Continuar
+SpawnDruidA.text,Ele foge para a cabana de madeira. \n\nRemova o Marcador de Pessoa {qst:QSTALLYANAME}. \n Faça aparecer um Monstro Cultista no espaço indicado. \n
+SpawnDruidC.text,Ela volta para o porão. \n\nRemova o Marcador de Pessoa {qst:QSTALLYCNAME} \n Faça aparecer um Monstro Cultista no espaço indicado \n
+SpawnWizard1.text,O Druida Sombrio move-se com velocidade inumana em direção à Pedra Ritual. \nFaça aparecer o Monstro Druida Sombrio no espaço indicado
+SpawnWizard1.button1,Continuar
+SpawnWizard2.button1,Continuar
+SpawnWizard2.text,O Druida Sombrio move-se com uma velocidade inumana em direção à Pedra Ritual. \n\nFaça aparecer o Monstro Druida Sombrio no espaço indicado
+EventAttackConfirmedB.text,Para um cara tão grande, Eric Colt se move rapidamente. \nEle joga sua tocha na água. \n\nColoque um marcador de Escuridão na Delimitação indicada. \nTrate todos os espaços nesta Peça de Mapa como se eles contivessem um marcador de Escuridão. \n\nRemova o Marcador de Pessoa {qst:QSTALLYBNAME}
+EventAttackConfirmedB.button1,Continuar
+EventAttackConfirmedC.text,Othera Gilman lança um feitiço que momentaneamente cega você com um lampejo de luz. \n\nRemova o Marcador de Pessoa {qst:QSTALLYCNAME}
+EventAttackConfirmedC.button1,Continuar
+EventAttackConfirmedD.text,Corrina Jones lança um feitiço que momentaneamente cega você com um lampejo de luz. \n\nRemova o Marcador de Pessoa {qst:QSTALLYDNAME}
+EventAttackConfirmedD.button1,Continuar
+SpawnDruidD.text,Ela corre para fora do barraco. \n\nRemova o Marcador de Pessoa {qst:QSTALLYDNAME} \n Faça aparecer um Monstro Cultista no espaço indicado \n
+SpawnDruidD.button1,Continuar
+SpawnDruidC.button1,Continuar
+EventAttackWhiteDruid.text,O druida diz, \n <i> Então, vocês escolheram servir o Druida Sombrio! \nIdiotas! \nO Druida Sombrio já os traiu! \nAssim que eu partir, você logo irá sucumbir à maldição do Sangue da Cabra Negra. \n\n \nCom isso o Druida Branco desaparece. \nVocê cai no chão em agonia enquanto sua pele, músculos e ossos começam a se transformar. \n
+EventAttackWhiteDruid.button1,Continuar
+EventAllyBEnemyMore.button1,Continuar
+EventAllyBEnemyMore.text,<i> Eric tem um temperamento forte e muitas vezes tinha discussões exaltadas com Martha! </i>
+EventAllyAIsEnemyMore.text,<i> O velho {qst:QSTALLYASURNAME} considerava-se como o líder por causa da idade e muitas vezes desafiava a autoridade de Martha. </i>
+EventAllyAIsEnemyMore.button1,Continuar
+EventAllyCIsEnemyMore.button1,Continuar
+EventAllyCIsEnemyMore.text,<i>{qst:QSTALLYCNAME} falou mal de Martha pelas costas e afirmou que ela deveria liderar o grupo. </i>
+EventAllyDIsEnemyMore.text,<i> {qst:QSTALLYDNAME} estava magoada com algum erro do passado que ela achava que Martha tinha feito e que a amargura se transformou em ódio. </i>
+EventAllyDIsEnemyMore.button1,Continuar
+EventGiveSigilToRole2More.text,O druida agarra o Selo mas ele fica vermelho e o Druida o deixa cair. \n\nColoque o item {c:QItemCultSigil} no seu espaço \n
+EventGiveSigilToRole2More.button1,Continuar
+EventDarkDruidDefeatedA.text,O Druida Sombrio cai no chão. \n\nNo corpo você encontra um {c:QItemDagger}. \n\nColoque o Item {c:QItemDagger} \n no último espaço em que o Monstro Druida Sombrio estava. \n\nTrate o {c:QItemDagger} como um Item Especial.
+EventDarkDruidDefeatedA.button1,Continuar
+EventDarkDruidDefeatedB.text,O Druida Sombrio cai no chão. \n\nNo corpo você, encontra uma página rasgada de um tomo antigo. \nNotas anotadas na margem descrevem como um poderoso Druida Sombrio pode voltar à vida ao possuir o corpo de um ancestral adequado!
+EventDarkDruidDefeatedB.button1,Continuar
+EventDarkDruidDefeatedC.text,O Druida Sombrio cai no chão. \n\nNo corpo você, encontra uma nota rabiscada às pressas. \n <i> Fique de olho em {qst:QSTNOVICENAME}! \nEle é um espião que serve a Dagon! </i>
+EventDarkDruidDefeatedC.button1,Continuar
+EventPlaceRitualSiteTokens.button1,Continuar
+EventPlaceInvestigators.text,{rnd:hero} tem uma vaga lembrança de cantos e \nestranhas voltas dançando ao redor das pedras ... \ne algo enorme emergindo do nevoeiro! \n\nColoque as miniaturas dos Investigadores \nTodos os investigadores recebem a Condição de Atordoado \n {rnd:hero} ganha 1 {clue}
+EventPlaceInvestigators.button1,Continuar
+EventTentDismantle.button1,Continuar
+EventPlaceTent.text,Os campistas deixaram uma tenda de lona presa por uma corda amarrada entre duas árvores. \n Perto do fogo, a borda da tela é pressionada pela grande tora. \n
+EventTentDismantle.text,Você desmonta a tenda e enrola a corda. \n\nObtenha o Item {c:QItemRope}
+PuzzlePorchLock.button1,Desbloquear porta
+EventWhereIsDaggerNot2.text,<i> Eu lembro de ter visto Martha sendo esfaqueada com a adaga ritual. \nMartha caiu para a frente na pedra. \nEu vi a adaga ensanguentada cair na pedra. \nQuando eu olhei, ela tinha ido desaparecido! Talvez Sylvia tenha pego o Selo? '\n </i> \nGanhe 1 {clue}
+EventOakPass2B.text,Dentro do bolso do casaco, você encontra uma nota manuscrita. \n\nCuidado com o Sangue Negro da Cabra! \nA mágica do seu amigo é fraca. \nEu sou o Druida Branco cujo retorno foi predito. \nA família Colt permanece unida. \nNós passamos a tradição de uma geração para a próxima. \n </i>
+EventSpoilers.text,DICAS GERAIS \n\n1. Não confie em ninguém e tome notas! \n2. Você obteve rapidamente o Selo do Culto e o inspecionou com frequência? \n3. Você perguntou a todos o que aconteceu no ritual? \n4. Atacar aleatoriamente suspeitos pode levar a desastres. \n\nGRANDES SPOILERS SEGUIR \n\nO cenário terminou. \nLeia apenas se achar que a história não faz sentido. \n\nVerifique o log para determinar se as respostas de cada um dos Aliados corresponde a seus papéis. \nAmmi Pierce é o Papel No. {var:RoleAllyA} \nEric Colt é o Papel No. {var:RoleAllyB} \nOthera Gilman é o Papel No. {var:RoleAllyC} \nCorrina Jones é o Papel No. {var:RoleAllyD} \n\nNo. 1 = O Druida Sombrio que é filho de Bettina Beck. \nNo. 2 = Assistente não confiável do Druida Sombrio. \nNo. 3 = Amigo de Marta e não um Druida Maligno \nNo. 4 = O Druida Branco \na) Ambos os Números 1 e 2 tendem a mentir. \nb) O Amigo de Marta não é um poderoso usuário mágico. \n\nNo início de cada jogo, os papéis são atribuídos aleatoriamente. \n
+EventSpoilers.button1,Continuar
+EventAttackWhiteDruid.button2,Spoilers
+EventWhereIsDaggerNot3.text,\n <i> Lembro-me de ver a adaga introduzida na lateral de Martha. \nEu assisti a pobre Martha sendo arrastada para a floresta. Eu não vi a adaga cair! \nO assassino tem ou está em algum lugar na floresta. \n </i> \nGanhe 1 {clue} \n
+EventWhereIsDaggerNot1.text,<i> Eu lembro de ter visto Martha sendo esfaqueada com um punhal e ela caiu na pedra com ela grudada no lado dela. \nQuando a criatura a arrastou para longe, ela ainda tinha a adaga presa ao seu lado. \n\nSylvia Marsh correu atrás do monstro! \n </i> \nGanhe 1 {clue}
+EventWhereIsDagger.button1,Continuar
+EventOakPass.button1,Continuar
+EventOakWoundRight.text,Você verifica a ferida no lado dela. \nO ponto de entrada da ferida indica que o assassino é destro. \n\nGanhe 1 {clue}
+EventOakWoundRight.button1,Continuar
+EventOakWoundLeft.text,Você verifica a ferida no lado dela. \nO ponto de entrada da ferida indica que o assassino é canhoto. \n\nGanhe 1 {clue}
+EventOakWoundLeft.button1,Continuar
+EventWhereIsDaggerNot2.button1,Continuar
+EventWhereIsDaggerNot3.button1,Continuar
+EventWhereIsDaggerNot1.button1,Continuar
+EventPlaceRobe.button1,Continuar
+TokenRobe.button1,{action} Pesquisar
+TokenRobe.text,No chão, há um manto branco rasgado e ensanguentado.
+EventRobeSearch.text,Abaixo das vestes brancas há um pergaminho. \n\nObtenha o feitiço {c:QItemDefenceSpell}
+EventRobeSearch.button1,Continuar
+EventPlaceRobe.text,No chão há um manto branco rasgado e cheio de sangue. \n\nColoque um Marcador de Procura como indicado.
+TokenDeepOne.text,Ruídos estranhos indicam que há algo se movendo embaixo da ponte.
+TokenDeepOne.button1,Continuar
+EventDeepOneSearch.text,Você tenta identificar o que está abaixo da ponte, mas está escuro e coberto demais. \n\nTeste {observation}
+EventDeepOneSearch.button1,Continuar
+EventDeepOneSearchPassA.button1,Continuar
+EventDeepOneSearchPassA.text,Você vislumbra um Abissal debaixo da ponte. \nEla está observando Sylvia Marsh através de aberturas no chão da ponte de madeira. \nEle nada em direção ao oeste subindo o rio até um lago pantanoso e úmido. \n\nGanhe 1 {clue} \n\nA visão dele, o cheiro de peixe e os barulhentos ruídos vindos dos pântanos incomodam você. \n\nTeste ({will}, 1) \nSe você falhar, sofra 1 Horror virado para baixo
+SpawnDeepOne1.text,Algo inumano emerge do rio! \n\nColoque um Monstro Abissal no espaço indicado
+SpawnDeepOne1.button1,Continuar
+EventGiveSigilAskAllyE.text,Você deve clicar no botão 'Cancelar' \nse seu Investigador não possuir o item {c:QItemCultSigil} (ou não estiver no mesmo espaço que o Marcador de Pessoa).
+EventGiveSigilAskAllyE.button1,{action} Dê a ela o Selo
+EventGiveSigilToAllyEHasDagger.text,Sylvia Marsh ri e grita: <i> Finalmente consegui o que minha família deseja. \nEu vou revelar a você o poder de Dagon. \n </i> \nEla lança um feitiço e um nevoeiro sufocante preenche a ponta. \nTodos os Investigadores em um espaço na Ponte Coberta \nsofrem {var:SufferDamage} Dano \n ({strength} para Negar) \n\nDe repente, o Selo brilha em vermelho e ela o derruba. \nColoque o Item {c:QitemCultSigil } no espaço indicado. \n
+EventSigilInactiveAllyE.text,Você dá o {c:QItemCultSigil} para Sylvia Marsh e ela o examina. \n\nEla diz, \n <i> O {c:QItemCultSigil} só pode ser usado quando as runas estiverem visíveis. \nEu não sei os segredos dos Druidas. \nAprender a usá-lo pode ser para descobrir mais sobre o ritual e os Druidas. \nInspecione-o com freqüência e uma vez que as runas estiverem visíveis, retorne e entregue para mim! \n </i> \nNota : o item {c:QItemCultSigil} pode ser inspecionado clicando no botão 'Itens'
+EventSigilInactiveAllyE.button1,Continuar
+TokenStoneFinale.button1,{action} Coloque o Selo da Culto na Pedra
+EventStoneFinaleInteract.text,Você ouve um zumbido vindo das pedras. \n\nVocê só pode clicar no botão Continuar, \nse tiver o item {c:QItemCultSigil}
+EventStoneFinaleInteract.button2,Cancelar
+SpawnGhost.button1,Continuar
+SpawnGhost.text,A mulher fantasmagórica clama, \n <i> Meu Selo está preparado! \nEu retorno! </i> \n\nSua forma fantasmagórica desce da árvore. \n\nFaça aparecer um Monstro Fantasma no espaço indicado \n
+SpawnChildOfTheGoat1.button1,Continuar
+EventBeginMinor.button1,Button1
+SpawnDarkYoung2.text,{qst:QSTSPAWNDARKYOUNG}
+EventPlaceRitualSiteTokens.text,É noite e o luar está pálido. \nVocê não pode ver longe na escuridão. \n\n {qst:QSTPLACEDARKNESS} \n\nColoque 3 Marcadores de Avistamento conforme indicado \n
+EventPlaceStone1.text,Uma grande pedra retangular preenche o espaço central do círculo de pedras. \n\nColoque 1 Marcador de Interação conforme indicado
+EventPlaceStone1.button1,Continuar
+SpawnDarkYoung2.button1,Continuar
+SpawnDarkYoung1.text,{qst:QSTSPAWNDARKYOUNG}
+EventDarkYoungMove.text,O Monstro Filhote Sombrio está no alcance de um investigador em um espaço ao ar livre?
+EventDarkYoungMove.button2,Não
+EventDarkYoungAttack1Fail.button1,Continuar
+EventDarkYoungAttack1Pass.button1,Continuar
+EventDarkYoungAttack1Pass.text,Você se joga no chão, mas ainda recebe um golpe de um dos tentáculos. \n\nSofra 1 Dano voltado para baixo
+EventDarkYoungAttack1Fail.text,Um tentáculo gigante agarra você. \n\nReceba a condições Preso e Paralisado \nVocê sente a rachadura do osso; sofra {var:sufferdamage} Dano ({força} +1 para negar) \n\nA criatura arrasta você para a floresta. \nMova sua miniatura de Investigador e o Monstro Filhote Sombrio juntos um espaço para Leste. \nSe o Monstro não puder se mover, sofra 1 de dano extra
+EventDarkYoungAttack1.button2,Falhou
+EventDarkYoungAttack3.text,A criatura enlouquece, esmagando tudo com seus enormes tentáculos. \n\nTodos os Investigadores em seu espaço recebem 3 Danos \n {agility} para Negar \nTodos os Monstros em seu espaço (que não podem Agir ou Voar) recebem 3 Danos
+EventDarkYoungAttack3.button1,Continuar
+EventCheckDarkYoungSkip2.text,Você pode ouvir uma criatura gigante atravessando a floresta a uma velocidade incrível. \nO chão estremece e os galhos são feitos em pedaços. \n\nTodos os pesquisadores em um espaço ao ar livre devem testar ({will}: 2) \n\nSe o teste está falhar, sofra 1 Horror virado para baixo \n
+SpawnDarkYoung3.text,{qst:QSTSPAWNDARKYOUNG}
+SpawnDarkYoung3.button1,Continuar
+SpawnDarkYoung4.text,{qst:QSTSPAWNDARKYOUNG}
+SpawnDarkYoung4.button1,Continuar
+EventDarkYoungMoveToStone.text,\nO Monstro Filhote Sombrio se move 1 espaço em direção ao espaço central da Peça de Mapa do Local do Ritual. \n\nEle não pode se mover para um espaço interno. \n\nDepois disso, todos os Investigadores (e todos os Monstros que não podem Agir ou Voar) em seu espaço sofrem 2 de dano. {agility} para Negar \n
+EventDarkYoungMoveToStone.button1,Continuar
+EventCheckDarkYoungSkip2.button1,Continuar
+EventCheckDarkYoungSkip1.text,Algo enorme está sendo carregado pela floresta com uma velocidade incrível.
+EventCheckDarkYoungSkip1.button1,Continuar
+SpawnChildOfTheGoat1.text,Uma mulher gritando enlouquecidamente aparece da vegetação. \n\nFaça aparecer um Filho da Cabra no espaço indicado
+SpawnChildOfTheGoat2.text,A mulher rosna como um animal encurralado e ataca você! \n\nFaça aparecer um Monstro Discípula da Cabra no espaço indicado
+SpawnChildOfTheGoat2.button1,Continuar
+SpawnDarkYoung.button1,Continuar
+SpawnGoatSpawn1.text,Faça aparecer um Monstro Prole da Cabra no espaço indicado
+SpawnGoatSpawn1.button1,Continuar
+TokenCross.text,Uma cruz de metal encontra-se no fundo do rio de correnteza forte. \nPara alcançá-lo, você precisará nadar.
+TokenCross.button1,{action} Pesquisar
+EventPlaceCross.text,O luar brilha em algo metálico na água. \n\nColoque um Marcador de Procura no local conforme indicado.
+EventPlaceCross.button1,Continuar
+EventCrossSearch.text,No rio há uma pequena cruz de metal. \nPara alcançar a cruz, você precisa nadar e a correnteza é forte. \nTeste ({agility}:2)
+EventCrossSearch.button1,Passou
+EventCrossPassA.text,Você pega a cruz e encosta na margem do rio. \n\nObtenha o Item {c:QItemCross} \n\nA cruz está inscrita, \n <i> Para {qst:QSTALLYANAME} por sua presença excelente, \nEscola St John's </i>
+EventCrossPassA.button1,Continuar
+EventCrossPassB.text,Você pega a cruz e encosta na margem do rio. \n\nObtenha o Item {c:QItemCross} \n\nA cruz está inscrita \n <i> Para {qst:QSTALLYBNAME}, Coro principal da Igreja de Todos os Santos </i>
+EventCrossPassB.button1,Continuar
+EventCrossPassC.text,Você pega a cruz e encosta na margem do rio. \n\nObtenha o Item {c:QItemCross} \n\nA cruz está inscrita, \n <i> Para {qst:QSTALLYCNAME}, Chefe do Prefeito da Escola de St. Mary </i>
+EventCrossPassC.button1,Continuar
+EventCrossPassD.text,Você pega a cruz e se puxa para a margem do rio. \n\nObtenha o item {c:QItemCross} \n\nA cruz está inscrita \n <i> Para {qst:QSTALLYDNAME} pela excelência nas artes, \nEscola St Mary's </i>
+EventCrossPassD.button1,Continuar
+EventCrossSearch.button2,Falhou
+EventCrossFail.text,Algo na água agarra a sua perna! \nVocê entra em pânico enquanto engole água até se aproximar da margem do rio. \n\nSofra 1 Dano e 1 Horror virados para baixo \n
+EventCrossFail.button1,Continuar
+EventPlaceStoneFinale.button1,Continuar
+EventGiveDagger.button2,Cancelar
+EventPaintingA.text,A pintura é de uma mulher usando um pingente. \nA pintura é assinada <i> Corrina Jones.</i> \nA forma redonda do pingente e as marcações no pingente combina perfeitamente com a do {c:QItemCultSigil}. \nO pintor conhece claramente as runas. \n\nAo examinar cuidadosamente a inclinação de sua assinatura e a direção de suas pinceladas, infere que ela é destra. \n\nCorrina Jones vê você estudando sua pintura. \n <i> Eu pintei esta depois de lançar um feitiço evocando uma visão do passado distante! </i> \n\nGanhe 2 {clue} \n
+EventPaintingA.button1,Continuar
+EventPaintingB.text,A pintura é de uma mulher usando o {c:QItemCultSigil} como um pingente. \nA pintura foi originalmente assinada <i> Bettina Beck </i>. \n\nCorrina Jones não pintou a imagem. \nEla está restaurando a pintura feito por Bettina Beck. \n\nEla cometeu vários erros em sua restauração, o que indica que ela tem um conhecimento limitado do oculto e das runas. \n\nAo analisar cuidadosamente a inclinação de suas pinceladas recentes , você deduz que ela é destra .
+EventPaintingB.button1,Continuar
+TokenCrate.button1,{action} Pesquisar
+EventPlaceCrate.text,Uma pilha de caixas está encostada na parede. \n\nColoque um Marcador de Procura como indicado.
+EventPlaceCrate.button1,Continuar
+TokenCrate.text,Uma pilha de caixas está no canto da adega.
+EventCrateSearch.text,As caixas contêm miudezas armazenadas na cabana de troncos e uma vez pertenceram a sua proprietária anterior Bettina Beck. \nHá uma coleção de livros antigos e pergaminhos que podem ser úteis. \n\nTeste ({lore}, 2)
+EventCrateSearch.button1,Passou
+EventCrateSearchResult.button1,Continuar
+EventCrateSearchResultA.text,Entre o lixo variado, você encontra um livro de feitiços escrito por {qst:QSTALLYCNAME}. \n\nUm dos feitiços você é capaz de entender. \nEla é claramente uma bruxa poderosa, mas você não pode ter certeza se ela é uma Bruxa Branca ou uma Druida Sombria. \n\n Ganhe 1 {clue} \n\nObtenha o Feitiço {c:QItemAttackSpell}
+EventCrateSearchResultA.button1,Continuar
+EventCrateSearchResultB.text,Entre o lixo variado, você encontra um livro de feitiços escrito por {qst:QSTMOTHERNAME}. \n\nUm dos feitiços você é capaz de entender. \n\nObtenha o feitiço {c:QItemAttackSpell} \n\n {qst:QSTALLYCNAME} fez comentários no lado do livro de feitiços que estão completamente errados. O conhecimento oculto que ela conhece foi mal copiado {qst:QSTMOTHERNAME}! \nEla pode ser má ou ela pode estar enganada \nMas você pode ter certeza de que ela não é uma poderosa Druida Sombria! \n\nGanhe 1 {clue}
+EventCrateSearchResultB.button1,Continuar
+PuzzleCode.button1,Resolvido
+EventGhostDefeated.text,Com um último grito de desafio, o espírito de Bettina Beck se dissipa em névoa. \nTudo que restou dela é uma {c:QItemDagger}. \n\nColoque o Item {c:QItemDagger} no espaço em que o Monstro estava \n\nTrate o {c:QItemDagger} como um Item Especial
+EventGhostDefeated.button1,Continuar
+EventGiveSigilAskAllyE.button2,Cancelar
+EventSpawnDarkYoung.button1,Continuar
+EventPaintingBMale.text,No plano de fundo da foto há um menino. \n\nGanhe 2 {clue}
+EventPaintingBFemale.text,No plano de fundo da foto há uma jovem. \nO cabelo é escuro, mas não é vermelho. \n\nGanho 2 {clue}
+EventPaintingBFemale.button1,Continuar
+EventPaintingBMale.button1,Continuar
+EventPlaceWhiskey.button1,Continuar
+TokenAllyD3.text,O Druida Branco
+TokenAllyD3.button1,Continuar
+TokenAllyB3.text,O Druida Branco
+TokenAllyB3.button1,Continuar
+TokenAllyC3.text,O Druida Branco
+TokenAllyC3.button1,Continuar
+EventStone1Search.button1,Continuar
+EventStone1Search.text,Há leves vestígios de sangue no topo da pedra. \nUm rastro de manchas de sangue leva para o leste na floresta.
+EventStone1Search2.button1,Continuar
+EventStone1Search2.text,\nUm leve zumbido vem de dentro da pedra. \nO zumbido soa familiar. \n\nVocê tem um flashback de druidas em vestes brancas observando algo brilhando em cima da pedra e perto da pedra uma labareda com misteriosas chamas tétricas. \nVocê tem uma vaga lembrança de três dos druidas próximos à pedra e dois mais para trás. \n\nVocê tem uma visão de um nevoeiro denso e, do meio do nevoeiro, uma enorme criatura de tentáculos e bocas emergindo do leste e druidas fugindo para o norte e para o oeste. \n\nGanhe 2 {clue} \n
+EventStone1SearchDone.text,\nUma vez que o som do zumbido tiver diminuído, você ouve breves gritos vindos do Sul. \nAlguém está chamando seu nome. \n
+EventStone1SearchDone.button1,Continuar
+EventDarkYoungMove0.text,O Monstro Filhote Sombrio está no mesmo espaço que um investigador?
+EventDarkYoungMove0.button1,Sim
+EventDarkYoungMove0.button2,Não
+EventDarkYoungSkip2.text,\nUma criatura enorme está se movendo pela floresta, destruindo árvores em sua raiva frenética. \n\nTodos os investigadores em um espaço ao ar livre testam ({will}, 2) \nSe falhar, sofra 1 Horror virado para baixo \n
+EventDarkYoungSkip2.button1,Continuar
+EventPlaceDeepOne.text,Enquanto ela corre para a ponte coberta, \nvocê ouve algo se movendo abaixo dela. \n\nColoque um Marcador de Procura como indicado.
+EventPlaceDeepOne.button1,Continuar
+EventDeepOneSearchPassB.text,Uma criatura semelhante a uma cabra está se movendo sob a ponte. \nEstá se preparando para emboscar você! \nSylvia Marsh conjura um feitiço de banimento e foge. \nVocê se lembra de que ela ajudou a protegê-lo no passado. \n\nObtenha 1 {clue}
+EventDeepOneSearchPassB.button1,Continuar
+EventGiveSigilToAllyEHasDagger.button1,Continuar
+EventGiveSigilToAllyENoDagger.text,Sylvia Marsh examina-o cuidadosamente e, em seguida, o devolve. \nEla diz: <i> Sinto muito, mas não consigo ler estas runas. \nEles estão escritos na antiga língua perdida dos Druidas. \nSomente um Druida poderá ler estas runas. \n </i>
+EventGiveSigilToAllyENoDagger.button1,Continuar
+EventPlaceWhiskey.text,Na parte de trás da caverna há um estoque de garrafas de uísque. \nTodas as garrafas, exceto uma, estão vazias, \n\nColoque o {c:QItemWhiskey} no espaço indicado.
+EventCellarTest.text,Você relembra vários possíveis nomes celtas.
+EventCellarTest.button1,O Grande Deus Pan
+EventCellarTest.button2,O Homem Verde da Floresta
+EventCellarTest.button3,Herne, o Caçador
+EventCellarDoorLocked2.button2,Falhou
+EventCellarTestFailed.text,A mulher grita, \n <i> Você não é amigo dos Druidas! \n </i>
+EventCellarTestFailed.button1,Continuar
+EventDarkYoungGrab.text,A criatura tenta pegar você com seus tentáculos e arrastá-lo para a floresta. \nTeste ({agility}: 1) \n\nSe você falhar, sofra 1 Dano e mova o Monstro Filhote Sombrio e suas miniaturas até 2 espaços para Leste.
+EventDarkYoungGrab.button1,Continuar
+EventFinaleNoFire.text,Você coloca o Item {c:QItemCultSigil} na pedra. \n\nUm som de zumbido emana da pedra. \nA pedra fica quente ao toque. \nHá algo necessário antes que o verdadeiro ritual de Beltane possa começar. \nVocê tenta desesperadamente lembrar o que você aprendeu sobre o ritual de Beltane. \n\nTeste {lore}
+EventFinaleNoFire.button1,Continuar
+EventCaveDoorLocked2.button2,Falhou
+EventCaveDoorLockedFail.text,O homem grita de volta, \n <i> eu não estou convencido de que você pode ser confiável! </i>
+EventCaveDoorLockedFail.button1,Continuar
+EventDarkYoungA.text,Uma enorme criatura com enormes pernas de tronco de árvore e numerosas bocas surge da floresta. \n\nColoque a miniatura do Monstro Filhote Sombrio no espaço indicado
+EventDarkYoungA.button1,Continuar
+EventDarkYoungB.text,Uma enorme criatura com enormes pernas de tronco de árvore e numerosas bocas explode para fora da floresta. \n\nColoque uma miniatura do Monstro Filhote Sombrio no espaço indicado
+EventDarkYoungB.button1,Continuar
+EventDarkYoungC.text,Uma enorme criatura com enormes pernas de tronco de árvore e inúmeras bocas emergem de trás da cabana. \n\nColoque uma miniatura do Monstro Filhote Sombrio no espaço indicado.
+EventDarkYoungC.button1,Continuar
+EventDarkYoungD.text,Uma enorme criatura com enormes pernas de tronco de árvore e numerosas bocas abre caminho através das pedras tumulares. \n\nColoque uma miniatura do Monstro Filhote Sombrio no espaço indicado.
+EventDarkYoungD.button1,Continuar
+EventDarkYoungSpawnMove.text,Há um investigador em um espaço ao ar livre ao alcance do Monstro Filhote Sombrio?
+EventDarkYoungSpawnMove.button1,Sim
+EventDarkYoungSpawnMove.button2,Não
+EventSpawnDarkYoung2.button1,Continuar
+EventSpawnDarkYoung2.button2,Não
+EventPlaceJournal.text,No canto mais distante há um gabinete cheio de papéis. \n\nColoque um Marcador de Procura como indicado.
+EventPlaceJournal.button1,Continuar
+SpawnGoatSpawn2.text,Faça aparecer um Monstro Prole da Cabra no espaço indicado
+SpawnGoatSpawn2.button1,Continuar
+TokenCellarPainting.text,Nas paredes da adega há pinturas. \nEles foram danificados pela umidade.
+TokenCellarPainting.button1,{action} Pesquisar
+EventCellarPaintingSearch.text,A pintura está muito danificada para obter detalhes exatos. \nEsta mostra uma sala de cirurgia em uma cabana coberta de sangue. \n\nGanhe 1 {clue}
+EventCellarPaintingSearch.button1,Continuar
+EventPlaceCellarPainting.button1,Continuar
+EventPlaceCellarPainting.text,Na parede da adega há pinturas. \nTodas foram arruinadas pela umidade, exceto uma. \n\nColoque um Marcador de Parede Interna no espaço indicado \nColoque um Marcador de Procura no espaço indicado
+EventMarshAsk.button1,Continuar
+TokenAllyC2.button6,{action} <i> Conte-me sobre a família Marsh </i>
+EventMarshAskAMono.text,<i> \nEu pensei que {qst:QSTALLYENAME} fosse diferente, pois ela está distante de sua família e você não pode culpar alguém apenas pelo nome. \n\nMas agora eu estou preocupado que ela esteja aqui para roubar nossos artefatos mágicos e dar à Família Marsh para recuperar a sua imagem. \nO que você realmente sabe sobre Sylvia Marsh? </i> \n\nGanhe 1 {clue}
+EventMarshAskAMono.button1,Continuar
+EventMarshAskBMono.text,<i> \nInicialmente, pensei que Sylvia Marsh era uma espiã, mas passei a confiar nela. \n </i> \nGanhe 1 {clue}
+EventMarshAskBMono.button1,Continuar
+EventMarshAsk.text,<i> \nTradicionalmente, os antepassados da família Marsh adoravam o poder do mar enquanto a família Beck venerava o espírito da floresta, \nHavia uma rivalidade entre eles que durou gerações. \nEles usaram feitiços, maldições, subterfúgios e sabotagem. </i>
+CustomMonsterDruid.info,-
+CustomMonsterDruid.monstername,Druida
+SpawnDeepOne2.text,Algo inumano vagueia pela água pantanosa! \n\nColoque um Monstro Abissal no espaço indicado
+SpawnDeepOne2.button1,Continuar
+EventSpawnDeepOne2.text,Coloque a Peça ed Mapa {c:TilePond} \n\n {qst:QSTPLACEDARKNESS}
+EventSpawnDeepOne2.button1,Continuar
+CustomMonsterDarkDruid.info,-
+EventGhost.text,Um ruído faz você olhar para baixo. Abaixo de você há uma mulher suspensa por uma corda em volta do pescoço. \nO pescoço dela está quebrado. \nO corpo dela balança para frente e para trás. \n\nEla grita, \n <i> Traga meu Selo para que eu possa viver de novo! \nVamos nos abraçar mais uma vez! </i> \n\nSubitamente ela aparece ao seu lado. \nEla já foi linda. \nAgora ela tem o fedor da morte e decadência. \n\nSofra 2 Horrores ({lore} para Negar) \n
+EventGhost.button1,Continuar
+EventGhostMore.text,À medida que você se move ao longo do galho para escapar, \n você cai do galho. \n\nSofra 2 Danos ({agility} para Negar) \nRole 1 dado extra se você tiver o Item {c:QItemRope} \n\nColoque a miniatura do seu investigador no espaço indicado
+EventGhostMore.button1,Continuar
+EventCellarDoorLocked2.button3,Cancelar
+EventSigilActiveAllyE.text,Ela diz: \n <i> Você fez bem! </i> \n
+EventSigilActiveAllyE.button1,Continuar
+TokenBranch.text,Acima de você, você vê uma imagem fantasmagórica de uma mulher pendurada em uma corda. \n\nVocê só pode clicar no botão 'Invocar fantasma' \nse seu investigador possuir o Item {c:QItemCultSigil}
+TokenBranch.button1,{action} Invocar fantasma
+EventSummonGhost.text,Você segura o {c:QItemCultSigil} e clama, \n <i> Eu trouxe o que você pediu. \nVamos! </i>
+EventSummonGhost.button1,Continuar
+EventPlaceBranch.text,\nNo chão, você vê a imagem horripilante e fantasmagórica da mulher pendurada pelo pescoço no galho acima de você. \n\nColoque um Marcador de Procura no espaço indicado
+EventPlaceBranch.button1,Continuar
+EventSummonGhostFail.text,Ela grita desamparadamente, \n <i> Não está pronto! \n </i>
+EventSummonGhostFail.button1,Continuar
+EventAllyCloseFriendMale.button1,Continuar
+EventAllyCloseFriendMale.text,<i> Ele e Martha eram amigos muito íntimos. Alguns achavam que estavam próximos demais e ela perdoava demais as falhas dele! \nO esquecimento dele e os lapsos de concentração estavam piorando. </i>
+EventAllyCloseFriendFemale.button1,Continuar
+EventAllyCloseFriendFemale.text,<i> Ela e Martha eram melhores amigas. \nA sua estreita amizade era uma fonte de atrito dentro do grupo. Talvez Martha perdoasse demais suas falhas! \nSua compreensão limitada do conhecimento druídico incomodava os outros. </i>
+EventCrateSearch.button2,Falhou
+EventCrateSearchFail.text,Os livros e pergaminhos foram danificados pela umidade. \nVocê não pode ler muitas das palavras.
+EventCrateSearchFail.button1,Continuar
+TokenCampToRapids.text,A luz da fogueira do acampamento ilumina um rio que flui rápido. \n\nVocê pode clicar em Revelar se estiver em qualquer espaço na Peça de Mapa {c:TileCamp}
+TokenCampToRapids.button1,Continuar
+EventPlaceRapidsTile.text,Coloque a Peça de Mapa {c:TileRapids} \n\n {qst:QSTPLACEDARKNESS}
+EventPlaceRapidsTile.button1,Continuar
+EventCampFireGoesOut.text,O fogo do acampamento se apaga. \nRemova o Marcador de Fogo do acampamento. \n\n {qst:QSTPLACEDARKNESS} \n
+EventCampFireGoesOut.button1,Continuar
+TokenGraveStone.text,As pedras da sepultura estão cobertas de hera. \nDevido à longa negligência, é difícil ler as inscrições. \n
+TokenGraveStone.button1,{action} Pesquisar
+EventPlaceGraveToken.text,Ante você há uma sepultura aberta. \n\nColoque 1 Marcador de Procura conforme indicado
+EventPlaceGraveStoneToken.text,As lápides estão há muito tempo negligenciadas, danificadas e cobertas de hera. \n\nColoque 1 Marcador de Busca como indicado
+EventPlaceGraveStoneToken.button1,Continuar
+EventGraveStoneSearch.text,As pedras e inscrições originais foram negligenciadas. \nEm uma das pedras, o seguinte foi arranhado à mão. \n <i> Bettina Beck \nMãe, você não será esquecida \nO seu legado irá perdurar \nTodos se tornarão servos da Cabra  Negra\n </i> \nGanhe 1 {clue}
+EventGraveStoneSearch.button1,Continuar
+SpawnZombieDruid1.text,O cadáver se ergue do túmulo! \n\nColoque um Monstro Cultista como indicado
+SpawnZombieDruid2.button1,Continuar
+CustomMonsterZombieDruid.info,-
+CustomMonsterZombieDruid.monstername,Druida Zumbi
+SpawnZombieDruid1.button1,Continuar
+SpawnZombieDruid2.text,O corpo treme enquanto crescimentos aparecem por todo o corpo. \nO cadáver sai da sepultura! \n\nColoque um Monstro Zumbi como indicado
+SpawnZombieDruid3.text,O corpo treme enquanto crescimentos aparecem por todo o corpo. \nO cadáver sai da sepultura! \n\nColoque um Thrall Monster no espaço indicado.
+SpawnZombieDruid3.button1,Continuar
+EventAllyMonologueGeneral.text,<i> Eu não tenho certeza do que aconteceu! \nUm maligno e poderoso Druida Sombrio lançou um feitiço de esquecimento em nós! \nLembro de algo pegando Martha e arrastando-a para o leste na floresta. \nSe você me der o Selo, eu usarei seus poderes para restaurar nossas memórias. \n </i>
+EventAllyMonologueGeneral.button1,Continuar
+EventAllyAAboutBarker.text,<i> {qst:QSTNOVICENAME} tornou-se impopular com suas atitudes e suspeitas. </i>
+EventAllyAAboutBarker.button1,Continuar
+EventAllyBAboutBarker.text,<i> {qst:QSTNOVICENAME} não apareceu hoje à noite. \nEle é muito jovem e inexperiente para se juntar ao canto. \nComo eu, ele tem um temperamento forte e às vezes diz coisas que mais tarde lamenta - depois que ele tenha tempo de se acalmar! </i> \n
+EventAllyBAboutBarker.button1,Continuar
+EventAllyCAboutBarker.text,<i> {qst:QSTNOVICENAME} é um jovem recruta recente. \nNão se deu ao trabalho de aprender as palavras das cerimônias. </i> \n
+EventAllyCAboutBarker.button1,Continuar
+EventAllyDAboutBarker.text,<i> {qst:QSTNOVICENAME} é um jovem indigno de confiança. \nEle não apareceu para a cerimônia. \nEle está mais interessado em correr atrás de mulheres do que em aprender os rituais. </i>
+EventAllyDAboutBarker.button1,Continuar
+EventAboutBarkerAorB.text,<i> Eu vi pela última vez após o encontro desta manhã. \nEle gritou um alerta de que um bruxo maligno estava entre nós. \nEle disse que descobriu onde o bruxo estava ensinando a nós uma magia diabólica. \nEle acreditava que uma vez o assistente do Druida Sombrio tenha dominado a magia, os dois seriam poderosos o suficiente para assumir a ordem. </i> \n\nGanhe 1 {clue}
+EventAboutBarkerAorB.button1,Continuar
+EventAboutBarkerCorD.text,<i> Eu o vi pela última vez na reunião desta manhã. \nEle gritou algo sobre descobrir o covil de uma bruxa poderosa que estava conspirando para nos destruir. \nEle saiu, gritando algo sobre encontrar provas antes do dia acabar! </i > \n\nGanhar 1 {clue}
+EventAboutBarkerCorD.button1,Continuar
+EventAboutBarkerA.text,<i> Esta manhã, {qst:QSTNOVICENAME} confrontou Martha e tentou persuadi-la de que não se podia confiar em Ammi. \nEle afirmou que Ammi é o Druida Sombrio ou um assistente do Druida Sombrio. \nEle disse que tinha descoberto livros a respeito de alquimia profana. \n\n </i> Ganho 1 {clue}
+EventAboutBarkerA.button1,Continuar
+EventAboutBarkerB.text,<i> Eu o vi pela última vez na reunião desta manhã. \n {qst:QSTNOVICENAME} chamou Eric de Druida Sombrio e alegou que ele ou era o Druida Sombrio ou estava sendo treinado pelo Druida Sombrio. \nEle disse ter descoberto livros sobre magia negra! \n\n </i> Ganhe 1 {clue}
+EventAboutBarkerB.button1,Continuar
+EventAboutBarkerC.text,<i> Eu o vi pela última vez esta manhã. \n {qst:QSTNOVICENAME} acusou Othera de ser uma Druida Sombria e alegou que ou era a Druida Sombria ou aprendia magia negra do Druida Sombrio. \n\n </i> Ganhe 1 {clue}
+EventAboutBarkerC.button1,Continuar
+EventAboutBarkerD.text,<i> Eu o vi pela última vez esta manhã. \n {qst:QSTNOVICENAME} disse a Martha que Corrina é uma Druida Sombria e alegou que ela ou era a Druida Sombria ou foi treinada em magia negra pelo Druida Sombrio. \n\n </i> Ganhe 1 {clue}
+EventAboutBarkerD.button1,Continuar
+EventMissedMorning.text,<i> Eu não o vejo há dias. \nEu ouvi que ele perturbou alguns de nós esta manhã com uma série de acusações perturbadoras e fugiu. \nEu não posso te dizer mais porque eu perdi a reunião da manhã. \n
+EventMissedMorning.button1,Continuar
+EventBarkerSpy1.text,<i> Eu vi pela última vez Pete Barker depois da reunião desta manhã, andando pela ponte. </i>
+EventBarkerSpy1.button1,Continuar
+EventBarkerSpy2.text,<i> Após a reunião desta manhã {qst:QSTNOVICENAME} me pediu para ajudar com uma sessão a ser feita hoje à noite na floresta antiga. \nEle me disse que acreditava que um de nós é um Druida Sombrio e um necromante. Ele alegou que o necromante planeja ressuscitar sua mãe. \n\n </i> Ganhe 1 {clue}
+EventBarkerSpy2.button1,Continuar
+EventAboutBarker1.text,<i> Eu o vi pela última vez esta manhã. \n {qst:QSTNOVICENAME} estava confuso e preocupado. \nEu era o único em quem ele confiava. \nEle me disse que suspeitava que um de nós estava planejando substituir Martha como líder e faria qualquer coisa para se livrar dela - incluindo assassinatos. \n </i>
+EventAboutBarker1.button1,Continuar
+EventAboutBarker2.text,<i> Eu vi pela última vez {qst:QSTNOVICENAME} esta manhã rondando a cabana. \nEle gritou para mim que o Druida Sombrio ia matar todos nós! </i> \n\nGanhe 1 {clue}
+EventAboutBarker2.button1,Continuar
+EventAllyE2TellCursed.text,Depois de discutir os detalhes do ritual com Sylvia Marsh, você percebe que todos - incluindo ela - foram amaldiçoados para se tornarem Prole da Cabra. \nVocê suspeita que Sylvia Marsh saiba mais do que está dizendo. \n\nTeste {influence} \n\nVocê pode usar um dado adicional para cada Item de Evidência que você possui
+EventAllyE2TellCursed.button1,Continuar
+EventAllyE2TellCursedNoProof.text,<i> Você não aprendeu o suficiente sobre o ritual e a maldição. \nRetorne assim que as runas no {c:QItemCultSigil} estejam brilhando! </i> \n\nNota: o {c:QItemCultSigil} pode ser inspecionado clicando no botão 'Itens'.
+EventAllyE2TellCursedNoProof.button1,Continuar
+EventAttackAllyE.text,Tem certeza de que quer atacar Sylvia Marsh?
+EventAttackAllyE.button2,Cancelar
+EventSigilActiveAllyE.button2,Cancelar
+EventDrownedRescueFail.text,Ela te morde com a ferocidade de um animal preso antes de ser levada pela corrente. \n\n Sofra 1 Dano
+EventDrownedRescueFail.button1,Continuar
+SpawnChildOfDagon.text,A Criança de Dagon aparece e corre em direção à ponte. \nEla grita e algo na água responde de forma borbulhante. \n\nColoque o Monstro da Criança de Dagon como indicado
+SpawnChildOfDagon.button1,Continuar
+EventAllyE2TellCursedA.text,\n <i> A chave para reverter a maldição é encontrar o {c:QItemDagger} usado para selar o Pacto de Sangue. \nO Druida Sombrio está usando seu poder contra você. \nSó um Druida de grande poder e sabedoria pode usar o poder  do Selo e da Adaga! \nEu fiz tudo o que pude! \n </i> \nGanhe 2 {clue} \n\nRemova o Marcador de Pessoa de Sylvia Marsh
+EventAllyE2TellCursedA.button1,Continuar
+EventAllyE2TellCursedB.text,\n <i> \nFinalmente minha mente esta clara. \nAlguma coisa além do túmulo, algo que não é mais humano, obscurecer nossos pensamentos. \nEle traz confusão e medo e possuiu um dos Druidas! \nEu não ficarei neste lugar maldito! \n </i> \nGanhe 2 {clue} \n\nRemova o Marcador de Pessoa de Sylvia Marsh \n
+EventAllyE2TellCursedB.button1,Continuar
+EventAllyE2TellCursedC.text,\n <i> Espero dar esta adaga à minha família para recuperar o seu favor, mas aceite-a e salve-nos a todos. \nEu falhei e tenho de enfrentar a ira da minha família! \nEles não são conhecidos pela sua misericórdia! \n </i> \nVocê ganha o {c:QItemDagger} \nTrate o {c:QItemDagger} como um Item Especial \n\nRemova o Marcador de Pessoa de Sylvia Marsh \n
+EventAllyE2TellCursedC.button1,Continuar
+PuzzlePorchLockHard.button1,Desbloquear porta
+EventDarkYoungDefeated.button1,Continuar
+EventDarkYoungDefeated.text,O monstro gigante é ferido mortalmente e cai no chão. \nEle arrasta-se lentamente para a floresta. \n\nRemova a miniatura do Monstro Filhote Sombrio do tabuleiro de jogo. \n\nTodos os Investigadores ganham 3 {clue} \nTodos os Investigadores descartam até 3 Horrores \n\n
+EventMythosTransformText.button1,Continuar
+EventMythosTransformText.text,\nVocê sente seu corpo começando a se transformar. \nVocê se sente compelido a correr para a floresta escura. \n\nTodos os Investigadores sofrem 1 Dano ({strength} para Negar) \n\nTodos os Investigadores em um espaço Externo se movem 1 espaço para Leste. \n
+EventMythosFirstRound.button1,Continuar
+EventMythosFirstRound.text,\nDo leste, ouve-se o som de um pássaro enquanto algo enorme se move pela floresta. \nSem efeito. \n
+EventSpawnGhostDagger\Var1.button1,Continuar
+EventSpawnGhostDaggerVar1.text,\n <i> Você não é meu parente! \nQuem quer que você seja, se você realmente servir a Cabra Negra, me dê o Selo! \nUm receptáculo adequado está pronto e logo meu filho trará minha adaga para que eu possa viver novamente! </i> \n\nGanhe 1 {clue} \n
+EventSpawnGhostDaggerVar2.button1,Continuar
+EventSpawnGhostDaggerVar2.text,\nAcima da mão de Bettina há um punhal que brilha ao entrar e sair da realidade humana. \n\nGanhe 1 {clue} \n
+EventSpawnGhostDaggerVar3.button1,Continuar
+EventSpawnGhostDaggerVar3.text,\n <i> Você não é meu parente! \nQuem quer que você seja, se você realmente servir a Cabra Negra, encontre-me minha adaga! \nUm intruso roubou. \nUm receptáculo adequado está pronto, mas eu preciso da minha adaga para que eu possa viver novamente! </i> \n\nGanhe 1 {clue} \n
+EventAllyE2AboutRitualA.button1,Continuar
+EventAllyE2AboutRitualA.text,\n <i> Eu me lembrrei de outra coisa sobre o ritual. \nUm dos druidas mais atrás era {qst:QSTALLYANAME}. </i> \n\nGanhe 1 {clue} \n
+EventAllyE2AboutRitualB.button1,Continuar
+EventAllyE2AboutRitualB.text,\n <i> Lembro-me de outra coisa sobre o ritual. \nUm dos druidas mais atrás era {qst:QSTALLYBNAME}. </i> \n\nGanhe 1 {clue} \n
+PuzzlePaintingLevel2.button1,Continuar
+PuzzlePaintingLevel3.button1,Continuar
+EventUnderBridgeItem.text,Abaixo da ponte você encontra algo. \n\nObtenha o Item {c:QItemElderWard}
+EventUnderBridgeItem.button1,Continuar
+UIEliminatedText.uitext,Você é incapaz de resistir aos efeitos do feitiço de transformação lançado pelo  Druida Sombrio. \n\nVocê se dobra de dor e começa a rastejar pelo chão de quatro. \nPeles pretos e grossos brotam sobre a parte inferior do corpo. \nSeus ossos quebram enquanto eles se movem visivelmente sob sua pele e gotas de sangue escorrem de todos os poros. \nSeus gritos se tornam o balido de um animal. \nSua última visão consciente é de seus companheiros se transformando em Prole da Cabra.
+UIFinishButton.uitext,O fim
+UISpoilersButton.uitext,Confira a história (SPOILERS)
+UIIntroButton.uitext,Olhar em volta
+UIContinueButton.uitext,Continuar
+EventJournal1.text,\nVocê abre o gabinete e encontra um diário escrito por Bettina Beck. \n\nObtenha o {c:QItemJournal} \n
+EventJournal1.button1,Continuar
+EventJournal1BtT.text,\nVocê abre o gabinete e encontra um diário escrito por Bettina Beck. \n\nObtenha o {c:QItemCultJournal} \n
+EventJournal1BtT.button1,Continuar
+EventJournal2.text,\nEla descreve sua família como amaldiçoada para se transformar em Prole da Cabra. \nCom experimentos em vagabundos, ela aprendeu a retardar o processo, mas o efeito foi temporário, a menos que ela sacrificasse um parente próximo. \n Apesar da maldição, ela deu à luz três crianças de aparência normal. \nUm selo no diário corresponde ao {c:QItemCultSigil} e há uma descrição de um punhal marcado com runas. \n\nO diário está repleto de desenhos, símbolos, encantamentos e descrições de experimentos médicos profanos. \n\nTeste ({will}: 1) \nSe falhar, sofra 1 Horror \n
+EventJournal2.button1,Continuar
+EventJournal3.text,\nQuando seus filhos começaram a crescer, começaram a mostrar os primeiros sinais de transformação. \nO jornal está incompleto e páginas foram arrancadas. \nA partir de um parágrafo incompleto, você infere que pelo menos uma das páginas ausentes se refere a uma das seus filhos. \n\nA última página diz: \n <i> Eu sacrifiquei um dos meus filhos para salvar os outros. \nAs duas crianças restantes não mostram sinais do sangue da Cabra Negra, mas elas não envelhecem como as crianças normais. Eu tenho medo de ter apenas atrasado o seu destino. Você encontrará meu corpo no carvalho sagrado. \n </i>
+EventJournal3.button1,Continuar
+EventJournal4.text,\nNo diário há uma frase que é estranhamente familiar. \n\n <i> Ia! Ia! Shub-Niggurath! \nMãe de mil filhotes! \nEncha-me com seu poder! </i> \n\nDe repente você se lembra de três druidas em pé no meio do círculo de pedras. \nUma mulher com cabelo ruivo amarrado por uma faixa de cabeça. \nOs rostos dos outros dois estão escondidos por suas vestes. \nUm destes dois druidas entoa a frase enquanto eles sacam uma adaga e apunhalam a mulher. \nEla colapsou na pedra do altar. \n\nTeste ({lore}: 1) \nSe você passar, ganhe 1 {clue} \n
+EventJournal4.button1,Continuar
+EventFinale1.text,Você coloca o Selo sobre a pedra. \n\nAs pedras antigas começam a brilhar com uma estranha energia sobrenatural. \n
+EventFinale1.button1,Continuar
+UIFinaleWhiteDruidText.uitext,O Druida Branco aparece. \nO feitiço lançado pelo Druida Sombrio causa confusão mental. \nVocê se lembra de que a razão pela qual você veio a este lugar foi parar o pacto de sangue ritual que está sendo completado pelo Druida Sombrio. \n\nO Druida Branco clama \n <i> Ó pedras antigas toquem a música do último Bardo do Ord na Darach Gile! \n\nE o Druida começa a cantar ... </i>
+UIFinaleDancingText.uitext,Uma por uma, as Discípulas da Cabra e as Proles da Cabra emergem das árvores e começam a dançar! \nO som de cantos sinistros, desamparados e ainda assombrosamente bonitos parece estar vindo de dentro das próprias pedras e árvores! \n\nUm por um, as Discípulas da Cabra e as Proles da Cabra se transformam novamente em mulheres e meninas - algumas que você reconhece como moradores locais que estavam assistindo a dança. \nEles se juntam à música. \n\nUm por um, os dançarinos sincronizam seus movimentos até que estão dançando e girando em uníssono perfeito, em um carrossel complexo demais para você seguir ... dançando entre as pedras.
+UIFinaleBurningText.uitext,Enquanto os dançarinos dançam, as outras criaturas são consumidas por um estranho fogo tétrico. \n\nQuando a dança termina, \nOs dançarinos e o Bardo foram embora. \nProcure os dançarinos, o Bardo ou qualquer um dos Druidas. \n\nVocê não encontra vestígios deles. \n\nVocê ateia fogo à cabana de madeira ... \n destruindo os últimos vestígios da história da família Beck. \nParece a coisa certa a fazer.
+UIFinaleCoveredBridgeText.uitext,Você atravessa a ponte coberta. \nUm som distante faz você se virar. \nVocê ouve - vindo da direção da pedra ritual - a bela canção. \nA última e final canção do último Bardo do Ord na Darach Gile. \n\nVocê escuta enquanto observa a última fumaça subindo acima das árvores. \n\nO alvorecer chegou... \n\nVocê vai embora. \n\nO Fim
+UIFinaleWhiteDruidContinue.uitext,Continuar
+UIFinaleDancingContinue.uitext,Continuar
+UIFinaleBurningContinue.uitext,Continuar
+TokenStoneFinale.text,Uma grande pedra retangular preenche o espaço central do círculo de pedra. \nA pedra tem 90 cm de altura e cerca de 2 metros de comprimento.
+EventStoneFinaleInteract.button1,Continuar
+EventPlaceStoneFinale.text,O Druida Branco canta palavras do céltico há muito perdido. \nAs runas no {c:QItemDagger} ficam mais brilhantes. \n\nO Druida Branco devolve e diz: \n <i> Tudo está pronto para você completar o verdadeiro ritaul Beltane! \n </i>
+TokenStone1.text,Uma grande pedra retangular preenche o espaço central do círculo de pedra. \nA pedra tem 90 cm de altura e cerca de 2 metros de comprimento. \n\n Próximo à pedra há vestígios de uma pequena fogueira que se apagou.
+TokenStone1.button1,{action} Pesquisar
+TokenStone2.text,Uma grande pedra retangular preenche o espaço central do círculo de pedra. \nA pedra tem 90 cm de altura e cerca de 2 metros de comprimento. \n\nPróximo à pedra há vestígios de uma pequena fogueira que se apagou.
+TokenStone2.button1,Remover a maldição
+EventPerformRitual2.text,Você estuda desesperadamente o diário para criar um contra-feitiço para a maldição. \n\nTeste {lore}
+EventPerformRitual2.button1,Continuar
+UIFinaleFlash1Text.uitext,Há um clarão ofuscante. \nA sua visão se confunde e tudo se torna escuro ... \n\nQuando você acorda no círculo de pedras, não se lembra de nada do porquê de ter vindo aqui ou de qualquer um dos eventos desta noite! \n\nVocê foge em pânico.
+UIFinaleFlash1Continue.button1,Continuar
+UIFinaleFlash1Continue.uitext,Continuar
+UIFinaleFlash2Text.uitext,Por meses você sofre pesadelos que sempre começam com você atravessando uma velha ponte coberta mas eles eventualmente desaparecem. \n\nEles voltam pior do que nunca, depois que você ouve rumores de Druidas que se encontram na floresta escura e que eles têm um Druida Sombrio em seu meio . \n\nVocê tem um sentimento inquietante de deju vu e de negócios inacabados ... \n\nO Fim
+UIFinaleFlash2Text.button1,Continuar
+EventPainting.button1,Continuar
+EventStone2PerformRitual1.text,Você ouve um zumbido vindo das pedras. \n\nVocê só pode clicar no botão Continuar, \nse tiver o item {c:QItemCultSigil} e o item {c:QItemJournal} \n
+EventStone2PerformRitual1.button1,{action} Continuar
+EventStone2PerformRitual1.button2,Cancelar
+EventStone2PerformRitual1BtT.text,Você ouve um zumbido vindo das pedras. \n\nVocê só pode clicar no botão Continuar, \nse tiver o item {c:QItemCultSigil} e o item {c:QItemCultJournal} \n
+EventStone2PerformRitual1BtT.button1,{action} Continuar
+EventStone2PerformRitual1BtT.button2,Cancelar
+EventSigilAboutSylvia.text,Enquanto você segura o Selo, sua mente se torna mais clara. \nVocê se lembra de ter vindo a este lugar com Sylvia Marsh para encontrar Pete Barker e confrontar o malvado e poderoso Druida das Trevas. \n
+EventSigilAboutSylvia.button1,Continuar
+EventAllyHelpedSylviaA.text,<i> Lembro-me de Sylvia pegando o Selo e fugindo em pânico. \nEla quase bateu de cabeça em uma pedra, mas Ammi conseguiu detê-la a tempo. </i> \n\nGanhe 1 {clue} \n
+EventAllyHelpedSylviaB.text,<i> Lembro-me de Sylvia pegando o Selo e fugindo em pânico. \nNa beirada do círculo de pedra, ela caiu e quase bateu com a cabeça em uma pedra. Eric segurou-a e ajudou-a a ficar de pé. </i> \nGanhe 1 {clue} \n
+EventAllyHelpedSylviaC.text,<i> Lembro-me de Sylvia pegando o Selo e fugindo em pânico. \nNa extremidade do círculo de pedra, ela caiu e quase se bateu a cabeça em uma pedra. \nOthera a pegou e a ajudou a se levantar. </i> \nGanhe 1 {clue} \n
+EventAllyHelpedSylviaD.text,<i> Lembro-me de Sylvia pegando o Selo e fugindo em pânico. \nNa extremidade do círculo de pedra, ela caiu e quase se acertou uma pedra. \nCorrina a pegou e a ajudou a se levantar. </i> \nGanhe 1 {clue} \n
+EventAllyHelpedSylviaA.button1,Continuar
+EventAllyHelpedSylviaB.button1,Continuar
+EventAllyHelpedSylviaC.button1,Continuar
+EventAllyHelpedSylviaD.button1,Continuar

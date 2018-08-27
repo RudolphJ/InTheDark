@@ -373,9 +373,3 @@ EventAllyMonologueSylviaA.text,<i>I remember Sylvia picking up the sigil and fle
 EventAllyMonologueSylviaB.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nEric caught her and helped her up to get up.</i>\n\ngain 1 {clue}\n
 EventAllyMonologueSylviaC.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nOthera caught her and helped her up to get up and escape.</i>\n\ngain 1 {clue}\n
 EventAllyMonologueSylviaD.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nCorrina caught her and helped her up to get up and escape.</i>\n\ngain 1 {clue}\n
-
-CHANGES DONE 16 (Version 3.4)
-
-1. [EventPaintingA] Make explicit painter painted picture after casting a spell to see the distant past
-2. Used spellattack and spelldefence
-
