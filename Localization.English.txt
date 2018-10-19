@@ -1,4 +1,4 @@
-﻿.,English
+.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,7 +43,7 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v3.5)
+quest.name,In the Dark (v3.6)
 quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
 quest.authors,"\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\nPortuguese Translation: DanielFrancelino\n"
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
@@ -499,9 +499,9 @@ EventAllyAIsWarlock.button1,Continue
 EventAllyAIsWarlock.text,<i>The Pierce and the Beck families have always been close.\nThere's gossip about deformities caused by inbreeding!\nBettina Beck inherited the sigil.  It was a family heirloom passed down through generations from the notorious alchemist Malachi Cooter Pierce. \nBut the Cult Sigil was not originally owned by Malachi. He obtained it by killing a powerful White Druid and using its power for evil instead of good.\n\n</i>Gain 1 {clue}
 EventAllyBIsWarlock.text,<i>The Colt clan has a reputation for being insular, dangerous and violent. \nEric is the illegitimate son of an illicit secret affair between {qst:QSTFATHERFIRSTNAME} Colt and {qst:QSTMOTHERNAME}.\nThe {c:QItemCultSigil} was given to Bettina by {qst:QSTFATHERFIRSTNAME} Colt but he was not its true owner.\nIt was originally owned by a tramp who claimed to be the last of the true Druids and who was popular for his healing abilities.\nWhen the tramp disappeared, the sheriff made enquiries but locals were so afraid of the Colts nobody was willing to testify against them.\n</i>\nGain 1 {clue}\n
 EventAllyBIsWarlock.button1,Continue
-EventAllyCIsWarlock.text,\n<i>John Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with Bettina Beck.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\n\nOthera Gilman will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers!\nShe is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
+EventAllyCIsWarlock.text,\n<i>John Gilman was the father of Othera Gilman.\nHe had an illicit secret affair with Bettina Beck.\nThey obtained the powerful Sigil by killing its orignal owner - a passing Tramp who claimed to be the last of the true White Druids.\n\nOthera Gilman will stop at nothing to gain possession of the sigil.\nShe regards it as rightfully hers!\nShe is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 1 {clue}\n
 EventAllyCIsWarlock.button1,Continue
-EventAllyDIsWarlock.text,\n<i>Few know Corrina Jones is the half-sister of Martha Beck.\nHer mother Bettina Beck took the sigil from a passing tramp who claimed to be the last of the true White Druids.\nMartha inherited the sigil after Bettina killed herself.\nCorrina regards the sigil as rightfully hers.\n\nCorrina is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 2 {clue}\n
+EventAllyDIsWarlock.text,\n<i>Few know Corrina Jones is the half-sister of Martha Beck.\nHer mother Bettina Beck took the sigil from a passing tramp who claimed to be the last of the true White Druids.\nMartha inherited the sigil after Bettina killed herself.\nCorrina regards the sigil as rightfully hers.\n\nCorrina is older than she seems.\nIn her childhood, she learned to use the power of the Black Goat to prolong her life abnormally.</i>\n\nGain 1 {clue}\n
 EventAllyDIsWarlock.button1,Continue
 EventAlreadyTold.text,<i>I've already told you all I know!</i>
 EventAlreadyTold.button1,Continue
@@ -917,3 +917,5 @@ EventAllyHelpedSylviaA.button1,Continue
 EventAllyHelpedSylviaB.button1,Continue
 EventAllyHelpedSylviaC.button1,Continue
 EventAllyHelpedSylviaD.button1,Continue
+EventMythosSigilReady.text,The {c:QItemCultSigil} becomes warm to the touch and the runes begin to glow.
+EventMythosSigilReady.button1,Continue

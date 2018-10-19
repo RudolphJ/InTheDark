@@ -1,4 +1,4 @@
-.,Portuguese
+﻿.,Portuguese
 UIIntroText.uitext,Figuras sombrias movendo-se em um denso nevoeiro, girando em torno de grandes pedras. \nEntão clarões de chamas, respingos de vermelho, gritos de pânico ... \n\nVocê acorda desorientado e atordoado para ver um círculo de pedra. \nOs últimos vestígios de névoa se dissipam. \n
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,7 +43,7 @@ TokenAllyD.button4,{action} <i> Quando você viu pela última vez o Pete Barker?
 TokenAllyD.button5,{action} <i> O que aconteceu no ritual? </i>
 TokenAllyD.button6,{action} Ataque a Corrina Jones
 TokenAllyD.button7,Mostrar à Corrina Jones o Selo do Culto
-quest.name,No Escuro (v3.5)
+quest.name,No Escuro (v3.6)
 quest.description,No Escuro \n\nUma aventura para Mansions of Madness 2a Edição. \nEste cenário requer a Expansão Memórias Reprimidas. \n\nOculto na clareira da floresta, o pálido luar ilumina um círculo de pedra. \nVocê será capaz de resolver o mistério das pedras? \n\nAviso: a história é um mistério desafiador. \nVocê precisará juntar pistas diversas e sutis. \nAconselha-se conversar com todos os personagens. \nFaça anotações e use o registro para verificar suas deduções. \nUma folha chamada 'InTheDarkClueCribSheet.pdf' pode ser encontrada na pasta do cenário ou baixada de \nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet \n\nNeste cenário, há uma regra especial relacionada a Marcadores de Escuridão. \nQuando um Marcador de Escuridão é colocado em uma Delimitação (linha branca ou amarela), todos os espaços dessa Peça de Mapa estão na Escuridão.
 quest.authors,"\nDesigner: Nicola Zee \nChief Playtester: Jürgen Rudolph \n\nEnd Music: ""I've not fear"" por Damiano Baldoni (Licença: CC BY 4.0) \nPintura de imagem por Ahlia77 (Licença CC BY-NC-ND 3.0) \nTradução para o francês: Indoy \nTradução para o português: Danielfrance \n"
 EventGraveSearch.text,Dentro do túmulo estão numerosos ossos de cabras deformadas. \nO solo foi recentemente remexido. \n\nTeste {observation}
@@ -499,9 +499,9 @@ EventAllyAIsWarlock.button1,Continuar
 EventAllyAIsWarlock.text,<i> As famílias Pierce e Beck sempre foram próximas. \nHá fofocas sobre deformidades causadas por endogamia! \nBettina Beck herdou o Selo. Foi uma herança de família transmitida através de gerações do notório alquimista Malachi Cooter Pierce. \nMas o Selo do Culto não era originalmente de propriedade de Malachi. Ele obteve isso matando um poderoso Druida Branco e usando seu poder para o mal ao invés do bem. \n\n </i> Ganhe 1 {clue}
 EventAllyBIsWarlock.text,<i> O clã Colt tem a reputação de ser insular, perigoso e violento. \nEric é o filho ilegítimo de um caso secreto ilícito entre {qst:QSTFATHERFIRSTNAME} Colt e {qst:QSTMOTHERNAME}. \nO {c:QItemCultSigil} foi dado a Bettina por {qst:QSTFATHERFIRSTNAME} Colt mas ele não era seu verdadeiro dono. Originalmente era de um vagabundo que afirmava ser o último dos verdadeiros druidas e que era popular por suas habilidades de cura. Quando o vagabundo desapareceu, o xerife fez perguntas, mas os moradores locais estavam com tanto medo dos Colts que ninguém estava disposto a testemunhar contra eles. \n </i> \nGanhe 1 {clue} \n
 EventAllyBIsWarlock.button1,Continuar
-EventAllyCIsWarlock.text,\n <i> John Gilman era o pai de Othera Gilman. \nEle teve um caso secreto com Bettina Beck. Eles obtiveram o poderoso Selo matando seu dono original - um vagabundo de passagem que alegou ser o último dos verdadeiros Druidas  Brancos. \n\nOthera Gilman não vai parar até conseguir ganhar a posse do Selo. \nEla o considera legitimamente dela! \nEla é mais velha do que parece. \nNa sua infância, ela aprendeu a usar o poder da Cabra Negra para prolongar sua vida anormalmente. </i> \n\nGanhe 2 {clue} \n
+EventAllyCIsWarlock.text,\n <i> John Gilman era o pai de Othera Gilman. \nEle teve um caso secreto com Bettina Beck. Eles obtiveram o poderoso Selo matando seu dono original - um vagabundo de passagem que alegou ser o último dos verdadeiros Druidas  Brancos. \n\nOthera Gilman não vai parar até conseguir ganhar a posse do Selo. \nEla o considera legitimamente dela! \nEla é mais velha do que parece. \nNa sua infância, ela aprendeu a usar o poder da Cabra Negra para prolongar sua vida anormalmente. </i> \n\nGanhe 1 {clue} \n
 EventAllyCIsWarlock.button1,Continuar
-EventAllyDIsWarlock.text,\n <i> Poucos sabem que Corrina Jones é a meia-irmã de Martha Beck. \nSua mãe Bettina Beck levou o Selo de um vagabundo de passagem que reivindicou ser o último dos verdadeiros Druidas Brancos. \nMartha herdou o Selo depois que Bettina se matou \nCorrina considera o Selo como legítimo dela. \n\nCorrina é mais velha do que parece. \nNa infância, ela aprendeu a usar o poder da Cabra Preta para prolongar sua vida anormalmente. </i> \n\nGanhe 2 {clue} \n
+EventAllyDIsWarlock.text,\n <i> Poucos sabem que Corrina Jones é a meia-irmã de Martha Beck. \nSua mãe Bettina Beck levou o Selo de um vagabundo de passagem que reivindicou ser o último dos verdadeiros Druidas Brancos. \nMartha herdou o Selo depois que Bettina se matou \nCorrina considera o Selo como legítimo dela. \n\nCorrina é mais velha do que parece. \nNa infância, ela aprendeu a usar o poder da Cabra Preta para prolongar sua vida anormalmente. </i> \n\nGanhe 1 {clue} \n
 EventAllyDIsWarlock.button1,Continuar
 EventAlreadyTold.text,<i> Eu já te disse tudo o que sei! </i>
 EventAlreadyTold.button1,Continuar
@@ -917,3 +917,5 @@ EventAllyHelpedSylviaA.button1,Continuar
 EventAllyHelpedSylviaB.button1,Continuar
 EventAllyHelpedSylviaC.button1,Continuar
 EventAllyHelpedSylviaD.button1,Continuar
+EventMythosSigilReady.text,O {c:QItemCultSigil} fica quente ao toque e as runas começam a brilhar.
+EventMythosSigilReady.button1,Continuar

@@ -1,4 +1,4 @@
-.,French
+﻿.,French
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,7 +43,7 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v3.5)
+quest.name,Dans les Ténèbres (v3.6)
 quest.description,- <i>Dans les Ténèbres</i> -\n\nUne aventure pour Les Demeures de l'Épouvante 2ème Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle de pierres.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Cette histoire est un mystère complexe à résoudre.\nVous devrez faire correspondre divers subtiles indices.\nIl est recommandé de parler avec tous les personnages.\nPrenez des notes et utilisez le journal pour régulièrement affiner vos déductions.\nUne feuille vierge de vérification nommée 'InTheDarkClueCribSheet.pdf' se trouve dans le répertoire du scénario, ou bien peut être téléchargée à l'adresse suivante : https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont considérées dans l'Obscurité.\n
 quest.authors,"\nDesigner: Nicola Zee\nChef Playtester: Jürgen Rudolph\n\n\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n"
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
@@ -499,9 +499,9 @@ EventAllyAIsWarlock.button1,Continuer
 EventAllyAIsWarlock.text,<i>Les familles Pierce et Beck ont toujours été proches.\nGénérant de nombreux commérages autour de malformations et de consanguinité!\nBettina Beck a hérité du Sceau. Il faisait partie du patrimoine familial depuis l'époque de l'éminent alchimiste Malachi Cooter Pierce.\nMais le Sceau de Culte n'appartenait initialement pas à Malachi. Il l'a obtenu en tuant un puissant Druide Blanc pour faire le mal plutôt que le bien.\n\n</i>Récupérez 1 jeton {clue}
 EventAllyBIsWarlock.text,<i>Le clan Colt a la réputation d'être introverti, dangereux et violent.\nEric est le fils illégitime d'une union secrète entre {qst:QSTFATHERFIRSTNAME} Colt et {qst:QSTMOTHERNAME}.\nLe {c:QItemCultSigil} a été donné à Bettina par {qst:QSTFATHERFIRSTNAME} Colt, mais il n'était pas le propriétaire originel.\nIl a appartenu initialement à un vagabond, très populaire pour ses pouvoirs de guérison, qui se réclamait d'être le dernier des vrais Druides.\nQuand il a disparu, le sheriff a mené une enquête mais les gens étaient si effrayés par les Colt, que peu étaient enclins à témoigner contre eux.\n</i>\nRécupérez 1 jeton {clue}
 EventAllyBIsWarlock.button1,Continuer
-EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman était le père d'Othera Gilman.\nIl a eu une union secrète avec {qst:QSTMOTHERNAME}.\nIls ont acquis le puissant Sceau en tuant son propriétaire légitime – un vagabond qui se réclamait d'être le dernier véritable Druide Blanc.\nRien n'arrêtera {qst:QSTALLYCNAME} avant qu'elle n'ait le Sceau en sa possession.\nElle le convoite comme s'il était légitimement le sien.\nElle est plus vieille qu'elle n'y paraît.\nDurant son enfance elle est parvenue à invoquer le pouvoir de la Chèvre Noire pour artificiellement prolonger son existence.</i>\n\nRécupérez 2 jeton {clue}
+EventAllyCIsWarlock.text,<i>{qst:QSTFATHERFIRSTNAME} Gilman était le père d'Othera Gilman.\nIl a eu une union secrète avec {qst:QSTMOTHERNAME}.\nIls ont acquis le puissant Sceau en tuant son propriétaire légitime – un vagabond qui se réclamait d'être le dernier véritable Druide Blanc.\nRien n'arrêtera {qst:QSTALLYCNAME} avant qu'elle n'ait le Sceau en sa possession.\nElle le convoite comme s'il était légitimement le sien.\nElle est plus vieille qu'elle n'y paraît.\nDurant son enfance elle est parvenue à invoquer le pouvoir de la Chèvre Noire pour artificiellement prolonger son existence.</i>\n\nRécupérez 1 jeton {clue}
 EventAllyCIsWarlock.button1,Continuer
-EventAllyDIsWarlock.text,<i>Peu savent que Corrina Jones est la demi-sœur de Martha Beck.\nSa mère, Bettina Beck, a pris le sceau à un clochard qui se disait être le dernier des vrais Druides Blancs.\nMartha a hérité du sceau après le suicide de Bettina.\nCorrina considère que le sceau lui revient légitimement.\n\nCorrina est plus âgée qu'elle n'y parait.\nDurant son enfance, elle a appris à maîtriser le pouvoir de la Chèvre Noire pour prolonger sa vie de manière inhabituelle.</i>\n\nRécupérez 2 jeton {clue}
+EventAllyDIsWarlock.text,<i>Peu savent que Corrina Jones est la demi-sœur de Martha Beck.\nSa mère, Bettina Beck, a pris le sceau à un clochard qui se disait être le dernier des vrais Druides Blancs.\nMartha a hérité du sceau après le suicide de Bettina.\nCorrina considère que le sceau lui revient légitimement.\n\nCorrina est plus âgée qu'elle n'y parait.\nDurant son enfance, elle a appris à maîtriser le pouvoir de la Chèvre Noire pour prolonger sa vie de manière inhabituelle.</i>\n\nRécupérez 1 jeton {clue}
 EventAllyDIsWarlock.button1,Continuer
 EventAlreadyTold.text,<i>Je vous ai déjà dit tout ce que je savais!</i>
 EventAlreadyTold.button1,Continuer
@@ -917,3 +917,5 @@ EventAllyHelpedSylviaA.button1,Continuer
 EventAllyHelpedSylviaB.button1,Continuer
 EventAllyHelpedSylviaC.button1,Continuer
 EventAllyHelpedSylviaD.button1,Continuer
+EventMythosSigilReady.text,Le {c:QItemCultSigil} devient chaud au toucher et les runes commencent à briller.
+EventMythosSigilReady.button1,Continuer
