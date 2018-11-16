@@ -43,7 +43,7 @@ TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière 
 TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
 TokenAllyD.button6,{action} Attaquer Corrina Jones
 TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v3.6)
+quest.name,Dans les Ténèbres (v3.7)
 quest.description,- <i>Dans les Ténèbres</i> -\n\nUne aventure pour Les Demeures de l'Épouvante 2ème Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle de pierres.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Cette histoire est un mystère complexe à résoudre.\nVous devrez faire correspondre divers subtiles indices.\nIl est recommandé de parler avec tous les personnages.\nPrenez des notes et utilisez le journal pour régulièrement affiner vos déductions.\nUne feuille vierge de vérification nommée 'InTheDarkClueCribSheet.pdf' se trouve dans le répertoire du scénario, ou bien peut être téléchargée à l'adresse suivante : https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont considérées dans l'Obscurité.\n
 quest.authors,"\nDesigner: Nicola Zee\nChef Playtester: Jürgen Rudolph\n\n\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n"
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
@@ -707,7 +707,7 @@ EventCellarTestFailed.text,La femme crie,\n<i>Vous n'êtes pas l'ami des Druides
 EventCellarTestFailed.button1,Continuer
 EventDarkYoungGrab.text,La créature tente de vous attraper avec ses tentacules, pour vous traîner dans les bois.\nTest ({agility};1)\n\nSi vous échouez, subissez 1 Dégât et déplacez le Sombre Rejeton et vos personnages de 2 cases vers l'Est.
 EventDarkYoungGrab.button1,Continuer
-EventFinaleNoFire.text,Vous placez le {c:QItemCultSigil} sur la pierre.\n\nUn grondement provient de la pierre.\nElle devient plus chaude au toucher.\nIl manque quelque chose pour commencer le vrai Rituel de Beltaine.\nVous essayez désespéramment de vous souvenir ce que vous avez appris sur le rituel de Beltaine.\n
+EventFinaleNoFire.text,Vous placez le {c:QItemCultSigil} sur la pierre.\n\nUn grondement provient de la pierre.\nElle devient plus chaude au toucher.\nIl manque quelque chose pour commencer le vrai Rituel de Beltaine.\nVous essayez désespéramment de vous souvenir ce que vous avez appris sur le rituel de Beltaine.\n\nTest {lore}
 EventFinaleNoFire.button1,Continuer
 EventCaveDoorLocked2.button2,Échec
 EventCaveDoorLockedFail.text,L'homme assène,\n<i>Je ne suis pas sûr de pouvoir vous faire confiance!</i>
