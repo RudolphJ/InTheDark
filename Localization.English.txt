@@ -43,8 +43,8 @@ TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
 TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
 TokenAllyD.button6,{action} Attack Corrina Jones
 TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v3.7)
-quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
+quest.name,In the Dark (v3.8)
+quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n	Do not play this scenario without using the crib sheet or extensive notes unless your main language is English and you can solve two grid logic puzzles in your head.\nThe text for speech is in italics and uses colloquialisms inspired by Lovecraft's story 'The Dunwich Horror'.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
 quest.authors,"\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\nPortuguese Translation: DanielFrancelino\n"
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
@@ -254,7 +254,7 @@ EventPlaceBridgeTileTokens.text,Place {var:countBridgeSights} Sight Token(s)
 EventPlaceBridgeTileTokens.button1,Continue
 TokenCampToBridge.text,The light from the camp fire illuminates a covered bridge.\n\nYou may click Reveal if you are on any space on the {c:TileCamp} Tile
 TokenCampToBridge.button1,Reveal
-EventPlaceBridgeTile.text,A ramsuckle covered wooden bridge spans a river.\nThe water glistens in the feeble moonlight.\n\nPlace the large {c:TileBridge} Tile\n\n{qst:QSTPLACEDARKNESS}
+EventPlaceBridgeTile.text,A ramsuckle covered wooden bridge spans a river.\nThe water glistens in the feeble moonlight.\n\nPlace the large {c:TileBridge} Tile\nNote: the two Covered Bridge Room spaces count as an Indoor Room.\n\nPlace a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.
 EventPlaceBridgeTile.button1,Continue
 EventPlaceCampFire.text,The small camp fire is starting to burn down.\n\nPlace 1 Interact Token on this space\n
 EventPlaceCampFire.button1,Continue

@@ -1,4 +1,4 @@
-﻿.,Portuguese
+.,Portuguese
 UIIntroText.uitext,Figuras sombrias movendo-se em um denso nevoeiro, girando em torno de grandes pedras. \nEntão clarões de chamas, respingos de vermelho, gritos de pânico ... \n\nVocê acorda desorientado e atordoado para ver um círculo de pedra. \nOs últimos vestígios de névoa se dissipam. \n
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -43,7 +43,7 @@ TokenAllyD.button4,{action} <i> Quando você viu pela última vez o Pete Barker?
 TokenAllyD.button5,{action} <i> O que aconteceu no ritual? </i>
 TokenAllyD.button6,{action} Ataque a Corrina Jones
 TokenAllyD.button7,Mostrar à Corrina Jones o Selo do Culto
-quest.name,No Escuro (v3.7)
+quest.name,No Escuro (v3.8)
 quest.description,No Escuro \n\nUma aventura para Mansions of Madness 2a Edição. \nEste cenário requer a Expansão Memórias Reprimidas. \n\nOculto na clareira da floresta, o pálido luar ilumina um círculo de pedra. \nVocê será capaz de resolver o mistério das pedras? \n\nAviso: a história é um mistério desafiador. \nVocê precisará juntar pistas diversas e sutis. \nAconselha-se conversar com todos os personagens. \nFaça anotações e use o registro para verificar suas deduções. \nUma folha chamada 'InTheDarkClueCribSheet.pdf' pode ser encontrada na pasta do cenário ou baixada de \nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet \n\nNeste cenário, há uma regra especial relacionada a Marcadores de Escuridão. \nQuando um Marcador de Escuridão é colocado em uma Delimitação (linha branca ou amarela), todos os espaços dessa Peça de Mapa estão na Escuridão.
 quest.authors,"\nDesigner: Nicola Zee \nChief Playtester: Jürgen Rudolph \n\nEnd Music: ""I've not fear"" por Damiano Baldoni (Licença: CC BY 4.0) \nPintura de imagem por Ahlia77 (Licença CC BY-NC-ND 3.0) \nTradução para o francês: Indoy \nTradução para o português: Danielfrance \n"
 EventGraveSearch.text,Dentro do túmulo estão numerosos ossos de cabras deformadas. \nO solo foi recentemente remexido. \n\nTeste {observation}
