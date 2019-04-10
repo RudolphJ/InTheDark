@@ -373,3 +373,15 @@ EventAllyMonologueSylviaA.text,<i>I remember Sylvia picking up the sigil and fle
 EventAllyMonologueSylviaB.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nEric caught her and helped her up to get up.</i>\n\ngain 1 {clue}\n
 EventAllyMonologueSylviaC.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nOthera caught her and helped her up to get up and escape.</i>\n\ngain 1 {clue}\n
 EventAllyMonologueSylviaD.text,<i>I remember Sylvia picking up the sigil and fleeing.\nJust as she left the stone circle, she fell and almost brained herself on a rock.\nCorrina caught her and helped her up to get up and escape.</i>\n\ngain 1 {clue}\n
+
+
+
+CHANGES DONE 16 (v4.0)
+Added images of Othera and Ammi
+Changed initial clues to all investigators.
+Reduced 2 clues given to 1.
+The three 'is a druid' questions now disappear after asking.
+The three 'is a druid' questions now give info after sigil given.
+Two main questions of Slyvia Marsh turned off after asking.
+
+

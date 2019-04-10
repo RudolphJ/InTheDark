@@ -2,48 +2,27 @@
 UIIntroText.uitext,Des silhouettes fantomatiques se déplacent dans un épais brouillard, tourbillonnant autour de grandes pierres.\nPuis des éclats de flammes, des projections de sang, des hurlements de panique...\n\nVous vous réveillez, étourdi et désorienté, avec la vision d'un cercle en pierre.\nLes dernières vapeurs de brouillard se dissipent.
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
-QSTALLYCNAME,Othera Gilman
+QSTALLYANAME,Ammi Pierce
 QSTALLYBNAME,Eric Colt
+QSTALLYCNAME,Othera Gilman
 QSTALLYDNAME,Corrina Jones
+QSTALLYENAME,Sylvia Marsh
 QSTNOVICENAME,Pete Barker
 QSTNOVICESURNAME,Barker
 QSTPLACEDARKNESS,Placez 1 jeton Obscurité sur la bordure indiquée.\nConsidérez toutes les cases de la tuile comme plongées dans l'Obscurité.
 QSTSPAWNDARKYOUNG,Une créature formée de multiples tentacules immenses et de gueules baveuses, jaillit à travers les arbres.\n\nPlacez le monstre Sombre Rejeton sur la case indiquée.
-TokenAllyA.text,Ammi Pierce
-TokenAllyA.button1,{action} <i>Eric Colt est-il un Druide Noir?</i>
-TokenAllyA.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
-TokenAllyA.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
-TokenAllyA.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
-TokenAllyA.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
-TokenAllyA.button6, {action} <i>Que pouvez-vous me dire sur cet endroit?</i>
-TokenAllyA.button7,{action} Attaquer Ammi Pierce
-TokenAllyA.button8,Montrer le Sceau de Culte
-TokenAllyB.text,Eric Colt
-TokenAllyB.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
-TokenAllyB.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
-TokenAllyB.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
-TokenAllyB.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
-TokenAllyB.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
-TokenAllyB.button6,{action} Attaquer Eric Colt
-TokenAllyB.button7,Montrer le Sceau de Culte à Eric Colt
-TokenAllyC.text,Othera Gilman
-TokenAllyC.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
-TokenAllyC.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
-TokenAllyC.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
-TokenAllyC.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
-TokenAllyC.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
-TokenAllyC.button6,{action} <i>Que pouvez-vous me dire sur la famille Marsh?</i>
-TokenAllyC.button7,{action} Attaquer Othera Gilman
-TokenAllyC.button8,Montrer le Sceau de Culte à Othera Gilman
-TokenAllyD.text,Corrina Jones
-TokenAllyD.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
-TokenAllyD.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
-TokenAllyD.button3,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
-TokenAllyD.button4,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
-TokenAllyD.button5,{action} <i>Que s'est-il passé pendant le rituel?</i>
-TokenAllyD.button6,{action} Attaquer Corrina Jones
-TokenAllyD.button7,Montrer le Sceau de Culte à Corrina Jones
-quest.name,Dans les Ténèbres (v3.8)
+QSTCANCEL,Annuler
+QSTALLYAFIRSTNAME,Ammi
+QSTALLYBFIRSTNAME,Eric
+QSTALLYCFIRSTNAME,Othera
+QSTALLYDFIRSTNAME,Corrina
+QSTALLYEFIRSTNAME,Sylvia
+QSTALLYASURNAME,Pierce
+QSTALLYBSURNAME,Colt
+QSTALLYCSURNAME, Gilman
+QSTALLYDSURNAME,Jones 
+QSTALLYESURNAME,Marsh
+quest.name,Dans les Ténèbres (v4.0)
 quest.description,- <i>Dans les Ténèbres</i> -\n\nUne aventure pour Les Demeures de l'Épouvante 2ème Édition.\nCe scénario requiert les tuiles et figurines de l'extension Souvenirs Refoulés.\n\nAu fond d'une forêt, un pale clair de lune illumine un cercle de pierres.\nParviendrez-vous à résoudre le mystère des pierres?\n\nAttention: Cette histoire est un mystère complexe à résoudre.\nVous devrez faire correspondre divers subtiles indices.\nIl est recommandé de parler avec tous les personnages.\nPrenez des notes et utilisez le journal pour régulièrement affiner vos déductions.\nUne feuille vierge de vérification nommée 'InTheDarkClueCribSheet.pdf' se trouve dans le répertoire du scénario, ou bien peut être téléchargée à l'adresse suivante : https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n\nDans ce scénario, il y une règle spéciale concernant le jeton Obscurité.\nQuand il est placé sur une bordure (ligne blanche ou jaune), toutes les cases de la tuile sont considérées dans l'Obscurité.\n
 quest.authors,"\nDesigner: Nicola Zee\nChef Playtester: Jürgen Rudolph\n\n\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nTraduit en français: Indoy\n"
 EventGraveSearch.text,A l'intérieur de la tombe reposent de nombreux ossements de chèvres difformes.\nLa terre a été récemment retournée.\n\nTest {observation}
@@ -98,13 +77,11 @@ EventLetterResultMoreC.button1,Continuer
 EventLetterResult.text,Dans l'un des tiroirs, vous trouvez une lettre à l’attention de Martha Beck.
 EventLetterResult.button1,Continuer
 EventLetterResultMoreD.text,<i>Chère Martha,\n\nVous avez une haute estime de votre lignée mais en va-t-il de même pour vos frères et sœurs?\nÊtre si peu enclin au respect de la loi depuis l'enfance, n'y a-t-il ainsi pas de risque de revirement?\nUn de vos parents est un Druide Noir qui manigance pour prendre le commandement du groupe!\nMoi seul suis digne de confiance en possession du Sceau!\n\nVotre servante dévouée\nCorrina Jones\n</i>\nRécupérez 1 jeton {clue}
-QSTALLYDFIRSTNAME,Corrina
 EventLetterResultMoreD.button1,Continuer
 TokenLetter.text,Le meuble dispose de plusieurs tiroirs.
 TokenLetter.button1,{action} Rechercher
 EventLetterResultMoreA.text,<i>Martha Beck,\nGrande prêtresse du Vénérable Ordre Druidique.\n\nComparés à moi, les autres Druides en savent bien peu!\nJe suis le dernier de l'Ordre des Druides Blancs.\nJe vous ai montré la puissance de ma magie.\nDonnez-moi le Sceau et je veillerai sur lui.\n\nVotre servant dévoué\nAmmi Pierce\n</i>\nRécupérez 1 jeton {clue}
 EventLetterResultMoreA.button1,Continuer
-QSTALLYANAME,Ammi Pierce
 EventPendantSearchResult.text,Vous trouvez un petit pendentif.\nSa chaîne est prise dans le buisson.\n\nRécupérez l'Objet Commun {c:QItemPendant}.\n\nAu Nord, vous voyez d'imposantes traces de sabot.
 EventPendantSearchResult.button1,Continuer
 EventPendantSearch.text,En fouillant les buissons, vous trouvez un grand morceau de tissu blanc teinté de sang.\n\nTest {observation}
@@ -139,41 +116,12 @@ EventAllyNotRole1MoreA.text,Vous vous rappelez qu'une des silhouettes en retrait
 EventAllyNotRole1MoreA.button1,Continuer
 EventAllyNotRole3Again.text,<i>\nLe Druide Noir a lancé la malédiction du Sang Noir de la Chèvre.\nUn groupe de filles qui regardait la cérémonie a été affecté par le sort.\nLe Sceau utilisé pour le rituel est la clé pour inverser la malédiction!\nJe sais de quoi je parle!\nSi vous ne me le donnez pas, votre destin sera scellé!</i>\n\nRécupérez 1 jeton {clue}
 EventAllyNotRole3Again.button1,Continuer
-QSTALLYENAME,Sylvia Marsh
-QSTALLYAFIRSTNAME,Ammi
-TokenAllyA2.text,{qst:QSTALLYANAME}
-TokenAllyA2.button1,{action} <i>Eric Colt est-il un Druide Noir?</i>
-TokenAllyA2.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
-TokenAllyA2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
-TokenAllyA2.button4,{action} Donner la dague à Ammi
-TokenAllyB2.text,{qst:QSTALLYBNAME}
-TokenAllyB2.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
-TokenAllyB2.button2,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
-TokenAllyB2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
-TokenAllyB2.button4,{action} Donner la dague à Eric
-TokenAllyD2.text,{qst:QSTALLYDNAME}
-TokenAllyD2.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
-TokenAllyD2.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
-TokenAllyD2.button3,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
-TokenAllyD2.button4,{action} Donner la dague à Corrina
-TokenAllyC2.text,{qst:QSTALLYCNAME}
-TokenAllyC2.button1,{action} <i>Ammi Pierce est-il un Druide Noir?</i>
-TokenAllyC2.button2,{action} <i>Eric Colt est-il un Druide Noir?</i>
-TokenAllyC2.button3,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
-TokenAllyC2.button4,{action} <i>Parlez-moi de la famille Marsh</i>
-TokenAllyC2.button5,{action} Donner la dague à Othera
 TokenJournal.text,Le meuble est rempli de papiers.
 TokenJournal.button1,{action} Rechercher
 EventLogCabinMonologue2.text,<i>Le chalet est resté vide après que la mère de Martha se soit pendue au grand chêne dans les bois!\nLes habitants du coin considéraient Bettina comme une meurtrière mais après son suicide, le sheriff a préféré taire certains éléments pour le bien-être des enfants.\n\nQuelques temps après, Martha m'a dit avoir fait du nettoyage.\nElle accueillait un parent, ayant des problèmes avec la loi, et qui avait besoin d'un endroit pour se poser.\nMartha a refusé de m'en dire davantage.</i>\n\nRécupérez 1 jeton {clue}
 EventLogCabinMonologue2.button1,Continuer
 EventAllyE2AboutRitual2.text,<i>Je me souviens avoir entendu cette mélodie juste avant que le Sombre Rejeton n'apparaisse et que tout le monde soit étourdi...\n\n'Lä! Shub-Niggarath!\nChèvre Noire aux milliers de Rejetons!\nPrenez le pouvoir de l'Ord na Darach Gile.\nEmparez-vous de ces stupides mortels.\nAu nom de la malédiction, les impies sur ce sol sacré deviendront tes enfants!'\n</i>\nRécupérez 1 jeton {clue}
 EventAllyE2AboutRitual2.button1,Continuer
-TokenAllyE2.text, {qst:QSTALLYENAME}
-TokenAllyE2.button1,{action} <i>Que savez-vous à propos des Druides?</i>
-TokenAllyE2.button2,{action} <i>Que s'est-il passé pendant le rituel?</i>
-TokenAllyE2.button3,{action} Attaquer Sylvia Marsh
-TokenAllyE2.button4,{action} Lui dire ce que vous savez à propos du rituel
-TokenAllyE2.button5,Donner le Sceau de Culte à Sylvia Marsh
 EventAllyE2AboutRitual1.text,<i>Il n'y a pas grand chose de plus à dire.\nJe ne sais pas ce que j'ai vu dans la brume et l'obscurité.\nLes Druides portaient tous la même toge blanche\net se déplaçaient en cercle durant la danse.\n\nQuand Martha a hurlé, deux druides étaient à côté d'elle. Les autres étaient en retrait.\nIl y avait aussi un groupe de jeunes filles du coin qui regardait la cérémonie, mais quand le chaos a commencé, elles ont détalé dans les bois.</i>
 EventAllyE2AboutRitual1.button1,Continuer
 EventAllyE2AboutCult1.text,\nLes habitants s'accordent à dire que les Druides ne sont pas mauvais.\nIls contribuent à des œuvres de charité et s'investissent dans l'orphelinat du coin.\nIl y a même des rumeurs qui laissent entendre que l'Ordre abrite en son sein le dernier des Druides Blancs, reconnus d'ailleurs pour leur grand talent de guérisseurs.\n\nJ'ai rencontré Pete Barker ce matin ici-même.\nIl disait que le groupe allait probablement imploser après ce soir, car deux d'entre eux craignaient qu'un puissant et maléfique Druide Noir n'ait infiltré l'Ordre!\nPete m'a dit être persuadé de leur bonne foi, car il les a trouvés particulièrement sincères et fiables.\n\nPete a fait de grandes avancées dans ses investigations. Il me racontait aussi avoir découvert que, même durant son enfance, le Druide Noir était déjà quelqu'un de mauvais ayant des difficultés avec le respect de la loi.\n\nPete a affirmé que le maléfique Druide Noir tentait en ce moment-même de convertir une autre personne en acolyte de la Chèvre Noire.\n
@@ -281,14 +229,12 @@ EventPlaceCaveTile.text,Eric Colt vous laisse entrer dans la cave.\n\nPlacez la 
 EventPlaceCaveTile.button1,Continuer
 EventAllyCaboutAllyD.text,<i>Les toiles de Corrina traduisent un esprit dérangé.\nSi vous ne me croyez pas, regardez les tableaux ici et ceux dans la cabane!\nElle l'utilise comme atelier et rangement pour ses œuvres qui sont trop 'avant-gardistes' pour des néophytes.</i>
 EventAllyCaboutAllyD.button1,Continuer
-QSTALLYDSURNAME,Jones
 EventAllyCaboutAllyA.text,<i>Ce vieil homme {qst:QSTALLYASURNAME} en sait plus qu'il n'en laisse paraître!\nSon arrière grand-père était un éminent alchimiste!</i>
 EventAllyCaboutAllyA.button1,Continuer
 EventAllyDaboutAllyA.text,<i>Le vieil homme {qst:QSTALLYASURNAME} cache un passé sombre, dont il ne parle jamais. Les habitants du coin le craignent, car il le pense être un alchimiste comme son grand-père et son arrière grand-père!</i>
 EventAllyDaboutAllyA.button1,Continuer
 EventAllyBaboutAllyA.text,<i>{qst:QSTALLYAFIRSTNAME} est un vieux fou.</i>
 EventAllyBaboutAllyA.button1,Continuer
-QSTALLYASURNAME,Pierce
 TokenForestToOldOak.text,Au nord, un immense et ancien chêne obscurcit le ciel étoilé.\n\nLes branches, les broussailles et le dense sous-bois entravent votre progression.\nVous ne pouvez 'Révéler' la zone que si vous êtes sur la même case que le jeton Vue.
 TokenForestToOldOak.button1,Révéler
 EventPlacePendant.text,Un pale rayon de lune reflète quelque chose dans la brume épaisse.\n\nPlacez 1 jeton Recherche comme indiqué.
@@ -305,8 +251,6 @@ EventOakPass2C.text,Dans la poche intérieure de son manteau, vous trouvez une n
 EventOakPass2C.button1,Continuer
 EventOakFail.text,Le début de l'ascension était facile, mais les branches sont de moins en moins robustes.\nSoudain, une branche cède et vous tombez au sol.\n\nSubissez 1 Dégât.
 EventOakFail.button1,Continuer
-QSTALLYBSURNAME,Colt
-QSTALLYCSURNAME,Gilman
 EventPlaceAllyAMore.text,<i>C'est un puissant et fantastique Sceau que vous avez là.\nPourquoi ne pas m'en faire don...,\net je vous sors de ce pétrin!</i>
 EventPlaceAllyAMore.button1,Continuer
 EventPlaceAllyA.text,\nLe vieux type aux cheveux blancs marche vers le banc, penché, mais fermement appuyé sur sa canne de marche avec sa main gauche.\n\nIl s'assoit sur le banc et pose sa canne à portée.\nDe sa main gauche, il sort une petite flasque de son blouson usé, puis boit une rapide lampée.\n\nPlacez le jeton Personnage Allié Ammi Pierce.\n
@@ -369,7 +313,6 @@ EventAllyAIsEnemy.text,<i>{qst:QSTALLYANAME} est un Druide Noir!</i>
 EventAllyAIsEnemy.button1,Continuer
 EventAllyDaboutAllyC.text,<i>Othera Gilman est une sorcière, issue d'une grande lignée, et elle ne se prive pas de le raconter à qui veut l'entendre!\nElle est si imbue de sa personne!</i>
 EventAllyDaboutAllyC.button1,Continuer
-QSTALLYBFIRSTNAME,Eric
 EventAllyBIsFriend.text,<i>Mais {qst:QSTALLYBFIRSTNAME} n'est pas un Druide Noir!</i>
 EventAllyBIsFriend.button1,Continuer
 EventAllyDaboutAllyB.text,<i>Eric a servi pendant la Grande Guerre et quand il est revenu, il n'a plus jamais été le même!\nIl a développé un intérêt pour la Whisky et la violence.\nComme s'il voulait se venger du monde entier!</i>
@@ -390,9 +333,6 @@ EventAboutAllyATrue.button1,Button1
 EventStart.button1,Mode Standard
 EventTalkAboutAllyC.button1,Continuer
 EventAboutAllyDFalse.button1,Button1
-QSTALLYCFIRSTNAME,Othera
-QSTALLYESURNAME,Marsh
-QSTALLYEFIRSTNAME,Sylvia
 EventMoveIn.text,Vous pouvez vous déplacer d'1 case dans la zone.
 EventMoveIn.button1,Continuer
 EventDarkYoungRetreat.text,Le monstre se déplace d'1 case vers l'Est.\nS'il ne peut se déplacer sur une case adjacente à l'Est, il se déplace sur une case adjacente au Sud.\nNote: Il <i>ne</i> peut <i>pas</i> se déplacer à travers <i>une ligne jaune discontinue</i>.\n\nLe monstre s'est-il au moins déplacé d'1 case?
@@ -550,7 +490,7 @@ EventDarkDruidDefeatedB.button1,Continuer
 EventDarkDruidDefeatedC.text,Le Druide Noir s'écroule au sol.\n\nSur son cadavre vous trouvez une note griffonnée à la hâte.\n<i>Garder un œil sur {qst:QSTNOVICENAME}!\nIl est un espion au service de Dagon!</i>
 EventDarkDruidDefeatedC.button1,Continuer
 EventPlaceRitualSiteTokens.button1,Continuer
-EventPlaceInvestigators.text,{rnd:hero} a le vague souvenir d'avoir chanté\net d'avoir dansé en tourbillonnant bizarrement autour de ces pierres...\net de quelque chose d’immense sortant du brouillard!\n\nPlacez les figurines comme indiqué.\nTout les investigateurs deviennent Étourdi.\n{rnd:hero} récupère 1 jeton {clue}
+EventPlaceInvestigators.text,{rnd:hero} a le vague souvenir d'avoir chanté\net d'avoir dansé en tourbillonnant bizarrement autour de ces pierres...\net de quelque chose d’immense sortant du brouillard!\n\nPlacez les figurines comme indiqué.\nTout les investigateurs deviennent Étourdi.\n
 EventPlaceInvestigators.button1,Continuer
 EventTentDismantle.button1,Continuer
 EventPlaceTent.text,Les campeurs ont laissé une tente bâchée, maintenue par une corde entre deux arbres.\nPrès du feu, une grosse bûche sur un des bords de la bâche.\n\nPlacez 1 jeton Recherche.
@@ -583,7 +523,7 @@ TokenDeepOne.button1,Continuer
 EventDeepOneSearch.text,Vous essayez d'apercevoir ce qu'il y a dessous, mais la végtétation est trop dense et il fait trop sombre.\n\nTest {observation}
 EventDeepOneSearch.button1,Continuer
 EventDeepOneSearchPassA.button1,Continuer
-EventDeepOneSearchPassA.text,Vous entrapercevez un Profond sous le pont.\nIl regarde Sylvia Marsh à travers les trous du plancher en bois.\nPuis il nage vers l'Ouest en direction d'un étang marécageux.\n\nRécupérez 1 jeton {clue}\n\nLa vue de cette horreur et l'odeur de poisson faisandé, accompagnant les clapotements dans l'étang, vous retournent.\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur face cachée.
+EventDeepOneSearchPassA.text,Vous entrapercevez un Profond sous le pont.\nIl regarde Sylvia Marsh à travers les trous du plancher en bois.\nPuis il nage vers l'Ouest en direction d'un étang marécageux.\nLa vue de cette horreur et l'odeur de poisson faisandé, accompagnant les clapotements dans l'étang, vous retournent.\n\nTest ({will};1)\nSi vous échouez, subissez 1 Horreur face cachée.
 SpawnDeepOne1.text,Une chose inhumaine sort de la rivière!\n\nPlacez un Profond sur la case indiquée.
 SpawnDeepOne1.button1,Continuer
 EventGiveSigilAskAllyE.text,Vous devez appuyer sur 'Annuler'\nsi votre investigateur n'est pas en possession du {c:QItemCultSigil} (ou s'il n'est pas sur la même case que le jeton Allié).
@@ -692,7 +632,7 @@ EventDarkYoungSkip2.text,Une immense créature avance d'un pas pesant à travers
 EventDarkYoungSkip2.button1,Continuer
 EventPlaceDeepOne.text,Alors qu'elle s'échappe sous le pont couvert,\nvous entendez un bruit venir d'en dessous.\n\nPlacez 1 jeton Recherche comme indiqué.
 EventPlaceDeepOne.button1,Continuer
-EventDeepOneSearchPassB.text,Une créature, apparentée à une chèvre, se déplace sous le pont.\nElle s'apprête à tendre une embuscade!\nSylvia Marsh lui jette un sort de bannissement et\nla créature s'enfuit.\nVous vous rappelez qu'elle vous a déjà aidé par le passé.\n\nRécupérez 1 jeton {clue}
+EventDeepOneSearchPassB.text,Une créature, apparentée à une chèvre, se déplace sous le pont.\nElle s'apprête à tendre une embuscade!\nSylvia Marsh lui jette un sort de bannissement et\nla créature s'enfuit.\nVous vous rappelez qu'elle vous a déjà aidé par le passé.\n
 EventDeepOneSearchPassB.button1,Continuer
 EventGiveSigilToAllyEHasDagger.button1,Continuer
 EventGiveSigilToAllyENoDagger.text,Sylvia Marsh l'examine attentivement, puis vous la rend.\nElle dit,<i>\nJe suis désolée, mais je ne peux déchiffrer ces runes.\nElles ont été écrites dans un ancien, et désormais perdu, langage druidique.\nSeul un Druide, pourrait le faire.</i>
@@ -736,7 +676,6 @@ EventCellarPaintingSearch.button1,Continuer
 EventPlaceCellarPainting.button1,Continuer
 EventPlaceCellarPainting.text,Sur les murs du cellier, plusieurs peintures.\nElles ont toutes souffert des affres de l'humidité, exceptée une.\n\nPlacez 1 jeton Mur intérieur comme indiqué.\nPlacez 1 jeton Recherche sur la case indiquée.
 EventMarshAsk.button1,Continuer
-TokenAllyC2.button6,{action} <i>Parlez-moi de la famille Marsh.</i>
 EventMarshAskAMono.text,<i>Je pensais {qst:QSTALLYENAME} différente, car elle n'était pas proche de sa famille et que je ne pouvais pas lui tenir rigueur d'avoir seulement le même nom.\n\nMais maintenant je réalise qu'elle n'est ici que pour voler nos artefacts magiques et rendre son prestige à la famille Marsh.\nQue savez-vous vraiment de Sylvia Marsh?</i>\n\nRécupérez 1 jeton {clue}
 EventMarshAskAMono.button1,Continuer
 EventMarshAskBMono.text,<i>A l'origine, Sylvia Marsh était une espionne, mais j'ai réussi à établir un lien de confiance avec elle.\n\n</i>\nRécupérez 1 jeton {clue}
@@ -794,14 +733,13 @@ SpawnZombieDruid3.text,Le corp se met à trembler pris de convulsions.\nLes corp
 SpawnZombieDruid3.button1,Continuer
 EventAllyMonologueGeneral.text,<i>Je ne sais pas trop ce qu'il s'est passé!\nUn maléfique et puissant Druide Noir nous a jeté un sort d'amnésie!\nJe me souviens vaguement de quelque chose saisissant Martha et l'entrainant vers l'Est dans la forêt.\nSi vous me donnez le sceau, j'utiliserai son pouvoir pour nous redonner la mémoire.\n</i>
 EventAllyMonologueGeneral.button1,Continuer
-EventAllyAAboutBarker.text,<i>{qst:QSTNOVICENAME} s'est lui-même rendu impopulaire par son attitude et sa suspicion.</i>
-EventAllyAAboutBarker.button1,Continuer
-EventAllyBAboutBarker.text,<i>{qst:QSTNOVICENAME} ne s'est pas présenté ce soir-là.\nIl est trop jeune et inexpérimenté pour même espérer participer à la communion chantée.\nComme moi, il a du tempérament et peut dire des choses qu'il regrette plus tard – S'il a eu l'opportunité de se calmer!</i>
-EventAllyBAboutBarker.button1,Continuer
-EventAllyCAboutBarker.text,<i>{qst:QSTNOVICENAME} est une jeune recrue.\nIl n'a même pas pris la peine d'apprendre le texte des cérémonies.</i>
-EventAllyCAboutBarker.button1,Continuer
-EventAllyDAboutBarker.text,<i>{qst:QSTNOVICENAME} est un gamin peu fiable.\nIl ne s'est pas présenté à la cérémonie.\nIl est davantage intéressé par faire la cour aux filles que d'apprendre les rituels.</i>
-EventAllyDAboutBarker.button1,Continuer
+EventAllyABarker.button1,Continuer
+EventAllyBBarker.text,<i>{qst:QSTNOVICENAME} ne s'est pas présenté ce soir-là.\nIl est trop jeune et inexpérimenté pour même espérer participer à la communion chantée.\nComme moi, il a du tempérament et peut dire des choses qu'il regrette plus tard – S'il a eu l'opportunité de se calmer!</i>
+EventAllyBBarker.button1,Continuer
+EventAllyDBarker.text,<i>{qst:QSTNOVICENAME} est un gamin peu fiable.\nIl ne s'est pas présenté à la cérémonie.\nIl est davantage intéressé par faire la cour aux filles que d'apprendre les rituels.</i>
+EventAllyCBarker.button1,Continuer
+EventAllyDBarker.button1,Continuer
+EventAllyCBarker.text,<i>{qst:QSTNOVICENAME} est une jeune recrue.\nIl n'a même pas pris la peine d'apprendre le texte des cérémonies.</i>
 EventAboutBarkerAorB.text,<i>La dernière fois que je l'ai vu, c'était ce matin après la réunion.\nIl nous a averti qu'un maléfique démoniste était parmi nous.\nEt qu'il avait aussi découvert l'endroit où il apprenait à quelqu'un comment se servir de d'une magie diabolique.\nIl pensait, qu'une fois que l'acolyte du Druide Noir aurait maitrisé la magie, les deux seraient assez puissants pour prendre le contrôle de l'Ordre.</i>\n\nRécupérez 1 jeton {clue}
 EventAboutBarkerAorB.button1,Continuer
 EventAboutBarkerCorD.text,<i>La dernière fois que je l'ai vu, c'était ce matin après la réunion.\nIl disait avoir découvert le repère d'une puissante sorcière qui complotait contre nous, pour nous détruire.\nIl a tempété qu'il trouverait des preuves avant la fin du jour!</i>\n\nRécupérez 1 jeton {clue}
@@ -822,6 +760,7 @@ EventBarkerSpy2.text,<i>Après la réunion de ce matin, {qst:QSTNOVICENAME} m'a 
 EventBarkerSpy2.button1,Continuer
 EventAboutBarker1.text,<i>Je l'ai vu ce matin pour la dernière fois.\n{qst:QSTNOVICENAME} était confus et inquiet.\nMais il n'a confiance qu'en moi.\nIl me disait suspecter l'un de nous de comploter contre notre chef Martha, en utilisant tout les moyens possibles pour s'en débarraser – le meurtre y compris.</i>
 EventAboutBarker1.button1,Continuer
+EventAllyABarker.text,<i>{qst:QSTNOVICENAME} s'est lui-même rendu impopulaire par son attitude et sa suspicion.</i>
 EventAboutBarker2.text,<i>J'ai vu {qst:QSTNOVICENAME} ce matin pour la dernière fois, poireautant autour de la cabane en bois.\nIl criait que le Druide Noir allait tous avoir notre peau!</i>\n\nRécupérez 1 jeton {clue}
 EventAboutBarker2.button1,Continuer
 EventAllyE2TellCursed.text,Après avoir parlé des détails du rituel avec Sylvia Marsh, vous réalisez que tous – elle y compris – ont été maudits pour devenir des Rejetons de la Chèvre.\nVous suspectez Sylvia Marsh d'en savoir plus qu'elle ne le dit.\n\nTest {influence}\n\nVous pouvez ajouter un dé supplémentaire pour chaque Preuve que vous détenez.
@@ -892,7 +831,7 @@ EventPlaceStoneFinale.text,Le Druide Blanc prononce des paroles en une vieille l
 TokenStone1.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
 TokenStone1.button1,{action} Rechercher
 TokenStone2.text,Un grand rectangle de pierre occupe le centre du cercle.\nLe bloc fait trois pieds de haut sur six pieds de long.\n\nPrès de la pierre, les restes d'un feu de camp éteint.
-TokenStone2.button1,{action} Perform the Ritual
+TokenStone2.button1,{action} Effectuer le rituel.
 EventPerformRitual2.text,Vous étudiez désespéramment le journal pour mettre au point un contre-sort à la malédiction.\n\nTest {lore}
 EventPerformRitual2.button1,Continuer
 UIFinaleFlash1Text.uitext,Un éclair de lumière vous aveugle.\nVotre vision se trouble puis tout devient sombre...\n\nEn vous réveillant au milieu du cercle de pierres, vous ne vous souvenez ni des raisons de votre venue en ces lieux, ni des derniers évènements de cette nuit!\n\nVous fuyez, paniqué.
@@ -919,3 +858,328 @@ EventAllyHelpedSylviaC.button1,Continuer
 EventAllyHelpedSylviaD.button1,Continuer
 EventMythosSigilReady.text,Le {c:QItemCultSigil} devient chaud au toucher et les runes commencent à briller.
 EventMythosSigilReady.button1,Continuer
+quest.synopsys,Au fond d'une forêt se trouve un cercle de pierres. Serez-vous capable de résoudre le mystère des pierres?
+EventLogCabinMonologue3.text, <i>Même très jeune, Martha était attirée par l'endroit.\nElle savait que sa mère avait un passé sombre, mais Martha aimait toujours voir le bien chez les gens.\nMartha était trop confiante et trop indulgent. C'est ce qui l'a tuée!</i>
+EventLogCabinMonologue3.button1,Continuer
+EventDaggerKillerIsAllyA.text,<i>Mon esprit n’est plus aussi troublé qu’elle était.\nAmmi Pierce est un démoniste puissant et puissant.\nIl est le fils de Bettina Beck, perdu depuis longtemps, et a été adopté comme un enfant.\nIl a sacrifié sa sœur, Martha, dans un rituel de pacte de sang. en utilisant le poignard rituel.\nTrouvez le poignard, apportez-le-moi et je lève la malédiction du démoniste!</i>
+EventDaggerKillerIsAllyA.button1,Continuer
+EventDaggerKillerIsAllyB.text,<i>Mon esprit n’est plus aussi troublé qu’elle était.\nEric Colt est un démoniste puissant et puissant.\n Il est le fils de Bettina Beck, perdu depuis longtemps, et a été adopté comme un enfant.\nIl a sacrifié sa sœur, Martha, dans un rituel de pacte de sang. en utilisant le poignard rituel.\nTrouvez le poignard et apportez-le-moi et je lève la malédiction du démoniste!</i>
+EventDaggerKillerIsAllyB.button1,Continuer
+EventDaggerKillerIsAllyC.text,<i>Mon esprit n’est plus aussi troublé qu’elle était.\nOthera Gilman est une sorcière puissante et méchante.\n Elle est la fille longtemps perdue de Bettina Beck et a été adoptée comme un enfant. Elle a sacrifié sa soeur, Martha, dans un rituel de pacte de sang en utilisant le poignard rituel.\nTrouvez le poignard, apportez-le-moi et je lèverai le sortilège lancé par la sorcière!</i>
+EventDaggerKillerIsAllyC.button1,Continuer
+EventDaggerKillerIsAllyD.text,<i>Mon esprit n’est plus aussi troublé qu’elle était.\nCorrina Jones est une sorcière puissante et méchante.\n Elle est la fille longtemps perdue de Bettina Beck et a été adoptée comme un enfant. Elle a sacrifié sa sœur, Martha, dans un rituel de pacte de sang en utilisant le poignard rituel.\nTrouvez le poignard, apportez-le-moi et je lèverai le sortilège lancé par la sorcière!</i>
+EventDaggerKillerIsAllyD.button1,Continuer
+QST_IS_AMMI_DARK,{action} <i> Ammi Pierce est-il un Druide Noir?</i>
+QST_IS_ERIC_DARK,{action} <i>Eric Colt est-il un Druide Noir?</i>
+QST_IS_OTHERA_DARK,{action} <i>Othera Gilman est-elle une Druidesse Noire?</i>
+QST_IS_CORRINA_DARK,{action} <i>Corrina Jones est-elle une Druidesse Noire?</i>
+QST_SAW_BARKER,{action} <i>Quand avez-vous vu Pete Barker pour la dernière fois?</i>
+QST_WHAT_RITUAL,{action} <i>Que s'est-il passé pendant le rituel?</i>
+QST_ABOUT_PLACE,{action} <i>Que pouvez-vous me dire sur cet endroit?</i>
+QST_ATTACK_AMMI,{action} Attaquer Ammi Pierce.
+QST_ATTACK_ERIC,{action} Attaquer Eric Colt.
+QST_ATTACK_OTHERA,{action} Attaquer Othera Gilman.
+QST_ATTACK_CORRINA,{action} Attaquer Corrina Jones.
+QST_ATTACK_SYLVIA,{action} Attaquer Sylvia Marsh.
+QST_SHOW_SIGIL,Montrer le Sceau de Culte.
+QST_ABOUT_MARSH,{action} <i>Que pouvez-vous me dire sur la famille Marsh?</i>
+EventAllyE2Talk_Cult_Ritual.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Cult_Ritual.button1,{action} <i>Que savez-vous à propos des Druides?</i>
+EventAllyE2Talk_Cult_Ritual.button2,{action} <i>Que s'est-il passé pendant le rituel?</i>
+EventAllyE2Talk_Cult_Ritual.button3,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk_Cult_Ritual.button4,{action} Lui dire ce que vous savez à propos du rituel
+EventAllyE2Talk_Cult_Ritual.button5,Donner le Sceau de Culte à Sylvia Marsh
+EventAllyE2Talk_Cult_Ritual.button6,{qst:QSTCANCEL}
+EventAllyE2Talk_Cult.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Cult.button1,{action} <i>Que savez-vous à propos des Druides?</i>
+EventAllyE2Talk_Cult.button2,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk_Cult.button3,{action} Lui dire ce que vous savez à propos du rituel
+EventAllyE2Talk_Cult.button4,Donner le Sceau de Culte à Sylvia Marsh
+EventAllyE2Talk_Cult.button5,{qst:QSTCANCEL}
+EventAllyE2Talk_Ritual.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Ritual.button1,{action} <i>Que s'est-il passé pendant le rituel?</i>
+EventAllyE2Talk_Ritual.button2,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk_Ritual.button3,{action} Lui dire ce que vous savez à propos du rituel
+EventAllyE2Talk_Ritual.button4,Donner le Sceau de Culte à Sylvia Marsh
+EventAllyE2Talk_Ritual.button5,{qst:QSTCANCEL}
+EventAllyE2Talk.text,{qst:QSTALLYENAME}
+EventAllyE2Talk.button1,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk.button2,{action} Lui dire ce que vous savez à propos du rituel
+EventAllyE2Talk.button3,Donner le Sceau de Culte à Sylvia Marsh
+EventAllyE2Talk.button4,{qst:QSTCANCEL}
+TokenAllyA2.text,{qst:QSTALLYANAME}
+TokenAllyA2.button1,{qst:QST_IS_ERIC_DARK}
+TokenAllyA2.button2,{qst:QST_IS_OTHERA_DARK}
+TokenAllyA2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyA2.button4,{action} Donner la dague à Ammi.
+TokenAllyB2.text,{qst:QSTALLYBNAME}
+TokenAllyB2.button1,{qst:QST_IS_AMMI_DARK}
+TokenAllyB2.button2,{qst:QST_IS_OTHERA_DARK}
+TokenAllyB2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyB2.button4,{action} Donner la dague à Eric.
+TokenAllyC2.text,{qst:QSTALLYCNAME}
+TokenAllyC2.button1,{qst:QST_IS_AMMI_DARK}
+TokenAllyC2.button2,{qst:QST_IS_ERIC_DARK}
+TokenAllyC2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyC2.button4,{action} Donner la dague à Othera.
+TokenAllyD2.text,{qst:QSTALLYDNAME}
+TokenAllyD2.button1,{qst:QST_IS_AMMI_DARK}
+TokenAllyD2.button2,{qst:QST_IS_ERIC_DARK}
+TokenAllyD2.button3,{qst:QST_IS_OTHERA_DARK}
+TokenAllyD2.button4,{action} Donner la dague à Corrina.
+EventAllyATalk_BCD.text,Ammi Pierce
+EventAllyATalk_BCD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BCD.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_BCD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_BCD.button4,{qst:QST_SAW_BARKER}
+EventAllyATalk_BCD.button5,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_BCD.button6,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BCD.button7,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_BCD.button8,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BCD.button9,{qst:QSTCANCEL}
+EventAllyATalk_CD.text,Ammi Pierce
+EventAllyATalk_CD.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_CD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_CD.button3,{qst:QST_SAW_BARKER}
+EventAllyATalk_CD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_CD.button5,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_CD.button6,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_CD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_CD.button8,{qst:QSTCANCEL}
+EventAllyATalk_BC.text,Ammi Pierce
+EventAllyATalk_BC.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_BC.button3,{qst:QST_SAW_BARKER}
+EventAllyATalk_BC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_BC.button5,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BC.button6,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_BC.button7,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BC.button8,{qst:QSTCANCEL}
+EventAllyATalk_BD.text,Ammi Pierce
+EventAllyATalk_BD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_BD.button3,{qst:QST_SAW_BARKER}
+EventAllyATalk_BD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_BD.button5,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BD.button6,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_BD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BD.button8,{qst:QSTCANCEL}
+EventAllyATalk_B.text,Ammi Pierce
+EventAllyATalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_B.button2,{qst:QST_SAW_BARKER}
+EventAllyATalk_B.button3,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_B.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_B.button5,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_B.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_B.button7,{qst:QSTCANCEL}
+EventAllyATalk_C.text,Ammi Pierce
+EventAllyATalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_C.button2,,{qst:QST_SAW_BARKER}
+EventAllyATalk_C.button3,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_C.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_C.button5,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_C.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_C.button7,{qst:QSTCANCEL}
+EventAllyATalk_D.text,Ammi Pierce
+EventAllyATalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_D.button2,{qst:QST_SAW_BARKER}
+EventAllyATalk_D.button3,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_D.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_D.button5,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_D.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_D.button7,{qst:QSTCANCEL}
+EventAllyATalk.text,Ammi Pierce
+EventAllyATalk.button1,{qst:QST_SAW_BARKER}
+EventAllyATalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyATalk.button3,{qst:QST_ABOUT_PLACE}
+EventAllyATalk.button4,{qst:QST_ATTACK_AMMI}
+EventAllyATalk.button5,{qst:QST_SHOW_SIGIL}
+EventAllyATalk.button6,{qst:QSTCANCEL}
+EventAllyBTalk_ACD.text,Eric Colt
+EventAllyBTalk_ACD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_ACD.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_ACD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_ACD.button4,{qst:QST_SAW_BARKER}
+EventAllyBTalk_ACD.button5,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_ACD.button6,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_ACD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_ACD.button8,{qst:QSTCANCEL}
+EventAllyBTalk_CD.text,Eric Colt
+EventAllyBTalk_CD.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_CD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_CD.button3,{qst:QST_SAW_BARKER}
+EventAllyBTalk_CD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_CD.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_CD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_CD.button7,{qst:QSTCANCEL}
+EventAllyBTalk_AC.text,Eric Colt
+EventAllyBTalk_AC.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_AC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_AC.button3,{qst:QST_SAW_BARKER}
+EventAllyBTalk_AC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_AC.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_AC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_AC.button7,{qst:QSTCANCEL}
+EventAllyBTalk_AD.text,Eric Colt
+EventAllyBTalk_AD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_AD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_AD.button3,{qst:QST_SAW_BARKER}
+EventAllyBTalk_AD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_AD.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_AD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_AD.button7,{qst:QSTCANCEL}
+EventAllyBTalk_A.text,Eric Colt
+EventAllyBTalk_A.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_A.button2,{qst:QST_SAW_BARKER}
+EventAllyBTalk_A.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_A.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_A.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_A.button6,{qst:QSTCANCEL}
+EventAllyBTalk_C.text,Eric Colt
+EventAllyBTalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_C.button2,{qst:QST_SAW_BARKER}
+EventAllyBTalk_C.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_C.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_C.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_C.button6,{qst:QSTCANCEL}
+EventAllyBTalk_D.text,Eric Colt
+EventAllyBTalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_D.button2,{qst:QST_SAW_BARKER}
+EventAllyBTalk_D.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_D.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_D.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_D.button6,{qst:QSTCANCEL}
+EventAllyBTalk.text,Eric Colt
+EventAllyBTalk.button1,{qst:QST_SAW_BARKER}
+EventAllyBTalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk.button3,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk.button4,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk.button5,{qst:QSTCANCEL}
+EventAllyCTalk_ABD.text,Othera Gilman
+EventAllyCTalk_ABD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_ABD.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_ABD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_ABD.button4,{qst:QST_SAW_BARKER}
+EventAllyCTalk_ABD.button5,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_ABD.button6,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_ABD.button7,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_ABD.button8,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_ABD.button9,{qst:QSTCANCEL}
+EventAllyCTalk_AB.text,Othera Gilman
+EventAllyCTalk_AB.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_AB.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_AB.button3,{qst:QST_SAW_BARKER}
+EventAllyCTalk_AB.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_AB.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_AB.button6,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_AB.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_AB.button8,{qst:QSTCANCEL}
+EventAllyCTalk_AD.text,Othera Gilman
+EventAllyCTalk_AD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_AD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_AD.button3,{qst:QST_SAW_BARKER}
+EventAllyCTalk_AD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_AD.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_AD.button6,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_AD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_AD.button8,{qst:QSTCANCEL}
+EventAllyCTalk_BD.text,Othera Gilman
+EventAllyCTalk_BD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_BD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_BD.button3,{qst:QST_SAW_BARKER}
+EventAllyCTalk_BD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_BD.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_BD.button6,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_BD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_BD.button8,{qst:QSTCANCEL}
+EventAllyCTalk_A.text,Othera Gilman
+EventAllyCTalk_A.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_A.button2,,{qst:QST_SAW_BARKER}
+EventAllyCTalk_A.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_A.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_A.button5,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_A.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_A.button7,{qst:QSTCANCEL}
+EventAllyCTalk_B.text,Othera Gilman
+EventAllyCTalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_B.button2,{qst:QST_SAW_BARKER}
+EventAllyCTalk_B.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_B.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_B.button5,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_B.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_B.button7,{qst:QSTCANCEL}
+EventAllyCTalk_D.text,Othera Gilman
+EventAllyCTalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_D.button2,{qst:QST_SAW_BARKER}
+EventAllyCTalk_D.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_D.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_D.button5,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_D.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_D.button7,{qst:QSTCANCEL}
+EventAllyCTalk.text,Othera Gilman
+EventAllyCTalk.button1,{qst:QST_SAW_BARKER}
+EventAllyCTalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk.button3,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk.button4,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk.button5,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk.button6,{qst:QSTCANCEL}
+EventAllyDTalk_ABC.text,Corrina Jones
+EventAllyDTalk_ABC.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_ABC.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_ABC.button3,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_ABC.button4,{qst:QST_SAW_BARKER}
+EventAllyDTalk_ABC.button5,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_ABC.button6,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_ABC.button7,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_ABC.button8,{qst:QSTCANCEL}
+EventAllyDTalk_AB.text,Corrina Jones
+EventAllyDTalk_AB.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_AB.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_AB.button3,{qst:QST_SAW_BARKER}
+EventAllyDTalk_AB.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_AB.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_AB.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_AB.button7,{qst:QSTCANCEL}
+EventAllyDTalk_AC.text,Corrina Jones
+EventAllyDTalk_AC.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_AC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_AC.button3,{qst:QST_SAW_BARKER}
+EventAllyDTalk_AC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_AC.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_AC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_AC.button7,{qst:QSTCANCEL}
+EventAllyDTalk_BC.text,Corrina Jones
+EventAllyDTalk_BC.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_BC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_BC.button3,{qst:QST_SAW_BARKER}
+EventAllyDTalk_BC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_BC.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_BC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_BC.button7,{qst:QSTCANCEL}
+EventAllyDTalk_A.text,Corrina Jones
+EventAllyDTalk_A.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_A.button2,,{qst:QST_SAW_BARKER}
+EventAllyDTalk_A.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_A.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_A.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_A.button6,{qst:QSTCANCEL}
+EventAllyDTalk_B.text,Corrina Jones
+EventAllyDTalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_B.button2,{qst:QST_SAW_BARKER}
+EventAllyDTalk_B.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_B.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_B.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_B.button6,{qst:QSTCANCEL}
+EventAllyDTalk_C.text,Corrina Jones
+EventAllyDTalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_C.button2,{qst:QST_SAW_BARKER}
+EventAllyDTalk_C.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_C.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_C.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_C.button6,{qst:QSTCANCEL}
+EventAllyDTalk.text,Corrina Jones
+EventAllyDTalk.button1,{qst:QST_SAW_BARKER}
+EventAllyDTalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk.button3,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk.button4,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk.button5,{qst:QSTCANCEL}

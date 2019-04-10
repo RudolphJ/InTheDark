@@ -1,51 +1,30 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
-QSTALLYCNAME,Othera Gilman
+QSTALLYANAME,Ammi Pierce
 QSTALLYBNAME,Eric Colt
+QSTALLYCNAME,Othera Gilman
 QSTALLYDNAME,Corrina Jones
+QSTALLYENAME,Sylvia Marsh
 QSTNOVICENAME,Pete Barker
 QSTNOVICESURNAME,Barker
 QSTPLACEDARKNESS,Place a Darkness Token on the indicated Border.\nTreat all spaces on this Tile as if they contain a Darkness Token.
 QSTSPAWNDARKYOUNG,From out of the trees bursts a creature of many huge tentacles and drooling mouths.\n\nPlace a Dark Young Monster on the space indicated.
-TokenAllyA.text,Ammi Pierce
-TokenAllyA.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyA.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyA.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyA.button4,{action} <i>When did you last see Pete Barker?</i>
-TokenAllyA.button5,{action} <i>What happened at the ritual?</i>
-TokenAllyA.button6, {action} <i>Can you tell me about this place?</i>
-TokenAllyA.button7,{action} Attack Ammi Pierce
-TokenAllyA.button8,Show the Cult Sigil
-TokenAllyB.text,Eric Colt
-TokenAllyB.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyB.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyB.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyB.button4,{action} <i>When did you last see Pete Barker?</i>
-TokenAllyB.button5,{action} <i>What happened at the ritual?</i>
-TokenAllyB.button6,{action} Attack Eric Colt
-TokenAllyB.button7,Show Eric Colt the Cult Sigil
-TokenAllyC.text,Othera Gilman
-TokenAllyC.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyC.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyC.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyC.button4,{action} <i>When did you last see Pete Barker?</i>
-TokenAllyC.button5,{action} <i>What happened at the ritual?</i>
-TokenAllyC.button6,{action} <i>Tell me about the Marsh family</i>
-TokenAllyC.button7,{action} Attack Othera Gilman
-TokenAllyC.button8,Show Othera Gilman the Cult Sigil
-TokenAllyD.text,Corrina Jones
-TokenAllyD.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyD.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyD.button3,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyD.button4,{action} <i>When did you last see Pete Barker?</i>
-TokenAllyD.button5,{action} <i>What happened at the ritual?</i>
-TokenAllyD.button6,{action} Attack Corrina Jones
-TokenAllyD.button7,Show Corrina Jones the Cult Sigil
-quest.name,In the Dark (v3.8)
+QSTCANCEL,Cancel
+QSTALLYAFIRSTNAME,Ammi
+QSTALLYBFIRSTNAME,Eric
+QSTALLYCFIRSTNAME,Othera
+QSTALLYDFIRSTNAME,Corrina
+QSTALLYEFIRSTNAME,Sylvia
+QSTALLYASURNAME,Pierce
+QSTALLYBSURNAME,Colt
+QSTALLYCSURNAME,Gilman
+QSTALLYDSURNAME,Jones
+QSTALLYESURNAME,Marsh
+quest.name,In the Dark (v4.0)
 quest.description,In the Dark\n\nAn adventure for Mansions of Madness 2nd Edition.\nThis scenario requires the Tiles & Figures Expansion Suppressed Memories.\n\nDeep in a forest clearing pale moonlight illuminates a stone circle.\nWill you be able to solve the mystery of the stones?\n\nWarning: the story is a challenging mystery.\nYou will need to put diverse and subtle clues together.\nTalking to all the characters is recommended.\nTake notes and use the log to check your deductions.\nA blank crib sheet called 'InTheDarkClueCribSheet.pdf' can be found in the scenario folder or downloaded from\nhttps://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet\n	Do not play this scenario without using the crib sheet or extensive notes unless your main language is English and you can solve two grid logic puzzles in your head.\nThe text for speech is in italics and uses colloquialisms inspired by Lovecraft's story 'The Dunwich Horror'.\n\nIn this scenario, there is a special rule regarding Darkness Tokens.\nWhen a Darkness Token is placed on a Border (white or yellow line), all spaces on that Tile are in Darkness.
-quest.authors,"\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\nPortuguese Translation: DanielFrancelino\n"
+quest.authors,"\nDesigner: Nicola Zee\nChief Playtester: Jürgen Rudolph\n\nEnd Music: ""I've not fear"" by Damiano Baldoni (License: CC BY 4.0)\nPainting Image by Ahlia77 (Licence CC BY-NC-ND 3.0)\nFrench Translation: Indoy\nPortuguese Translation: Daniel Francelino\n"
 EventGraveSearch.text,Inside the grave are numerous bones of deformed goats.\nThe soil has been recently disturbed.\n\nTest {observation}
 EventGraveSearch.button1,Continue
 TokenPainting.text,\nThe painting is either unfinished, damaged or abstract.\nIt might be a portrait of a woman holding the {c:QItemCultSigil}.\n\nIf you attempt the puzzle, you gain 1 extra Puzzle Step for each Evidence Item you possess.\n
@@ -98,13 +77,11 @@ EventLetterResultMoreC.button1,Continue
 EventLetterResult.text,Inside one of the drawers, you find a letter written to Martha Beck.
 EventLetterResult.button1,Continue
 EventLetterResultMoreD.text,<i>\nDear Martha,\n\nYou hold your relative in high regard but can your sibling be trusted!\nCan somebody in trouble with the law since childhood really be so reformed?\nYour relative is a Dark Druid plotting to take over the group!\nOnly I can be trusted with the sigil!\n\nYour true follower\nCorrina Jones\n</i>\nGain 1 {clue}
-QSTALLYDFIRSTNAME,Corrina
 EventLetterResultMoreD.button1,Continue
 TokenLetter.text,The cabinet contains a number of drawers.
 TokenLetter.button1,{action} Search
 EventLetterResultMoreA.text,<i>Martha Beck,\nHigh Priestess of the Venerable Order of Druids\n\nCompared to me the other Druids know little!\nI am the last of the Order of the White Druids.\nI have revealed to you my true powerful magick.\nGive me the Sigil and I will keep it safe.\n\nYour obedient follower\nAmmi Pierce\n</i>\nGain 1 {clue}
 EventLetterResultMoreA.button1,Continue
-QSTALLYANAME,Ammi Pierce
 EventPendantSearchResult.text,You find a small pendant.\nIts chain is caught in the bush.\n\nGain the {c:QItemPendant}.\n\nTo the North there are massive hoof marks.\n
 EventPendantSearchResult.button1,Continue
 EventPendantSearch.text,You search the bush and find a fragment of a ripped white cloth stained with blood.\nMoonlight reflects off something small in the dense bush.\n\nTest {observation}
@@ -119,7 +96,7 @@ EventAllyDMonologue.text,<i>My artistic eye often enables me to spot things hidd
 EventAllyDMonologue.button1,Continue
 EventAllyAMonologue.text,<i>I've seen things you couldn't imagine... not in your worst nightmares!\nI ain't fooled easy but my eyesight ain't what it used to be.</i>
 EventAllyAMonologue.button1,Continue
-EventAllyNotRole4.text,<i>Our order of druids is ancient and sworn to do no harm.\nThe Beltane Fire ceremony celebrates the coming of the new spring.\nPerhaps it went wrong because your friend picked up the sigil in the middle of the ritual.\nMaybe one of us got the words wrong.\nA demon was summoned from hell.\nIt grabbed Martha and dragged her into the forest to a gateway to hell!\nGive me the sigil!\n  I can banish the demon back from whence it came!\n</i>
+EventAllyNotRole4.text,<i>Our order of druids is ancient and sworn to do no harm.\nThe Beltane Fire ceremony celebrates the coming of the new spring.\nPerhaps it went wrong because {qst:QSTALLYENAME} picked up the sigil in the middle of the ritual.\nMaybe one of us got the words wrong.\nA demon was summoned from hell.\nIt grabbed Martha and dragged her into the forest to a gateway to hell!\nGive me the sigil!\n  I can banish the demon back from whence it came!\n</i>
 EventAllyNotRole4.button1,Continue
 EventAllyNotRole3.text,\n<i>The Beltane ritual celebrates the coming of Spring with the lighting of a fire.\nWe have an evil Dark Druid in our midst who changed the words of the ancient ritual.\nThe servant of Shub-Niggurath carried out a blood pact to transform us into Goat Spawn!\nMartha was taken as a blood sacrifice by a spawn of Shub-Niggurath.\nShe was dragged eastwards into the forest. \nThe other Druids are fools or liars!</i>\n\nGain 1 {clue}
 EventAllyNotRole3.button1,Continue
@@ -139,41 +116,12 @@ EventAllyNotRole1MoreA.text,You remember one of the figures standing back was le
 EventAllyNotRole1MoreA.button1,Continue
 EventAllyNotRole3Again.text,<i>\nThe Dark Druid cast the curse of the Black Blood of the Goat.\nThere was a group of local girls watching the ceremony. They have already been affected by the curse.\nThe sigil used in the ceremony is key to reversing the spell!\nThis proves I know what I'm talking about!\nIf you don't give me the sigil, your fate will be sealed!</i>\n\nGain 1 {clue}
 EventAllyNotRole3Again.button1,Continue
-QSTALLYENAME,Sylvia Marsh
-QSTALLYAFIRSTNAME,Ammi
-TokenAllyA2.text,{qst:QSTALLYANAME}
-TokenAllyA2.button1,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyA2.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyA2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyA2.button4,{action} Give Dagger to Ammi
-TokenAllyB2.text,{qst:QSTALLYBNAME}
-TokenAllyB2.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyB2.button2,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyB2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyB2.button4,{action} Give Dagger to Eric
-TokenAllyD2.text,{qst:QSTALLYDNAME}
-TokenAllyD2.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyD2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyD2.button3,{action} <i>Is Othera Gilman a Dark Druid?</i>
-TokenAllyD2.button4,{action} Give Dagger to Corrina
-TokenAllyC2.text,{qst:QSTALLYCNAME}
-TokenAllyC2.button1,{action} <i>Is Ammi Pierce a Dark Druid?</i>
-TokenAllyC2.button2,{action} <i>Is Eric Colt a Dark Druid?</i>
-TokenAllyC2.button3,{action} <i>Is Corrina Jones a Dark Druid?</i>
-TokenAllyC2.button4,{action} <i>Tell me about the Marsh family</i>
-TokenAllyC2.button5,{action} Give Dagger to Othera
 TokenJournal.text,The cabinet is full of papers.
 TokenJournal.button1,{action} Search
 EventLogCabinMonologue2.text,<i>The cabin was left empty after Martha's mother hung herself from the big oak tree in the woods!\nLocals say Bettina was a murderer but after her suicide the sheriff covered things up for the sake of her kids.\n\nAwhile ago Martha told me she was cleaning the place up.\nA relative had been in trouble with the law all their life and needed somewhere to stay.\nMartha refused to tell me more.</i>\n\nGain 1 {clue}
 EventLogCabinMonologue2.button1,Continue
 EventAllyE2AboutRitual2.text,<i>I do remember hearing the following chant just before the Dark Young appeared and everyone became dazed...\n\nIa!  Ia!  Shub-Niggarath!\nThe Black Goat of a Thousand Young!\nTake the power of the Ord na Darach Gile.\nConfound the minds of these foolish mortals.\nFor, by this curse, unbelievers at this sacred site will become your children!\n</i>\nGain 1 {clue}
 EventAllyE2AboutRitual2.button1,Continue
-TokenAllyE2.text, {qst:QSTALLYENAME}
-TokenAllyE2.button1,{action} <i>What do you know about the Druids?</i>
-TokenAllyE2.button2,{action} <i>What happened at the Ritual?</i>
-TokenAllyE2.button3,{action} Attack  Sylvia Marsh
-TokenAllyE2.button4,{action} Tell her what you know about the Ritual
-TokenAllyE2.button5,Give Sylvia Marsh the Cult Sigil
 EventAllyE2AboutRitual1.text,<i>There's not much I can tell you.\nI'm not certain what I saw in the fog and darkness.\nThe Druids were all wearing the same white robes and\nwere moving around during the dance.\n\nWhen Martha screamed, two Druids were near her. The others were further back.\nThere was also a group of local girls watching the ceremony, but when the chaos started they ran off into the woods.</i>
 EventAllyE2AboutRitual1.button1,Continue
 EventAllyE2AboutCult1.text,<i>The locals say the Druids are not evil.\nThey do charity work and help out at the local orphanage.\nThere are even rumours the order contains the last of the White Druids who were known as healers of great power.\n\nThis morning I met Pete Barker here.\nHe said the group was likely to split up after tonight because two feared a powerful evil Dark Druid had infiltrated the order!\nPete told me he was persuaded they were right because he found both of them trustworthy and helpful.\n\nPete was making good progress with his investigations. He told me he had discovered even in the Dark Druid's childhood the Dark Druid was evil, a liar and in trouble with the law.\n\nPete claimed the evil Dark Druid is training up another to become an acolyte of the Black Goat.\n</i>
@@ -202,7 +150,7 @@ EventAllyAaboutAllyBTrue.button1,Continue
 EventAboutAllyB.button1,Button1
 EventAllyBIsEnemy.text, <i>Eric Colt is a Dark Druid!</i>\n
 EventAllyBIsEnemy.button1,Continue
-EventGoatHairResult.text,You find a tuft of long blonde hair.\n\n  Faint goat-like hoof marks lead to the East, deeper into the dense forest.\n\nAs you hold the hair, you remember a girl with long blonde hair in a floral summer dress standing on the outskirts of the stone circle.\nShe is surrounded by her friends watching the dancing.\n\nThey start to scream and tear at their faces, hair and clothes,  In a mad frenzy, they run into the forest.\nFrom within the trees, the screams become animal-like until they sound like the coarse bleating of goats.\n\nGain 2 {clue}\n\nGain {c:QItemCircumstantial} Item
+EventGoatHairResult.text,You find a tuft of long blonde hair.\n\n  Faint goat-like hoof marks lead to the East, deeper into the dense forest.\n\nAs you hold the hair, you remember a girl with long blonde hair in a floral summer dress standing on the outskirts of the stone circle.\nShe is surrounded by her friends watching the dancing.\n\nThey start to scream and tear at their faces, hair and clothes,  In a mad frenzy, they run into the forest.\nFrom within the trees, the screams become animal-like until they sound like the coarse bleating of goats.\n\nGain 1 {clue}.\n\nGain {c:QItemCircumstantial} Item
 EventGoatHairResult.button1,Continue
 TokenGoatHair.text,Caught in the bushes is a large fragment of cloth.
 TokenGoatHair.button1,{action} Search
@@ -281,14 +229,12 @@ EventPlaceCaveTile.text,Eric Colt lets you into the cave,\n\nPlace the {c:TileCa
 EventPlaceCaveTile.button1,Continue
 EventAllyCaboutAllyD.text,<i>\nCorrina's paintings reveal a disturbed mind.\nIf you don't believe me check out her paintings here and in the shack! \nShe uses the shack as a studio and to store work she calls too avant-garde for the general public.\n </i>
 EventAllyCaboutAllyD.button1,Continue
-QSTALLYDSURNAME, Jones
 EventAllyCaboutAllyA.text,<i>That old man {qst:QSTALLYASURNAME} knows a lot more than he's letting on!\nHis great grandfather Malachi was a notorious alchemist!</i>
 EventAllyCaboutAllyA.button1,Continue
 EventAllyDaboutAllyA.text,<i>Old man {qst:QSTALLYASURNAME} has a dark past which he never talks about.  The locals are afraid of him bcause they think he's an alchemist like his grandfather and his grandfather before him!</i>
 EventAllyDaboutAllyA.button1,Continue
 EventAllyBaboutAllyA.text,<i>{qst:QSTALLYAFIRSTNAME} is a crazy old coot.</i>
 EventAllyBaboutAllyA.button1,Continue
-QSTALLYASURNAME,Pierce
 TokenForestToOldOak.text,To the north, a huge ancient oak tree obscures the stars.\n\nThe forest branches and undergrowth impede you.\nYou may only click Reveal if you are in the same space as this Sight Token
 TokenForestToOldOak.button1,Reveal
 EventPlacePendant.text,A ray of pale moonlight reflects off something in a dense bush.\n\nPlace a Search Token as indicated.
@@ -305,8 +251,6 @@ EventOakPass2C.text,Inside her coat pocket, you find a handwritten note.\n<i>\nO
 EventOakPass2C.button1,Continue
 EventOakFail.text,The climb starts off easy but as you get higher the branches become less sturdy.\nSuddenly, a branch gives way and you fall.\n\nSuffer 1 Damage
 EventOakFail.button1,Continue
-QSTALLYBSURNAME,Colt
-QSTALLYCSURNAME, Gilman
 EventPlaceAllyAMore.text,<i>That's a mighty powerful sigil you got there.\nHow about you give it me..,\nand I sort out this mess!</i>
 EventPlaceAllyAMore.button1,Continue
 EventPlaceAllyA.text,The old white haired guy walks to the bench firmly leaning on his walking stick using his left hand.\n\nHe sits down on the bench and places his stick within reach.\nHe uses his left hand to get out a hip flask from his worn jacket pocket and takes a quick swig.\n\nPlace the Ammi Pierce Ally Token
@@ -332,7 +276,7 @@ EventPlaceShackTileTokens.text,\nPlace 1 Explore Token\nand {var:countShackSight
 EventPlaceShackTileTokens.button1,Continue
 TokenPorchToShack.text,{qst:QSTRESTRICTSIGHT}
 TokenPorchToShack.button1,Reveal
-EventPlaceAllyD.text,She opens the door and lets you in.\n\nPlace the Corrina Jones Ally Token
+EventPlaceAllyD.text,She opens the door and lets you in.\n\nPlace the Corrina Jones Ally Token.
 EventPlaceAllyD.button1,Continue
 EventShackDoorLocked2.text,You tell her what you have learnt.\nYou try to persuade her you can help but she refuses to unlock the door.\n
 EventShackDoorLocked2.button1,Continue
@@ -369,7 +313,6 @@ EventAllyAIsEnemy.text,<i>{qst:QSTALLYANAME} is a Dark Druid!</i>
 EventAllyAIsEnemy.button1,Continue
 EventAllyDaboutAllyC.text,<i> Othera Gilman is a witch from a long line of witches and doesn't she like to tell everybody this! \nShe's so full of herself!</i>
 EventAllyDaboutAllyC.button1,Continue
-QSTALLYBFIRSTNAME,Eric
 EventAllyBIsFriend.text,<i>But {qst:QSTALLYBFIRSTNAME} is not a Dark Druid!</i>
 EventAllyBIsFriend.button1,Continue
 EventAllyDaboutAllyB.text,<i>Eric served in the Great War and when he returned he was never the same again!\nHe developed a taste for whiskey and violence.\nIt was like he wanted revenge on the whole world!</i>
@@ -390,9 +333,6 @@ EventAboutAllyATrue.button1,Button1
 EventStart.button1,Standard Mode
 EventTalkAboutAllyC.button1,Continue
 EventAboutAllyDFalse.button1,Button1
-QSTALLYCFIRSTNAME,Othera
-QSTALLYESURNAME,Marsh
-QSTALLYEFIRSTNAME,Sylvia
 EventMoveIn.text,You may move 1 space into this space
 EventMoveIn.button1,Continue
 EventDarkYoungRetreat.text,\nThe monster moves 1 space East.\nIf it cannot move to an adjacent space East, it will instead move to an adjacent space South.\nNote: it can never move across a dashed yellow line.\n\nDid the monster move at least one space?\n
@@ -550,7 +490,7 @@ EventDarkDruidDefeatedB.button1,Continue
 EventDarkDruidDefeatedC.text,The Dark Druid falls to the ground.\n\nOn the body you find a hastily scribbled note.\n<i>Keep an eye on {qst:QSTNOVICENAME}!\nHe is a spy who serves Dagon!</i>
 EventDarkDruidDefeatedC.button1,Continue
 EventPlaceRitualSiteTokens.button1,Continue
-EventPlaceInvestigators.text,{rnd:hero} has a vague memory of chanting and\nstrange twirling dancing around the stones...\nand something huge emerging from the fog!\n\nPlace the Investigator figures\nAll Investigators gain the Dazed Condition\n{rnd:hero} gains 1 {clue}
+EventPlaceInvestigators.text,{rnd:hero} has a vague memory of chanting and\nstrange twirling dancing around the stones...\nand something huge emerging from the fog!\n\nPlace the investigator figures as indicated.\nAll investigators gain the Dazed condition.
 EventPlaceInvestigators.button1,Continue
 EventTentDismantle.button1,Continue
 EventPlaceTent.text,The campers left a canvas tent held up by a rope strung between two trees.\nNear the fire, the edge of the canvas is held down by the large log.\n\nPlace 1 Search Token
@@ -583,7 +523,7 @@ TokenDeepOne.button1,Continue
 EventDeepOneSearch.text,You try to spot what is beneath the bridge but it is dark and overgrown.\n\nTest {observation}
 EventDeepOneSearch.button1,Continue
 EventDeepOneSearchPassA.button1,Continue
-EventDeepOneSearchPassA.text,You glimpse a Deep One beneath the bridge.\nIt is watching Sylvia Marsh through gaps in the floor of the wooden bridge.\nIt swims westwards upriver into a dank marshy pond.\n\nGain 1 {clue}\n\nThe sight of it and the foul fishy smell and loud squelching noises coming from the marshes disturbs you.\n\nTest ({will},1)\nIf you fail, take 1 facedown Horror
+EventDeepOneSearchPassA.text,You glimpse a Deep One beneath the bridge.\nIt is watching Sylvia Marsh through gaps in the floor of the wooden bridge.\nIt swims westwards upriver into a dank marshy pond.\nThe sight of it and the foul fishy smell and loud squelching noises coming from the marshes disturbs you.\n\nTest ({will},1)\nIf you fail, take 1 facedown Horror
 SpawnDeepOne1.text,Something inhuman emerges from the river!\n\nPlace a Deep One Monster on the space indicated
 SpawnDeepOne1.button1,Continue
 EventGiveSigilAskAllyE.text,You must click the 'Cancel' button\nif your Investigator does not possess the {c:QItemCultSigil} Item (or is not in the same space as the Ally Token).
@@ -682,7 +622,7 @@ TokenAllyC3.button1,Continue
 EventStone1Search.button1,Continue
 EventStone1Search.text,There are faint traces of blood on the top of the stone.\nA trail of blood spots leads eastwards into the forest.
 EventStone1Search2.button1,Continue
-EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone and near the stone a fire burning with eerie eldritch flames.\n\nYou have a vague memory of three of the robed Druids standing close to the stone and two standing further back.\n\nYou have a vision of a dense fog, and out of the fog a huge creature of tentacles and mouths emerging from the east and Druids fleeing north and west. \n\nGain 2 {clue}\n
+EventStone1Search2.text,\nA faint humming noise comes from within the stone.\nThe humming sounds familiar.\n\nYou have a flashback of Druids in white robes watching something glowing on top of the stone and near the stone a fire burning with eerie eldritch flames.\n\nYou have a vague memory of three of the robed Druids standing close to the stone and two standing further back.\n\nYou have a vision of a dense fog, and out of the fog a huge creature of tentacles and mouths emerging from the east and Druids fleeing north and west. \n\nAll investigators gain 1 {clue}.\n
 EventStone1SearchDone.text,\nOnce the humming sound has died down, you briefly hear shouting coming from the South.\nSomeone is calling out your name.\n
 EventStone1SearchDone.button1,Continue
 EventDarkYoungMove0.text,Is the Dark Young Monster on the same space as an Investigator?
@@ -692,7 +632,7 @@ EventDarkYoungSkip2.text,\nA huge lumbering creature is moving through the fores
 EventDarkYoungSkip2.button1,Continue
 EventPlaceDeepOne.text,As she runs onto the covered bridge,\nyou hear something moving beneath it.\n\nPlace a Search Token as indicated.
 EventPlaceDeepOne.button1,Continue
-EventDeepOneSearchPassB.text,A goat like creature is moving beneath the bridge.\nIt is getting ready to ambush you!\nSylvia Marsh casts a banishment spell on it and\nit flees.\nYou remember she has helped protect you in the past.\n\nGain 1 {clue}
+EventDeepOneSearchPassB.text,A goat like creature is moving beneath the bridge.\nIt is getting ready to ambush you!\nSylvia Marsh casts a banishment spell on it and\nit flees.\nYou remember she has helped protect you in the past.
 EventDeepOneSearchPassB.button1,Continue
 EventGiveSigilToAllyEHasDagger.button1,Continue
 EventGiveSigilToAllyENoDagger.text,Sylvia Marsh examines it carefully and, then, hands it back.\nShe says,<i>\nI'm sorry but I cannot read these runes.\nThey are written in the ancient long lost language of the Druids.\nOnly a Druid will be able to read these runes.\n</i>
@@ -794,14 +734,14 @@ SpawnZombieDruid3.text,The body trembles as growths appear all over it.\nThe cor
 SpawnZombieDruid3.button1,Continue
 EventAllyMonologueGeneral.text,<i>I'm not certain what happened!\nAn evil powerful Dark Druid cast a spell of forgetfulness on us!\nI remember something grabbing Martha and dragging her eastward into the forest.\nIf you give me the sigil I will use its powers to restore our memories.\n</i>
 EventAllyMonologueGeneral.button1,Continue
-EventAllyAAboutBarker.text,<i>{qst:QSTNOVICENAME} made himself right unpopular with his attitude and suspicions.</i>
-EventAllyAAboutBarker.button1,Continue
-EventAllyBAboutBarker.text,<i>{qst:QSTNOVICENAME} failed to turn up tonight.\nHe's too young and inexperienced to even be allowed to join in the singing.\nLike me, he has a bit of a temper and sometimes says things he later regrets - once he had a chance to calm down!</i>\n
-EventAllyBAboutBarker.button1,Continue
-EventAllyCAboutBarker.text,<i>{qst:QSTNOVICENAME} is a recent young recruit.\nHe has not even bothered to learn the words of the ceremonies.</i>\n
-EventAllyCAboutBarker.button1,Continue
-EventAllyDAboutBarker.text,<i>{qst:QSTNOVICENAME} is a unreliable youngster.\nHe did not turn up for the ceremony.\nHe is more interested in chasing girls than learning the rituals.</i>
-EventAllyDAboutBarker.button1,Continue
+EventAllyABarker.text,<i>{qst:QSTNOVICENAME} made himself right unpopular with his attitude and suspicions.</i>
+EventAllyABarker.button1,Continue
+EventAllyBBarker.text,<i>{qst:QSTNOVICENAME} failed to turn up tonight.\nHe's too young and inexperienced to even be allowed to join in the singing.\nLike me, he has a bit of a temper and sometimes says things he later regrets - once he had a chance to calm down!</i>\n
+EventAllyBBarker.button1,Continue
+EventAllyDBarker.text,<i>{qst:QSTNOVICENAME} is a unreliable youngster.\nHe did not turn up for the ceremony.\nHe is more interested in chasing girls than learning the rituals.</i>
+EventAllyCBarker.button1,Continue
+EventAllyDBarker.button1,Continue
+EventAllyCBarker.text,<i>{qst:QSTNOVICENAME} is a recent young recruit.\nHe has not even bothered to learn the words of the ceremonies.</i>\n
 EventAboutBarkerAorB.text,<i>I last saw after this morning's meeting.\nHe shouted out a warning that an evil warlock was among us.\nHe said he discovered where the warlock was teaching one of us diabolical magic.\nHe believed once the Dark Druid's acolyte had mastered magic, the two of them would be powerful enough to take over the order.</i>\n\nGain 1 {clue}
 EventAboutBarkerAorB.button1,Continue
 EventAboutBarkerCorD.text,<i>I last saw him at this morning's meeting.\nHe shouted something about discovering the lair of a powerful witch who was plotting to destroy us.\nHe stormed off, shouting something about finding proof before the day was out!</i>\n\nGain 1 {clue}
@@ -818,7 +758,7 @@ EventMissedMorning.text,<i>I've not seen him for days.\nI heard he upset some of
 EventMissedMorning.button1,Continue
 EventBarkerSpy1.text,<i>I last saw Pete Barker after this morning's meeting hanging around the bridge.</i>
 EventBarkerSpy1.button1,Continue
-EventBarkerSpy2.text,<i>After this morning's meeting {qst:QSTNOVICENAME} asked me to help with a seance to be done tonight in the old forest.\nHe told me he believed one of us is a Dark Druid and necromancer.  He claimed the necromancer plans to resurrect their mother.\n\n</i>Gain 1 {clue}
+EventBarkerSpy2.text,<i>After this morning's meeting Pete Barker asked me to help with a seance to be done tonight in the old forest.\nHe told me he believed one of us is a Dark Druid and necromancer.\nHe told me the necromancer plans to resurrect their mother!\n\n</i>Gain 1 {clue}
 EventBarkerSpy2.button1,Continue
 EventAboutBarker1.text,<i>I last saw him this morning.\n{qst:QSTNOVICENAME} was confused and worried.\nI was the only one he trusted.\nHe told me he suspected one of us were plotting to replace Martha as leader and would do anything to get rid of her - including murder.\n</i>
 EventAboutBarker1.button1,Continue
@@ -919,3 +859,329 @@ EventAllyHelpedSylviaC.button1,Continue
 EventAllyHelpedSylviaD.button1,Continue
 EventMythosSigilReady.text,The {c:QItemCultSigil} becomes warm to the touch and the runes begin to glow.
 EventMythosSigilReady.button1,Continue
+quest.synopsys,Deep in a forest is a stone circle. Will you be able to solve  the mystery of the stones?
+EventLogCabinMonologue3.text, <i>Even from a young age, Martha was drawn to the place.\nShe knew her mum had a dark past but Martha always liked to see the good in people.\nMartha was too trusting and too forgiving.\nThat's what got her killed!</i>
+EventLogCabinMonologue3.button1,Continue
+EventDaggerKillerIsAllyA.text,<i>My mind is not as clouded as it was.\nAmmi Pierce is an evil and powerful warlock.\nHe is the long lost son of Bettina Beck and was adopted as a child.\nHe sacrificed his sister, Martha, in a blood pact ritual using the ritual dagger.\nFind the dagger and bring it to me and I will lift the curse cast by the warlock!</i>\n
+EventDaggerKillerIsAllyA.button1,Continue
+EventDaggerKillerIsAllyB.text,<i>My mind is not as clouded as it was.\nEric Colt is an evil and powerful warlock.\nHe is the long lost son of Bettina Beck and was adopted as a child.\nHe sacrificed his sister, Martha, in a blood pact ritual using the ritual dagger.\nFind the dagger and bring it to me and I will lift the curse cast by the warlock!</i>
+EventDaggerKillerIsAllyB.button1,Continue
+EventDaggerKillerIsAllyC.text,<i>My mind is not as clouded as it was.\nOthera Gilman is an evil and powerful witch.\nShe is the long lost daughter of Bettina Beck and was adopted as a child.\nShe sacrificed her sister, Martha, in a blood pact ritual using the ritual dagger.\nFind the dagger and bring it to me and I will lift the curse cast by the witch!</i>
+EventDaggerKillerIsAllyC.button1,Continue
+EventDaggerKillerIsAllyD.text,<i>My mind is not as clouded as it was.\nCorrina Jones is an evil and powerful witch.\nShe is the long lost daughter of Bettina Beck and was adopted as a child.\nShe sacrificed her sister, Martha, in a blood pact ritual using the ritual dagger.\nFind the dagger and bring it to me and I will lift the curse cast by the witch!</i>
+EventDaggerKillerIsAllyD.button1,Continue
+QST_IS_AMMI_DARK,{action} <i>Is Ammi Pierce a Dark Druid?</i>
+QST_IS_ERIC_DARK,{action} <i>Is Eric Colt a Dark Druid?</i>
+QST_IS_OTHERA_DARK,{action} <i>Is Othera Gilman a Dark Druid?</i>
+QST_IS_CORRINA_DARK,{action} <i>Is Corrina Jones a Dark Druid?</i>
+QST_SAW_BARKER,{action} <i>When did you last see Pete Barker?</i>
+QST_WHAT_RITUAL,{action} <i>What happened at the ritual?</i>
+QST_ABOUT_PLACE,{action} <i>Can you tell me about this place?</i>
+QST_ATTACK_AMMI,{action} Attack Ammi Pierce.
+QST_ATTACK_ERIC,{action} Attack Eric Colt.
+QST_ATTACK_OTHERA,{action} Attack Othera Gilman.
+QST_ATTACK_CORRINA,{action} Attack Corrina Jones.
+QST_ATTACK_SYLVIA,{action} Attack Sylvia Marsh.
+QST_SHOW_SIGIL,Show the Cult Sigil.
+QST_ABOUT_MARSH,{action} <i>Tell me about the Marsh family</i>
+EventAllyE2Talk_Cult_Ritual.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Cult_Ritual.button1,{action} <i>What do you know about the Druids?</i>
+EventAllyE2Talk_Cult_Ritual.button2,{action} <i>What happened at the Ritual?</i>
+EventAllyE2Talk_Cult_Ritual.button3,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk_Cult_Ritual.button4,{action} Tell her what you know about the Ritual.
+EventAllyE2Talk_Cult_Ritual.button5,Give Sylvia Marsh the Cult Sigil.
+EventAllyE2Talk_Cult_Ritual.button6,{qst:QSTCANCEL}
+EventAllyE2Talk_Cult.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Cult.button1,{action} <i>What do you know about the Druids?</i>
+EventAllyE2Talk_Cult.button2,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk_Cult.button3,{action} Tell her what you know about the Ritual
+EventAllyE2Talk_Cult.button4,Give Sylvia Marsh the Cult Sigil
+EventAllyE2Talk_Cult.button5,{qst:QSTCANCEL}
+EventAllyE2Talk_Ritual.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Ritual.button1,{action} <i>What happened at the Ritual?</i>
+EventAllyE2Talk_Ritual.button2,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk_Ritual.button3,{action} Tell her what you know about the Ritual
+EventAllyE2Talk_Ritual.button4,Give Sylvia Marsh the Cult Sigil
+EventAllyE2Talk_Ritual.button5,{qst:QSTCANCEL}
+EventAllyE2Talk.text,{qst:QSTALLYENAME}
+EventAllyE2Talk.button1,{qst:QST_ATTACK_SYLVIA}
+EventAllyE2Talk.button2,{action} Tell her what you know about the Ritual
+EventAllyE2Talk.button3,Give Sylvia Marsh the Cult Sigil
+EventAllyE2Talk.button4,{qst:QSTCANCEL}
+TokenAllyA2.text,{qst:QSTALLYANAME}
+TokenAllyA2.button1,{qst:QST_IS_ERIC_DARK}
+TokenAllyA2.button2,{qst:QST_IS_OTHERA_DARK}
+TokenAllyA2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyA2.button4,{action} Give the Dagger to Ammi.
+TokenAllyB2.text,{qst:QSTALLYBNAME}
+TokenAllyB2.button1,{qst:QST_IS_AMMI_DARK}
+TokenAllyB2.button2,{qst:QST_IS_OTHERA_DARK}
+TokenAllyB2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyB2.button4,{action} Give the Dagger to Eric.
+TokenAllyC2.text,{qst:QSTALLYCNAME}
+TokenAllyC2.button1,{qst:QST_IS_AMMI_DARK}
+TokenAllyC2.button2,{qst:QST_IS_ERIC_DARK}
+TokenAllyC2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyC2.button4,{action} Give the Dagger to Othera.
+TokenAllyD2.text,{qst:QSTALLYDNAME}
+TokenAllyD2.button1,{qst:QST_IS_AMMI_DARK}
+TokenAllyD2.button2,{qst:QST_IS_ERIC_DARK}
+TokenAllyD2.button3,{qst:QST_IS_OTHERA_DARK}
+TokenAllyD2.button4,{action} Give the Dagger to Corrina.
+EventAllyATalk_BCD.text,Ammi Pierce
+EventAllyATalk_BCD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BCD.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_BCD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_BCD.button4,{qst:QST_SAW_BARKER}
+EventAllyATalk_BCD.button5,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_BCD.button6,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BCD.button7,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_BCD.button8,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BCD.button9,{qst:QSTCANCEL}
+EventAllyATalk_CD.text,Ammi Pierce
+EventAllyATalk_CD.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_CD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_CD.button3,{qst:QST_SAW_BARKER}
+EventAllyATalk_CD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_CD.button5,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_CD.button6,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_CD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_CD.button8,{qst:QSTCANCEL}
+EventAllyATalk_BC.text,Ammi Pierce
+EventAllyATalk_BC.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_BC.button3,{qst:QST_SAW_BARKER}
+EventAllyATalk_BC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_BC.button5,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BC.button6,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_BC.button7,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BC.button8,{qst:QSTCANCEL}
+EventAllyATalk_BD.text,Ammi Pierce
+EventAllyATalk_BD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_BD.button3,{qst:QST_SAW_BARKER}
+EventAllyATalk_BD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_BD.button5,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BD.button6,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_BD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BD.button8,{qst:QSTCANCEL}
+EventAllyATalk_B.text,Ammi Pierce
+EventAllyATalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_B.button2,{qst:QST_SAW_BARKER}
+EventAllyATalk_B.button3,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_B.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_B.button5,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_B.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_B.button7,{qst:QSTCANCEL}
+EventAllyATalk_C.text,Ammi Pierce
+EventAllyATalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_C.button2,,{qst:QST_SAW_BARKER}
+EventAllyATalk_C.button3,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_C.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_C.button5,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_C.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_C.button7,{qst:QSTCANCEL}
+EventAllyATalk_D.text,Ammi Pierce
+EventAllyATalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_D.button2,{qst:QST_SAW_BARKER}
+EventAllyATalk_D.button3,{qst:QST_WHAT_RITUAL}
+EventAllyATalk_D.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_D.button5,{qst:QST_ATTACK_AMMI}
+EventAllyATalk_D.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_D.button7,{qst:QSTCANCEL}
+EventAllyATalk.text,Ammi Pierce
+EventAllyATalk.button1,{qst:QST_SAW_BARKER}
+EventAllyATalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyATalk.button3,{qst:QST_ABOUT_PLACE}
+EventAllyATalk.button4,{qst:QST_ATTACK_AMMI}
+EventAllyATalk.button5,{qst:QST_SHOW_SIGIL}
+EventAllyATalk.button6,{qst:QSTCANCEL}
+EventAllyBTalk_ACD.text,Eric Colt
+EventAllyBTalk_ACD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_ACD.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_ACD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_ACD.button4,{qst:QST_SAW_BARKER}
+EventAllyBTalk_ACD.button5,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_ACD.button6,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_ACD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_ACD.button8,{qst:QSTCANCEL}
+EventAllyBTalk_CD.text,Eric Colt
+EventAllyBTalk_CD.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_CD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_CD.button3,{qst:QST_SAW_BARKER}
+EventAllyBTalk_CD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_CD.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_CD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_CD.button7,{qst:QSTCANCEL}
+EventAllyBTalk_AC.text,Eric Colt
+EventAllyBTalk_AC.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_AC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_AC.button3,{qst:QST_SAW_BARKER}
+EventAllyBTalk_AC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_AC.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_AC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_AC.button7,{qst:QSTCANCEL}
+EventAllyBTalk_AD.text,Eric Colt
+EventAllyBTalk_AD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_AD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_AD.button3,{qst:QST_SAW_BARKER}
+EventAllyBTalk_AD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_AD.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_AD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_AD.button7,{qst:QSTCANCEL}
+EventAllyBTalk_A.text,Eric Colt
+EventAllyBTalk_A.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyBTalk_A.button2,{qst:QST_SAW_BARKER}
+EventAllyBTalk_A.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_A.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_A.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_A.button6,{qst:QSTCANCEL}
+EventAllyBTalk_C.text,Eric Colt
+EventAllyBTalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_C.button2,{qst:QST_SAW_BARKER}
+EventAllyBTalk_C.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_C.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_C.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_C.button6,{qst:QSTCANCEL}
+EventAllyBTalk_D.text,Eric Colt
+EventAllyBTalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_D.button2,{qst:QST_SAW_BARKER}
+EventAllyBTalk_D.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_D.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_D.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_D.button6,{qst:QSTCANCEL}
+EventAllyBTalk.text,Eric Colt
+EventAllyBTalk.button1,{qst:QST_SAW_BARKER}
+EventAllyBTalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk.button3,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk.button4,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk.button5,{qst:QSTCANCEL}
+EventAllyCTalk_ABD.text,Othera Gilman
+EventAllyCTalk_ABD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_ABD.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_ABD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_ABD.button4,{qst:QST_SAW_BARKER}
+EventAllyCTalk_ABD.button5,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_ABD.button6,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_ABD.button7,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_ABD.button8,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_ABD.button9,{qst:QSTCANCEL}
+EventAllyCTalk_AB.text,Othera Gilman
+EventAllyCTalk_AB.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_AB.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_AB.button3,{qst:QST_SAW_BARKER}
+EventAllyCTalk_AB.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_AB.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_AB.button6,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_AB.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_AB.button8,{qst:QSTCANCEL}
+EventAllyCTalk_AD.text,Othera Gilman
+EventAllyCTalk_AD.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_AD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_AD.button3,{qst:QST_SAW_BARKER}
+EventAllyCTalk_AD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_AD.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_AD.button6,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_AD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_AD.button8,{qst:QSTCANCEL}
+EventAllyCTalk_BD.text,Othera Gilman
+EventAllyCTalk_BD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_BD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_BD.button3,{qst:QST_SAW_BARKER}
+EventAllyCTalk_BD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_BD.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_BD.button6,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_BD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_BD.button8,{qst:QSTCANCEL}
+EventAllyCTalk_A.text,Othera Gilman
+EventAllyCTalk_A.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyCTalk_A.button2,,{qst:QST_SAW_BARKER}
+EventAllyCTalk_A.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_A.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_A.button5,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_A.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_A.button7,{qst:QSTCANCEL}
+EventAllyCTalk_B.text,Othera Gilman
+EventAllyCTalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_B.button2,{qst:QST_SAW_BARKER}
+EventAllyCTalk_B.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_B.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_B.button5,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_B.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_B.button7,{qst:QSTCANCEL}
+EventAllyCTalk_D.text,Othera Gilman
+EventAllyCTalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_D.button2,{qst:QST_SAW_BARKER}
+EventAllyCTalk_D.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_D.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_D.button5,{qst:QST_ATTACK_AMMI}
+EventAllyCTalk_D.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_D.button7,{qst:QSTCANCEL}
+EventAllyCTalk.text,Othera Gilman
+EventAllyCTalk.button1,{qst:QST_SAW_BARKER}
+EventAllyCTalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk.button3,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk.button4,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk.button5,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk.button6,{qst:QSTCANCEL}
+EventAllyDTalk_ABC.text,Corrina Jones
+EventAllyDTalk_ABC.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_ABC.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_ABC.button3,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_ABC.button4,{qst:QST_SAW_BARKER}
+EventAllyDTalk_ABC.button5,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_ABC.button6,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_ABC.button7,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_ABC.button8,{qst:QSTCANCEL}
+EventAllyDTalk_AB.text,Corrina Jones
+EventAllyDTalk_AB.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_AB.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_AB.button3,{qst:QST_SAW_BARKER}
+EventAllyDTalk_AB.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_AB.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_AB.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_AB.button7,{qst:QSTCANCEL}
+EventAllyDTalk_AC.text,Corrina Jones
+EventAllyDTalk_AC.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_AC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_AC.button3,{qst:QST_SAW_BARKER}
+EventAllyDTalk_AC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_AC.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_AC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_AC.button7,{qst:QSTCANCEL}
+EventAllyDTalk_BC.text,Corrina Jones
+EventAllyDTalk_BC.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_BC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_BC.button3,{qst:QST_SAW_BARKER}
+EventAllyDTalk_BC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_BC.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_BC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_BC.button7,{qst:QSTCANCEL}
+EventAllyDTalk_A.text,Corrina Jones
+EventAllyDTalk_A.button1,{qst:QST_IS_AMMI_DARK}
+EventAllyDTalk_A.button2,,{qst:QST_SAW_BARKER}
+EventAllyDTalk_A.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_A.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_A.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_A.button6,{qst:QSTCANCEL}
+EventAllyDTalk_B.text,Corrina Jones
+EventAllyDTalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_B.button2,{qst:QST_SAW_BARKER}
+EventAllyDTalk_B.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_B.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_B.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_B.button6,{qst:QSTCANCEL}
+EventAllyDTalk_C.text,Corrina Jones
+EventAllyDTalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_C.button2,{qst:QST_SAW_BARKER}
+EventAllyDTalk_C.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_C.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_C.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_C.button6,{qst:QSTCANCEL}
+EventAllyDTalk.text,Corrina Jones
+EventAllyDTalk.button1,{qst:QST_SAW_BARKER}
+EventAllyDTalk.button2,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk.button3,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk.button4,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk.button5,{qst:QSTCANCEL}
+EventRemoveAmmiUI.button1,Button1
