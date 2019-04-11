@@ -377,11 +377,13 @@ EventAllyMonologueSylviaD.text,<i>I remember Sylvia picking up the sigil and fle
 
 
 CHANGES DONE 16 (v4.0)
-Added images of Othera and Ammi
-Changed initial clues to all investigators.
-Reduced 2 clues given to 1.
-The three 'is a druid' questions now disappear after asking.
-The three 'is a druid' questions now give info after sigil given.
-Two main questions of Slyvia Marsh turned off after asking.
+1. Added images of Othera and Ammi
+2. Changed initial clues to all investigators.
+3. Reduced 2 clues given to 1.
+4. The three 'is a druid' questions now disappear after asking.
+5. The three 'is a druid' questions now give info after sigil given.
+6. Two main questions of Slyvia Marsh turned off after asking.
+7. Restricted starting firearm to .38 revolver
+8. Added new starting equipment Pocket Watch
 
 

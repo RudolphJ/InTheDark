@@ -1,4 +1,4 @@
-.,English
+﻿.,English
 UIIntroText.uitext,Shadowy figures moving in a dense fog, twirling around large stones. \nThen flashes of flames, splatters of red, screams of panic...\n\nYou awake disoriented and dazed to see a stone circle.\nThe last traces of fog dissipate. \n
 QSTMOTHERNAME,Bettina Beck
 QSTFATHERFIRSTNAME,John
@@ -859,7 +859,7 @@ EventAllyHelpedSylviaC.button1,Continue
 EventAllyHelpedSylviaD.button1,Continue
 EventMythosSigilReady.text,The {c:QItemCultSigil} becomes warm to the touch and the runes begin to glow.
 EventMythosSigilReady.button1,Continue
-quest.synopsys,Deep in a forest is a stone circle. Will you be able to solve  the mystery of the stones?
+quest.synopsys,Deep in a forest is a stone circle. Will you be able to solve the mystery of the stones?
 EventLogCabinMonologue3.text, <i>Even from a young age, Martha was drawn to the place.\nShe knew her mum had a dark past but Martha always liked to see the good in people.\nMartha was too trusting and too forgiving.\nThat's what got her killed!</i>
 EventLogCabinMonologue3.button1,Continue
 EventDaggerKillerIsAllyA.text,<i>My mind is not as clouded as it was.\nAmmi Pierce is an evil and powerful warlock.\nHe is the long lost son of Bettina Beck and was adopted as a child.\nHe sacrificed his sister, Martha, in a blood pact ritual using the ritual dagger.\nFind the dagger and bring it to me and I will lift the curse cast by the warlock!</i>\n
