@@ -383,6 +383,5 @@ Reduced 2 clues given to 1.
 The three 'is a druid' questions now disappear after asking.
 The three 'is a druid' questions now give info after sigil given.
 Two main questions of Slyvia Marsh turned off after asking.
-Firearm now limnited to 38 revolver because of gatling gun.
 
 
